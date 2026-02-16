@@ -1,0 +1,70 @@
+# Dependências do Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json  # Opcional - veja nota abaixo
+yarn.lock          # Opcional - veja nota abaixo
+
+# Pasta de build/dist
+#dist/
+#build/
+out/
+src/FFmpeg-n5.1.4
+test/src/FFmpeg-n5.1.4
+testdata-master
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# SSL Certificados (desenvolvimento)
+*.pem
+*.key
+*.crt
+
+# Sistema operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+
+# Testes e cobertura
+coverage/
+.nyc_output/
+
+# PWA assets gerados (opcional - mantenha apenas o SVG)
+#www/icons/*.png
+#www/icons/*.ico
+#!www/icons/icon.svg  # Mantém o SVG original
+
+# Arquivos temporários
+tmp/
+temp/
+
+# Sistema específico
+*.pid
+*.seed
+
+# Model archives and unpacked models
+*.tar.gz
+*.tgz
+models/

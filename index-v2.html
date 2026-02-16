@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Audio Speech Recognition</title>
+    <style>
+        :root {
+            --primary-color: #4a6fa5;
+            --primary-dark: #35548a;
+            --secondary-color: #f0f8ff;
+            --accent-color: #ff7e5f;
+            --text-color: #333;
+            --light-gray: #f5f5f5;
+            --dark-gray: #777;
+            --border-radius: 8px;
+            --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: var(--light-gray);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+            color: var(--primary-color);
+        }
+        
+        .subtitle {
+            text-align: center;
+            margin-bottom: 30px;
+            color: var(--dark-gray);
+            font-weight: normal;
+        }
+        
+        .upload-area {
+            border: 2px dashed var(--primary-color);
+            border-radius: var(--border-radius);
+            padding: 40px 20px;
+            text-align: center;
+            margin-bottom: 20px;
+            cursor: pointer;
+            transition: all 0.3s;
+            background-color: var(--secondary-color);
+        }
+        
+        .upload-area:hover {
+            background-color: #e0efff;
+        }
+        
+        .upload-area.highlight {
+            background-color: #d6eaff;
+            border-color: var(--primary-dark);
+        }
+        
+        .file-input {
+            display: none;
+        }
+        
+        .upload-icon {
+            font-size: 48px;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+        
+        .button {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: var(--border-radius);
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+            margin: 10px 5px;
+        }
+        
+        .button:hover {
+            background-color: var(--primary-dark);
+        }
+        
+        .button:disabled {
+            background-color: var(--dark-gray);
+            cursor: not-allowed;
+        }
+        
+        .button-secondary {
+            background-color: var(--accent-color);
+        }
+        
+        .button-secondary:hover {
+            background-color: #ff6342;
+        }
+        
+        .controls {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .audio-info {
+            margin-top: 15px;
+            text-align: center;
+            color: var(--dark-gray);
+        }
+        
+        .player-section {
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .audio-player {
+            width: 100%;
+            margin: 15px 0;
+        }
+        
+        .transcript-container {
+            border: 1px solid #ddd;
+            border-radius: var(--border-radius);
+            padding: 15px;
+            margin-top: 20px;
+            background-color: var(--light-gray);
+            min-height: 150px;
+        }
+        
+        .transcript-text {
+            white-space: pre-wrap;
+            line-height: 1.8;
+            min-height: 130px;
+        }
+        
+        .progress-container {
+            width: 100%;
+            height: 20px;
+            background-color: #e0e0e0;
+            border-radius: 10px;
+            margin: 15px 0;
+            overflow: hidden;
+        }
+        
+        .progress-bar {
+            height: 100%;
+            background-color: var(--primary-color);
+            width: 0%;
+            transition: width 0.3s;
+            border-radius: 10px;
+        }
+        
+        .status {
+            margin-top: 15px;
+            padding: 10px;
+            border-radius: var(--border-radius);
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        .status.processing {
+            background-color: #fff3cd;
+            color: #856404;
+        }
+        
+        .status.success {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        
+        .status.error {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+        
+        .instructions {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: var(--secondary-color);
+            border-radius: var(--border-radius);
+        }
+        
+        .instructions h3 {
+            margin-bottom: 10px;
+            color: var(--primary-color);
+        }
+        
+        .instructions ul {
+            margin-left: 20px;
+        }
+        
+        .instructions li {
+            margin-bottom: 8px;
+        }
+        
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            color: var(--dark-gray);
+            font-size: 14px;
+        }
+        
+        .browser-warning {
+            background-color: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 15px;
+            border-radius: var(--border-radius);
+            margin-bottom: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Real Audio Speech Recognition</h1>
+        <p class="subtitle">Upload an audio file and extract the spoken text using Web Speech API</p>
+        
+        <div class="browser-warning">
+            <strong>Note:</strong> This feature works best in Chrome/Edge browsers. Audio file recognition requires playing the audio and capturing speech in real-time.
+        </div>
+        
+        <div class="upload-area" id="uploadArea">
+            <div class="upload-icon">🎵</div>
+            <h3>Upload Audio File</h3>
+            <p>Drag & drop your audio file here or click to browse</p>
+            <input type="file" id="fileInput" class="file-input" accept="audio/*">
+        </div>
+        
+        <div class="audio-info" id="fileInfo"></div>
+        
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+        
+        <div class="controls">
+            <button id="processBtn" class="button" disabled>Process Audio</button>
+            <button id="resetBtn" class="button button-secondary">Reset</button>
+        </div>
+        
+        <div class="player-section" id="playerSection" style="display: none;">
+            <h3>Audio Preview</h3>
+            <audio id="audioPlayer" class="audio-player" controls></audio>
+        </div>
+        
+        <div class="transcript-container">
+            <h3>Recognized Text</h3>
+            <div id="transcriptText" class="transcript-text"></div>
+        </div>
+        
+        <div id="status" class="status"></div>
+        
+        <div class="instructions">
+            <h3>How this works:</h3>
+            <ul>
+                <li>Upload an audio file containing speech (MP3, WAV, etc.)</li>
+                <li>The app will play the audio and use the Web Speech API to transcribe it</li>
+                <li>You need to allow microphone permissions for the speech recognition to work</li>
+                <li>The recognition happens in real-time as the audio plays</li>
+                <li>For long files, processing may take time and accuracy varies</li>
+            </ul>
+        </div>
+        
+        <footer>
+            <p>This application uses the Web Speech API for real speech recognition.</p>
+            <p>Audio processing happens client-side - no data is sent to external servers.</p>
+        </footer>
+    </div>
+
+    <script>
+        // Get DOM elements
+        const uploadArea = document.getElementById('uploadArea');
+        const fileInput = document.getElementById('fileInput');
+        const fileInfo = document.getElementById('fileInfo');
+        const processBtn = document.getElementById('processBtn');
+        const resetBtn = document.getElementById('resetBtn');
+        const playerSection = document.getElementById('playerSection');
+        const audioPlayer = document.getElementById('audioPlayer');
+        const transcriptText = document.getElementById('transcriptText');
+        const status = document.getElementById('status');
+        const progressBar = document.getElementById('progressBar');
+        
+        let audioFile = null;
+        let recognition = null;
+        let isProcessing = false;
+        
+        // Check browser support
+        if (!('webkitSpeechRecognition' in window) && !('SpeechRecognition' in window)) {
+            showStatus('Your browser does not support speech recognition. Please try Chrome or Edge.', 'error');
+            processBtn.disabled = true;
+        }
+        
+        // Event handlers for file upload
+        uploadArea.addEventListener('click', () => {
+            fileInput.click();
+        });
+        
+        uploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadArea.classList.add('highlight');
+        });
+        
+        uploadArea.addEventListener('dragleave', () => {
+            uploadArea.classList.remove('highlight');
+        });
+        
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadArea.classList.remove('highlight');
+            
+            if (e.dataTransfer.files.length) {
+                handleFile(e.dataTransfer.files[0]);
+            }
+        });
+        
+        fileInput.addEventListener('change', () => {
+            if (fileInput.files.length) {
+                handleFile(fileInput.files[0]);
+            }
+        });
+        
+        // Process file selection
+        function handleFile(file) {
+            // Check if file is an audio type
+            if (!file.type.startsWith('audio/')) {
+                showStatus('Please select a valid audio file', 'error');
+                return;
+            }
+            
+            audioFile = file;
+            fileInfo.textContent = `Selected file: ${file.name} (${formatFileSize(file.size)})`;
+            playerSection.style.display = 'block';
+            audioPlayer.src = URL.createObjectURL(file);
+            processBtn.disabled = false;
+            progressBar.style.width = '0%';
+            
+            showStatus('File loaded successfully. Click "Process Audio" to start recognition.', 'success');
+        }
+        
+        // Format file size for display
+        function formatFileSize(bytes) {
+            if (bytes < 1024) return bytes + ' bytes';
+            else if (bytes < 1048576) return (bytes / 1024).toFixed(1) + ' KB';
+            else return (bytes / 1048576).toFixed(1) + ' MB';
+        }
+        
+        // Process button handler
+        processBtn.addEventListener('click', async () => {
+            if (!audioFile || isProcessing) return;
+            
+            try {
+                await processAudio();
+            } catch (error) {
+                showStatus('Error processing audio: ' + error.message, 'error');
+                isProcessing = false;
+                processBtn.disabled = false;
+            }
+        });
+        
+        // Reset button handler
+        resetBtn.addEventListener('click', () => {
+            resetApp();
+        });
+        
+        // Main processing function
+        async function processAudio() {
+            if (!audioFile) return;
+            
+            // Update UI
+            isProcessing = true;
+            processBtn.disabled = true;
+            transcriptText.textContent = '';
+            progressBar.style.width = '0%';
+            showStatus('Starting speech recognition... Please allow microphone access if prompted.', 'processing');
+            
+            // Create speech recognition
+            const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+            recognition = new SpeechRecognition();
+            
+            recognition.continuous = true;
+            recognition.interimResults = false;
+            recognition.lang = 'en-US';
+            
+            let transcript = '';
+            let audioDuration = 0;
+            
+            // Get audio duration
+            const audio = new Audio();
+            audio.src = URL.createObjectURL(audioFile);
+            
+            await new Promise((resolve) => {
+                audio.addEventListener('loadedmetadata', () => {
+                    audioDuration = audio.duration;
+                    resolve();
+                });
+            });
+            
+            // Set up recognition event handlers
+            recognition.onresult = (event) => {
+                let currentTranscript = '';
+                for (let i = event.resultIndex; i < event.results.length; i++) {
+                    if (event.results[i].isFinal) {
+                        currentTranscript += event.results[i][0].transcript + ' ';
+                    }
+                }
+                
+                if (currentTranscript) {
+                    transcript += currentTranscript;
+                    transcriptText.textContent = transcript;
+                }
+            };
+            
+            recognition.onerror = (event) => {
+                showStatus('Recognition error: ' + event.error, 'error');
+                isProcessing = false;
+                processBtn.disabled = false;
+            };
+            
+            recognition.onend = () => {
+                if (isProcessing) {
+                    // If recognition ended but we're still processing, restart it
+                    recognition.start();
+                }
+            };
+            
+            // Start recognition
+            recognition.start();
+            showStatus('Recognition started. Playing audio...', 'processing');
+            
+            // Play audio and update progress
+            audioPlayer.currentTime = 0;
+            await audioPlayer.play();
+            
+            const updateProgress = () => {
+                if (audioPlayer.duration) {
+                    const progress = (audioPlayer.currentTime / audioPlayer.duration) * 100;
+                    progressBar.style.width = `${progress}%`;
+                    
+                    if (progress < 100) {
+                        setTimeout(updateProgress, 100);
+                    } else {
+                        // Audio finished
+                        recognition.stop();
+                        isProcessing = false;
+                        processBtn.disabled = false;
+                        showStatus('Speech recognition completed!', 'success');
+                    }
+                }
+            };
+            
+            updateProgress();
+        }
+        
+        // Show status message
+        function showStatus(message, type) {
+            status.textContent = message;
+            status.className = 'status';
+            
+            if (type) {
+                status.classList.add(type);
+            }
+        }
+        
+        // Reset the application
+        function resetApp() {
+            if (recognition && isProcessing) {
+                recognition.stop();
+            }
+            
+            audioPlayer.pause();
+            audioFile = null;
+            fileInput.value = '';
+            fileInfo.textContent = '';
+            playerSection.style.display = 'none';
+            audioPlayer.src = '';
+            transcriptText.textContent = '';
+            status.textContent = '';
+            status.className = 'status';
+            processBtn.disabled = true;
+            progressBar.style.width = '0%';
+            isProcessing = false;
+        }
+    </script>
+</body>
+</html>

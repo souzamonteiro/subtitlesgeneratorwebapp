@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/gh/msqr1/Vosklet@1.2.1/Examples/Vosklet.js" async defer></script>
+    <script>
+      async function start() {
+        // create audio context after user gesture
+        const ctx = new AudioContext({ sinkId: { type: 'none' } });
+
+        // wait for loader
+        let attempts = 0;
+        while (typeof loadVosklet === 'undefined' && attempts < 50) { await new Promise(r=>setTimeout(r,100)); attempts++; }
+        if (typeof loadVosklet === 'undefined') { alert('Vosklet loader not found.'); return; }
+
+        const module = await loadVosklet();
+        // load local model tarball
+        const modelUrl = 'https://ccoreilly.github.io/vosk-browser/models/vosk-model-small-en-us-0.15.tar.gz';
+        const model = await module.createModel(modelUrl, 'English', 'vosk-model-small-en-us-0.15');
+        const recognizer = await module.createRecognizer(model, ctx.sampleRate);
+
+        recognizer.addEventListener('result', ev => console.log('Result: ', ev.detail));
+        recognizer.addEventListener('partialResult', ev => console.log('Partial result: ', ev.detail));
+
+        // fetch, decode and feed wav
+        const wavResp = await fetch('test.wav');
+        const audioBuf = await ctx.decodeAudioData(await wavResp.arrayBuffer());
+        recognizer.acceptWaveform(audioBuf.getChannelData(0));
+      }
+    </script>
+  </head>
+  <!-- Start and create audio context only as a result of user's action -->
+  <button onclick="start()">Start</button>
+</html>

@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Speech Recognition</title>
+    <!--
+    <script crossorigin="" defer src="https://cdn.jsdelivr.net/gh/msqr1/Vosklet@1.2.1/Examples/Vosklet.js"></script>
+    -->
+    <script crossorigin="" defer src="Vosklet.js"></script>
+    <style>
+        :root {
+            --primary-color: #4a6fa5;
+            --primary-dark: #35548a;
+            --secondary-color: #f0f8ff;
+            --accent-color: #ff7e5f;
+            --text-color: #333;
+            --light-gray: #f5f5f5;
+            --dark-gray: #777;
+            --border-radius: 8px;
+            --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        *, *:before, *:after { box-sizing: border-box; }
+        html, body { height: 100%; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--light-gray);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+            margin: 0;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+            color: var(--primary-color);
+        }
+        
+        .subtitle {
+            text-align: center;
+            margin-bottom: 30px;
+            color: var(--dark-gray);
+            font-weight: normal;
+        }
+        
+        .upload-area {
+            border: 2px dashed var(--primary-color);
+            border-radius: var(--border-radius);
+            padding: 40px 20px;
+            text-align: center;
+            margin-bottom: 20px;
+            cursor: pointer;
+            transition: all 0.3s;
+            background-color: var(--secondary-color);
+        }
+        
+        .upload-area:hover {
+            background-color: #e0efff;
+        }
+        
+        .upload-area.highlight {
+            background-color: #d6eaff;
+            border-color: var(--primary-dark);
+        }
+        
+        .file-input {
+            display: none;
+        }
+        
+        .upload-icon {
+            font-size: 48px;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+        
+        .button {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: var(--border-radius);
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+            margin: 10px 5px;
+        }
+        
+        .button:hover {
+            background-color: var(--primary-dark);
+        }
+        
+        .button:disabled {
+            background-color: var(--dark-gray);
+            cursor: not-allowed;
+        }
+        
+        .button-secondary {
+            background-color: var(--accent-color);
+        }
+        
+        .button-secondary:hover {
+            background-color: #ff6342;
+        }
+        
+        .controls {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .audio-info {
+            margin-top: 15px;
+            text-align: center;
+            color: var(--dark-gray);
+        }
+        
+        .player-section {
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .audio-player {
+            width: 100%;
+            margin: 15px 0;
+        }
+        
+        .transcript-container {
+            border: 1px solid #ddd;
+            border-radius: var(--border-radius);
+            padding: 15px;
+            margin-top: 20px;
+            background-color: var(--light-gray);
+            min-height: 150px;
+        }
+        
+        .transcript-text {
+            white-space: pre-wrap;
+            line-height: 1.8;
+            min-height: 130px;
+        }
+        
+        .status {
+            margin-top: 15px;
+            padding: 10px;
+            border-radius: var(--border-radius);
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        .status.processing {
+            background-color: #fff3cd;
+            color: #856404;
+        }
+        
+        .status.success {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        
+        .status.error {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+        
+        .instructions {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: var(--secondary-color);
+            border-radius: var(--border-radius);
+        }
+        
+        .instructions h3 {
+            margin-bottom: 10px;
+            color: var(--primary-color);
+        }
+        
+        .instructions ul {
+            margin-left: 20px;
+        }
+        
+        .instructions li {
+            margin-bottom: 8px;
+        }
+        
+        .subtitle-box {
+            margin-top: 12px;
+            background: rgba(0,0,0,0.85);
+            color: #fff;
+            padding: 10px 14px;
+            border-radius: 6px;
+            text-align: left;
+            font-size: 1.05rem;
+            min-height: 2.0rem;
+            line-height: 1.3;
+            word-break: break-word;
+            white-space: pre-wrap;
+            overflow-y: auto;
+            max-height: 220px;
+        }
+
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            color: var(--dark-gray);
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Audio Speech Recognition</h1>
+        <p class="subtitle">Upload an audio file and extract the spoken text</p>
+        
+        <div class="upload-area" id="uploadArea">
+            <div class="upload-icon">🎵</div>
+            <h3>Upload Audio File</h3>
+            <p>Drag & drop your audio file here or click to browse</p>
+            <input type="file" id="fileInput" class="file-input" accept="audio/*">
+        </div>
+        
+        <div class="audio-info" id="fileInfo"></div>
+        
+        <div class="controls">
+            <select id="langSelect" class="button" title="Select language" style="padding:8px 12px;margin-right:8px;vertical-align:middle;">
+                <option value="en">English</option>
+                <option value="es">Español</option>
+                <option value="pt">Português</option>
+            </select>
+            <button id="loadModelBtn" class="button">Load Model</button>
+            <button id="micBtn" class="button">Use Microphone</button>
+            <button id="processBtn" class="button" disabled>Process Audio</button>
+            <button id="downloadSrtBtn" class="button">Download SRT</button>
+            <button id="resetBtn" class="button button-secondary">Reset</button>
+        </div>
+        
+        <div class="player-section" id="playerSection" style="display: none;">
+            <h3>Audio Preview</h3>
+            <audio id="audioPlayer" class="audio-player" controls></audio>
+        </div>
+        
+        <div class="transcript-container">
+            <h3>Recognized Text</h3>
+            <div id="transcriptText" class="transcript-text"></div>
+        </div>
+        
+        <div id="subtitleBox" class="subtitle-box" aria-live="polite"></div>
+
+        <div id="status" class="status"></div>
+        
+        <div class="instructions">
+            <h3>How to use this tool:</h3>
+            <ul>
+                <li>Upload an audio file containing speech (MP3, WAV, OGG, etc.)</li>
+                <li>Click "Process Audio" to start speech recognition</li>
+                <li>Wait for the recognition process to complete</li>
+                <li>The recognized text will appear in the text area below</li>
+                <li>You can play the audio file to verify the recognition accuracy</li>
+                <li>Use "Reset" to start over with a new file</li>
+            </ul>
+        </div>
+        
+        <footer>
+            <p>This application uses the Web Speech API for speech recognition.</p>
+            <p>For best results, use clear audio recordings with minimal background noise.</p>
+        </footer>
+    </div>
+
+    <script>
+        'use strict';
+        // DOM references
+        const uploadArea = document.getElementById('uploadArea');
+        const fileInput = document.getElementById('fileInput');
+        const fileInfo = document.getElementById('fileInfo');
+        const processBtn = document.getElementById('processBtn');
+        const resetBtn = document.getElementById('resetBtn');
+        const playerSection = document.getElementById('playerSection');
+        const audioPlayer = document.getElementById('audioPlayer');
+        const transcriptText = document.getElementById('transcriptText');
+        const status = document.getElementById('status');
+        const subtitleBox = document.getElementById('subtitleBox');
+        const downloadSrtBtn = document.getElementById('downloadSrtBtn');
+        if (downloadSrtBtn) downloadSrtBtn.disabled = true;
+
+        let audioFile = null;
+        let voskModule = null;
+        let voskModel = null;
+        let recognizer = null;
+        let audioContext = null;
+        let transferer = null;
+        let subtitleSegments = [];
+        let recognitionStartTime = null; // seconds, relative (fallback)
+
+        const modelMap = {
+            en: { url: './vosk-model-small-en-us-0.15.tar.gz', name: 'English', id: 'vosk-model-small-en-us-0.15' },
+            es: { url: './vosk-model-small-es-0.42.tar.gz', name: 'Spanish', id: 'vosk-model-small-es-0.42' },
+            pt: { url: './vosk-model-small-pt-0.3.tar.gz', name: 'Portuguese', id: 'vosk-model-small-pt-0.3' }
+        };
+
+        // File UI handlers (kept simple)
+        uploadArea.addEventListener('click', () => fileInput.click());
+        uploadArea.addEventListener('dragover', (e) => { e.preventDefault(); uploadArea.classList.add('highlight'); });
+        uploadArea.addEventListener('dragleave', () => uploadArea.classList.remove('highlight'));
+        uploadArea.addEventListener('drop', (e) => { e.preventDefault(); uploadArea.classList.remove('highlight'); if (e.dataTransfer.files.length) handleFile(e.dataTransfer.files[0]); });
+        fileInput.addEventListener('change', () => { if (fileInput.files.length) handleFile(fileInput.files[0]); });
+
+        // New UI buttons
+        const loadModelBtn = document.getElementById('loadModelBtn');
+        const micBtn = document.getElementById('micBtn');
+        micBtn.dataset.active = '0';
+
+        loadModelBtn.addEventListener('click', async () => {
+            await loadModel();
+        });
+
+        micBtn.addEventListener('click', async () => {
+            try {
+                // If stopping
+                if (micBtn.dataset.active === '1') {
+                    micBtn.dataset.active = '0';
+                    micBtn.textContent = 'Use Microphone';
+                    if (window._micStream) { window._micStream.getTracks().forEach(t=>t.stop()); window._micStream=null; }
+                    if (audioContext && audioContext.state !== 'closed') await audioContext.suspend();
+                    showStatus('Microphone stopped.', 'success');
+                    return;
+                }
+
+                // Ensure AudioContext exists and is resumed on user gesture
+                if (!audioContext) audioContext = new AudioContext({ sinkId: { type: 'none' }, latencyHint: 'interactive' });
+                if (audioContext.state === 'suspended') await audioContext.resume();
+
+                // Ensure transferer exists (create on demand)
+                if (!transferer) {
+                    if (!voskModule) {
+                        showStatus('Vosk engine not loaded. Load model first or refresh.', 'error');
+                        return;
+                    }
+                    try {
+                        transferer = await voskModule.createTransferer(audioContext, 19200);
+                        // attach safe handler so messages are forwarded when recognizer exists
+                        transferer.port.onmessage = (e) => { if (recognizer) recognizer.acceptWaveform(e.data); };
+                    } catch (e) {
+                        console.error('createTransferer failed', e);
+                        showStatus('AudioWorklet transferer unavailable: ' + (e.message||e), 'error');
+                        return;
+                    }
+                }
+
+                const stream = await navigator.mediaDevices.getUserMedia({ audio: { channelCount: 1 }, video: false });
+                window._micStream = stream;
+                const src = audioContext.createMediaStreamSource(stream);
+                src.connect(transferer);
+                // mark recognition start time for live mic
+                recognitionStartTime = audioContext.currentTime;
+                micBtn.dataset.active = '1';
+                micBtn.textContent = 'Stop Microphone';
+                showStatus('Microphone connected.', 'success');
+            } catch (err) {
+                console.error(err); showStatus('Microphone error: '+(err.message||err), 'error');
+            }
+        });
+
+        function handleFile(file) {
+            if (!file.type.startsWith('audio/')) { showStatus('Please select a valid audio file', 'error'); return; }
+            audioFile = file;
+            fileInfo.textContent = `Selected: ${file.name} (${formatFileSize(file.size)})`;
+            playerSection.style.display = 'block';
+            audioPlayer.src = URL.createObjectURL(file);
+            processBtn.disabled = recognizer ? false : true;
+            showStatus('File ready. Load model and click Process.', 'success');
+        }
+
+        function formatFileSize(bytes) {
+            if (bytes < 1024) return bytes + ' bytes';
+            if (bytes < 1048576) return (bytes/1024).toFixed(1) + ' KB';
+            return (bytes/1048576).toFixed(1) + ' MB';
+        }
+
+        processBtn.addEventListener('click', async () => {
+            if (!audioFile || !recognizer) { showStatus('Load a model and select an audio file first.', 'error'); return; }
+            processBtn.disabled = true; showStatus('Processing audio...', 'processing'); transcriptText.textContent = '';
+
+            try {
+                const arrayBuffer = await audioFile.arrayBuffer();
+                const buffer = await audioContext.decodeAudioData(arrayBuffer);
+                const channelData = buffer.getChannelData(0);
+                // Feed full waveform to recognizer
+                recognizer.acceptWaveform(channelData);
+                // small delay to allow events to fire
+                setTimeout(() => {
+                    if (!transcriptText.textContent) showStatus('No speech detected.', 'error');
+                    else showStatus('Recognition finished.', 'success');
+                    // ensure SRT shown after processing
+                    if (subtitleSegments.length && subtitleBox) {
+                        try {
+                            subtitleBox.style.whiteSpace = 'pre-wrap';
+                            subtitleBox.style.textAlign = 'left';
+                            subtitleBox.style.overflowY = 'auto';
+                            subtitleBox.style.maxHeight = '220px';
+                            subtitleBox.textContent = buildSrt(subtitleSegments);
+                        } catch (e) { console.warn('show SRT failed', e); }
+                    }
+                    processBtn.disabled = false;
+                }, 500);
+            } catch (err) {
+                console.error(err); showStatus('Error processing file: ' + err.message, 'error'); processBtn.disabled = false;
+            }
+        });
+
+        resetBtn.addEventListener('click', async () => {
+            audioFile = null; fileInput.value = ''; fileInfo.textContent = ''; playerSection.style.display = 'none'; audioPlayer.src = ''; transcriptText.textContent = ''; status.textContent = ''; status.className = 'status'; processBtn.disabled = true;
+            if (subtitleBox) subtitleBox.textContent = '';
+            subtitleSegments = [];
+            subtitleSegments = [];
+            if (audioContext) recognitionStartTime = audioContext.currentTime;
+
+            if (recognizer) try { await recognizer.delete(); recognizer = null; } catch(e){}
+            if (voskModel) try { await voskModel.delete(); voskModel = null; } catch(e){}
+        });
+
+        // Startup: load Vosklet and model
+        (async function startup(){
+            // wait for loader
+            let attempts = 0;
+            while (typeof loadVosklet === 'undefined' && attempts < 50) { await new Promise(r=>setTimeout(r,100)); attempts++; }
+            if (typeof loadVosklet === 'undefined') { alert('Vosklet loader not found.'); return; }
+
+            try {
+                voskModule = await loadVosklet();
+                showStatus('Vosklet engine loaded.', 'success');
+            } catch (err) {
+                console.error(err); showStatus('Error loading Vosklet: ' + err.message, 'error'); return;
+            }
+
+            // create audio context and transferer
+            try {
+                audioContext = new AudioContext({ sinkId: { type: 'none' }, latencyHint: 'interactive' });
+                transferer = await voskModule.createTransferer(audioContext, 19200);
+            } catch (err) {
+                console.warn('AudioWorklet/transferer unavailable:', err);
+            }
+
+            })();
+
+            // loadModel can be called by the UI to load the model on demand
+            async function loadModel() {
+                try {
+                    if (!voskModule) {
+                        // ensure engine present
+                        let attempts = 0;
+                        while (typeof loadVosklet === 'undefined' && attempts < 50) { await new Promise(r=>setTimeout(r,100)); attempts++; }
+                        if (typeof loadVosklet === 'undefined') { alert('Vosklet loader not found.'); return; }
+                        voskModule = await loadVosklet();
+                    }
+
+                    if (!audioContext) {
+                        audioContext = new AudioContext({ sinkId: { type: 'none' }, latencyHint: 'interactive' });
+                    }
+
+                    try { transferer = await voskModule.createTransferer(audioContext, 19200); } catch(e) { console.warn('transferer unavailable', e); }
+
+                    showStatus('Loading model...', 'processing');
+                    const sel = document.getElementById('langSelect');
+                    const lang = sel ? sel.value : 'en';
+                    const modelInfo = modelMap[lang] || modelMap.en;
+                    const modelUrl = modelInfo.url;
+                    voskModel = await voskModule.createModel(modelUrl, modelInfo.name, modelInfo.id);
+                    recognizer = await voskModule.createRecognizer(voskModel, audioContext.sampleRate);
+
+                    recognizer.addEventListener('partialResult', (ev) => {
+                        try {
+                            const r = JSON.parse(ev.detail);
+                            console.log('partialResult', r);
+                            if (r.partial) {
+                                transcriptText.textContent = r.partial + ' (listening...)';
+                                if (subtitleBox) subtitleBox.textContent = r.partial;
+                            }
+                        } catch (e) { console.warn('partialResult parse error', e, ev.detail); }
+                    });
+
+                    recognizer.addEventListener('result', (ev) => {
+                        try {
+                            const r = JSON.parse(ev.detail);
+                            console.log('result', r);
+                            if (r.text) {
+                                transcriptText.textContent = r.text;
+                                if (subtitleBox) subtitleBox.textContent = r.text;
+                                let start = null, end = null;
+                                if (r.result && Array.isArray(r.result) && r.result.length) {
+                                    start = r.result[0].start;
+                                    end = r.result[r.result.length-1].end;
+                                } else if (recognitionStartTime != null && audioContext) {
+                                    const nowRel = audioContext.currentTime - recognitionStartTime;
+                                    const estDur = Math.max(1, r.text.split(' ').length * 0.45);
+                                    end = nowRel;
+                                    start = Math.max(0, end - estDur);
+                                } else {
+                                    const lastEnd = subtitleSegments.length ? subtitleSegments[subtitleSegments.length-1].end : 0;
+                                    const est = Math.max(1, r.text.split(' ').length * 0.45);
+                                    start = lastEnd;
+                                    end = start + est;
+                                }
+                                if (start != null && end != null) {
+                                    subtitleSegments.push({ start: start, end: end, text: r.text });
+                                    console.log('pushed subtitle segment', subtitleSegments[subtitleSegments.length-1]);
+                                    // update subtitleBox immediately with SRT content
+                                    try {
+                                        if (subtitleBox) {
+                                            subtitleBox.style.whiteSpace = 'pre-wrap';
+                                            subtitleBox.style.textAlign = 'left';
+                                            subtitleBox.style.overflowY = 'auto';
+                                            subtitleBox.style.maxHeight = '220px';
+                                            subtitleBox.textContent = buildSrt(subtitleSegments);
+                                        }
+                                    } catch (e) { console.warn('update subtitleBox failed', e); }
+                                }
+                            }
+                        } catch (e) { console.warn('result parse error', e, ev.detail); }
+                    });
+
+                    if (transferer) transferer.port.onmessage = (e) => { if (recognizer) recognizer.acceptWaveform(e.data); };
+
+                    // enable SRT download button
+                    if (downloadSrtBtn) downloadSrtBtn.disabled = false;
+
+                    showStatus('Model loaded. Ready to process audio.', 'success');
+                    processBtn.disabled = false;
+                } catch (err) {
+                    console.error(err); showStatus('Error loading model: ' + err.message, 'error');
+                }
+            }
+
+        // Build SRT content and trigger download
+        function formatSrtTime(s) {
+            // s in seconds
+            const ms = Math.floor((s - Math.floor(s)) * 1000);
+            const sec = Math.floor(s % 60);
+            const min = Math.floor((s / 60) % 60);
+            const hr = Math.floor(s / 3600);
+            const pad = (v, n) => String(v).padStart(n, '0');
+            return `${pad(hr,2)}:${pad(min,2)}:${pad(sec,2)},${pad(ms,3)}`;
+        }
+
+        function buildSrt(segments) {
+            // compute durations and median (common interval)
+            const durations = segments.map(s => Math.max(0, (s.end || 0) - (s.start || 0))).filter(d => d > 0.2 && d < 60);
+            let common = 3.0; // default seconds
+            if (durations.length) {
+                durations.sort((a,b)=>a-b);
+                const mid = Math.floor(durations.length/2);
+                common = durations.length % 2 ? durations[mid] : (durations[mid-1]+durations[mid])/2;
+                // clamp to sensible bounds
+                if (common < 1.0) common = 1.0;
+                if (common > 8.0) common = 6.0;
+            }
+
+            const out = [];
+            let idx = 1;
+            for (const seg of segments) {
+                const start = seg.start || 0;
+                const end = seg.end || (start + Math.max(1, (seg.text||'').split(/\s+/).length * 0.45));
+                const dur = end - start;
+                if (dur <= common * 1.25 || (seg.text||'').split(/\s+/).length <= 3) {
+                    out.push({ start, end, text: seg.text || '' });
+                } else {
+                    // split into parts roughly of length `common`
+                    const parts = Math.max(2, Math.ceil(dur / common));
+                    const words = (seg.text||'').split(/\s+/).filter(w=>w);
+                    const wordsPer = Math.max(1, Math.ceil(words.length / parts));
+                    for (let p = 0; p < parts; p++) {
+                        const partStart = start + (dur * p / parts);
+                        const partEnd = start + (dur * (p+1) / parts);
+                        const partWords = words.slice(p * wordsPer, (p+1) * wordsPer).join(' ');
+                        const text = partWords || ((p===0) ? seg.text : '');
+                        out.push({ start: partStart, end: partEnd, text });
+                    }
+                }
+            }
+
+            // build SRT string
+            return out.map((seg, i) => `${i+1}\n${formatSrtTime(seg.start)} --> ${formatSrtTime(seg.end)}\n${seg.text}\n`).join('\n');
+        }
+
+        if (downloadSrtBtn) downloadSrtBtn.addEventListener('click', () => {
+            if (!subtitleSegments.length) { showStatus('No subtitles to download.', 'error'); return; }
+            const content = buildSrt(subtitleSegments);
+            // show SRT in subtitleBox
+            if (subtitleBox) {
+                subtitleBox.style.whiteSpace = 'pre-wrap';
+                subtitleBox.textContent = content;
+            }
+            const blob = new Blob([content], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url; a.download = 'subtitles.srt';
+            document.body.appendChild(a); a.click(); a.remove();
+            URL.revokeObjectURL(url);
+            showStatus('SRT downloaded.', 'success');
+        });
+
+        function showStatus(message, type){ status.textContent = message; status.className = 'status'; if(type) status.classList.add(type); }
+    </script>
+</body>
+</html>

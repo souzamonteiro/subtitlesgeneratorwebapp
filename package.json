@@ -1,0 +1,23 @@
+{
+  "name": "vosk-subtitle-generator",
+  "version": "1.0.0",
+  "description": "Real-time audio transcription and subtitle generation using Vosk",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "vosk",
+    "subtitle",
+    "transcription",
+    "speech-to-text"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "tar": "^7.5.7"
+  }
+}

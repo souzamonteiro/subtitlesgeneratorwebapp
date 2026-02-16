@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Speech Recognition with Vosklet</title>
+    <style>
+        :root {
+            --primary-color: #4a6fa5;
+            --primary-dark: #35548a;
+            --secondary-color: #f0f8ff;
+            --accent-color: #ff7e5f;
+            --text-color: #333;
+            --light-gray: #f5f5f5;
+            --dark-gray: #777;
+            --border-radius: 8px;
+            --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: var(--light-gray);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+            color: var(--primary-color);
+        }
+        
+        .subtitle {
+            text-align: center;
+            margin-bottom: 30px;
+            color: var(--dark-gray);
+            font-weight: normal;
+        }
+        
+        .upload-area {
+            border: 2px dashed var(--primary-color);
+            border-radius: var(--border-radius);
+            padding: 40px 20px;
+            text-align: center;
+            margin-bottom: 20px;
+            cursor: pointer;
+            transition: all 0.3s;
+            background-color: var(--secondary-color);
+        }
+        
+        .upload-area:hover {
+            background-color: #e0efff;
+        }
+        
+        .upload-area.highlight {
+            background-color: #d6eaff;
+            border-color: var(--primary-dark);
+        }
+        
+        .file-input {
+            display: none;
+        }
+        
+        .upload-icon {
+            font-size: 48px;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+        
+        .button {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: var(--border-radius);
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+            margin: 10px 5px;
+        }
+        
+        .button:hover {
+            background-color: var(--primary-dark);
+        }
+        
+        .button:disabled {
+            background-color: var(--dark-gray);
+            cursor: not-allowed;
+        }
+        
+        .button-secondary {
+            background-color: var(--accent-color);
+        }
+        
+        .button-secondary:hover {
+            background-color: #ff6342;
+        }
+        
+        .controls {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .audio-info {
+            margin-top: 15px;
+            text-align: center;
+            color: var(--dark-gray);
+        }
+        
+        .player-section {
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .audio-player {
+            width: 100%;
+            margin: 15px 0;
+        }
+        
+        .transcript-container {
+            border: 1px solid #ddd;
+            border-radius: var(--border-radius);
+            padding: 15px;
+            margin-top: 20px;
+            background-color: var(--light-gray);
+            min-height: 150px;
+        }
+        
+        .transcript-text {
+            white-space: pre-wrap;
+            line-height: 1.8;
+            min-height: 130px;
+        }
+        
+        .status {
+            margin-top: 15px;
+            padding: 10px;
+            border-radius: var(--border-radius);
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        .status.processing {
+            background-color: #fff3cd;
+            color: #856404;
+        }
+        
+        .status.success {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        
+        .status.error {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+        
+        .instructions {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: var(--secondary-color);
+            border-radius: var(--border-radius);
+        }
+        
+        .instructions h3 {
+            margin-bottom: 10px;
+            color: var(--primary-color);
+        }
+        
+        .instructions ul {
+            margin-left: 20px;
+        }
+        
+        .instructions li {
+            margin-bottom: 8px;
+        }
+        
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            color: var(--dark-gray);
+            font-size: 14px;
+        }
+
+        /* Vosk-specific styles */
+        .vosk-controls {
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .language-selector {
+            margin: 10px 0;
+        }
+        
+        .language-selector label {
+            margin-right: 10px;
+        }
+        
+        .language-selector select {
+            padding: 8px;
+            border-radius: var(--border-radius);
+            border: 1px solid #ddd;
+        }
+    </style>
+    <script src="Vosklet.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Audio Speech Recognition with Vosklet</h1>
+        <p class="subtitle">Upload an audio file and extract the spoken text using Vosk ASR</p>
+        
+        <div class="upload-area" id="uploadArea">
+            <div class="upload-icon">🎵</div>
+            <h3>Upload Audio File</h3>
+            <p>Drag & drop your audio file here or click to browse</p>
+            <input type="file" id="fileInput" class="file-input" accept="audio/*">
+        </div>
+        
+        <div class="audio-info" id="fileInfo"></div>
+        
+        <div class="vosk-controls">
+            <div class="language-selector">
+                <label for="langPick">Language Model:</label>
+                <select id="langPick">
+                    <option value="vosk-model-small-en-us-0.15_">English</option>
+                    <option value="vosk-model-small-en-in-0.4_">Indian English</option>
+                    <option value="vosk-model-small-cn-0.3_">Chinese</option>
+                    <option value="vosk-model-small-ru-0.4_">Russian</option>
+                    <option value="vosk-model-small-fr-pguyot-0.3_">French</option>
+                    <option value="vosk-model-small-de-0.15_">German</option>
+                    <option value="vosk-model-small-es-0.42">Spanish</option>
+                    <option value="vosk-model-small-it-0.4_">Italian</option>
+                    <option value="vosk-model-small-pt-0.3_">Portuguese</option>
+                    <option value="vosk-model-small-ja-0.22">Japanese</option>
+                    <option value="vosk-model-small-ko-0.22">Korean</option>
+                </select>
+                <button id="loadBtn" class="button">Load Model</button>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <button id="processBtn" class="button" disabled>Process Audio</button>
+            <button id="resetBtn" class="button button-secondary">Reset</button>
+        </div>
+        
+        <div class="player-section" id="playerSection" style="display: none;">
+            <h3>Audio Preview</h3>
+            <audio id="audioPlayer" class="audio-player" controls></audio>
+        </div>
+        
+        <div class="transcript-container">
+            <h3>Recognized Text</h3>
+            <div id="transcriptText" class="transcript-text"></div>
+        </div>
+        
+        <div id="status" class="status"></div>
+        
+        <div class="instructions">
+            <h3>How to use this tool:</h3>
+            <ul>
+                <li>Select a language model and click "Load Model" (first time may take a minute)</li>
+                <li>Upload an audio file containing speech (MP3, WAV, OGG, etc.)</li>
+                <li>Click "Process Audio" to start speech recognition</li>
+                <li>Wait for the recognition process to complete</li>
+                <li>The recognized text will appear in the text area below</li>
+                <li>You can play the audio file to verify the recognition accuracy</li>
+                <li>Use "Reset" to start over with a new file</li>
+            </ul>
+        </div>
+        
+        <footer>
+            <p>This application uses the Vosklet library for offline speech recognition.</p>
+            <p>For best results, use clear audio recordings with minimal background noise.</p>
+        </footer>
+    </div>
+
+    <script>
+        // Get DOM elements
+        const uploadArea = document.getElementById('uploadArea');
+        const fileInput = document.getElementById('fileInput');
+        const fileInfo = document.getElementById('fileInfo');
+        const langPick = document.getElementById('langPick');
+        const loadBtn = document.getElementById('loadBtn');
+        const processBtn = document.getElementById('processBtn');
+        const resetBtn = document.getElementById('resetBtn');
+        const playerSection = document.getElementById('playerSection');
+        const audioPlayer = document.getElementById('audioPlayer');
+        const transcriptText = document.getElementById('transcriptText');
+        const status = document.getElementById('status');
+        
+        let audioFile = null;
+        let vosklet = null;
+        let model = null;
+        let recognizer = null;
+        let audioContext = null;
+        
+        // Event handlers for file upload
+        uploadArea.addEventListener('click', () => {
+            fileInput.click();
+        });
+        
+        uploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadArea.classList.add('highlight');
+        });
+        
+        uploadArea.addEventListener('dragleave', () => {
+            uploadArea.classList.remove('highlight');
+        });
+        
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadArea.classList.remove('highlight');
+            
+            if (e.dataTransfer.files.length) {
+                handleFile(e.dataTransfer.files[0]);
+            }
+        });
+        
+        fileInput.addEventListener('change', () => {
+            if (fileInput.files.length) {
+                handleFile(fileInput.files[0]);
+            }
+        });
+        
+        // Process file selection
+        function handleFile(file) {
+            // Check if file is an audio type
+            if (!file.type.startsWith('audio/')) {
+                showStatus('Please select a valid audio file', 'error');
+                return;
+            }
+            
+            audioFile = file;
+            fileInfo.textContent = `Selected file: ${file.name} (${formatFileSize(file.size)})`;
+            playerSection.style.display = 'block';
+            audioPlayer.src = URL.createObjectURL(file);
+            
+            // Enable process button if model is loaded
+            processBtn.disabled = !model;
+            
+            showStatus('File loaded successfully. Click "Process Audio" to start recognition.', 'success');
+        }
+        
+        // Format file size for display
+        function formatFileSize(bytes) {
+            if (bytes < 1024) return bytes + ' bytes';
+            else if (bytes < 1048576) return (bytes / 1024).toFixed(1) + ' KB';
+            else return (bytes / 1048576).toFixed(1) + ' MB';
+        }
+        
+        // Load model button handler
+        loadBtn.addEventListener('click', async () => {
+            await loadModel();
+        });
+        
+        // Process button handler
+        processBtn.addEventListener('click', () => {
+            if (!audioFile || !model) return;
+            processAudio();
+        });
+        
+        // Reset button handler
+        resetBtn.addEventListener('click', () => {
+            resetApp();
+        });
+        
+        // Load Vosk model
+        async function loadModel() {
+            try {
+                showStatus('Loading speech recognition model... This may take a moment.', 'processing');
+                loadBtn.disabled = true;
+                
+                // Load Vosklet library if not already loaded
+                if (!vosklet) {
+                    vosklet = await loadVosklet();
+                }
+                
+                // Get model cache
+                const modelCache = await vosklet.getModelCache();
+                
+                // Create model URL
+                const modelValue = langPick.value;
+                const modelName = langPick.selectedOptions[0].text;
+                const isUnderscore = modelValue.endsWith('_');
+                const baseModel = isUnderscore ? modelValue.slice(0, -1) : modelValue;
+                const modelUrl = "https://" + 
+                    (isUnderscore ? "ccoreilly.github.io/vosk-browser" : "msqr1.github.io/Vosklet") +
+                    "/models/" + baseModel + ".tar.gz";
+                
+                // Load the model
+                model = await vosklet.createModel(modelUrl, modelName, baseModel);
+                
+                // Create audio context for processing
+                audioContext = new AudioContext();
+                
+                showStatus(`Model "${modelName}" loaded successfully!`, 'success');
+                loadBtn.disabled = false;
+                
+                // Enable process button if file is loaded
+                if (audioFile) {
+                    processBtn.disabled = false;
+                }
+            } catch (error) {
+                showStatus('Error loading model: ' + error.message, 'error');
+                loadBtn.disabled = false;
+            }
+        }
+        
+        // Main processing function
+        async function processAudio() {
+            if (!audioFile || !model || !audioContext) {
+                showStatus('Please load both a model and an audio file first', 'error');
+                return;
+            }
+            
+            try {
+                processBtn.disabled = true;
+                showStatus('Processing audio... Please wait.', 'processing');
+                transcriptText.textContent = '';
+                
+                // Create recognizer
+                recognizer = await vosklet.createRecognizer(model, audioContext.sampleRate);
+                
+                // Set up event listeners for recognition results
+                recognizer.addEventListener('result', (event) => {
+                    const result = JSON.parse(event.detail);
+                    transcriptText.textContent += result.text + ' ';
+                    showStatus('Speech recognition completed successfully!', 'success');
+                    processBtn.disabled = false;
+                });
+                
+                recognizer.addEventListener('partialResult', (event) => {
+                    const result = JSON.parse(event.detail);
+                    showStatus(`Processing... Partial result: ${result.partial}`, 'processing');
+                });
+                
+                // Decode and process audio file
+                const fileReader = new FileReader();
+                
+                fileReader.onload = async function(e) {
+                    try {
+                        const audioBuffer = await audioContext.decodeAudioData(e.target.result);
+                        
+                        // Process the audio data
+                        recognizer.acceptWaveform(audioBuffer.getChannelData(0));
+                        
+                        // Force final result
+                        recognizer.acceptWaveform(new Float32Array(0));
+                    } catch (err) {
+                        showStatus('Error processing audio: ' + err.message, 'error');
+                        processBtn.disabled = false;
+                    }
+                };
+                
+                fileReader.onerror = function() {
+                    showStatus('Error reading audio file', 'error');
+                    processBtn.disabled = false;
+                };
+                
+                fileReader.readAsArrayBuffer(audioFile);
+                
+            } catch (error) {
+                showStatus('Error during processing: ' + error.message, 'error');
+                processBtn.disabled = false;
+            }
+        }
+        
+        // Show status message
+        function showStatus(message, type) {
+            status.textContent = message;
+            status.className = 'status';
+            
+            if (type) {
+                status.classList.add(type);
+            }
+        }
+        
+        // Reset the application
+        function resetApp() {
+            audioFile = null;
+            fileInput.value = '';
+            fileInfo.textContent = '';
+            playerSection.style.display = 'none';
+            audioPlayer.src = '';
+            transcriptText.textContent = '';
+            status.textContent = '';
+            status.className = 'status';
+            processBtn.disabled = true;
+            
+            // Clean up Vosk resources
+            if (recognizer) {
+                recognizer.removeEventListener('result');
+                recognizer.removeEventListener('partialResult');
+                recognizer.delete();
+                recognizer = null;
+            }
+        }
+    </script>
+</body>
+</html>
