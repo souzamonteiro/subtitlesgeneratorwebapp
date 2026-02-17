@@ -1,88 +1,106 @@
-const http = require('http');
-const fs = require('fs');
+// server.js - Fixed version
+const express = require('express');
+const cors = require('cors');
 const path = require('path');
-const { contentType } = require('mime-types');
+const fs = require('fs');
+const tar = require('tar');
 
-const PORT = Number(process.env.PORT) || 8080;
-const ROOT = path.join(__dirname, 'www');
+const app = express();
+const PORT = process.env.PORT || 8080;
 
-function send(res, statusCode, body, headers = {}) {
-    res.writeHead(statusCode, headers);
-    res.end(body);
-}
+// Enable CORS
+app.use(cors());
 
-function safeResolve(urlPath) {
-    const decoded = decodeURIComponent(urlPath);
-    const clean = decoded.replace(/^\/+/, '');
-    const resolved = path.resolve(ROOT, clean);
-    if (!resolved.startsWith(ROOT)) {
-        return null;
+// Add cross-origin isolation headers so SharedArrayBuffer is available to workers
+app.use((req, res, next) => {
+    res.setHeader('Cross-Origin-Opener-Policy', 'same-origin');
+    res.setHeader('Cross-Origin-Embedder-Policy', 'require-corp');
+    // ensure wasm served with correct mime-type
+    if (req.path.endsWith('.wasm')) {
+        res.setHeader('Content-Type', 'application/wasm');
     }
-    return resolved;
-}
-
-const server = http.createServer((req, res) => {
-    if (req.method !== 'GET' && req.method !== 'HEAD') {
-        return send(res, 405, 'Method Not Allowed', { 'Content-Type': 'text/plain' });
-    }
-
-    const urlPath = (req.url || '/').split('?')[0];
-    let filePath;
-    try {
-        filePath = safeResolve(urlPath);
-    } catch (err) {
-        return send(res, 400, 'Bad Request', { 'Content-Type': 'text/plain' });
-    }
-
-    if (!filePath) {
-        return send(res, 403, 'Forbidden', { 'Content-Type': 'text/plain' });
-    }
-
-    fs.stat(filePath, (err, stat) => {
-        if (err) {
-            return send(res, 404, 'Not Found', { 'Content-Type': 'text/plain' });
-        }
-
-        if (stat.isDirectory()) {
-            const indexPath = path.join(filePath, 'index.html');
-            return fs.stat(indexPath, (idxErr, idxStat) => {
-                if (idxErr || !idxStat.isFile()) {
-                    return send(res, 404, 'Not Found', { 'Content-Type': 'text/plain' });
-                }
-                return streamFile(indexPath, idxStat, req, res);
-            });
-        }
-
-        if (!stat.isFile()) {
-            return send(res, 404, 'Not Found', { 'Content-Type': 'text/plain' });
-        }
-
-        return streamFile(filePath, stat, req, res);
-    });
+    next();
 });
 
-function streamFile(filePath, stat, req, res) {
-    console.log(`Serving: ${filePath}`);
+// Serve static files
+app.use(express.static(__dirname));
+
+// avoid favicon 404 noise
+app.get('/favicon.ico', (req, res) => res.sendStatus(204));
+
+// Serve Vosk models as tar.gz files
+app.get('/vosk-model-small-en-us-0.15.tar.gz', (req, res) => {
+    const modelPath = path.join(__dirname, 'vosk-model-small-en-us-0.15');
     
-    const type = contentType(path.basename(filePath)) || 'application/octet-stream';
-    const headers = {
-        'Content-Type': type,
-        'Content-Length': stat.size,
-        'Access-Control-Allow-Origin': '*',
-        'Cross-Origin-Opener-Policy': 'same-origin',
-        'Cross-Origin-Embedder-Policy': 'require-corp',
-        'Cross-Origin-Resource-Policy': 'cross-origin'
-    };
-
-    if (req.method === 'HEAD') {
-        return send(res, 200, null, headers);
+    if (!fs.existsSync(modelPath)) {
+        return res.status(404).json({ error: 'English model not found' });
     }
-
-    res.writeHead(200, headers);
-    fs.createReadStream(filePath).pipe(res);
-}
-
-server.listen(PORT, () => {
-    console.log(`HTTP server running at: http://localhost:${PORT}`);
-    console.log(`Serving directory: ${ROOT}`);
+    
+    console.log(`Serving English model from: ${modelPath}`);
+    
+    res.setHeader('Content-Type', 'application/gzip');
+    res.setHeader('Content-Disposition', 'attachment; filename="vosk-model-small-en-us-0.15.tar.gz"');
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    
+    tar.create(
+        {
+            gzip: true,
+            cwd: modelPath
+        },
+        fs.readdirSync(modelPath)
+    ).pipe(res);
 });
+// Serve Portuguese model as tar.gz file
+app.get('/vosk-model-small-pt-0.3.tar.gz', (req, res) => {
+    const modelPath = path.join(__dirname, 'vosk-model-small-pt-0.3');
+    
+    if (!fs.existsSync(modelPath)) {
+        return res.status(404).json({ error: 'Portuguese model not found' });
+    }
+    
+    console.log(`Serving Portuguese model from: ${modelPath}`);
+    
+    res.setHeader('Content-Type', 'application/gzip');
+    res.setHeader('Content-Disposition', 'attachment; filename="vosk-model-small-pt-0.3.tar.gz"');
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    
+    tar.create(
+        {
+            gzip: true,
+            cwd: modelPath
+        },
+        fs.readdirSync(modelPath)
+    ).pipe(res);
+});
+// Serve Spanish model as tar.gz file
+app.get('/vosk-model-small-es-0.42.tar.gz', (req, res) => {
+    const modelPath = path.join(__dirname, 'vosk-model-small-es-0.42');
+    
+    if (!fs.existsSync(modelPath)) {
+        return res.status(404).json({ error: 'Spanish model not found' });
+    }
+    
+    console.log(`Serving Spanish model from: ${modelPath}`);
+    
+    res.setHeader('Content-Type', 'application/gzip');
+    res.setHeader('Content-Disposition', 'attachment; filename="vosk-model-small-es-0.42.tar.gz"');
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    
+    tar.create(
+        {
+            gzip: true,
+            cwd: modelPath
+        },
+        fs.readdirSync(modelPath)
+    ).pipe(res);
+});
+
+// Health check
+app.get('/health', (req, res) => {
+    res.json({ status: 'ok' });
+});
+
+app.listen(PORT, () => {
+    console.log(`Server running at: http://localhost:${PORT}`);
+});
+
