@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Script to generate all the icons for Audio Speech Recognition Web App PWA
+# Script to generate all the icons for Subtitles Generator Web App PWA
 
-echo "Generating icons for the Audio Speech Recognition Web App PWA..."
+echo "Generating icons for the  Web App PWA..."
 
 rm -rf www/icons
 mkdir -p www/icons
@@ -47,13 +47,13 @@ convert icons/favicon-16.png icons/favicon-32.png icons/favicon.ico
 echo "Generating updated manifest.json..."
 cat > www/manifest.json << EOF
 {
-  "name": "Audio Speech Recognition Web App",
-  "short_name": "ASRWebApp",
+  "name": "Subtitles Generator Web App",
+  "short_name": "SGWebApp",
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#1a2a6c",
   "background_color": "#1a2a6c",
-  "description": "Audio Speech Recognition Web App",
+  "description": "Subtitles Generator Web App",
   "icons": [
     {
       "src": "icons/icon-72x72.png",

@@ -4,7 +4,7 @@ const path = require('path');
 const { contentType } = require('mime-types');
 
 const PORT = Number(process.env.PORT) || 8080;
-const ROOT = process.cwd();
+const ROOT = path.join(__dirname, 'www');
 
 function send(res, statusCode, body, headers = {}) {
     res.writeHead(statusCode, headers);
@@ -62,6 +62,8 @@ const server = http.createServer((req, res) => {
 });
 
 function streamFile(filePath, stat, req, res) {
+    console.log(`Serving: ${filePath}`);
+    
     const type = contentType(path.basename(filePath)) || 'application/octet-stream';
     const headers = {
         'Content-Type': type,

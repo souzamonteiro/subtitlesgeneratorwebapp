@@ -1,4 +1,4 @@
-# Audio Speech Recognition Web App
+# Subtitles Generator Web App
 
 This web-based application allows you to upload an audio file and extract the spoken text using Vosk speech recognition engine. It also provides a microphone interface for live speech recognition.
 
