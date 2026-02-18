@@ -68,3 +68,7 @@ temp/
 *.tar.gz
 *.tgz
 models/
+
+# Pastas de trabalho
+inbox/
+outbox/
