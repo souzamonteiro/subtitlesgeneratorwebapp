@@ -1,0 +1,1035 @@
+1
+00:00:00,000 --> 00:00:04,950
+olá nesta aula aprenderemos sobre vetores de caracteres e utilizar apontadores
+
+2
+00:00:04,950 --> 00:00:09,000
+vou aproveitar o esqueleto desse programa o sol africano
+
+3
+00:00:09,000 --> 00:00:10,349
+marítima de conteúdos
+
+4
+00:00:10,349 --> 00:00:11,349
+um p
+
+5
+00:00:11,349 --> 00:00:12,699
+podemos nos sonhos
+
+6
+00:00:12,699 --> 00:00:14,500
+não dos ossos quebrados
+
+7
+00:00:14,500 --> 00:00:32,950
+quando nós temos uma variável do tipo vetor de caracteres que nós na verdade temos como vetor de características inventou a matriz é um espaço de memória que funciona como se fosse uma matriz aquelas que nós outros aprendemos e matemática
+
+8
+00:00:32,950 --> 00:00:34,300
+no segundo grupo
+
+9
+00:00:34,300 --> 00:01:00,850
+só que uma matriz linear é possível ter matrizes de várias dimensões mas o mais comum ele não se trata de caracteres caracteriza trabalhar como atriz mineira é possível trabalhar com matrizes de múltiplas missões é claro positiva tentando por exemplo entra para uma lista de nomes na lista de frases simples mas que normalmente a gente vai estar
+
+10
+00:01:00,850 --> 00:01:01,850
+utilizando tudo
+
+11
+00:01:01,850 --> 00:01:09,050
+para caracteres vetores matrizes lineares ou vetores porque criam um vetor de um tamanho específico chamar
+
+12
+00:01:09,050 --> 00:01:11,750
+o chamado aqui de ter estudado
+
+13
+00:01:11,750 --> 00:01:17,150
+e vou colocar aqui o tamanho que é descrito com vinte pontos
+
+14
+00:01:17,150 --> 00:01:25,250
+que eu tenha um vetor chamado texto como os incas site eu posso acessar qualquer posição deste vetor
+
+15
+00:01:25,250 --> 00:01:26,250
+utilizando
+
+16
+00:01:26,250 --> 00:01:37,050
+um mundo uma variável de controle utiliza nosso fala por exemplo aos nossos lá no nosso asfalto armando valente de estruturas de repetição nordestinos
+
+17
+00:01:37,050 --> 00:01:53,700
+uma variável injeção utilizada para o controle também chamado interativo mas é possível utilizar o cavaleiro eu vou pedir ao usuário que digite uma expressão que fosse colocado em texto em segredo colocar coisas de natal foto
+
+18
+00:01:53,700 --> 00:01:54,700
+sim
+
+19
+00:01:54,700 --> 00:01:56,950
+eles vão exibir mensagem aqui
+
+20
+00:01:56,950 --> 00:02:07,750
+ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah escreva a palavra
+
+21
+00:02:07,750 --> 00:02:09,550
+o soba digitar aqui
+
+22
+00:02:09,550 --> 00:02:19,000
+se eu quiser agora busco pessoa digitar essa palavra se eu quiser visualizar toda palavra é muito simples basta fazer sete
+
+23
+00:02:19,000 --> 00:02:20,000
+este comportamento
+
+24
+00:02:20,000 --> 00:02:21,349
+ele vai exibir
+
+25
+00:02:21,349 --> 00:02:22,349
+<UNK>
+
+26
+00:02:22,349 --> 00:02:23,349
+<UNK>
+
+27
+00:02:23,349 --> 00:02:35,500
+a arara é uma palavra palíndromo a palavra pode ser lida de trás traficante da cento e vinte e quatro ou cinco anos onde os exercícios escrever
+
+28
+00:02:35,500 --> 00:02:49,000
+um programa que determine sua determinada palavra um talento talvez seja o mais lento de palavra para aqui escrever o quanto eu posso então em vez de exibir toda palavra
+
+29
+00:02:49,000 --> 00:02:54,849
+exibir cada uma das letras de arara e colocar uma embaixo da outra
+
+30
+00:02:54,849 --> 00:02:56,650
+verdade é bem simples
+
+31
+00:02:56,650 --> 00:03:05,650
+or ou criar nosso futuro ou criar uma variável riquíssima o decreto criando a variável e aqui em cima dele
+
+32
+00:03:05,650 --> 00:03:25,000
+era possível tentaremos ajustes fazer assim vinte e um anos aqui mesmo mas aí atualmente com causa de algumas recomendações do ser mais mas se você não se deve fazer isso deve-se criar a variável antes e só utilizava dentro do nosso laço
+
+33
+00:03:25,000 --> 00:03:41,650
+e melhor eu aqui vou usar a função que ela não está nem aí ou instrumento na luta que incluía biblioteca srp esteve me retorna o tamanho de uma determinada estrela indicada de caracteres vou pedir aqui
+
+34
+00:03:41,650 --> 00:03:46,599
+onze e doze zero e menor custo esta é de lei
+
+35
+00:03:46,599 --> 00:03:47,599
+texto
+
+36
+00:03:47,599 --> 00:03:48,949
+e as páginas
+
+37
+00:03:48,949 --> 00:03:50,750
+e eu vou exibir
+
+38
+00:03:50,750 --> 00:03:57,949
+não agora protesto todos mas somente um caractere do cristo e será referenciado pela variável y
+
+39
+00:03:57,949 --> 00:04:20,000
+o vetor pode ser acessado posição por posição utilizando colchete posição que eu desejo as coxas se colocar sequiosa zero seria primeira letra digitada pela pessoa no caso de horário seria mentira se eu colocar seguiu-me seria a segunda letra leve e assim por diante eu coloco ele irrita
+
+40
+00:04:20,000 --> 00:04:24,050
+tractor a variável de controle a percorrer cada uma
+
+41
+00:04:24,050 --> 00:04:27,650
+das posições do vetor e exibida na tela
+
+42
+00:04:27,650 --> 00:04:29,450
+uma em cada linha
+
+43
+00:04:29,450 --> 00:04:32,150
+o que o quitoplan do ringue
+
+44
+00:04:32,150 --> 00:04:33,150
+dado o
+
+45
+00:04:33,150 --> 00:04:49,350
+para os internautas se eu quisesse alterar uma determinada posição por exemplo se eu quiser eu recebia herdará a terra dessa forma se antes eu quisesse trocar por exemplo a primeira posição por arroba unopar virtual
+
+46
+00:04:49,350 --> 00:04:52,950
+assim estou na posição zero que a primeira
+
+47
+00:04:52,950 --> 00:04:57,900
+é igual a roupa o papa é colocar entre as pessoas
+
+48
+00:04:57,900 --> 00:04:59,700
+é apenas o caracterizam
+
+49
+00:04:59,700 --> 00:05:02,850
+quando apenas um caractere deve entre aspas
+
+50
+00:05:02,850 --> 00:05:03,850
+<UNK>
+
+51
+00:05:03,850 --> 00:05:04,850
+como protesto
+
+52
+00:05:04,850 --> 00:05:05,850
+errado
+
+53
+00:05:05,850 --> 00:05:06,850
+<UNK>
+
+54
+00:05:06,850 --> 00:05:07,850
+ah
+
+55
+00:05:07,850 --> 00:05:23,600
+a primeira letra foi trocada por arroba isso vale para qualquer tipo de vetor qualquer tipo de evento uma característica interessante é que todo vetor é tratado pelos seus pais assim como pelo ser humano
+
+56
+00:05:23,600 --> 00:05:29,900
+um ponteiro que um ponteiro uma vareta especial que apontam uma posição de memória
+
+57
+00:05:29,900 --> 00:05:56,000
+ou ser ponteiro e apoie a ponta possamos memória eu posso utilizar aritmética com ele ou seja posso adicionar um valor parece conter e eu posso fazer em casa o ponteiro se move na mesma hora eu vou criar um ponteiro para fazer referência ao texto e ao invés de trabalhar com o laço for como fiz aquilo
+
+58
+00:05:56,000 --> 00:06:04,100
+chama-se <UNK> mas eu vou fazer uma outra operação aqui embaixo eu vou criar um ponteiro chamado char
+
+59
+00:06:04,100 --> 00:06:07,250
+asterisco p todo ponteiro ele pensasse intactos
+
+60
+00:06:07,250 --> 00:06:36,950
+se for de caracteres por inteiro e outra com os ponteiros para referenciar qualquer tipo de dado mas é importante na criação do ponteiro você diga qual é o tipo de dado que na ponta nesse caso aquiesce ponteiro p vai apontar um carácter então coloca um asterisco na frente dele produziu-se mais mas olhar p não é uma variável comum já é um ponteiro só
+
+61
+00:06:36,950 --> 00:07:00,350
+tirar asterisco ele não vai funcionar porque ele vai tratar o peito numa variável caráter normal eu boto asterisco no estado do pará é um ponteiro aqui que eu faço pra que eu possa utilizar esse controle eu vou apontar ele prolonga nesse caso vou apontar para variável teste é bem simples
+
+62
+00:07:00,350 --> 00:07:01,350
+peixoto p
+
+63
+00:07:01,350 --> 00:07:02,700
+igual a cristo
+
+64
+00:07:02,700 --> 00:07:19,350
+o modelo atribua p a variável texto na verdade estou dizendo a um compilador tecla interessante texto está guardado e coloco na variável p a partir daí eu posso utilizar p para apontar qualquer posição de cristo
+
+65
+00:07:19,350 --> 00:07:26,100
+a gente voltei agora vou criar um assoalho márcia mas o nosso foco o armário
+
+66
+00:07:26,100 --> 00:07:47,700
+asterisco e quer que eu quero dizer com isso toda a variável do tipo char que é um vetor ou seja uma cadeia de caracteres onde ela preenchida pelas funções do compilado sei como por exemplo a que ela recebe no final dela o caractere especial o caracteriza
+
+67
+00:07:47,700 --> 00:07:48,700
+zero <UNK>
+
+68
+00:07:48,700 --> 00:08:08,050
+no data acho que caracteres eles eles tem eles funciona proximas mas como se fosse o falso oscilasse valor falso qualquer caractere que não seja usado para ser mais mas é verdadeiro o quando ele encontrou caracterizando pra ele facilitou monitorizando a quioto
+
+69
+00:08:08,050 --> 00:08:19,750
+enquanto asterisco tenho estou dizendo enquanto pronta pra alguma coisa que não seja zero fique executando este laço é que ele vai fazer esse laço céltica
+
+70
+00:08:19,750 --> 00:08:24,250
+asterisco tem ali uma coisa importante se eu colocasse aqui
+
+71
+00:08:24,250 --> 00:08:25,250
+celso p
+
+72
+00:08:25,250 --> 00:08:38,300
+todo apontando todo do ponteiro era verdade mesma dizendo que ele achar que na verdade ele um inteiro longo porque ele aponta endereço de memória um número grande gigante
+
+73
+00:08:38,300 --> 00:08:45,500
+se eu colocasse p e ainda mostrar esse número na tela eu posso até fazer aqui
+
+74
+00:08:45,500 --> 00:08:47,750
+civil josé disse a fonte
+
+75
+00:08:47,750 --> 00:08:49,550
+vou colocar esse endereço
+
+76
+00:08:49,550 --> 00:08:50,550
+endereço
+
+77
+00:08:50,550 --> 00:08:51,550
+quarto amputado
+
+78
+00:08:51,550 --> 00:08:52,550
+culpa b
+
+79
+00:08:52,550 --> 00:09:00,200
+ele vai mostrar interesse aponta cortez e não o valor que tem a ponta que são importante
+
+80
+00:09:00,200 --> 00:09:20,000
+já sei oque era vez de trabalhar com interesse quer trabalhar com a posição de memoria realmente que está com valor está na posição de memória eu coloco um asterisco na frente ao se eu colocar aqui o celtic marca mostrou interesse na tela
+
+81
+00:09:20,000 --> 00:09:26,299
+claro que se eu fizer qualquer operação acontece um deles vai ficar mudando aqui
+
+82
+00:09:26,299 --> 00:09:38,000
+mas eu quero mostrar o caractere faça sinto ela mostrou caráter nada nesse caso novo plano que eu quero escrever arara o valor correto na trama
+
+83
+00:09:38,000 --> 00:10:00,500
+diferente da que eu escrevi uma letra basta dar outra arquivo descreve a palavra possível nota bem mas então como faço para mudar de posição cresceu deixar essa forma revela-se infinita que mostra lá na verdade arroba mudei pro pode soprar arroba arroba roubando oba-oba mas eu garanto que péssimo
+
+84
+00:10:00,500 --> 00:10:05,450
+a pose aponta para a sua próxima posição essas pelas mais
+
+85
+00:10:05,450 --> 00:10:31,550
+lembrando que <UNK> é apenas um número endereço de memória é mais mas avança para a próxima letra e aproximá-lo entre pernas palito até que ele vai chegar na ultima ótima lady arara e vai avançar mais um ano depois do último la o que tenha um zero porque lembrando que os temas mais colocar zero no final
+
+86
+00:10:31,550 --> 00:10:37,850
+o tema aponta prazer o alívio da falsa ele vai sair daqui antes testar
+
+87
+00:10:37,850 --> 00:10:38,850
+<UNK>
+
+88
+00:10:38,850 --> 00:10:40,649
+alexa ligue o ar-condicionado
+
+89
+00:10:40,649 --> 00:10:41,649
+olha só
+
+90
+00:10:41,649 --> 00:10:49,299
+ele pegou o ele ele pegou e ambos mas mais me lembrei do livro ser mais humanos
+
+91
+00:10:49,299 --> 00:11:13,599
+o celtic é muito inteligente e diferente do que se fosse no novo você teria mostrado exatamente o endereço de ip e o problema crucial de ler muito inteligentes e quando ele termina variava de um determinado valor e ele encontrou um contexto como esse que agora eu topei e eu tenho mais trendy
+
+92
+00:11:13,599 --> 00:11:26,199
+e apontou para outros trinta mil que ele tenta já tenta pegar o valor que está lá mas eu poderia resolver isso aqui não gozava da seguinte forma
+
+93
+00:11:26,199 --> 00:11:27,199
+eu vou
+
+94
+00:11:27,199 --> 00:11:29,449
+vou mudar essa expressão aqui
+
+95
+00:11:29,449 --> 00:11:30,449
+vinte f
+
+96
+00:11:30,449 --> 00:11:35,399
+vinte a função onde o posso manipular as informações que eu
+
+97
+00:11:35,399 --> 00:11:42,600
+estou exibindo na tela utilizando diversas máscaras nesse caso que eu vou usar uma máscara especial
+
+98
+00:11:42,600 --> 00:11:44,399
+essa vontade é livre
+
+99
+00:11:44,399 --> 00:11:46,199
+que diz ao compilador
+
+100
+00:11:46,199 --> 00:11:50,699
+que é para eu pegar o primeiro parâmetro de aparecer
+
+101
+00:11:50,699 --> 00:11:53,399
+e tratá-lo como um número longo
+
+102
+00:11:53,399 --> 00:12:17,699
+ainda que aponte para um caractere ele tenta dizendo deus significa número inteiro que eles significam esta dezena que trate o primeiro parâmetro que apareceu percentagem representa o primeiro parâmetro se eu tiver outro percentagem que segundo parâmetro e assim por diante de outros até que o primeiro parâmetro que aparecer depois essas trendy
+
+103
+00:12:17,699 --> 00:12:24,449
+trate de primer para me três trate ele como um número inteiro não exiba nada
+
+104
+00:12:24,449 --> 00:12:25,449
+<UNK>
+
+105
+00:12:25,449 --> 00:12:27,249
+vamos rodar a foto
+
+106
+00:12:27,249 --> 00:12:34,449
+agora me mostrou que o isso sei que o endereço de memória apontado pela variável p
+
+107
+00:12:34,449 --> 00:12:39,399
+e mostrou a palavra arara baixo utilizando controle ver de novo
+
+108
+00:12:39,399 --> 00:12:42,100
+o alvo agora é o alvo
+
+109
+00:12:42,100 --> 00:12:56,050
+um deles que mima seus habitais pragana mil vezes beleza mudava do por porque por que o compilador vai o sistema abraço nova fornecer as suas memórias diferentes para o programa
+
+110
+00:12:56,050 --> 00:12:58,750
+há nesse caso arquitecta acontecendo também
+
+111
+00:12:58,750 --> 00:13:09,100
+é o endereço normalmente é maior do que aquele mas nenhum deles explicam por que por que eu criei a variável do programa
+
+112
+00:13:09,100 --> 00:13:33,850
+quando cria uma variável no programa o e dentro de uma função especificamente na função o compilado vai tentar criar essa variável uma região de memória especial chamada pilha e tem diversas razões ele fazeis uma delas ela é tornar mais simples o gerenciamento da mesma o que a pilha região de memória que ela
+
+113
+00:13:33,850 --> 00:13:54,550
+automaticamente descartada quando eu saí da função então quando termina aqui nem nos parece cobranças protocolado semana você descartado e a pilha pequena então regiões memória apontado por ela relativa por escândalo de peito peituda que se fosse uma outra forma de alocar memória eu teria
+
+114
+00:13:54,550 --> 00:13:56,350
+é esse interesse mar
+
+115
+00:13:56,350 --> 00:13:57,350
+b
+
+116
+00:13:57,350 --> 00:14:14,900
+mas temos aqui duas funções que são muito particulares do sei esta riley e prendia-se existem diversas funções a quantidade bibliotecas do senhor essas são apenas duas canções desse conjunto de e funções do certos temas mais pra assinar
+
+117
+00:14:14,900 --> 00:14:18,500
+já vamos criar uma função usando ponteiros gorda
+
+118
+00:14:18,500 --> 00:14:20,750
+o grão na verdade não
+
+119
+00:14:20,750 --> 00:14:22,100
+este pensa que
+
+120
+00:14:22,100 --> 00:14:23,900
+vou criar uma função
+
+121
+00:14:23,900 --> 00:14:28,400
+para colocar uma pra colocar alguma palavra em maiúsculo rode
+
+122
+00:14:28,400 --> 00:14:30,650
+não o sapato mas qdo
+
+123
+00:14:30,650 --> 00:14:33,350
+mas por mais que o pato
+
+124
+00:14:33,350 --> 00:14:35,600
+maiúsculo vai receber duas variantes
+
+125
+00:14:35,600 --> 00:14:37,400
+parece haver uma variável
+
+126
+00:14:37,400 --> 00:14:41,900
+mas mais que vai receber uma variável chamada origem chorar
+
+127
+00:14:41,900 --> 00:14:48,650
+origem veja coloca alcochete como coloquei no exemplo de funções eu vou colocar um asterisco
+
+128
+00:14:48,650 --> 00:14:49,650
+origem
+
+129
+00:14:49,650 --> 00:14:50,650
+virgula
+
+130
+00:14:50,650 --> 00:14:51,650
+chata
+
+131
+00:14:51,650 --> 00:14:54,800
+asterisco destino agora que a gente tem
+
+132
+00:14:54,800 --> 00:14:58,850
+duas variáveis origem destino que vão chegando na função
+
+133
+00:14:58,850 --> 00:15:04,250
+eu vou nessa função pela na branca flávio dino não retornou nada
+
+134
+00:15:04,250 --> 00:15:11,899
+usando retorne com aquela retornar vai colocar o valor em deste eu vou fazer isso vou criar
+
+135
+00:15:11,899 --> 00:15:15,500
+ela manipular diretamente as variáveis encontradas ponteiras charter
+
+136
+00:15:15,500 --> 00:15:16,500
+charque
+
+137
+00:15:16,500 --> 00:15:36,299
+as letras que estou usando petição como nos programas está o colete vai criar ponteiros para outros genéricos é custo mantidas até que construção dores na literatura o seu uso mas pode acontecer eu estou usando essas duas veja só eu vou contar p
+
+138
+00:15:36,299 --> 00:15:39,449
+ele aponta para a origem do produto
+
+139
+00:15:39,449 --> 00:15:40,449
+e que
+
+140
+00:15:40,449 --> 00:15:41,449
+one destino
+
+141
+00:15:41,449 --> 00:15:43,699
+vou criar um assoalho pecuário
+
+142
+00:15:43,699 --> 00:15:48,199
+asterisco p do mesmo jeito que nós fizemos aqui embaixo
+
+143
+00:15:48,199 --> 00:15:49,199
+enquanto
+
+144
+00:15:49,199 --> 00:15:50,199
+b
+
+145
+00:15:50,199 --> 00:15:59,199
+é enquanto ele nosso último caractere né os evento final ele vai interagir para não esquecer vou logo avançar p
+
+146
+00:15:59,199 --> 00:16:25,749
+e vou confessar aqui porque é outro barco diz que aceitou já coloco aqui e adoro fazer operação que é muito simples com operação eu vou copiar e aqui só que na hora de copiar eu vou transformar maiúsculo mega fáceis asterisco p eu tenho que dizer ao compilador que eu não quero alterar por suas memórias seus <UNK>
+
+147
+00:16:25,749 --> 00:16:26,749
+é assim
+
+148
+00:16:26,749 --> 00:16:42,949
+eu na verdade estou atribuindo a posição de memória de que para pedir que não é o que eu quero ter atribuiu caractere que está aí e que está ali que o patrão contra seja contra
+
+149
+00:16:42,949 --> 00:16:46,549
+caractere que impediu que ela atribui para p
+
+150
+00:16:46,549 --> 00:16:50,599
+que se eu fizer isso eu simplesmente vou copiar
+
+151
+00:16:50,599 --> 00:16:51,599
+é
+
+152
+00:16:51,599 --> 00:17:00,149
+origem entrada e não é o que eu quero eu quero transformar mas quanto a fazer o que quiser
+
+153
+00:17:00,149 --> 00:17:01,949
+ele não colocou aqui
+
+154
+00:17:01,949 --> 00:17:04,649
+não coloco aqui o que disse
+
+155
+00:17:04,649 --> 00:17:06,449
+ele não colocou ou
+
+156
+00:17:06,449 --> 00:17:07,799
+esta faltando algo
+
+157
+00:17:07,799 --> 00:17:18,149
+novo não vão testar sua própria então aqui estou na antestreia pessoa ditou e eu vou colocar aqui o criar uma outra chapa
+
+158
+00:17:18,149 --> 00:17:19,149
+nove
+
+159
+00:17:19,149 --> 00:17:20,499
+os mares caixa-alta
+
+160
+00:17:20,499 --> 00:17:32,199
+ora condenam não coloca o mesmo nome que mais funciona isso não daria a ele os o mesmo identificado pra variar profissão e procura mas caixa-alta
+
+161
+00:17:32,199 --> 00:17:35,349
+eu vou colocar aqui dos que também
+
+162
+00:17:35,349 --> 00:17:41,649
+só tem um problema ele vai copiar cada caractere e quando chega ao final
+
+163
+00:17:41,649 --> 00:18:04,149
+ele não vai copiar um zero final porque porque o ar está parando antes disso isso vai dar problema na hora de exibir variar então tem que colocar os aro fino tão falso asterisco que igual entre aspas eu coloco barra zero que é um símbolo que representa o caracterizam
+
+164
+00:18:04,149 --> 00:18:13,149
+na ápice mas mais você várias linguagens da verdade muitas linguagens os mesmo disso e agora eu vou exibir serrote
+
+165
+00:18:13,149 --> 00:18:15,399
+é isto aí no escuro
+
+166
+00:18:15,399 --> 00:18:16,399
+poucos
+
+167
+00:18:16,399 --> 00:18:17,399
+fale conosco
+
+168
+00:18:17,399 --> 00:18:18,399
+autor
+
+169
+00:18:18,399 --> 00:18:19,399
+mas março
+
+170
+00:18:19,399 --> 00:18:22,099
+e você que variava entre eles
+
+171
+00:18:22,099 --> 00:18:29,299
+essa é a porta de origem e agora tento passar a taxa alta como de destino
+
+172
+00:18:29,299 --> 00:18:31,099
+aí ele vai rir
+
+173
+00:18:31,099 --> 00:18:34,699
+transformando texto para maiúsculo vai colocar o resultado
+
+174
+00:18:34,699 --> 00:18:45,049
+passe no nosso mundo desculpa ela não é uma função tanto procedimento trouxe chama que fora a caixa auto vai receber o valor
+
+175
+00:18:45,049 --> 00:18:47,749
+e agora sim eu coloco aqui
+
+176
+00:18:47,749 --> 00:18:49,549
+valor máximo valor máximo
+
+177
+00:18:49,549 --> 00:18:50,549
+olá
+
+178
+00:18:50,549 --> 00:18:52,799
+o que estes anos seguintes
+
+179
+00:18:52,799 --> 00:18:55,049
+o da minuta que tranquilize
+
+180
+00:18:55,049 --> 00:18:56,049
+oito
+
+181
+00:18:56,049 --> 00:18:57,049
+ate abreu
+
+182
+00:18:57,049 --> 00:18:58,399
+aqui no chile
+
+183
+00:18:58,399 --> 00:18:59,749
+o que outubro
+
+184
+00:18:59,749 --> 00:19:04,699
+o que dizer outono enquanto que mais trabalha com várias linguagens
+
+185
+00:19:04,699 --> 00:19:08,299
+a gente acaba misturando os nomes das funções
+
+186
+00:19:08,299 --> 00:19:09,299
+o autor
+
+187
+00:19:09,299 --> 00:19:10,299
+palavra maracajá
+
+188
+00:19:10,299 --> 00:19:18,399
+observe que ele colocou em letra maiúscula tail arroba roubam tamanhos quando cores que não colocou em necromante
+
+189
+00:19:18,399 --> 00:19:33,699
+olha o arará que não por mim porque o que eu coloquei deliberadamente dentro do ele simplesmente vai exibir o valor não clame choques a polônia depois do social tinha um dia feio pulando
+
+190
+00:19:33,699 --> 00:19:35,499
+vou compilar de novo
+
+191
+00:19:35,499 --> 00:19:36,499
+vam
+
+192
+00:19:36,499 --> 00:19:37,499
+maracatu
+
+193
+00:19:37,499 --> 00:19:39,299
+veja eu não precisei
+
+194
+00:19:39,299 --> 00:19:55,499
+indicar aos demais mas que eu queria tratar texto e caixa alta ou endereços de memória eu simplesmente atribuir às variadas atribui testomaster atribuída atribuía que destino que diretamente se fosse qualquer outra variável que não
+
+195
+00:19:55,499 --> 00:19:56,849
+fosse um vetor
+
+196
+00:19:56,849 --> 00:20:06,299
+e não fosse um ano na cadeia de caracteres e eu não poderia fazer assim eu teria que fazer desta foto
+
+197
+00:20:06,299 --> 00:20:08,099
+é comercial na frente
+
+198
+00:20:08,099 --> 00:20:23,399
+o é comercial diz ao seu ser mais mais que eu não quero tratar variável com o seu conteúdo mas sim como seu endereço e senha comercial diz espera que o endereço de memória
+
+199
+00:20:23,399 --> 00:20:27,899
+eu vou comentar esse código todo que está mais clara
+
+200
+00:20:27,899 --> 00:20:29,699
+eu tenho certeza texto
+
+201
+00:20:29,699 --> 00:20:30,699
+contactos
+
+202
+00:20:30,699 --> 00:20:31,699
+vitor carrara
+
+203
+00:20:31,699 --> 00:20:33,949
+cristão ao vetor de caracteres
+
+204
+00:20:33,949 --> 00:20:34,949
+olá
+
+205
+00:20:34,949 --> 00:20:35,949
+redutores
+
+206
+00:20:35,949 --> 00:20:37,299
+os santos cessadas
+
+207
+00:20:37,299 --> 00:20:38,299
+utilizo muito
+
+208
+00:20:38,299 --> 00:20:39,299
+<UNK>
+
+209
+00:20:39,299 --> 00:20:40,299
+ah
+
+210
+00:20:40,299 --> 00:20:41,649
+não há verão
+
+211
+00:20:41,649 --> 00:20:46,599
+o valor inteiro porque é importante debater será inteiro um índice
+
+212
+00:20:46,599 --> 00:20:47,949
+contudo houve certo
+
+213
+00:20:47,949 --> 00:20:48,949
+<UNK>
+
+214
+00:20:48,949 --> 00:20:51,199
+aqui eu vou colocar também
+
+215
+00:20:51,199 --> 00:20:52,549
+todo mundo gritou
+
+216
+00:20:52,549 --> 00:20:53,549
+séries
+
+217
+00:20:53,549 --> 00:20:54,899
+possui que combinam
+
+218
+00:20:54,899 --> 00:20:55,899
+é que
+
+219
+00:20:55,899 --> 00:20:56,899
+não
+
+220
+00:20:56,899 --> 00:20:57,899
+ah
+
+221
+00:20:57,899 --> 00:20:59,699
+que o valor certo
+
+222
+00:20:59,699 --> 00:21:01,049
+há muito tempo
+
+223
+00:21:01,049 --> 00:21:02,049
+olá
+
+224
+00:21:02,049 --> 00:21:03,049
+falso
+
+225
+00:21:03,049 --> 00:21:04,049
+mais
+
+226
+00:21:04,049 --> 00:21:05,049
+ah
+
+227
+00:21:05,049 --> 00:21:06,049
+cinco
+
+228
+00:21:06,049 --> 00:21:07,049
+amo
+
+229
+00:21:07,049 --> 00:21:08,049
+é permitido
+
+230
+00:21:08,049 --> 00:21:09,049
+equipe
+
+231
+00:21:09,049 --> 00:21:10,049
+olá
+
+232
+00:21:10,049 --> 00:21:11,049
+<UNK>
+
+233
+00:21:11,049 --> 00:21:12,049
+<UNK>
+
+234
+00:21:12,049 --> 00:21:13,049
+<UNK>
+
+235
+00:21:13,049 --> 00:21:14,049
+usando
+
+236
+00:21:14,049 --> 00:21:15,049
+símbolo
+
+237
+00:21:15,049 --> 00:21:16,049
+máscaras
+
+238
+00:21:16,049 --> 00:21:17,049
+desculpe
+
+239
+00:21:17,049 --> 00:21:18,049
+continuem assim
+
+240
+00:21:18,049 --> 00:21:19,049
+l
+
+241
+00:21:19,049 --> 00:21:20,049
+essa ponte
+
+242
+00:21:20,049 --> 00:21:21,049
+um risco
+
+243
+00:21:21,049 --> 00:21:24,199
+o documento a sua função no sono
+
+244
+00:21:24,199 --> 00:21:25,199
+o que
+
+245
+00:21:25,199 --> 00:21:26,549
+o trato do
+
+246
+00:21:26,549 --> 00:21:27,549
+porto
+
+247
+00:21:27,549 --> 00:21:28,549
+ah
+
+248
+00:21:28,549 --> 00:21:30,349
+o que vamos passar
+
+249
+00:21:30,349 --> 00:21:31,349
+todos
+
+250
+00:21:31,349 --> 00:21:32,349
+h
+
+251
+00:21:32,349 --> 00:21:33,349
+ambos usando
+
+252
+00:21:33,349 --> 00:21:34,699
+tipo asterisco nome
+
+253
+00:21:34,699 --> 00:21:35,699
+opa
+
+254
+00:21:35,699 --> 00:21:36,699
+com
+
+255
+00:21:36,699 --> 00:21:38,049
+consulte o site
+
+256
+00:21:38,049 --> 00:21:39,399
+o tiro esportivo
+
+257
+00:21:39,399 --> 00:21:40,399
+<UNK>
+
+258
+00:21:40,399 --> 00:21:41,399
+ah
+
+259
+00:21:41,399 --> 00:21:42,399
+pronto

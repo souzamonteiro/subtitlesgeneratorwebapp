@@ -1,0 +1,323 @@
+1
+00:00:00,000 --> 00:00:09,450
+uma nesta aula aprenderemos a criar funções e procedimentos em cimas mais vamos falar sobre fotos vou criar um novo arquivo
+
+2
+00:00:09,450 --> 00:00:10,800
+o tempo todo
+
+3
+00:00:10,800 --> 00:00:13,500
+é o esqueleto descrito no produto
+
+4
+00:00:13,500 --> 00:00:14,500
+o
+
+5
+00:00:14,500 --> 00:00:15,849
+muito menos comum
+
+6
+00:00:15,849 --> 00:00:16,850
+tudo indica
+
+7
+00:00:16,850 --> 00:00:21,350
+pois o sol baixo custeadas pelas santos funciona está estacionamento
+
+8
+00:00:21,350 --> 00:00:23,150
+o porto do mundo
+
+9
+00:00:23,150 --> 00:00:29,900
+ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah
+
+10
+00:00:29,900 --> 00:00:30,900
+então
+
+11
+00:00:30,900 --> 00:00:40,350
+todo o programa em seis semanas mas tem pelo menos uma função a função que tem várias assinaturas assinatura mais poluente
+
+12
+00:00:40,350 --> 00:00:41,350
+min
+
+13
+00:00:41,350 --> 00:00:42,350
+sorte
+
+14
+00:00:42,350 --> 00:00:47,300
+onde foi que significa que essa função não recebe em troca
+
+15
+00:00:47,300 --> 00:01:01,700
+o índice significa que a função nem vai retornar um valor certo de quando ela esse valor programa será fechado o valor padrão e significa que o programa sinalizou corretamente é que
+
+16
+00:01:01,700 --> 00:01:10,700
+zero golos zero produto ou toda função seis mais mais atuando no valor utilizando a palavra-chave retorne declaração do trato
+
+17
+00:01:10,700 --> 00:01:36,350
+eu vou criar uma função chamada <UNK> existem dois tipos de funções que retornam valores que não retorne o contato nós chamamos as funções que não retornam do alvo de procedimentos na chamando as pessoas que atuam no valor de funções para criar o procedimento ou seja uma função que não retornou falou aos presentes o edil
+
+18
+00:01:36,350 --> 00:01:53,000
+indicando que ela não retornasse ao lado do nome da função das nesse caso é que o celular será hermes exibir mensagens exibir ah ah ah ah ah ah ah ah ah ah que tocasse no seguinte
+
+19
+00:01:53,000 --> 00:01:54,000
+basta
+
+20
+00:01:54,000 --> 00:01:55,350
+as do produto
+
+21
+00:01:55,350 --> 00:01:59,400
+e exibir mensagens recebeu um parâmetro comparando será extinta
+
+22
+00:01:59,400 --> 00:02:05,250
+o parâmetro do tipo char o crossover um texto seu coloco desta forma
+
+23
+00:02:05,250 --> 00:02:28,650
+o texto dessa forma como nós vimos não num dos exemplos pontuais para novos tipos de dados estou dizendo que eu vou passar a prata no solo no momento em que o texto é uma cadeia de caracteres ele vai aparecer no nosso variável três portanto a função exibir mensagens vai sempre
+
+24
+00:02:28,650 --> 00:02:29,650
+manto
+
+25
+00:02:29,650 --> 00:02:50,800
+uma variável chamada texto que conterá o que vai ser exibido no entanto observe que eu posso juntar palavras para formar nomes de funções um personagem eu posso não usar nada separado opostos um padrão chamado kernel quis onde cada palavra começa com uma letra de um
+
+26
+00:02:50,800 --> 00:02:56,650
+uma letra maiúscula esquadrão muito comum na orientação a objeto chance exibindo corpo
+
+27
+00:02:56,650 --> 00:02:58,900
+como será exibida mensagem seriamente
+
+28
+00:02:58,900 --> 00:03:03,849
+este produto é uma forma de entreter uma funcionalidade muito antiga
+
+29
+00:03:03,849 --> 00:03:10,150
+recebi mensagens mensagem texto e agora eu vou no programa mei utilizar esta função
+
+30
+00:03:10,150 --> 00:03:11,150
+considera-se
+
+31
+00:03:11,150 --> 00:03:12,150
+mensagem
+
+32
+00:03:12,150 --> 00:03:13,500
+a no mundo
+
+33
+00:03:13,500 --> 00:03:22,500
+no entanto os testa existem algumas formas de fazer isso esta é uma das assinaturas que é possível de solos
+
+34
+00:03:22,500 --> 00:03:23,500
+atenção
+
+35
+00:03:23,500 --> 00:03:24,849
+requer muito temáticos
+
+36
+00:03:24,849 --> 00:03:31,599
+e de um aviso aqui eles nas que crowe trinta proíbe de inversão de controle
+
+37
+00:03:31,599 --> 00:03:38,349
+mas foi uma vez só proíbe conversão de uma constante uma constante no valor constante
+
+38
+00:03:38,349 --> 00:03:39,349
+barata
+
+39
+00:03:39,349 --> 00:03:47,900
+deixar as teclas puxados seres por outra forma de representar uma expressão destruindo cabrito caracteres por uma outra foto
+
+40
+00:03:47,900 --> 00:03:50,599
+a gente vai feita no aqui
+
+41
+00:03:50,599 --> 00:03:55,549
+está dizendo que proíbe mas ele não deu erro deixou cumpri-la
+
+42
+00:03:55,549 --> 00:04:04,549
+é isso que funciona o que é que ele quis dizer com isso que a maneira certa de fazer sentido
+
+43
+00:04:04,549 --> 00:04:05,549
+chapada
+
+44
+00:04:05,549 --> 00:04:06,549
+e nesse
+
+45
+00:04:06,549 --> 00:04:07,899
+que bom aluno
+
+46
+00:04:07,899 --> 00:04:10,149
+e depois passando a sede
+
+47
+00:04:10,149 --> 00:04:14,199
+e não quer que passe diretamente permitiu mais reclamou
+
+48
+00:04:14,199 --> 00:04:23,649
+agora eu não retomo a questão comercial o tipo de função que nos retorna o valor que nós chamamos de <UNK>
+
+49
+00:04:23,649 --> 00:04:28,149
+procedimento forte vou criar uma função que retorna o valor
+
+50
+00:04:28,149 --> 00:04:29,949
+chamada de função quadrado
+
+51
+00:04:29,949 --> 00:04:30,949
+vinte
+
+52
+00:04:30,949 --> 00:04:31,949
+tradutor
+
+53
+00:04:31,949 --> 00:04:34,649
+enquadrado vai chegava no instituto batista
+
+54
+00:04:34,649 --> 00:04:37,349
+que nossa função quadrática face quadrada
+
+55
+00:04:37,349 --> 00:04:50,399
+pegar o valor de x multiplicado por ele mesmo e atonal seja o padrão de por coloque tanto parâmetro de entrada tanto antes quanto valor de saída comentei impudico
+
+56
+00:04:50,399 --> 00:04:51,399
+x desafios
+
+57
+00:04:51,399 --> 00:04:57,250
+que multiplicado e agora esse quadrado é uma função que retorna o valor
+
+58
+00:04:57,250 --> 00:04:58,250
+veja
+
+59
+00:04:58,250 --> 00:04:59,250
+voltamos
+
+60
+00:04:59,250 --> 00:05:00,600
+aqui em baixo
+
+61
+00:05:00,600 --> 00:05:01,600
+é uti
+
+62
+00:05:01,600 --> 00:05:07,900
+contrário disso um culto e aqui eu vou chamar a função quadrado pedindo socorro
+
+63
+00:05:07,900 --> 00:05:09,250
+valor do quadrados
+
+64
+00:05:09,250 --> 00:05:10,250
+ah
+
+65
+00:05:10,250 --> 00:05:13,400
+o vou pular muito menos no fim
+
+66
+00:05:13,400 --> 00:05:21,950
+usando balões o nosso desporto quando posso sempre usar parnaíba pularão ali ao invés de usar índia seu preferido
+
+67
+00:05:21,950 --> 00:05:22,950
+o pilantra
+
+68
+00:05:22,950 --> 00:05:23,950
+portanto
+
+69
+00:05:23,950 --> 00:05:24,950
+exa
+
+70
+00:05:24,950 --> 00:05:26,750
+quatro dos cinco pontos
+
+71
+00:05:26,750 --> 00:05:46,100
+deixo as funções acima dos mares são reentrantes isto quer dizer que se quer dizer que uma função pode chamar a ela mesmo projetando um futuro com determinado texto num dos exemplos como melhor num dos exercícios propostos por prática prazer comprar assim
+
+72
+00:05:46,100 --> 00:05:50,600
+calcular o fatorial disposto a função para calcular o trinta
+
+73
+00:05:50,600 --> 00:05:57,350
+depois a função custo fatorial será usado no programa bem mais complexo mas problema eh
+
+74
+00:05:57,350 --> 00:06:18,950
+outro lembrou cálculo do senna a função seno função normalmente é resolvida com recursividade que é exatamente a aplicação de sanções entrantes que quando a função chamar ela mesmo para resolver um determinado problema fatorial de solução clássica usando funções entrantes quando a função de que ela mesmo
+
+75
+00:06:18,950 --> 00:06:19,950
+realizar
+
+76
+00:06:19,950 --> 00:06:21,300
+resolver o problema
+
+77
+00:06:21,300 --> 00:06:22,300
+<UNK>
+
+78
+00:06:22,300 --> 00:06:23,300
+vamos lá
+
+79
+00:06:23,300 --> 00:06:29,150
+eu vou deixar o blog essa gravação a gente a passar por lá
+
+80
+00:06:29,150 --> 00:06:41,750
+ponteiros ponteiros nós vamos expandir o conceito de vetores de caracteres e são exatamente essas funções tipo cadeia de carácter estações nossas variáveis do tipo cadeia de caracteres
+
+81
+00:06:41,750 --> 00:06:42,750
+<UNK>

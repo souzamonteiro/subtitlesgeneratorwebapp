@@ -1,0 +1,339 @@
+1
+00:00:00,000 --> 00:00:17,100
+olá nesta aula aprenderemos sobre estruturas de repetição estruturas de repetição são recursos que permitem repetir execução de porções de código enquanto uma condição só for avaliada como verdadeira ou até que uma condição seja avaliada como verdadeiro
+
+2
+00:00:17,100 --> 00:00:20,250
+para tanto utilizaremos os blocos repita enquanto
+
+3
+00:00:20,250 --> 00:00:22,949
+contar vejamos o bloco repita enquanto
+
+4
+00:00:22,949 --> 00:00:29,250
+para utilização do bloco repito enquanto utilizaremos uma variável vamos criar a variável n
+
+5
+00:00:29,250 --> 00:00:34,649
+esta variável n será utilizada a passar um valor inicial para ela
+
+6
+00:00:34,649 --> 00:00:38,250
+este caso zero e vamos colocar uma condição
+
+7
+00:00:38,250 --> 00:00:39,250
+o mar
+
+8
+00:00:39,250 --> 00:00:40,250
+uma comparação
+
+9
+00:00:40,250 --> 00:00:42,049
+conde compararemos em mim
+
+10
+00:00:42,049 --> 00:00:43,399
+com o valor
+
+11
+00:00:43,399 --> 00:00:44,399
+cinco
+
+12
+00:00:44,399 --> 00:01:00,149
+arrecadar leitura desta declaração tão ficará da seguinte forma quem pecou repita enquanto em mim vamos mudar for menor do que cinco nos colocar menor nóbrega para facilitar o entendimento então repita enquanto em <UNK>
+
+13
+00:01:00,149 --> 00:01:26,250
+o menor agora menor ou clássicos quer dizer aqui que esta porção de código que será colocada aqui dentro do bloco será exibido é repetido enquanto a variável n contiver um valor seja menor acontecem para que isso aconteça é necessário que o valor de n se modifica durante execução porque o laço de repetição de repeti iterações
+
+14
+00:01:26,250 --> 00:01:37,500
+a cada vez que o valor de início alterar ele estará aqui repetindo uma interação vamos colocar então um bloco definir mim para bloco matemático
+
+15
+00:01:37,500 --> 00:01:40,650
+vamos pegar o valor inicial de aline
+
+16
+00:01:40,650 --> 00:01:54,150
+para n define para animais um ou seja este bloco vai aumentar o valor de cada vez que ele foi executado aumentar de quanto o valor que tiver mais um
+
+17
+00:01:54,150 --> 00:02:13,050
+e cada vez que isso acontecer mas vamos exibir o valor determinado tempo como é que nós vamos fazer isso vamos do blog na seção texto pegar o bloco imprimir e colocar aqui para que ele exiba o valor da variável l
+
+18
+00:02:13,050 --> 00:02:15,300
+bem vejamos com figuras execução
+
+19
+00:02:15,300 --> 00:02:22,950
+a primeira vez que o blog que até que o bloco repita executa o valor de zero
+
+20
+00:02:22,950 --> 00:02:45,000
+então incrementa valor de limite seu processo de somar mais uma chama incrementar exibida numa tela ou seja o primeiro a e primeiro ele incremento tratamento valor zero vai passar um e designada se utilizarem o que ele vai voltar para o início do uso do laço gentil aqui
+
+21
+00:02:45,000 --> 00:03:07,050
+o laço e se esse mecanismo de interação não tinham de laço teve volta definindo novamente para animais um ou seja além do valor de unidade divino exibida clique aqui e faz a mesma coisa se repete e vidro plástico e quero que ele repete exibe traços repete exe
+
+22
+00:03:07,050 --> 00:03:27,750
+e o próximo repete exibe o próximo mas por que isso aconteceu por que por que ele incrementa valor de monstro só depois que ele retornou para casa como rainha chegou ao valor de cinco ainda era válido porque era menor eliminaram qualquer cinco de vê-la
+
+23
+00:03:27,750 --> 00:03:47,100
+essa força essa seção de código incrementou o volume do aludiam associações e mostrou se quisermos corrigir isso quer que nós fazemos colocaremos a encher a boca daqui onde colocar o que mostrava pouco depois vamos colocar aqui o bloco definir depois do
+
+24
+00:03:47,100 --> 00:03:49,350
+eu imprimi vejamos como fica
+
+25
+00:03:49,350 --> 00:04:07,800
+mostra o valor inicial zero mostrou próximo volume dois três quatro cinco não mostrou mais vocês poker porque eu imprimi está antes do incremento quando incremento poder aumenta de unidade já volta pro início do lar se compara viu cinco eles
+
+26
+00:04:07,800 --> 00:04:33,000
+liminar a execução do laço o aço repita também têm a possibilidade de se repita até a diferença de repita enquanto para repita até que o laço vai repetindo enquanto a condição avaliado como verdadeiro seja ela tem que estar a verdadeira para que ele execute já repita até ela tem que estar a falsa fraqueza
+
+27
+00:04:33,000 --> 00:04:42,899
+conte sinaliza sinais executamos desse laço dessa forma com estado vai contracenar correto repita até quem seja menor ou igual a cinco
+
+28
+00:04:42,899 --> 00:04:55,049
+e isso não aconteceu então que que a gente faz a gente quer que esse bloco execute-a utilizando repita repita até keynes se torne maior que cinco
+
+29
+00:04:55,049 --> 00:05:01,799
+então neste caso quando ele se tornar maior que cinco ele vai sair do laço
+
+30
+00:05:01,799 --> 00:05:17,999
+é uma forma de enxergar as interações bem diferente no caso repita repetir enquanto a condição verdadeira no segunda segunda opção crepita ele repetia enquanto a condição a falsa repete até que ela se torne verde
+
+31
+00:05:17,999 --> 00:05:35,099
+roteiro existe uma outra forma de executar um semelhante quando a gente tem uma variável que é utilizada como variava de iteração a variável de controle do laço que é a seguinte eu vou deletar todos os blocos
+
+32
+00:05:35,099 --> 00:05:58,499
+e vou criar um laço contar como quando a gente cria um laço comprar com tiros no bloco contar com tiara criada na seção e variáveis uma variável de tração neste caso a variável <UNK> mas voce pode selecionar inicie quiser só em sua está disponível aqui porque ela foi criada antes
+
+33
+00:05:58,499 --> 00:06:24,149
+caso contrário não apareceria isso pareceria variável então que há que se contar com forte ele conta de um até dez esse cor desde qual valor que ele vai incrementar um e um dois três quatro dizendo aqui que foi <UNK> incrementado de uma unidade para que a gente e exiba os valores até nós não <UNK>
+
+34
+00:06:24,149 --> 00:06:28,199
+ele usa o blog sempre imprime o que e
+
+35
+00:06:28,199 --> 00:06:39,899
+contar com ele utilizando a variável e de um até dez por um ano e que vai ser exibido à variável do inatel com o mundo
+
+36
+00:06:39,899 --> 00:06:50,249
+dois três quatro cinco seis sete oito nove dez e onze e terminou seus dias a contar de dois em dois por dois
+
+37
+00:06:50,249 --> 00:07:01,949
+um três cinco sete nove não mostrou dez por aqui porque quando ele retorna contando de nove mais dois passassem onde terminava a exibe na tela
+
+38
+00:07:01,949 --> 00:07:26,699
+essa é uma forma simplificada de criar um laço de repetição fica mais fácil de criar utilizando o laço os laços repita o uso pouco repita enquanto repita até porque a variáveis de interação já é controlada dentro do próprio a própria estrutura do laço é necessário ter uma <UNK> um bloco de definição parques
+
+39
+00:07:26,699 --> 00:07:36,599
+se aconteça vamos ver como é que fica o bloco contar em cada uma das linguagens de programação em portugal var e
+
+40
+00:07:36,599 --> 00:07:45,149
+para e igual a um quer que eu tenha uma estrutura para no lugar de contar quantas transforma para
+
+41
+00:07:45,149 --> 00:07:50,099
+o valor inicial para aí neste caso um corresponde a incidir
+
+42
+00:07:50,099 --> 00:08:04,949
+uma condição e menor do que dez e o incremento aqui está uma pouco do original então aqui igual a e mais dois e dentro do bloco escreva em lua como fica forte
+
+43
+00:08:04,949 --> 00:08:22,049
+igual a um dez significa terra até dez e dois é o valor da do incremento dou o dow corresponde ao faça frente mostrando valor e grande pra finalizar o bloco e a luta dos blocos terminou corrente
+
+44
+00:08:22,049 --> 00:08:31,049
+vejamos em dar-te andasse nós temos sempre nós temos a criação da variável nas variáveis idade utilizando a palavra-chave var
+
+45
+00:08:31,049 --> 00:08:51,299
+todo programa embate vai criar um bloco principal chamado mim tal função na verdade nem é a função principal e aqui a gente tem o bloco da função principal que vai ser executado quando o programa inicia temos novamente uma estrutura for igual a um
+
+46
+00:08:51,299 --> 00:08:59,399
+ponto e vírgula igual mãe terra a seção de inicialização da variável e menor ou igual que dez
+
+47
+00:08:59,399 --> 00:09:24,149
+a condição para execução enquanto ele for menor ou igual que dez e mais igual dois veja aqui em dar-te a gente têm a possibilidade de incrementar a variável sem necessidade de fazer como em portugal e igual a e mais dois a gente faz logo diretamente mas igual dois que significa o que é
+
+48
+00:09:24,149 --> 00:09:32,699
+o valor de dois some ao valor de i colóquio a variável em vários estado frente vejamos o javascript
+
+49
+00:09:32,699 --> 00:09:33,699
+semelhante
+
+50
+00:09:33,699 --> 00:09:54,849
+a da arte for igual a um e menor ou igual que dez ou seja comece com igual enquanto for menor evoca dez faça aí mas igual dois ou seja somente o valor dividido duas posições em seguida o window alarde exibia uma caixa mostrando na tela
+
+51
+00:09:54,849 --> 00:10:16,449
+monte vejamos é mais crítica for igual a um semelhante javascript e menor ou igual que dez é certo que em javascript e não tenho operador mas igual eu tenho que fazer igual a imagens dúbios e no lugar do ala estes dias tem assistência ao mais ajudar
+
+52
+00:10:16,449 --> 00:10:37,599
+php também semelhante mas temos agora a inicialização igualam a comparação a condição para que termine e menor do que dez em seguida e mais igual dois comparado mais igual como tem que ser mais mas observe que isso é mais mais e mais e mais críticas
+
+53
+00:10:37,599 --> 00:10:43,449
+java javascript a associações do da declaração forçou separados por ponto e vírgula
+
+54
+00:10:43,449 --> 00:11:06,849
+frente vejamos ano baetão impacto nós temos uma declaração forte e um ranger que já era necessário colocá-la na faixa é uma função especial que cria uma lista de valores que vai de um ano nesse caso até onze saltando de dois em dois o quórum o gerador de código automaticamente já
+
+55
+00:11:06,849 --> 00:11:23,949
+fez a modificação porquê porque ele sabe que não ocupa a última posição seria nossa como a gente viu aqui nas opções multimídia mostra no telefone nove trinta dizendo cria uma faixa de valores de um até onze
+
+56
+00:11:23,949 --> 00:11:26,199
+saltando de dois em dois
+
+57
+00:11:26,199 --> 00:11:43,749
+frente lembrando que um pai que a gente tem que inventar tem que colocar a mão na massa com uma avança o código de algumas pessoas pra direita pra que o compilador entenda que esta vasta instrução pertencesse foto
+
+58
+00:11:43,749 --> 00:11:51,849
+bem vejamos como a ele como ficará nas linguagens vítima de ou ainda aquele laço repita repita enquanto
+
+59
+00:11:51,849 --> 00:11:59,949
+o enquanto inglesa o aparelho até outra declaração vou colocar as <UNK> as mesmas variáveis que usei antes
+
+60
+00:11:59,949 --> 00:12:03,099
+definir e para nossa com valor zero
+
+61
+00:12:03,099 --> 00:12:04,449
+faça planos zero
+
+62
+00:12:04,449 --> 00:12:09,849
+enquanto rita tudo repita enquanto vou colocar aqui tudo loko matemo lógico
+
+63
+00:12:09,849 --> 00:12:11,199
+bloco lógico implantou
+
+64
+00:12:11,199 --> 00:12:12,549
+i for menor
+
+65
+00:12:12,549 --> 00:12:15,250
+o igual que o colocar aqui
+
+66
+00:12:15,250 --> 00:12:16,250
+valor
+
+67
+00:12:16,250 --> 00:12:19,399
+com o cachimbo enquanto fulminaria lucas cinco
+
+68
+00:12:19,399 --> 00:12:22,549
+exibir na tela exibir com o imprimir
+
+69
+00:12:22,549 --> 00:12:23,549
+variável
+
+70
+00:12:23,549 --> 00:12:26,699
+vejamos como fica o código em portugal
+
+71
+00:12:26,699 --> 00:12:32,099
+inicialização da variável a zero enquanto informa fulminar qualquer cinco escreva-lhe impactam
+
+72
+00:12:32,099 --> 00:12:36,149
+o ou e menor ou igual a cinco frente
+
+73
+00:12:36,149 --> 00:12:48,749
+em dar-te o ariel e menor evoca cinco frente às casas tem que colocar o bloco o fechados para definir um bloco sessão de código javascript é parecido
+
+74
+00:12:48,749 --> 00:12:51,449
+o layout e menor que cinco
+
+75
+00:12:51,449 --> 00:12:54,149
+lua o e menor qualquer cinco
+
+76
+00:12:54,149 --> 00:13:04,949
+também é certo que o apoio a declaração velha a condição depois dou significa faça print e termina sempre a declaração com a indy
+
+77
+00:13:04,949 --> 00:13:18,899
+mas creio que é semelhante à série a seis semanas mas em javascript estão de mostruário e menor evoca cinco exibia a condição agora observa que esse laço que não faria
+
+78
+00:13:18,899 --> 00:13:42,299
+na verdade eles querem executando pra sempre e trabalhe o brasil porque porque a variável não faltaram alterando value nazaré já começa com zero que menores qualquer simplifica a aquela que para sempre porque nunca variava chegaria no valor total para que se formam a peça está colocar colocá-lo incremento aqui matemática
+
+79
+00:13:42,299 --> 00:13:43,299
+bloco matemático
+
+80
+00:13:43,299 --> 00:13:51,399
+em mais um já confirmou que no código e mais criativo e igor o papa que mesmo que
+
+81
+00:13:51,399 --> 00:13:55,449
+e igual em mais um para incrementar o valor
+
+82
+00:13:55,449 --> 00:14:05,799
+vejamos agora um php novamente o aparelho e menor coloque cinco exibe na tela o código e incrementa o valor igual a imagem
+
+83
+00:14:05,799 --> 00:14:13,449
+portugal e animais junto a mim enquanto i for menor do que cinco iguais mais um impacto
+
+84
+00:14:13,449 --> 00:14:32,799
+o alho e menor evoca cinco sempre dois pontos no final da declaração para indicar que o código correspondente ao ano vai começar aqui e tudo o que estiver dentro desse o autor pertence este a empresa estará em deputado afastado da margem
+
+85
+00:14:32,799 --> 00:14:35,049
+é isso locus de repetição

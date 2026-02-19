@@ -1,0 +1,1099 @@
+1
+00:00:00,000 --> 00:00:20,699
+aula nesta aula aprenderemos a instalar as ferramentas de programação nós podemos baixar a ferramenta programação perde utilizando nosso nós vamos ao cerco da reciprocidade das demais mas uma idéia um ambiente integrado de é eles crítico editor onde você pode editar o código seu natal
+
+2
+00:00:20,699 --> 00:00:42,299
+visando possibilitar escrevendo e ele tem também um compilado que o compilador é um programa que converte o áudio que você digitou para um determinado arquitetura um determinado sistema operacional que diz que ele cria problemas aplicável a partir do código fonte e aquele texto que você deseja
+
+3
+00:00:42,299 --> 00:00:43,299
+tudo pronto
+
+4
+00:00:43,299 --> 00:00:47,349
+quando nós programamos algoritmos usando blocos autocolantes do outro
+
+5
+00:00:47,349 --> 00:01:04,449
+aqueles algorítimos e não precisavam ser compilados e executados imediatamente secas pessoas crescidas desenhava os blocos as estruturas que ligavam botas todos de alta qualidade internamente até faz uma compilação que compila para javascript para rodar o brasil
+
+6
+00:01:04,449 --> 00:01:27,849
+mas ele não compila pra outra pra outro sistema por exemplo gerar um programa ostensório dizer que algo aconteceu comigo de programas noturnos como sistemas operacionais tens o problema para que ele possa executar quem tem uma extensão de arquivo tanto uma forma quente em arquivo do word e construção da x
+
+7
+00:01:27,849 --> 00:01:49,000
+da mesma forma que a gente tem um arquivo do pacote força centrípeta x da mesma forma que isso os programas tem extensão de nome de arquivo no caso do windows mas como eu precisaria essas antigas tinham outros formatos como por exemplo com o conto curto
+
+8
+00:01:49,000 --> 00:01:51,250
+mas o japão como tristeza
+
+9
+00:01:51,250 --> 00:02:11,949
+altura para criar este programa com esta extensão este executa projetos força converter o programa na linguagem fonte procurando ajuda extinta que neste caso era a linguagem de máquina daquela arquitetura as problematizam compensou o programa na linguagem que marido contra uma série de outras informações
+
+10
+00:02:11,949 --> 00:02:16,449
+uma peça importante do capital do chamado sistema operacional quieto
+
+11
+00:02:16,449 --> 00:02:39,849
+o suporte básico que eu só tive que permite com que todo o sistema que gerencia os recursos um produto pronto e gerência não só os recursos do arquivo do produto mas também acesso segurança santos todos os recursos e sistema operacional precisa de algumas informações e problematizando contém além do do
+
+12
+00:02:39,849 --> 00:03:03,250
+um programa em linguagem de máquina que é a linguagem de um computador realmente potente e contém instruções de como executar este programa e vão desde a posição inicial de memórias propaganda executa-se o programa presente que tensa características com continha essa característica provas ponto com executar uma porção desse creme azedo
+
+13
+00:03:03,250 --> 00:03:27,099
+contém também um mapa de memórias dos antepassados recursos para que o papa do volante visando à formação de professores para converter então seu programa do código fonte em sequência mas mais um pouco e outras mais que nasceu para estar por este formato pontos cinza o um compilado controlado por pode sol
+
+14
+00:03:27,099 --> 00:03:46,900
+atualmente estar somente com embaraços é comum interior dele ele atuou em vários estados o queixo é o programa que terá o formato do código fonte por verter para uma linguagem intermediária depois da linguagem intermediária é correto prato claro destino e se seguro
+
+15
+00:03:46,900 --> 00:04:11,650
+fazendo contraponto às vezes até uma outra um outro artefato intermediário a são os objetos colocados acima outros estória que foge um pouco do escopo da nossa disciplina que atualmente é a linguagem mais nada seria mais trinta para o curso de operador de imagem sistemas operacionais quando diz que a entender um pouco mais
+
+16
+00:04:11,650 --> 00:04:32,350
+o funcionamento desse elemento da arquitetura tudo bem então pra gente converteu programas centrais ou mais mas para este formato do que tanto dá que faliu a susana que aqui ele é muito específico do arquitetura então no windows mas estes programas arquivos contas josé paulino
+
+17
+00:04:32,350 --> 00:04:42,700
+mente não tem nada que a gente não tem nada que esta consta com que um programa tem é a extensão a pp
+
+18
+00:04:42,700 --> 00:04:44,050
+quanto ao pp
+
+19
+00:04:44,050 --> 00:04:58,000
+mas aí é bem mais complexo do que eu tiver uma pequena verdade uma pasta e dentro dessa pasta existe um monte de tinta e elementos que fazem parte do programa
+
+20
+00:04:58,000 --> 00:05:16,900
+inclui inclusive o problemas avatar mas também inclui o conhecimento a que pediu diversas como tomar esse tipo de coisa do competente no caso do linux não não cimo deste conceito é simplesmente executado no seu texto sobre o impacto desta ação
+
+21
+00:05:16,900 --> 00:05:34,900
+mais que um programa compilado para windows como compilador para windows não rodando linux a menos que você utilize uma camada intermediária o cima de camada de abstração o limite existisse estimular é uma camada propostas ondulado mas não é
+
+22
+00:05:34,900 --> 00:05:43,900
+procurando uma sigla percussiva diógenes norte no leito recruta eu acho que não é um produto cedeu a câmara pré-candidato
+
+23
+00:05:43,900 --> 00:06:05,050
+permite controlar ou empresa continuamente e é possível também executa não executar diretamente mas pegar um programa o que foi feito para linux que só rodar no ambiente rodado no windows mas aí você precisa fazer uma compilação novamente desse programa usando uma outra camada intermediária chamada
+
+24
+00:06:05,050 --> 00:06:14,050
+no entanto segue livre permite jogar para longe o linux no windows mas precisa recompilar dentro do ambiente do segmento
+
+25
+00:06:14,050 --> 00:06:15,850
+essa é outra história
+
+26
+00:06:15,850 --> 00:06:28,000
+b no caso do windows o compilador mais comumente utilizado é o visual seco visou-se você mais mas na verdade é que visou semanas mais aproveitada microsoft
+
+27
+00:06:28,000 --> 00:06:44,199
+existe uma versão do compilador do livros adaptados para o uso do chamado medida abre trinta do distrito atualmente w trinta e dois vai compilar programas para windows usando códigos-fonte criados especificamente para o quinto posto
+
+28
+00:06:44,199 --> 00:06:55,449
+só que ele é uma ferramenta de linha de comando o que quer dizer isso quer dizer que se você quiser executar revestida de aqui
+
+29
+00:06:55,449 --> 00:06:57,699
+porque aquilo que está sentindo
+
+30
+00:06:57,699 --> 00:07:05,800
+o prompt de comando do windows e abre-se a janela e aquilo você digita o comando por artistas
+
+31
+00:07:05,800 --> 00:07:10,750
+nosso ataque o que está dizendo que ter antepassados um arquivo
+
+32
+00:07:10,750 --> 00:07:12,100
+a sua traço
+
+33
+00:07:12,100 --> 00:07:13,100
+o tempo
+
+34
+00:07:13,100 --> 00:07:29,300
+esta situação essa que nos dissesse hoje cc é um compilador linux com convertido para windows o nome de nem me dado trinta dias no caso a gestão usando uma versão especial do liquidados chamado tds
+
+35
+00:07:29,300 --> 00:07:40,100
+que produto mas a propriedade foi o rei completou que repousam todas peças adequada por causa deste indivíduo que deste elemento que permite utilizar
+
+36
+00:07:40,100 --> 00:08:03,050
+o que ainda é o ambiente integrados num movimento que contém o compilador no caso idade sessenta e quatro e o auditor os dois novos contratos dão editou ambiguidades os debates com o editor em datas de quatro e também os manuais portanto integrada que outros ferramentas também descendente no caso
+
+37
+00:08:03,050 --> 00:08:08,449
+o intuito deste ambiente oficial do casal deve ser mais mais oficial
+
+38
+00:08:08,449 --> 00:08:10,699
+seu equipamento oficial original menciona
+
+39
+00:08:10,699 --> 00:08:15,649
+ele vem com pro sessenta e quatro estuda existe uma versão
+
+40
+00:08:15,649 --> 00:08:28,699
+que é um sofreu diversas melhorias em relação ao tal codigo fonte original deve ser mais mais mais mais chamado deve ser mais embarcar não deve ser está aqui
+
+41
+00:08:28,699 --> 00:08:37,700
+já abri a página que questiona só que ao invés de alívio cômico da obra original ele vem contendem me
+
+42
+00:08:37,700 --> 00:08:51,650
+exigiu da rua das demais mais original também conta dmc semas agência face baixa ele só ideia ou seja seu compilador sou editor em baixo tbm está alta durante o parto
+
+43
+00:08:51,650 --> 00:08:54,800
+como eu instalei um embarcadouro este daqui
+
+44
+00:08:54,800 --> 00:09:07,850
+ele vem com tv campanha quais então quais são usados para instalar podem ser mais tem duas opções que pode ver aqui no site oficial do lote ponto net
+
+45
+00:09:07,850 --> 00:09:34,399
+tanto que quando chegasse aos mensageiros àquela paz tanto na paragem principal salão da cemar quarto praticamente o produto teve cento e setenta a versão oficial que assim como eu você ou você pode comprar o cd você pode baixar de graça clique aqui e baixe vale mandar se forte aqui não só se for para fazer um completo
+
+46
+00:09:34,399 --> 00:09:35,399
+o prof
+
+47
+00:09:35,399 --> 00:09:37,649
+meu pequenininho rapidamente são coração
+
+48
+00:09:37,649 --> 00:09:43,949
+se você quiser baixar o embarcadouro assevera aqui no site da embrapa no check-in
+
+49
+00:09:43,949 --> 00:09:48,449
+no site basta abrir e fase do amor de deus
+
+50
+00:09:48,449 --> 00:09:53,849
+há que ter algumas informações na tv com puto puta da msc
+
+51
+00:09:53,849 --> 00:09:54,849
+quatro bytes
+
+52
+00:09:54,849 --> 00:10:03,849
+eles deram uma melhorada trinta afasta mais bonita mas ao mesmo código fonte original todos somos mando da praça seca
+
+53
+00:10:03,849 --> 00:10:04,849
+um
+
+54
+00:10:04,849 --> 00:10:07,549
+para evitar que a versão gratuita
+
+55
+00:10:07,549 --> 00:10:10,699
+na santa igreja de uma versão paga
+
+56
+00:10:10,699 --> 00:10:12,499
+entretanto a o comprador
+
+57
+00:10:12,499 --> 00:10:21,949
+acho que uma barca declarando que logomarca deram pelo fato de que para falar aqui mas quero comprar moralmente bastante ronaldo
+
+58
+00:10:21,949 --> 00:10:22,949
+vinte
+
+59
+00:10:22,949 --> 00:10:23,949
+permuta
+
+60
+00:10:23,949 --> 00:10:28,899
+não parecia que o sono a comprar água anticongelantes diversas licença
+
+61
+00:10:28,899 --> 00:10:29,899
+produtos grátis
+
+62
+00:10:29,899 --> 00:10:30,899
+ah é
+
+63
+00:10:30,899 --> 00:10:31,899
+o abacateiro
+
+64
+00:10:31,899 --> 00:10:53,049
+ele é a empresa que comprou a por de que era um fabricante de papelão de compiladores c pascal há muitos anos atrás então inexistindo serão as mais miúda eu compilado pelo controlo da bola desistiu del e é o topo da desafio da batedeira e outros
+
+65
+00:10:53,049 --> 00:10:58,449
+além que muitas vezes que um banco de dados em vários âmbitos
+
+66
+00:10:58,449 --> 00:11:01,149
+essa que é pra comprar pão
+
+67
+00:11:01,149 --> 00:11:02,500
+essas ferramentas aqui
+
+68
+00:11:02,500 --> 00:11:10,600
+e bom o que é que quem abacateiro fez apreensão porque andamos demais mas é feito em deus
+
+69
+00:11:10,600 --> 00:11:16,899
+a comenda feito em del feliz achando legal pra essa é uma forma de
+
+70
+00:11:16,899 --> 00:11:20,500
+e divida o produto deles este aplicativo publisher
+
+71
+00:11:20,500 --> 00:11:21,500
+tempo
+
+72
+00:11:21,500 --> 00:11:22,850
+o que selecionada
+
+73
+00:11:22,850 --> 00:11:24,649
+brasil atua no clube
+
+74
+00:11:24,649 --> 00:11:26,000
+obrigado esta apaixonado
+
+75
+00:11:26,000 --> 00:11:31,399
+tudo com um pouco mais lento do que o outro do monte
+
+76
+00:11:31,399 --> 00:11:34,549
+eu vou instalar o estávamos dormindo instalou-se
+
+77
+00:11:34,549 --> 00:11:36,799
+aqui o doce mais manta
+
+78
+00:11:36,799 --> 00:11:38,149
+o povo português
+
+79
+00:11:38,149 --> 00:11:39,149
+aceito
+
+80
+00:11:39,149 --> 00:11:40,149
+quente
+
+81
+00:11:40,149 --> 00:11:41,149
+cpp
+
+82
+00:11:41,149 --> 00:11:44,750
+lembrando o défice mais baixo cinco mv tudo
+
+83
+00:11:44,750 --> 00:11:45,750
+é
+
+84
+00:11:45,750 --> 00:11:48,000
+levei com o mike w
+
+85
+00:11:48,000 --> 00:11:59,700
+se de fato aqui nesse ponto existem ou escolhe qual a interface que a gente quer que vos conto vou escolher o idioma da interface português
+
+86
+00:11:59,700 --> 00:12:02,850
+o que se pode escolher e nome
+
+87
+00:12:02,850 --> 00:12:03,850
+nuno
+
+88
+00:12:03,850 --> 00:12:06,100
+o que deixando um botucatu
+
+89
+00:12:06,100 --> 00:12:11,500
+um o tema do windows oito em tóquio os interno do mundo
+
+90
+00:12:11,500 --> 00:12:12,500
+sim
+
+91
+00:12:12,500 --> 00:12:14,299
+temos os pequenos negrito
+
+92
+00:12:14,299 --> 00:12:34,099
+aqui é o seguinte quando já está escrevendo código em seus sermões mas à medida que eles estão escrevendo ele pode ir corrigindo o que já está escrevendo mostrar sugestões pra gente evitar listras típicas sequer os opções realizou antes discutido porque ele pergunta
+
+93
+00:12:34,099 --> 00:12:43,549
+porque ele vai levar alguns instantes para fazeres como em máquinas mais lentos para devorar de pedoutora maquinadas daqueles na capital
+
+94
+00:12:43,549 --> 00:12:46,699
+ah ah ah ah ah ah ah
+
+95
+00:12:46,699 --> 00:12:51,199
+ah ah ah ah ah ah ah ah ah ah
+
+96
+00:12:51,199 --> 00:12:52,199
+<UNK>
+
+97
+00:12:52,199 --> 00:12:58,499
+ah ah ah ah ah ah ah ah ah ah ah ah ah broker
+
+98
+00:12:58,499 --> 00:13:04,349
+ele vai ele abre o deve ser mais mas nem sempre a primeira
+
+99
+00:13:04,349 --> 00:13:08,849
+ao fazer um teste com ele encontrar um novo projeto
+
+100
+00:13:08,849 --> 00:13:11,999
+é um projeto todo console o produto
+
+101
+00:13:11,999 --> 00:13:12,999
+programa
+
+102
+00:13:12,999 --> 00:13:15,699
+e teste do projeto seguros locais
+
+103
+00:13:15,699 --> 00:13:16,699
+e
+
+104
+00:13:16,699 --> 00:13:18,499
+não só para ele
+
+105
+00:13:18,499 --> 00:13:22,549
+tanto tanto tanto tanto tanto que só vai diminuindo
+
+106
+00:13:22,549 --> 00:13:23,549
+colocar aqui
+
+107
+00:13:23,549 --> 00:13:24,899
+ela posta aqui
+
+108
+00:13:24,899 --> 00:13:27,599
+com ah pasta e o não
+
+109
+00:13:27,599 --> 00:13:28,599
+não
+
+110
+00:13:28,599 --> 00:13:29,599
+h
+
+111
+00:13:29,599 --> 00:13:30,949
+a peça especial
+
+112
+00:13:30,949 --> 00:13:35,449
+assim este projeto no mundo intelectual chamado esteja de ajudou
+
+113
+00:13:35,449 --> 00:13:36,799
+alô alô brasil
+
+114
+00:13:36,799 --> 00:13:42,199
+a gente cria um programa cultural o projeto não voltasse mais mais
+
+115
+00:13:42,199 --> 00:13:43,199
+e
+
+116
+00:13:43,199 --> 00:13:47,249
+ele dá um projeto do arquiteto projeta tomando inclusive
+
+117
+00:13:47,249 --> 00:13:53,549
+nuno não ficou com uma lona no mesmo programa projetos contemplando portanto no momento
+
+118
+00:13:53,549 --> 00:13:54,549
+opção
+
+119
+00:13:54,549 --> 00:13:56,349
+o chamado templo quanto
+
+120
+00:13:56,349 --> 00:14:09,399
+ele queria que o projeto que ele cria um arquivo vazio presente a linguagem serão as mais tolas que entra depois vou testar pra ver se ele traz compilado
+
+121
+00:14:09,399 --> 00:14:14,349
+ele pergunta se apossam vários mudou novamente de mim vou contratá-lo
+
+122
+00:14:14,349 --> 00:14:15,349
+a luta
+
+123
+00:14:15,349 --> 00:14:18,499
+ele está controlando sua contestação tudo funcionando
+
+124
+00:14:18,499 --> 00:14:27,049
+ivo executado deve acontecer como fez programa que projeta não está o com o título e o mesmo aqui
+
+125
+00:14:27,049 --> 00:14:45,949
+é um livro pouco antes de voltar pra ele pra ver mais o que é a pasta pasta com espaço não continuada por para um vida trata bem expôs toda sua instalação deve ser mais curto eu vou agora descompactar bastante dinheiro
+
+126
+00:14:45,949 --> 00:14:50,449
+gostaria que vou lá ou embarcar deve dar-se mais mortos
+
+127
+00:14:50,449 --> 00:15:00,349
+mercedes compacta e possíveis torcer para perder contato tratamento aqui está a pontos apucarana entre outras também não foi contra o projeto
+
+128
+00:15:00,349 --> 00:15:03,049
+e vamos ver se eles apontam
+
+129
+00:15:03,049 --> 00:15:08,899
+eu acho que foi exatamente aquela que passa e a gente como fica
+
+130
+00:15:08,899 --> 00:15:10,699
+obras-primas das asas intencionalmente
+
+131
+00:15:10,699 --> 00:15:16,099
+esse papo de investimento espaço no nome do arquivo que não funciona
+
+132
+00:15:16,099 --> 00:15:17,099
+trata-se de
+
+133
+00:15:17,099 --> 00:15:18,899
+aguardamos os esta relação
+
+134
+00:15:18,899 --> 00:15:22,949
+ah ah ah ah ah ah ah ah ah
+
+135
+00:15:22,949 --> 00:15:26,549
+ah ah ah ah ah ah ah ah
+
+136
+00:15:26,549 --> 00:15:27,549
+ah
+
+137
+00:15:27,549 --> 00:15:28,549
+prof
+
+138
+00:15:28,549 --> 00:15:29,899
+vamos ver agora
+
+139
+00:15:29,899 --> 00:15:31,699
+as artes são paulo
+
+140
+00:15:31,699 --> 00:15:37,099
+eu aqui aquela parecida na hora do culto deve ser mais claro
+
+141
+00:15:37,099 --> 00:15:42,499
+ele perguntou ao colega luke <UNK> windows clássico e alguns títulos aqui
+
+142
+00:15:42,499 --> 00:15:44,299
+deixando entre as classes
+
+143
+00:15:44,299 --> 00:15:49,249
+ele iniciou tudo parecia mais moderno o que aparece no topo
+
+144
+00:15:49,249 --> 00:15:50,249
+o preto
+
+145
+00:15:50,249 --> 00:15:52,949
+o armários de criar um projecto
+
+146
+00:15:52,949 --> 00:15:53,949
+projeto emocionante
+
+147
+00:15:53,949 --> 00:15:54,949
+aula dois
+
+148
+00:15:54,949 --> 00:15:58,999
+eu já tinha mais mas dizem que funciona também
+
+149
+00:15:58,999 --> 00:16:02,149
+vou colocar aqui uma pasta ou doentes
+
+150
+00:16:02,149 --> 00:16:04,849
+e aqui vou renomear o min
+
+151
+00:16:04,849 --> 00:16:06,199
+nem me falem
+
+152
+00:16:06,199 --> 00:16:07,199
+art
+
+153
+00:16:07,199 --> 00:16:08,199
+alunos
+
+154
+00:16:08,199 --> 00:16:11,799
+vamos continuar também o pilar cima da rola
+
+155
+00:16:11,799 --> 00:16:18,099
+não compilou também eles de encontros nos dar uma olhada nos quais nessa vida
+
+156
+00:16:18,099 --> 00:16:27,999
+ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah
+
+157
+00:16:27,999 --> 00:16:28,999
+contatos
+
+158
+00:16:28,999 --> 00:16:30,349
+destruir os que
+
+159
+00:16:30,349 --> 00:16:31,349
+ano
+
+160
+00:16:31,349 --> 00:16:33,599
+o dono do planalto paulista
+
+161
+00:16:33,599 --> 00:16:35,399
+o número de deputados
+
+162
+00:16:35,399 --> 00:16:38,099
+o que que dou por mim
+
+163
+00:16:38,099 --> 00:16:40,349
+esse truque ditos quando criança
+
+164
+00:16:40,349 --> 00:16:41,349
+tipo
+
+165
+00:16:41,349 --> 00:16:43,149
+basta ter o seu
+
+166
+00:16:43,149 --> 00:16:44,149
+p
+
+167
+00:16:44,149 --> 00:16:46,849
+o natal mas pode ser outra
+
+168
+00:16:46,849 --> 00:16:48,649
+eu bem que quero
+
+169
+00:16:48,649 --> 00:16:51,349
+configuração de clientes quanto do mundo
+
+170
+00:16:51,349 --> 00:16:52,349
+o piloto
+
+171
+00:16:52,349 --> 00:16:53,349
+e fim
+
+172
+00:16:53,349 --> 00:16:54,349
+ótimo
+
+173
+00:16:54,349 --> 00:16:55,349
+diretor
+
+174
+00:16:55,349 --> 00:16:56,699
+programa do suporte
+
+175
+00:16:56,699 --> 00:16:58,499
+descobrir de quem é
+
+176
+00:16:58,499 --> 00:16:59,499
+quanto a
+
+177
+00:16:59,499 --> 00:17:00,499
+outros
+
+178
+00:17:00,499 --> 00:17:01,499
+o unido
+
+179
+00:17:01,499 --> 00:17:02,499
+moçambique
+
+180
+00:17:02,499 --> 00:17:03,499
+sua conduta
+
+181
+00:17:03,499 --> 00:17:08,449
+e de todos aqueles que me deu permissão não durou muito
+
+182
+00:17:08,449 --> 00:17:09,449
+obrigado
+
+183
+00:17:09,449 --> 00:17:10,799
+tudo muito lindo
+
+184
+00:17:10,799 --> 00:17:12,599
+dois mil e dezoito
+
+185
+00:17:12,599 --> 00:17:13,599
+pronto
+
+186
+00:17:13,599 --> 00:17:14,599
+os náuticos
+
+187
+00:17:14,599 --> 00:17:17,299
+ah ah ah ah ah ah
+
+188
+00:17:17,299 --> 00:17:19,549
+este fazer um teste aqui
+
+189
+00:17:19,549 --> 00:17:21,799
+ah ah ah ah ah
+
+190
+00:17:21,799 --> 00:17:22,799
+requisitos
+
+191
+00:17:22,799 --> 00:17:23,799
+vítimas
+
+192
+00:17:23,799 --> 00:17:32,799
+portanto o teste ah ah ah ah ah ah ah ah ah ah ah ah ah ah dentre muitos outros
+
+193
+00:17:32,799 --> 00:17:35,049
+ana de nitrato de prata
+
+194
+00:17:35,049 --> 00:17:36,049
+contato
+
+195
+00:17:36,049 --> 00:17:37,849
+portanto o que é
+
+196
+00:17:37,849 --> 00:17:44,149
+ah ah ah ah ah ah ah ah ah ah ah ah ah ah
+
+197
+00:17:44,149 --> 00:17:45,949
+o do quinto capítulo
+
+198
+00:17:45,949 --> 00:17:47,299
+propostas e críticas
+
+199
+00:17:47,299 --> 00:17:48,299
+início
+
+200
+00:17:48,299 --> 00:17:53,249
+os agentes da unidade dos alunos eles destroem esses equipamentos trituração
+
+201
+00:17:53,249 --> 00:17:54,249
+souza
+
+202
+00:17:54,249 --> 00:17:55,249
+o solução
+
+203
+00:17:55,249 --> 00:17:58,399
+eu acho que a questão da pasta
+
+204
+00:17:58,399 --> 00:18:07,399
+o que evita por que não ter conquistado graças ao junto os um teste aqui é o seguinte o terapia
+
+205
+00:18:07,399 --> 00:18:08,399
+o integral
+
+206
+00:18:08,399 --> 00:18:09,399
+ah
+
+207
+00:18:09,399 --> 00:18:10,399
+tampo
+
+208
+00:18:10,399 --> 00:18:13,549
+eu vou pegar esse código aqui pertence
+
+209
+00:18:13,549 --> 00:18:18,499
+vamos dividir o trono da sem alto sem espaço no mundo
+
+210
+00:18:18,499 --> 00:18:19,499
+contato
+
+211
+00:18:19,499 --> 00:18:22,199
+tanto tanto tanto tanto que aqui
+
+212
+00:18:22,199 --> 00:18:23,199
+aplausos
+
+213
+00:18:23,199 --> 00:18:24,199
+posso
+
+214
+00:18:24,199 --> 00:18:25,199
+no amistoso
+
+215
+00:18:25,199 --> 00:18:28,349
+que aquela parte da equipe de trabalho
+
+216
+00:18:28,349 --> 00:18:35,549
+eu sou aquela que eu não tenho espaço no entanto voltar essa parte sobre não lugar
+
+217
+00:18:35,549 --> 00:18:37,349
+ah ah ah ah
+
+218
+00:18:37,349 --> 00:18:38,349
+nutrição
+
+219
+00:18:38,349 --> 00:18:41,499
+o tempo abertura que é muito bacana
+
+220
+00:18:41,499 --> 00:18:42,849
+o de tratamento
+
+221
+00:18:42,849 --> 00:18:46,899
+essa proposta lançou-se a agora um delicioso sexo prostitutas
+
+222
+00:18:46,899 --> 00:18:47,899
+aqui
+
+223
+00:18:47,899 --> 00:18:48,899
+tampo
+
+224
+00:18:48,899 --> 00:18:49,899
+nossos masculinos
+
+225
+00:18:49,899 --> 00:18:51,699
+que tipo de cinto
+
+226
+00:18:51,699 --> 00:18:57,099
+ah ah ah ninguém débito a quintas aquela anonimidade trinta e dois
+
+227
+00:18:57,099 --> 00:19:02,949
+a veritas está no mundo dado que não tem ídolos sócrates e devoto
+
+228
+00:19:02,949 --> 00:19:05,649
+tudo eles tem que vir aqui
+
+229
+00:19:05,649 --> 00:19:06,999
+o projétil options
+
+230
+00:19:06,999 --> 00:19:07,999
+ponta né
+
+231
+00:19:07,999 --> 00:19:11,599
+quatro municípios o que deixa esse aqui mesmo
+
+232
+00:19:11,599 --> 00:19:12,949
+tem quatro piscinas
+
+233
+00:19:12,949 --> 00:19:15,199
+ele em trinta e oito
+
+234
+00:19:15,199 --> 00:19:17,449
+eram mais de vinte anos
+
+235
+00:19:17,449 --> 00:19:19,249
+tudo o que ele
+
+236
+00:19:19,249 --> 00:19:21,049
+o vestido do ano
+
+237
+00:19:21,049 --> 00:19:22,049
+beijão
+
+238
+00:19:22,049 --> 00:19:24,749
+conte também com trinta e dois
+
+239
+00:19:24,749 --> 00:19:28,349
+ele tem que dizer aos sessenta e quatro
+
+240
+00:19:28,349 --> 00:19:29,699
+eu tenho ouvido
+
+241
+00:19:29,699 --> 00:19:30,699
+importa
+
+242
+00:19:30,699 --> 00:19:32,049
+importa o piriri
+
+243
+00:19:32,049 --> 00:19:34,749
+então no intuito o tempo todo
+
+244
+00:19:34,749 --> 00:19:35,749
+atenção
+
+245
+00:19:35,749 --> 00:19:39,349
+curioso que as deu na instalação funcionamento normal
+
+246
+00:19:39,349 --> 00:19:42,949
+a eleição ele acorda e resolveram tudo agosto
+
+247
+00:19:42,949 --> 00:19:43,949
+torcedores no
+
+248
+00:19:43,949 --> 00:19:46,199
+por que existem tantos semântica
+
+249
+00:19:46,199 --> 00:19:48,449
+consta do auto de luto
+
+250
+00:19:48,449 --> 00:19:49,799
+catedral da cima
+
+251
+00:19:49,799 --> 00:19:54,749
+ah ah ah ah ah ah ah ah ah ah ah
+
+252
+00:19:54,749 --> 00:20:01,949
+ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah
+
+253
+00:20:01,949 --> 00:20:02,949
+porque não
+
+254
+00:20:02,949 --> 00:20:08,349
+sou quando aceitei que eu vou derreter esses arquivos aqui ou criativos
+
+255
+00:20:08,349 --> 00:20:09,349
+o crédito
+
+256
+00:20:09,349 --> 00:20:10,349
+olá
+
+257
+00:20:10,349 --> 00:20:11,349
+nossa
+
+258
+00:20:11,349 --> 00:20:13,599
+e aqui um outro sócio
+
+259
+00:20:13,599 --> 00:20:15,399
+o creme anal e
+
+260
+00:20:15,399 --> 00:20:19,899
+nem todo programe-se mais partes mais acrescenta tanto no time
+
+261
+00:20:19,899 --> 00:20:26,199
+trinta e expositores seguinte vou explicar detalhadamente quais são seus produtos aqui acrescentados induzido
+
+262
+00:20:26,199 --> 00:20:27,549
+isso é instinto
+
+263
+00:20:27,549 --> 00:20:28,549
+que tem
+
+264
+00:20:28,549 --> 00:20:29,549
+essa função
+
+265
+00:20:29,549 --> 00:20:30,549
+quinto
+
+266
+00:20:30,549 --> 00:20:31,549
+min
+
+267
+00:20:31,549 --> 00:20:35,599
+quem pode ter diversos parâmetros olinto autor da foto
+
+268
+00:20:35,599 --> 00:20:41,449
+toda função retorna na política que tem preto mas vou explicar detalhadamente tanto
+
+269
+00:20:41,449 --> 00:20:46,849
+eu vou compilar o salto alto só tinha que escolher um caminho
+
+270
+00:20:46,849 --> 00:20:47,849
+ah
+
+271
+00:20:47,849 --> 00:20:52,799
+e junto com fabrício agora adoração sem criar um projeto infantil
+
+272
+00:20:52,799 --> 00:20:53,799
+sim
+
+273
+00:20:53,799 --> 00:21:08,199
+que na verdade é aquele que nada está criar o projeto ele criar um arquivo <UNK> que faz do <UNK> uma receita de compilação de ficar troca nome idade trinta e dois
+
+274
+00:21:08,199 --> 00:21:34,299
+a versão trinta e dois bits requer sessenta e quatro bits junto aos outros ante as causa noiva cadeira mas a gente vai fazer frente a criar somente um arquivo cpp sem criar o projeto e vai compilar aqui eu vou para a sala que nesse ponto e a gente continua na próxima onde os dois um introdução
+
+275
+00:21:34,299 --> 00:21:58,599
+olhar sobre a linguagem que se aproxima as mais estranhas as suas estruturas básicas e a gente vai pegar o nosso primeiro programa funcional que é o aluno da verdade já criou que um esqueleto preencher esse para que ele faça o que tornou o mundo tem que fazer escrever na tela ao mundo

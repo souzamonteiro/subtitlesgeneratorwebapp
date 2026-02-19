@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:18,000
+leia mais sobre programação de computadores existem centenas de bons livros sobre programação das livrarias bibliotecas alguns títulos relevantes que podemos encontrar na mais um salto algoritmos teoria e prática de corrimento que aborda o tema de forma bastante didática
+
+2
+00:00:18,000 --> 00:00:40,049
+lógica de programação e construção de algoritmos e estruturas de dados tipo belone que expande o tema incluindo a utilização de estruturas de dados complexas frequentemente utilizadas em projetos científicos e comerciais entendendo algoritmos com cyrus traduz para programadores e outros curiosos de barra de que de forma inovadora
+
+3
+00:00:40,049 --> 00:00:46,349
+apresenta o tema de maneira lúdica a partir de ilustrações elaboradas tanto tanto tanto
+
+4
+00:00:46,349 --> 00:01:06,149
+não pare por aqui aprendendo uma nova linguagem de programação neste curso vimos os elementos de sete linguagens da arte já descrente nua mas criticam php portugal e então aprenda mais sobre essas linguagens e bali java hoje está entre as linguagens mais utilizadas
+
+5
+00:01:06,149 --> 00:01:27,750
+aros em ambiente corporativo então assista meu curso gratuito na aldeia me programando em java e se torne um expert doença seus cursos programado em série e programando mais marques e acima de tudo programme programe todos os dias e quanto mais você programar melhor programador se tornará
+
+6
+00:01:27,750 --> 00:01:28,750
+<UNK>

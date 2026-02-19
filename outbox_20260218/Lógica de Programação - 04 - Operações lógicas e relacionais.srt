@@ -1,0 +1,371 @@
+1
+00:00:00,000 --> 00:00:01,000
+olá
+
+2
+00:00:01,000 --> 00:00:15,849
+nesta aula aprenderemos sobre operações lógicas relacionais sinal anterior aprendemos ao utilizar operadores matemáticos e realizar operações com backup utilizando variáveis ilustra também como essas operações são descritas as principais linguagens de programação
+
+3
+00:00:15,849 --> 00:00:22,149
+nesta aula estenderemos o estudo dos operadores incluindo os operadores lógicos os operadores relacionais
+
+4
+00:00:22,149 --> 00:00:27,549
+operadores lógicos serve para realizar operações para definir se um determinado valor
+
+5
+00:00:27,549 --> 00:00:31,149
+igual a outro que se um determinado valor
+
+6
+00:00:31,149 --> 00:00:51,399
+e outro valor tem detalhe tem valores iguais para determinar se é que podemos por exemplo quando estivermos analisando mais adiante decisões dentro do programa se podemos continuar a execução do programa se podemos saltar para outro local do programa baseado na solução dessas opera
+
+7
+00:00:51,399 --> 00:01:13,000
+ações que determinam cinco proposições são verdadeiras ou falsas mas já estamos acostumados em nosso dia a dia a trabalhar com proposições mas de uma maneira muito informal o cérebro humano e de raciocinar a partir de proposições vejamos como estas proposições podem ser construídas utilizando operadores matemáticos
+
+8
+00:01:13,000 --> 00:01:14,000
+marcos lógicos
+
+9
+00:01:14,000 --> 00:01:15,799
+vou limpar esse código
+
+10
+00:01:15,799 --> 00:01:34,700
+vou apresentar para a paleta de lógica a paleta de lógica temos algumas construções que veremos na próxima aula mais importante são os operadores relacionais que este bloco e os operadores lógicos que é o segundo bloco que tem a letra i
+
+11
+00:01:34,700 --> 00:01:41,000
+para tanto vamos construir vamos utilizar duas variáveis vamos construir duas variáveis variável lá
+
+12
+00:01:41,000 --> 00:01:42,000
+a variável
+
+13
+00:01:42,000 --> 00:01:51,450
+vamos definir o valor de lá e o que vamos definir o valor de b também dia vai ser definido para
+
+14
+00:01:51,450 --> 00:01:53,250
+vamos colocar um bloco
+
+15
+00:01:53,250 --> 00:01:55,500
+vamos que à segunda fase
+
+16
+00:01:55,500 --> 00:01:56,500
+vou tentar
+
+17
+00:01:56,500 --> 00:02:01,450
+a partir daí que podem utilizar operadores logísticos para o pé
+
+18
+00:02:01,450 --> 00:02:22,599
+e vamos ocupar lúdicos como resultado valores verdadeiros ou falsos que todo operador lógico retorna sempre o valor verdadeiro falso dependendo de como ele opera com os valores que já se encontra à esquerda ou direita do pecado vamos criar mais uma variável sempre aconteceu no extrato
+
+19
+00:02:22,599 --> 00:02:23,599
+vejamos
+
+20
+00:02:23,599 --> 00:02:31,699
+a variável central agora contra o resultado de operações que serão feitas com as variáveis a e b
+
+21
+00:02:31,699 --> 00:02:33,949
+vamos pegar o bloco lógico
+
+22
+00:02:33,949 --> 00:02:34,949
+p
+
+23
+00:02:34,949 --> 00:02:36,750
+colocar aqui a caixa
+
+24
+00:02:36,750 --> 00:02:45,300
+nós vamos trabalhar com as variáveis arrebenta vamos encaixar os valores de <UNK> b a esquerda direita do preto
+
+25
+00:02:45,300 --> 00:02:46,300
+ah
+
+26
+00:02:46,300 --> 00:02:47,300
+observe
+
+27
+00:02:47,300 --> 00:02:49,100
+a operação lógica e
+
+28
+00:02:49,100 --> 00:02:54,500
+ela retornará um valor verdadeiro se o valor à esquerda da tela
+
+29
+00:02:54,500 --> 00:03:10,700
+é o valor a direita dela forem ambos verdadeiros em computação o valor quando é considerado verdadeiro enquanto que com valor zero é considerado forte este operador <UNK> retornará como resultado verdadeiro somente se ambos os
+
+30
+00:03:10,700 --> 00:03:24,650
+operandos forem verdadeiros neste caso é que a e b o intervalo e o mesmo é sempre considerado verdade vamos colocar agora que o bloco imprimir para imprimir o valor disse
+
+31
+00:03:24,650 --> 00:03:25,650
+belo desastre
+
+32
+00:03:25,650 --> 00:03:26,650
+vamos lá
+
+33
+00:03:26,650 --> 00:03:36,099
+executando um foi considerado verdadeiro vamos agora alterar o valor de uma das variáveis para execução vamos alterar variáveis e prazer
+
+34
+00:03:36,099 --> 00:03:52,750
+neste caso a que será considerado verdadeiro mp será considerado falso só que o aparador e só retorna verdadeiro se ambos forem verdadeiros basta que um deles seja falso e ele não retornará verdadeiro vai retornar falso
+
+35
+00:03:52,750 --> 00:03:55,900
+série de retorno zero zero significa falso
+
+36
+00:03:55,900 --> 00:04:02,200
+vamos agora inverter vamos colocar o valor do primeiro zero o valor do seguro
+
+37
+00:04:02,200 --> 00:04:10,300
+executando também temos zero porque basta que um dos valores seja falso e o resultado será zero falso
+
+38
+00:04:10,300 --> 00:04:26,949
+temos um segundo operador aqui o operador ou já funciona diferente ou retornará verdadeiro se qualquer um dos dois valores for verdadeiro ou bem sendo verdadeiro ele retornará verdadeiro verdade neste caso aqui bia verdadeiro íntegro vai
+
+39
+00:04:26,949 --> 00:04:27,949
+na verdade
+
+40
+00:04:27,949 --> 00:04:32,000
+ele retornou no que é verdade vamos agora inverter
+
+41
+00:04:32,000 --> 00:04:33,800
+bem se tornou zero
+
+42
+00:04:33,800 --> 00:04:35,150
+e as tornam
+
+43
+00:04:35,150 --> 00:04:40,550
+também atuou na verdade vamos agora é colocar os dois valores verdadeiros
+
+44
+00:04:40,550 --> 00:04:47,750
+não só verdadeiro porque basta que um dos dois seja verdadeiro agora coloquemos os nomes falsos
+
+45
+00:04:47,750 --> 00:05:06,649
+falso porque ou retorna falso sem qualquer um dos valores retorna verdadeiro se qualquer um dos valores do verdadeiro retorna falso se ambos os valores forem falsas estas duas opções duas operações logísticas já jogo começo vejamos como essas operações lógicas aparece
+
+46
+00:05:06,649 --> 00:05:27,799
+em cada uma das linguagens de programação vou colocar aqui não somente para vermos vai aparecer em tanto temos as três variado vêm sendo criadas sendo atribuído valor nome a todas elas e em seguida recebeu uma longa e bem valorizando a operação será representado e palito
+
+47
+00:05:27,799 --> 00:05:29,149
+pela palavra horta
+
+48
+00:05:29,149 --> 00:05:48,049
+em dar-te ao invés da palavra horror nós teremos duas barras barra barra esta forma de representar operador for domingo com em inglês é comum a muitas linguagens veja que eu já havia escrito que a operação na mesma barra barra e
+
+49
+00:05:48,049 --> 00:05:49,399
+mas critica também
+
+50
+00:05:49,399 --> 00:05:50,750
+em php também
+
+51
+00:05:50,750 --> 00:05:52,100
+em portugal também
+
+52
+00:05:52,100 --> 00:05:55,250
+impacto cintia tinhamos visto também o é
+
+53
+00:05:55,250 --> 00:06:00,649
+é ímpar então ao coração ele é a palavra em inglês entende
+
+54
+00:06:00,649 --> 00:06:03,349
+em javascript são dois s comerciais
+
+55
+00:06:03,349 --> 00:06:04,349
+em luanda
+
+56
+00:06:04,349 --> 00:06:07,049
+há palavras a palavra também aprende
+
+57
+00:06:07,049 --> 00:06:22,349
+e mais críticas dois s comerciais em php dois aviões comerciais em portugal dois as comerciais contra impactos já tinhamos visto vamos agora aprender como utilizar operações relacionais ou remover o bloco lógico deletá-lo
+
+58
+00:06:22,349 --> 00:06:23,349
+pagá-lo
+
+59
+00:06:23,349 --> 00:06:29,649
+vamos agora adicionar um bloco de operações relacionais novamente vamos colocar as variáveis <UNK>
+
+60
+00:06:29,649 --> 00:06:31,449
+a esquerda e b
+
+61
+00:06:31,449 --> 00:06:32,449
+direita
+
+62
+00:06:32,449 --> 00:06:47,300
+neste caso nós estamos comparando os dois valores utilizando apuração é igual mas temos também as operações diferente menor menor igual ou maior ou maior ou igual vejamos vamos executar como operador igual
+
+63
+00:06:47,300 --> 00:06:53,600
+obtemos falso porque a não é igual a que vejamos agora a operação diferente
+
+64
+00:06:53,600 --> 00:06:57,650
+obtemos true verdadeiro porque lá é diferente de b
+
+65
+00:06:57,650 --> 00:07:02,600
+vejamos agora menor que o valor um beco tem valor zero
+
+66
+00:07:02,600 --> 00:07:09,350
+executando temos falso porque a não é menor do que pela maior menor ou igual
+
+67
+00:07:09,350 --> 00:07:20,150
+também obtemos falso mas quando colocamos operação maior obtemos verdadeiro true porque aí é maior do que b maior ou igual também retornará cruz
+
+68
+00:07:20,150 --> 00:07:26,000
+observe vejamos como essas operações aparece em cada uma das linguagens de programação
+
+69
+00:07:26,000 --> 00:07:33,650
+maior igual impacto representado pelo sinal de maior do teclado seguido pelo sinal de igual do teclado
+
+70
+00:07:33,650 --> 00:07:35,900
+em javascript e mesmo operador
+
+71
+00:07:35,900 --> 00:07:41,300
+em lua também operador maior seguido por outro igual mas criticamente vol
+
+72
+00:07:41,300 --> 00:07:54,350
+php também igual a única diferença que temos significativa é a presença do dólar antes dos nomes de outras variáveis é sempre assim portugal também menor maior igual e
+
+73
+00:07:54,350 --> 00:08:05,150
+pai que nunca tinhamos visto vejamos operador diferente neste caso para então impactou a operação diferente representada pelo sinal de exclamação seguido de igual
+
+74
+00:08:05,150 --> 00:08:07,400
+além da arte mesmo imperador
+
+75
+00:08:07,400 --> 00:08:08,750
+javascript mesmo imperador
+
+76
+00:08:08,750 --> 00:08:09,750
+lua
+
+77
+00:08:09,750 --> 00:08:11,100
+é um sinal
+
+78
+00:08:11,100 --> 00:08:12,100
+dúctil
+
+79
+00:08:12,100 --> 00:08:15,250
+seguido de igual mas crítico exclamação igual
+
+80
+00:08:15,250 --> 00:08:16,600
+a hp também
+
+81
+00:08:16,600 --> 00:08:17,600
+portugal também
+
+82
+00:08:17,600 --> 00:08:34,250
+mas já vimos nos vejamos operador igual é então é um duplo operador igual que compara porque porque operador igual sozinho é atribuição a igual a um contribuindo quando eu quero comparar reutilizo tudo o procurador igual
+
+83
+00:08:34,250 --> 00:08:41,900
+em javascript e também um duplo operador e corro em lua também com dupla para dois largo
+
+84
+00:08:41,900 --> 00:08:43,250
+mais crítica também
+
+85
+00:08:43,250 --> 00:08:44,250
+php igual
+
+86
+00:08:44,250 --> 00:08:45,600
+portugal também gradual
+
+87
+00:08:45,600 --> 00:08:47,400
+e para isso também
+
+88
+00:08:47,400 --> 00:08:48,400
+vejamos
+
+89
+00:08:48,400 --> 00:08:58,750
+operador menor igual a mesma coisa que o operador maior igual é simplesmente sinal de menor seguido de igual impacto encarte em javascript
+
+90
+00:08:58,750 --> 00:08:59,750
+em luanda
+
+91
+00:08:59,750 --> 00:09:02,000
+é mais crítica em php
+
+92
+00:09:02,000 --> 00:09:03,000
+em portugal
+
+93
+00:09:03,000 --> 00:09:04,000
+ah

@@ -1,0 +1,823 @@
+1
+00:00:00,000 --> 00:00:02,700
+o jovem tornou-se um problema proposto
+
+2
+00:00:02,700 --> 00:00:11,250
+nesse problema que próximos vamos criar uma classe em si mesmas que represente brontossauros interrogativos e tiranossauros pra isso
+
+3
+00:00:11,250 --> 00:00:31,500
+nós vamos tirar uma classe dinossauro que será primitiva e cada um dos turnos dinossauros que nós vamos criar este produção tuteladas pela só será criado a partir de uma classe derivada desta classe de então vai ter que fazer seria que um arquivo novo
+
+4
+00:00:31,500 --> 00:00:35,100
+eu vou chamar de dinossauros só logo aqui
+
+5
+00:00:35,100 --> 00:00:36,100
+dinossauros
+
+6
+00:00:36,100 --> 00:00:37,100
+não tenho
+
+7
+00:00:37,100 --> 00:00:38,100
+introdução
+
+8
+00:00:38,100 --> 00:00:39,450
+dicas do saúdo
+
+9
+00:00:39,450 --> 00:00:40,450
+no salto
+
+10
+00:00:40,450 --> 00:00:41,450
+salto
+
+11
+00:00:41,450 --> 00:00:42,450
+include
+
+12
+00:00:42,450 --> 00:00:43,450
+including
+
+13
+00:00:43,450 --> 00:00:44,800
+adoro este livro
+
+14
+00:00:44,800 --> 00:00:45,800
+lindos
+
+15
+00:00:45,800 --> 00:00:46,800
+experiência
+
+16
+00:00:46,800 --> 00:00:47,800
+éder
+
+17
+00:00:47,800 --> 00:00:48,800
+um
+
+18
+00:00:48,800 --> 00:00:49,800
+bom dia
+
+19
+00:00:49,800 --> 00:00:50,800
+foto
+
+20
+00:00:50,800 --> 00:00:54,850
+vamos criar uma classe primitiva chamada de nossa conduta
+
+21
+00:00:54,850 --> 00:00:56,200
+e nosso nossa
+
+22
+00:00:56,200 --> 00:00:57,550
+nuno salpico volta
+
+23
+00:00:57,550 --> 00:00:58,550
+mito
+
+24
+00:00:58,550 --> 00:00:59,550
+obs
+
+25
+00:00:59,550 --> 00:01:02,250
+um dessa classe de nosso dinossauro
+
+26
+00:01:02,250 --> 00:01:04,050
+vou criar novo construtor
+
+27
+00:01:04,050 --> 00:01:05,850
+não temos o só
+
+28
+00:01:05,850 --> 00:01:08,550
+esse construtor vai receber um parâmetro
+
+29
+00:01:08,550 --> 00:01:09,550
+clique aqui
+
+30
+00:01:09,550 --> 00:01:10,550
+tempo
+
+31
+00:01:10,550 --> 00:01:11,900
+o movimento protestante
+
+32
+00:01:11,900 --> 00:01:12,900
+nove
+
+33
+00:01:12,900 --> 00:01:13,900
+espírito santo
+
+34
+00:01:13,900 --> 00:01:16,150
+ao todo de nosso ter
+
+35
+00:01:16,150 --> 00:01:22,450
+então quando você criar um dinossauro construtor vai receber o nome do dinossauro extingue
+
+36
+00:01:22,450 --> 00:01:27,850
+e ele vai ser atribuído ao longo de nosso novo e pronto
+
+37
+00:01:27,850 --> 00:01:31,900
+já o dinossauro e sensibilizado com o nome dele
+
+38
+00:01:31,900 --> 00:01:35,050
+vai ser obrigatório não procriam construtos aqui
+
+39
+00:01:35,050 --> 00:01:39,100
+por enquanto eles se eu quiser agora criar um
+
+40
+00:01:39,100 --> 00:01:40,900
+brontossauro vou criar temos
+
+41
+00:01:40,900 --> 00:01:46,300
+não saldo só um assalto o setenta porcento do seu o sol
+
+42
+00:01:46,300 --> 00:01:49,900
+um introdução o brontossauro voice herança de dinossauro
+
+43
+00:01:49,900 --> 00:01:54,850
+do solo verdade dinossauro troças característica que dinossauro tem ele tem
+
+44
+00:01:54,850 --> 00:01:58,000
+o atributo nome que vai ser assaltado
+
+45
+00:01:58,000 --> 00:02:00,250
+ao ser criados no solo
+
+46
+00:02:00,250 --> 00:02:01,600
+gente olha só
+
+47
+00:02:01,600 --> 00:02:02,600
+é filha
+
+48
+00:02:02,600 --> 00:02:04,850
+quando a gente cria um
+
+49
+00:02:04,850 --> 00:02:12,950
+um brontossauro esse brontossauro ele ter um construtor também então vou criar um post todo bruto solo aqui
+
+50
+00:02:12,950 --> 00:02:14,300
+o craque brontossauro
+
+51
+00:02:14,300 --> 00:02:15,300
+se refere
+
+52
+00:02:15,300 --> 00:02:20,250
+o nome dele é atribuído a um atributo o nome dele
+
+53
+00:02:20,250 --> 00:02:23,400
+e eu vou criar também reiterou baratinho
+
+54
+00:02:23,400 --> 00:02:24,400
+<UNK>
+
+55
+00:02:24,400 --> 00:02:25,400
+olá
+
+56
+00:02:25,400 --> 00:02:26,400
+interativo
+
+57
+00:02:26,400 --> 00:02:29,099
+e também vai ser um dinossauro
+
+58
+00:02:29,099 --> 00:02:30,900
+e eu vou criar
+
+59
+00:02:30,900 --> 00:02:31,900
+um tiranossauro
+
+60
+00:02:31,900 --> 00:02:32,900
+<UNK>
+
+61
+00:02:32,900 --> 00:02:37,849
+e também não ser diferente os novos que alguns dinossauros então
+
+62
+00:02:37,849 --> 00:02:39,650
+ou criar um brontossauro
+
+63
+00:02:39,650 --> 00:02:45,500
+que vai se chamar esse protozoário vai ser brontossauro estou para o procedimento
+
+64
+00:02:45,500 --> 00:02:49,099
+e ele vai passar vai ter um nome
+
+65
+00:02:49,099 --> 00:02:50,099
+dir
+
+66
+00:02:50,099 --> 00:02:52,799
+eu vou criar um pequeno cadastro
+
+67
+00:02:52,799 --> 00:02:53,799
+chamado vida
+
+68
+00:02:53,799 --> 00:02:54,799
+<UNK>
+
+69
+00:02:54,799 --> 00:02:57,949
+e eu vou te chama crioula tiranossauro
+
+70
+00:02:57,949 --> 00:02:58,949
+tinha chamado
+
+71
+00:02:58,949 --> 00:02:59,949
+os arts
+
+72
+00:02:59,949 --> 00:03:01,750
+dia quente com sal
+
+73
+00:03:01,750 --> 00:03:03,099
+o termo contrátil
+
+74
+00:03:03,099 --> 00:03:04,099
+um
+
+75
+00:03:04,099 --> 00:03:05,449
+vamos ao taxista
+
+76
+00:03:05,449 --> 00:03:06,449
+o compilado
+
+77
+00:03:06,449 --> 00:03:08,250
+o cotovelo que pode
+
+78
+00:03:08,250 --> 00:03:10,500
+no méxico onde no futuro
+
+79
+00:03:10,500 --> 00:03:11,500
+<UNK>
+
+80
+00:03:11,500 --> 00:03:12,500
+inteligência
+
+81
+00:03:12,500 --> 00:03:16,099
+uma intuição o monte fuji um coutinho dinossauro
+
+82
+00:03:16,099 --> 00:03:17,099
+<UNK>
+
+83
+00:03:17,099 --> 00:03:18,099
+<UNK>
+
+84
+00:03:18,099 --> 00:03:33,400
+a tartaruga sequer estar reclamando que não estou fazendo isso aqui é só o que eu estou fazendo isso aqui assim eu vou fazer diferente ou fazer o seguinte vou colocar aqui dois pontos
+
+85
+00:03:33,400 --> 00:03:34,400
+o divino
+
+86
+00:03:34,400 --> 00:03:35,400
+não são
+
+87
+00:03:35,400 --> 00:03:36,400
+opa
+
+88
+00:03:36,400 --> 00:03:39,099
+vou passar o prédio para preto
+
+89
+00:03:39,099 --> 00:03:58,449
+o parâmetro que estou recebendo aqui reportou repassando para dinossauro ele futura cbn brontossauro gostou dele estou repassando para o dinossauro parâmetro extras também ele fica eu desta está dizendo que eu não queria um construtor vazio poderia criar um rosto vazio aqui
+
+90
+00:03:58,449 --> 00:04:02,949
+portanto que o telegram construtor vazio aqui de nosso real
+
+91
+00:04:02,949 --> 00:04:08,349
+que ele está reclamando porque eu não fiz o repasse da função
+
+92
+00:04:08,349 --> 00:04:12,400
+e aí nesse construtor brasil poderia fazer aqui cheques
+
+93
+00:04:12,400 --> 00:04:14,200
+poderia colocar dessa forma
+
+94
+00:04:14,200 --> 00:04:26,350
+eu lá provavelmente na produção para garantir a todos para dai eu só corrigindo este mas todos para andarem por aqui porque eu crio construo do vaso
+
+95
+00:04:26,350 --> 00:04:47,950
+quando eu não repassou produtora classe superior chamada do construtor que eu fazendo aquele shortinho brontossauro recebe para me atraem e os novos parâmetros do construtor em cima o que antes eu tinha definido que os construtos que só havia um construtor recebia em troca um de d
+
+96
+00:04:47,950 --> 00:05:05,050
+saulo genérico que pra criar um protozoário tente criar um dinossauro genérico depois especializada para criar o genérico eu não tinha nenhum construtor europeu não passava nenhum parâmetro pra ele aludiu consultor vazio para criarmos uma sala vazio
+
+97
+00:05:05,050 --> 00:05:08,200
+ambos os ataques a torpedo vai falhar
+
+98
+00:05:08,200 --> 00:05:09,200
+b
+
+99
+00:05:09,200 --> 00:05:11,450
+eu vou fazer o seguinte
+
+100
+00:05:11,450 --> 00:05:15,950
+vou fazer a mesma coisa para todos os outros dinossauros
+
+101
+00:05:15,950 --> 00:05:23,600
+e aparece aqui por enquanto e não vou fazer nada com os atributos esses dinossauros todas elas
+
+102
+00:05:23,600 --> 00:05:24,600
+o pilar
+
+103
+00:05:24,600 --> 00:05:44,850
+vejamos os dois mas eu quero que dinossauros seja capaz de executar algumas funcionalidades maré todas o padrão de projetos todas as vezes que eu tenho uma não na propriedade eu devo criar uma forma indireta de acessar essa propriedade tragam sensação diretamente ou proteção
+
+104
+00:05:44,850 --> 00:05:55,650
+para evitar que o atributo seja alterado sem que você teste primeiro se o valor que está sendo atribuído ao atributo tão valor aceitável
+
+105
+00:05:55,650 --> 00:06:05,100
+e também para que classes que não sejam derivados possam ter acesso a ele como é que a gente faz isso
+
+106
+00:06:05,100 --> 00:06:07,350
+nós criamos metros dgs certeiras
+
+107
+00:06:07,350 --> 00:06:20,400
+falando seriamente o método sérios ele é sempre no tipo volante sete seguido dele ele tem o nome sete seguido do nome do atributo sete ano recebe como parâmetro
+
+108
+00:06:20,400 --> 00:06:29,400
+um valor que seja consistente com o atributo nesse caso aqui vamos vou copiar bastante porque é igualzinho ao construtor
+
+109
+00:06:29,400 --> 00:06:47,400
+e é e nesse caso que é necessário para controle e acabou que para cada sete eu devo ter um bilhete correspondente o bilhete retorna um valor do tipo do atributo então ceder ex-treinador extremo quer palavra-chave palavra queratina palavras-chave
+
+110
+00:06:47,400 --> 00:06:51,900
+esparguete now e não passa nenhum atributo praia do carvoeiro
+
+111
+00:06:51,900 --> 00:06:53,700
+deve retornar o contato
+
+112
+00:06:53,700 --> 00:06:54,700
+o atributo
+
+113
+00:06:54,700 --> 00:07:01,450
+eu queria um quarto lugares isso e o método método sete sentimento do para este
+
+114
+00:07:01,450 --> 00:07:04,600
+atributo único nome dinossauro seu com pilar
+
+115
+00:07:04,600 --> 00:07:11,350
+todos os dinossauros derivados agora tem esses dois atributos eu posso mostrar que ser seagate
+
+116
+00:07:11,350 --> 00:07:12,350
+<UNK>
+
+117
+00:07:12,350 --> 00:07:13,350
+um nome
+
+118
+00:07:13,350 --> 00:07:17,850
+dois de março ou no mundo do dinossauro do mundo
+
+119
+00:07:17,850 --> 00:07:18,850
+de é
+
+120
+00:07:18,850 --> 00:07:20,650
+deus chama que divino
+
+121
+00:07:20,650 --> 00:07:22,450
+o que é ótimo
+
+122
+00:07:22,450 --> 00:07:23,450
+ah
+
+123
+00:07:23,450 --> 00:07:24,450
+pronto
+
+124
+00:07:24,450 --> 00:07:32,100
+e o exibe o nome do dinossauro que vou fazer um pra cada um deles e ter
+
+125
+00:07:32,100 --> 00:07:33,900
+vou fazer pra gatos
+
+126
+00:07:33,900 --> 00:07:37,500
+vamos ver então mesmo que quer uma coisa
+
+127
+00:07:37,500 --> 00:07:39,750
+a trava da antífona rancores
+
+128
+00:07:39,750 --> 00:07:40,750
+estranho
+
+129
+00:07:40,750 --> 00:07:42,100
+diante do mundo
+
+130
+00:07:42,100 --> 00:07:46,150
+não são do danos dos pontos porque dinossauro maciço
+
+131
+00:07:46,150 --> 00:07:47,150
+<UNK>
+
+132
+00:07:47,150 --> 00:07:58,850
+a mesma coisa que aconteceu antes tão turbulentos não sei porque este compilador que eu não coloco públicos as funções públicas não ficam acessíveis nos membros
+
+133
+00:07:58,850 --> 00:08:02,000
+não sei porque no linux funciona perfeitamente
+
+134
+00:08:02,000 --> 00:08:07,400
+é o nome do dinossauro diamantino de pitanga e tem diversas grátis
+
+135
+00:08:07,400 --> 00:08:12,350
+após criar as outros métodos e posso criar por exemplo comer
+
+136
+00:08:12,350 --> 00:08:13,350
+o dr
+
+137
+00:08:13,350 --> 00:08:15,150
+comer comer você pode
+
+138
+00:08:15,150 --> 00:08:18,750
+você pode comer comer vai receber um dinossauro
+
+139
+00:08:18,750 --> 00:08:20,550
+o que esse dinossauro
+
+140
+00:08:20,550 --> 00:08:31,350
+recebi na verdade na verdade é um pouco mais complexo do que isso porque dinossauro que não são todas as características de quina mariz
+
+141
+00:08:31,350 --> 00:08:35,850
+todos esses comem todos esses comem dinossauro não em comunicação
+
+142
+00:08:35,850 --> 00:08:37,200
+esta não come
+
+143
+00:08:37,200 --> 00:08:39,000
+posso fazer o seguinte
+
+144
+00:08:39,000 --> 00:08:40,350
+as próximos filmes
+
+145
+00:08:40,350 --> 00:08:43,050
+vamos criar uma classe que contas
+
+146
+00:08:43,050 --> 00:08:44,850
+o nome de vida
+
+147
+00:08:44,850 --> 00:08:49,800
+as formas de vida por enquanto vai fazendo somente um públicos
+
+148
+00:08:49,800 --> 00:08:50,800
+mantive
+
+149
+00:08:50,800 --> 00:08:51,800
+bem vindo
+
+150
+00:08:51,800 --> 00:08:53,150
+forma de venda
+
+151
+00:08:53,150 --> 00:08:54,950
+versátil o construto <UNK>
+
+152
+00:08:54,950 --> 00:08:57,650
+basta que de sócrates tocantins então
+
+153
+00:08:57,650 --> 00:09:00,800
+e vou dizer que dinossauro que dinossauro
+
+154
+00:09:00,800 --> 00:09:03,500
+os forma divido um dinossauro falando
+
+155
+00:09:03,500 --> 00:09:04,500
+pronto
+
+156
+00:09:04,500 --> 00:09:11,250
+é com isso agora eu posso fazer o seguinte vou criar um template com diretos
+
+157
+00:09:11,250 --> 00:09:12,250
+suplentes
+
+158
+00:09:12,250 --> 00:09:13,250
+obs
+
+159
+00:09:13,250 --> 00:09:15,050
+você pode comer ele
+
+160
+00:09:15,050 --> 00:09:16,050
+o quê
+
+161
+00:09:16,050 --> 00:09:18,300
+no local o mel autor
+
+162
+00:09:18,300 --> 00:09:19,300
+um milhão
+
+163
+00:09:19,300 --> 00:09:20,300
+um
+
+164
+00:09:20,300 --> 00:09:21,300
+o metal
+
+165
+00:09:21,300 --> 00:09:22,650
+o meu história
+
+166
+00:09:22,650 --> 00:09:23,650
+um real
+
+167
+00:09:23,650 --> 00:09:25,900
+eu vou fazer se ambiente
+
+168
+00:09:25,900 --> 00:09:26,900
+que
+
+169
+00:09:26,900 --> 00:09:27,900
+nome
+
+170
+00:09:27,900 --> 00:09:28,900
+ah
+
+171
+00:09:28,900 --> 00:09:30,250
+o meu mundo
+
+172
+00:09:30,250 --> 00:09:31,250
+algum tempo
+
+173
+00:09:31,250 --> 00:09:32,600
+aqui no <UNK>
+
+174
+00:09:32,600 --> 00:09:33,600
+foto
+
+175
+00:09:33,600 --> 00:09:34,600
+ah
+
+176
+00:09:34,600 --> 00:09:40,000
+quer que eu quero fazer aqui conversões certo ou criar um template
+
+177
+00:09:40,000 --> 00:09:41,000
+o pará
+
+178
+00:09:41,000 --> 00:09:49,100
+a função auto template com b que recebe servir como o que ela tá comendo uma qualquer coisa
+
+179
+00:09:49,100 --> 00:10:01,700
+na boca uma vez advocatícias objetivou crítico tiver gatinho nome vai funcionar se não tiver solucionado daria a am eu não vou fazer com broto só oque brontossauro
+
+180
+00:10:01,700 --> 00:10:02,700
+brontossauro
+
+181
+00:10:02,700 --> 00:10:04,500
+ele não vai fumê
+
+182
+00:10:04,500 --> 00:10:08,100
+um desses dinossauros aqui que não faria sentido
+
+183
+00:10:08,100 --> 00:10:12,150
+e agora vou fazer o seguinte rótulo basta desequilibrar-se
+
+184
+00:10:12,150 --> 00:10:17,100
+contudo em vez de comer vou dizer vou vou colocar coma
+
+185
+00:10:17,100 --> 00:10:20,250
+o imperativo coma mas com a mão
+
+186
+00:10:20,250 --> 00:10:21,250
+dino
+
+187
+00:10:21,250 --> 00:10:30,700
+só que pra funcionar coma do mesmo jeito que antes o template plano no exemplo até colocar aqui dizendo que é
+
+188
+00:10:30,700 --> 00:10:31,700
+fale conosco
+
+189
+00:10:31,700 --> 00:10:38,000
+quer dizer o tipo dele buracos como dinossauro de todas seus profissionais que lá
+
+190
+00:10:38,000 --> 00:10:41,600
+esta certo é uma coisa errada que ponto
+
+191
+00:10:41,600 --> 00:10:42,600
+<UNK>
+
+192
+00:10:42,600 --> 00:10:45,300
+lascou meu diante de um ciclo
+
+193
+00:10:45,300 --> 00:10:47,100
+dia vinte fez aqui
+
+194
+00:10:47,100 --> 00:10:49,800
+os pontos os métodos antes inquietos
+
+195
+00:10:49,800 --> 00:11:01,500
+do dinossauro criamos classes derivadas brontossauro heteronormativo e tiranossauro onde para cada uma dessas classes derivadas e seus respectivos construtores chamam o construtor da classe primitiva
+
+196
+00:11:01,500 --> 00:11:11,400
+passando pra os lutou para me esclarecer ao criar o objeto nós inicia avisamos passando pelo construtor dele o nome do objeto
+
+197
+00:11:11,400 --> 00:11:17,250
+em seguida nós mostramos o nome de cada um dos objetos na tela
+
+198
+00:11:17,250 --> 00:11:28,950
+e criamos uma função especial com que é um tempo leite que recebe parâmetros de boquete entre poderia receber por exemplo que dar tiro tiranossauro competir
+
+199
+00:11:28,950 --> 00:11:42,000
+e aí eu teria comportamentos diferentes mas não está sozinho no escopo desse exemplo na prática dessa atividade de gente a fazer compras ou outras coisas mais complexas depois
+
+200
+00:11:42,000 --> 00:11:48,300
+e chamei a função como o método como dizendo pra coma queridinho no mundo
+
+201
+00:11:48,300 --> 00:11:58,650
+é um dinossauro pra isso eu passo entre menor maior porque porque como não sabe qual tipo que lessem porque não que teu
+
+202
+00:11:58,650 --> 00:12:05,400
+o que dizer explicitamente ora algo que não param de crescer ao botão de nassau
+
+203
+00:12:05,400 --> 00:12:25,200
+sendo um dinossauro ele sabe que todo dinossauro tinha um método não vai funcionar exibe na tela o nome deste dinossauro está comendo ela dez seguido de com mil seguido do gatinho nome que vem do alto ele tá comendo e apareçam pelo bradesco
+
+204
+00:12:25,200 --> 00:12:26,550
+e que meu
+
+205
+00:12:26,550 --> 00:12:33,300
+isso é a base do que a gente vai está fazendo nas nossas próximas aulas
+
+206
+00:12:33,300 --> 00:12:34,300
+<UNK>

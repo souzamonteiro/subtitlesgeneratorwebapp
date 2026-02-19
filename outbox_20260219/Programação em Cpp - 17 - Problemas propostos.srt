@@ -1,0 +1,611 @@
+1
+00:00:00,000 --> 00:00:03,149
+olá nesta aula resolveremos alguns problemas propostos
+
+2
+00:00:03,149 --> 00:00:21,599
+nosso primeiro problema consiste em construir um programa esse mais mais que verifique sua palavra dada um palíndromo um palíndromo a palavra percebida da mesma forma de frente para trás e de trás pra frente por exemplo arara e os <UNK>
+
+3
+00:00:21,599 --> 00:00:33,750
+tente resolver o problema e depois retorne vídeos é a reprodução do vídeo pra ver a minha solução vamos resolver o problema ou criar um novo documento
+
+4
+00:00:33,750 --> 00:00:40,950
+ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah
+
+5
+00:00:40,950 --> 00:00:45,900
+ah ah ah ah ah ah ah ah ah ah ah
+
+6
+00:00:45,900 --> 00:01:07,050
+é um excelente programa que agora não esteja preparado para resolver esse problema vou criar algumas variantes a primeira palavra série a primeira variável será uma variável de controle que vai percorrer apalpar a expressão da esquerda para a direita essa batalha será tipo inteiro vai chamar
+
+7
+00:01:07,050 --> 00:01:19,200
+a segunda será uma outra variável de controle que vai percorrer as festas pressão da direita para a esquerda também será uma variável inteira se chamará j
+
+8
+00:01:19,200 --> 00:01:20,550
+vou criar uma
+
+9
+00:01:20,550 --> 00:01:21,550
+uma comum
+
+10
+00:01:21,550 --> 00:01:32,350
+vector de caracteres uma variável do tipo caracter sopita conta dedico para armazenar cadeiras de uma cadeia de caracteres chamada palavra por palavra chave
+
+11
+00:01:32,350 --> 00:01:37,300
+ah e vai conter até duzentas e quarenta e cinco caracteres
+
+12
+00:01:37,300 --> 00:01:40,450
+vou pedir para que o usuário entre
+
+13
+00:01:40,450 --> 00:01:41,800
+uma palavra profética
+
+14
+00:01:41,800 --> 00:01:42,800
+acredite mundo
+
+15
+00:01:42,800 --> 00:01:43,800
+olá
+
+16
+00:01:43,800 --> 00:01:47,850
+em seguida vou ler a palavra digitada pelo usuário
+
+17
+00:01:47,850 --> 00:01:48,850
+contato
+
+18
+00:01:48,850 --> 00:01:50,650
+o programa para cristo
+
+19
+00:01:50,650 --> 00:01:52,900
+que os próximos textos apareçam
+
+20
+00:01:52,900 --> 00:01:53,900
+todas abertos
+
+21
+00:01:53,900 --> 00:01:54,900
+tudo certo
+
+22
+00:01:54,900 --> 00:01:56,700
+ao criar o nosso
+
+23
+00:01:56,700 --> 00:01:58,049
+ah ah ah
+
+24
+00:01:58,049 --> 00:01:59,049
+ainda
+
+25
+00:01:59,049 --> 00:02:00,849
+e este laço seguir
+
+26
+00:02:00,849 --> 00:02:05,799
+ele vai ser executado enquanto ele o menor e o tamanho
+
+27
+00:02:05,799 --> 00:02:13,900
+ah ah ah ah ah ah ah ah ah ah e vai começar a produção usando e j
+
+28
+00:02:13,900 --> 00:02:18,849
+vai começar na posição palavra menos tamanho da palavra menos juntos
+
+29
+00:02:18,849 --> 00:02:19,849
+por aqui
+
+30
+00:02:19,849 --> 00:02:36,049
+tracy j possa percorrer a palavra da direita para esquerda a primeira posição do vetor de caracteres como em qualquer evento custa mais mas eu posso ver a última posição é o tamanho da palavra do
+
+31
+00:02:36,049 --> 00:02:39,649
+e na primeira posição de autonomia de um
+
+32
+00:02:39,649 --> 00:02:47,299
+para eu não esquecer eu vou logo incremental pode variar de oito e decremento tanto variável j
+
+33
+00:02:47,299 --> 00:02:54,049
+agora eu vou criar um novo eu povo criar mais humana mais uma variável ti
+
+34
+00:02:54,049 --> 00:02:56,299
+é a síndrome do pânico
+
+35
+00:02:56,299 --> 00:02:57,299
+título
+
+36
+00:02:57,299 --> 00:02:58,299
+ah
+
+37
+00:02:58,299 --> 00:03:00,549
+e é palíndromo no banho
+
+38
+00:03:00,549 --> 00:03:02,799
+eu vou fazer o seguinte
+
+39
+00:03:02,799 --> 00:03:05,949
+quando deixas o palíndromo vai começar com
+
+40
+00:03:05,949 --> 00:03:07,299
+valeu de verdade
+
+41
+00:03:07,299 --> 00:03:10,899
+eu vou supor que toda palavra digitada no
+
+42
+00:03:10,899 --> 00:03:11,899
+prós
+
+43
+00:03:11,899 --> 00:03:12,899
+s
+
+44
+00:03:12,899 --> 00:03:13,899
+e palavras
+
+45
+00:03:13,899 --> 00:03:14,899
+automaticamente
+
+46
+00:03:14,899 --> 00:03:16,249
+na posição min
+
+47
+00:03:16,249 --> 00:03:19,849
+o diferente tempo de palavras na produção j
+
+48
+00:03:19,849 --> 00:03:22,099
+tanto tanto tanto tanto tanto
+
+49
+00:03:22,099 --> 00:03:24,349
+então a palavra não palíndromo
+
+50
+00:03:24,349 --> 00:03:26,599
+vou colocá-lo como um grupo
+
+51
+00:03:26,599 --> 00:03:31,099
+a série no nosso corpo lembrando que os verdadeiros interessados
+
+52
+00:03:31,099 --> 00:03:38,749
+e vou fazer isso até o final a qualquer momento em que ele encontra uma palavra upa
+
+53
+00:03:38,749 --> 00:03:39,749
+quatro
+
+54
+00:03:39,749 --> 00:03:42,899
+a qualquer momento quero encontrar uma palavra
+
+55
+00:03:42,899 --> 00:04:05,849
+ele encontra dois caracteres das extremidades que sejam diferentes então da esquerda pra direita direito pra esquerda ele terá alterado terminado já que a palavra no fala então vou fazer um brete brete é uma instrução que encerra o laço de repetição a qualquer momento ele não continuas absolutos e que
+
+56
+00:04:05,849 --> 00:04:06,849
+chegou denuncie
+
+57
+00:04:06,849 --> 00:04:08,649
+há uma coisa importante
+
+58
+00:04:08,649 --> 00:04:10,449
+é muito importante disse
+
+59
+00:04:10,449 --> 00:04:12,250
+e então a agiota
+
+60
+00:04:12,250 --> 00:04:15,849
+quer dizer que chegue no meio da palavra
+
+61
+00:04:15,849 --> 00:04:22,600
+e já que se contrário posso concluir o laço não preciso continuar andando do contrato
+
+62
+00:04:22,600 --> 00:04:25,300
+todos podemos ter algumas inconsistências humanas
+
+63
+00:04:25,300 --> 00:04:32,500
+dessa forma em um certo laço quando os dois se encontrarem no meio da palavra enfim
+
+64
+00:04:32,500 --> 00:04:33,850
+a síndrome grupo
+
+65
+00:04:33,850 --> 00:04:34,850
+três
+
+66
+00:04:34,850 --> 00:04:35,850
+a ponto
+
+67
+00:04:35,850 --> 00:04:36,850
+tortura
+
+68
+00:04:36,850 --> 00:04:37,850
+ditadura
+
+69
+00:04:37,850 --> 00:04:38,850
+produto
+
+70
+00:04:38,850 --> 00:04:39,850
+ah
+
+71
+00:04:39,850 --> 00:04:40,850
+senão
+
+72
+00:04:40,850 --> 00:04:41,850
+ah
+
+73
+00:04:41,850 --> 00:04:44,100
+a palavra digitada na rampa
+
+74
+00:04:44,100 --> 00:04:45,100
+vamos testar
+
+75
+00:04:45,100 --> 00:04:46,100
+salvar
+
+76
+00:04:46,100 --> 00:04:47,100
+como
+
+77
+00:04:47,100 --> 00:04:48,100
+um
+
+78
+00:04:48,100 --> 00:04:49,100
+três
+
+79
+00:04:49,100 --> 00:04:50,900
+isso para nós três
+
+80
+00:04:50,900 --> 00:04:51,900
+ah
+
+81
+00:04:51,900 --> 00:04:52,900
+um
+
+82
+00:04:52,900 --> 00:04:54,700
+o não está aqui
+
+83
+00:04:54,700 --> 00:04:55,700
+invision
+
+84
+00:04:55,700 --> 00:04:57,050
+nem experiência também
+
+85
+00:04:57,050 --> 00:04:58,050
+ah
+
+86
+00:04:58,050 --> 00:04:59,050
+ah
+
+87
+00:04:59,050 --> 00:05:05,800
+a palavra agitar um passo vamos digitar uma palavra que não seja um talento do
+
+88
+00:05:05,800 --> 00:05:09,400
+roberto cruel palito a palavra digitada no natal
+
+89
+00:05:09,400 --> 00:05:10,750
+a expressão social
+
+90
+00:05:10,750 --> 00:05:28,300
+a questão trata do pronatec programa quatro consiste em escreva um programa em ser mais macio subsídios o usuário digite seu primeiro nome em seguida represente o número de jogares neste mundo presente na tela do produto vantagens deste
+
+91
+00:05:28,300 --> 00:05:37,750
+interrompa a sobre a vida agora tente resolver em seguida retorne para ver a minha solução vou criar um novo arquivo
+
+92
+00:05:37,750 --> 00:05:38,750
+estrutura
+
+93
+00:05:38,750 --> 00:05:41,000
+o problema anterior para planta
+
+94
+00:05:41,000 --> 00:05:43,250
+pra facilitar sua noite apagada
+
+95
+00:05:43,250 --> 00:05:45,050
+a propaganda dos outros
+
+96
+00:05:45,050 --> 00:05:46,850
+estima-se que de momento
+
+97
+00:05:46,850 --> 00:05:47,850
+sim
+
+98
+00:05:47,850 --> 00:05:48,850
+o piquenique
+
+99
+00:05:48,850 --> 00:05:49,850
+porto
+
+100
+00:05:49,850 --> 00:05:58,400
+no fundo feito nossa parte bem podia dizer apenas o esqueleto do texto o programa do palíndromo para facilitar
+
+101
+00:05:58,400 --> 00:06:03,350
+isso vai digitar o nome vou criar uma variável aqui chapada
+
+102
+00:06:03,350 --> 00:06:04,700
+vinte e porcento
+
+103
+00:06:04,700 --> 00:06:09,650
+no entanto pode usar contador para contar o número de vogais
+
+104
+00:06:09,650 --> 00:06:10,650
+muito bem
+
+105
+00:06:10,650 --> 00:06:11,650
+contador
+
+106
+00:06:11,650 --> 00:06:13,450
+a começar do zero
+
+107
+00:06:13,450 --> 00:06:15,250
+o criado nosso foco
+
+108
+00:06:15,250 --> 00:06:17,050
+e então a zero
+
+109
+00:06:17,050 --> 00:06:19,300
+e muito menos é certo
+
+110
+00:06:19,300 --> 00:06:21,100
+do nome da pessoa
+
+111
+00:06:21,100 --> 00:06:22,100
+não importa
+
+112
+00:06:22,100 --> 00:06:25,700
+para cada letra do nome e o <UNK>
+
+113
+00:06:25,700 --> 00:06:29,750
+incrementar o valor descontado caso seja uma das vogais
+
+114
+00:06:29,750 --> 00:06:30,750
+e sinto
+
+115
+00:06:30,750 --> 00:06:31,750
+nove
+
+116
+00:06:31,750 --> 00:06:33,100
+a posição n
+
+117
+00:06:33,100 --> 00:06:34,100
+tudo igual
+
+118
+00:06:34,100 --> 00:06:35,450
+ah o porto
+
+119
+00:06:35,450 --> 00:06:36,450
+b
+
+120
+00:06:36,450 --> 00:06:38,700
+combina a enviou a ele
+
+121
+00:06:38,700 --> 00:06:46,800
+ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah
+
+122
+00:06:46,800 --> 00:06:51,750
+se qualquer uma das suas letras e o incremento tanto adulto
+
+123
+00:06:51,750 --> 00:06:54,000
+e se mostrou bastante útil
+
+124
+00:06:54,000 --> 00:06:56,250
+ah ah ah ah ah
+
+125
+00:06:56,250 --> 00:06:57,250
+trinta
+
+126
+00:06:57,250 --> 00:06:58,250
+um ponto
+
+127
+00:06:58,250 --> 00:06:59,250
+vogais
+
+128
+00:06:59,250 --> 00:07:00,600
+e por ponto
+
+129
+00:07:00,600 --> 00:07:01,600
+vejamos
+
+130
+00:07:01,600 --> 00:07:03,400
+aqui você pode propor
+
+131
+00:07:03,400 --> 00:07:04,400
+quatro
+
+132
+00:07:04,400 --> 00:07:05,750
+vamos ah exata
+
+133
+00:07:05,750 --> 00:07:07,100
+o ponto alto
+
+134
+00:07:07,100 --> 00:07:08,100
+tudo fechado
+
+135
+00:07:08,100 --> 00:07:09,100
+alentejo
+
+136
+00:07:09,100 --> 00:07:17,200
+ah ah ah ah ah ah ah ah ah ah ah ah ah esperando para intervir no te
+
+137
+00:07:17,200 --> 00:07:18,200
+segundo mito
+
+138
+00:07:18,200 --> 00:07:20,450
+portanto a não ser assim
+
+139
+00:07:20,450 --> 00:07:23,600
+não fosse assim como outros parentes aqui
+
+140
+00:07:23,600 --> 00:07:25,850
+eu acho que o esperado
+
+141
+00:07:25,850 --> 00:07:31,250
+cada uma dessas suas motivações o que estava faltando aqui ou o
+
+142
+00:07:31,250 --> 00:07:32,250
+se perdeu
+
+143
+00:07:32,250 --> 00:07:34,500
+veja de históricas como deseja
+
+144
+00:07:34,500 --> 00:07:36,300
+as regras de precedência
+
+145
+00:07:36,300 --> 00:07:43,950
+dizem que dar igualdade a comparação de igualdade feita antes da operação lógica então não daria certo
+
+146
+00:07:43,950 --> 00:07:45,750
+porém como no mundo
+
+147
+00:07:45,750 --> 00:07:48,450
+este aparente está faltando cinco minutos
+
+148
+00:07:48,450 --> 00:07:49,450
+tanque
+
+149
+00:07:49,450 --> 00:07:50,450
+abraço
+
+150
+00:07:50,450 --> 00:07:51,450
+nove roberto
+
+151
+00:07:51,450 --> 00:07:55,050
+roberto entre outras falta perto e no fim
+
+152
+00:07:55,050 --> 00:07:58,200
+é isso essa solução do quatro problema
+
+153
+00:07:58,200 --> 00:07:59,200
+<UNK>

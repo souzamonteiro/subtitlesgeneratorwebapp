@@ -1,0 +1,19 @@
+1
+00:00:00,000 --> 00:00:04,500
+e agora o que fazer com suas habilidades que adquirimos
+
+2
+00:00:04,500 --> 00:00:09,449
+leia mais sobre programação existem diversos bons livros disponíveis na amazon
+
+3
+00:00:09,449 --> 00:00:29,250
+além disso ao livro de diversas formas mas para leitores este livro também está disponível em inglês francês mas mais importantes da coleção abordamos uma coleção muito somos este livro apresenta os conceitos de ser mais mas de uma forma bastante intuitiva e fácil
+
+4
+00:00:29,250 --> 00:00:48,150
+aprender uma nova linguagem de programação as principais linguagens de programação além dos demais mas só usei java javascript no arquivo php partam errando escolhe uma dessas linguagens e se aprofunde no assunto se você desejar pode aprender pacto comigo na dele
+
+5
+00:00:48,150 --> 00:00:56,250
+e acima de tudo programme programe todos os dias e quanto mais você programar melhor programador se tornará

@@ -1,0 +1,55 @@
+1
+00:00:00,000 --> 00:00:06,750
+e agora que concluímos nossa ação na sessão do nosso curso que nós podemos fazer
+
+2
+00:00:06,750 --> 00:00:09,000
+leia mais sobre a promoção
+
+3
+00:00:09,000 --> 00:00:19,350
+existem excelentes livros disponíveis no projeto e um deles é o dia internato sem programa palavras esse livro também está disponível em português
+
+4
+00:00:19,350 --> 00:00:27,900
+em português ele significa ser linguagem de programação padrão isso é um dos melhores livros de programação que aja
+
+5
+00:00:27,900 --> 00:00:33,750
+leia um rascunho do padrão que foi submetido por tite becker altamente danoso
+
+6
+00:00:33,750 --> 00:00:41,399
+para desenvolvimento da especificação da linguagem programação se batista está disponível gratuitamente no endereço apresentado no extrato
+
+7
+00:00:41,399 --> 00:00:46,799
+eu adquira a especificação oficial da êxito para a linguagem programação mais
+
+8
+00:00:46,799 --> 00:01:02,549
+é pago mas é uma excelente referência para quem quer conhecer todas as características da linguagem programação semanais mas que muitas vezes não são apresentadas nos livros porque um documento realmente extenso demais mil partos
+
+9
+00:01:02,549 --> 00:01:05,250
+aprenda uma nova linguagem de programação
+
+10
+00:01:05,250 --> 00:01:09,299
+durante nossa primeira parte do nosso curso que foi
+
+11
+00:01:09,299 --> 00:01:32,250
+a aprendizagem da lógica de programação usando de bloco mas vimos diversas vezes que os blocos que nós construímos próspera os algorítimos que nós construímos utilizando blocos eles eram apresentados também em algumas linguagens de programação você pode aprender uma nova linguagem de programação a partir daquelas que foram apresentadas na
+
+12
+00:01:32,250 --> 00:01:36,299
+primeira sessão como já descrente lua ortega que <UNK>
+
+13
+00:01:36,299 --> 00:01:59,250
+mas você pode aprender outras linguagens de programação comerciais e que são muito utilizados principalmente em empresas como a linguagem java a linguagem mantendo a mesma linguagem sem que deu origem à linguagem programação ser mais macio mas acima de tudo procurando procurando e todos os dias o que vocês tomaram
+
+14
+00:01:59,250 --> 00:02:03,299
+o programador cada vez melhor cada vez mais competente

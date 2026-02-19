@@ -1,0 +1,251 @@
+1
+00:00:00,000 --> 00:00:01,000
+olá
+
+2
+00:00:01,000 --> 00:00:11,349
+nesta aula aprenderemos como funciona a ferramenta perene bloqueio entenderemos o que são dados informações e conhecimentos que quando apresentar dados na tela
+
+3
+00:00:11,349 --> 00:00:14,050
+esta é a ferramenta leonilda opulento
+
+4
+00:00:14,050 --> 00:00:35,200
+ela foi desenvolvida por mim para o projeto mais criativo projeto mais crítico consiste uma linguagem de programação esta linguagem objeto limitado seja ela permite o desenvolvimento de aplicações utilizando o paradigma da orientação a objetos e foi desenvolvida especificamente para a construção de aplicações científicas mas
+
+5
+00:00:35,200 --> 00:00:54,550
+pode ser utilizado para construção de qualquer aplicação de uso geral para acessar a ferramenta desenvolvimento agrícola <UNK> pode-se clicar em projetos acesso público pulando em bloco e paulo se caso ciro tem acesso a área restrita do projeto tanto quanto se pode
+
+6
+00:00:54,550 --> 00:01:09,850
+as sessões as versões beta do porto patrimônio bloco basta clicar em acesso restrito laringoscópios facilmente algumas pessoas recebem acesso a esta versão porque ela está em desenvolvimento a versão atual é disponível complexas
+
+7
+00:01:09,850 --> 00:01:15,700
+<UNK> também é possível selecionar digitando diretamente o endereço mais crítico ponto com
+
+8
+00:01:15,700 --> 00:01:17,950
+por favor leia o emplacamento
+
+9
+00:01:17,950 --> 00:01:39,100
+a ferramenta foi desenvolvida utilizando a biblioteca do bloco e do grupo que criou esta fé essa biblioteca para que se pudesse desenvolver uma versão mais confortável mais fácil de manter de uma linguagem de programação chamada esclerite clemente mas ele liberou a biblioteca publicamente e de
+
+10
+00:01:39,100 --> 00:02:00,250
+desenvolvedores a utilizou para construir aplicações com essa que permitem a programação a partir de blocos que muitos usam para outras finalidades que nós utilizamos aqui a programação a partir de blocos a ferramenta pode ser utilizada em alguns idiomas no nosso caso vamos relacionar o português
+
+11
+00:02:00,250 --> 00:02:01,600
+obrigado pelo convite
+
+12
+00:02:01,600 --> 00:02:04,750
+os militares que vão para o topo
+
+13
+00:02:04,750 --> 00:02:07,000
+são acessíveis a mente lógica
+
+14
+00:02:07,000 --> 00:02:11,950
+o restante dos blocos de operações lógicas que veríamos bem adiante
+
+15
+00:02:11,950 --> 00:02:19,150
+laços para acessar os blocos de rua laços de repetição matemática onde estão os blocos aritméticos
+
+16
+00:02:19,150 --> 00:02:36,700
+o texto onde se pode acessar os blocos para operações com textos de diversos tipos de listas onde podemos acessar blogs para operações com listas de vetores capital porque não utilizaremos neste curso as permite algumas operações com cores
+
+17
+00:02:36,700 --> 00:02:52,000
+variáveis onde criamos as variáveis que aprenderemos mais adiante e funções onde podemos criar novas funções ou utilizar funções que já temos criado nos programas que vão ficar disponíveis aqui na forma de blocos
+
+18
+00:02:52,000 --> 00:03:01,450
+a área de trabalho do leme piloto está dividida em quatro partes a barra superior onde estão os comandos com isso
+
+19
+00:03:01,450 --> 00:03:13,150
+a área central onde nós temos a palheta onde podemos descer a tela onde podemos desenhar os objetos a partir da paleta de objetos de culto
+
+20
+00:03:13,150 --> 00:03:19,450
+a primeira área de código onde veremos os blocos que serão desenhados nesta área
+
+21
+00:03:19,450 --> 00:03:37,900
+como um código na linguagem de programação que escolhermos e a segunda área de código code veremos os bloquistas tendo sido convertidos para o código de programação na segunda linguagens de programação que escolher este caso temos escolhido aqui mais crítico
+
+22
+00:03:37,900 --> 00:03:44,200
+mas é possível também selecionar dar-te javascript lua mas crítico php portugal e paixão
+
+23
+00:03:44,200 --> 00:03:49,150
+e na segunda também temos as mesmas línguas que podemos relacionar
+
+24
+00:03:49,150 --> 00:04:01,300
+vamos agora criar nosso primeiro programa chamado álamo o programa que é sempre criada em qualquer linguagem de programação abandonando para tanto crime clicamos em que texto
+
+25
+00:04:01,300 --> 00:04:05,350
+descemos para imprimir que arrastamos o bloco para variar
+
+26
+00:04:05,350 --> 00:04:16,600
+o bloco prime permite que você digite um texto diretamente logo após o parto mas também é possível buscar um bloco de aspas e colocar
+
+27
+00:04:16,600 --> 00:04:20,650
+conectado então escrever o texto que desejávamos aqui dentro
+
+28
+00:04:20,650 --> 00:04:26,950
+esse bloco quando se deseja apenas apresentaram texto opcional então posso tanto digitar aqui
+
+29
+00:04:26,950 --> 00:04:27,950
+paulo
+
+30
+00:04:27,950 --> 00:04:28,950
+no mundo
+
+31
+00:04:28,950 --> 00:04:33,450
+a picape quanto eu posso remover o bloco digitar aqui
+
+32
+00:04:33,450 --> 00:04:36,150
+pouco tempo depois a longo prazo
+
+33
+00:04:36,150 --> 00:04:37,150
+mundo
+
+34
+00:04:37,150 --> 00:04:54,700
+funcionará do mesmo jeito que publico neste caso o da letra o bloco e utilizar a forma escrevendo texto logo após o comando todo bloco colocado nesta área passa ser um comando em uma das linguagens de programação selecionada
+
+35
+00:04:54,700 --> 00:05:16,750
+veja que como na primeira área de código está selecionado mais crítico aparece um código correspondente ao executado na linguagem mais crítico na secundária de código está selecionada linguagem portugal e foi então exibir um código correspondente à linguagem portugal que nada mais é que uma linguagem de programação
+
+36
+00:05:16,750 --> 00:05:17,750
+em português
+
+37
+00:05:17,750 --> 00:05:27,650
+se quisermos executar este código basta clicar no botão executar este que parece uma seta clicando exibida uma caixa escrito alumínio duplo
+
+38
+00:05:27,650 --> 00:05:31,700
+observe que tudo o que é exibido na tela
+
+39
+00:05:31,700 --> 00:05:49,250
+é dado ou informação cuidado é qualquer conteúdo bruto que não tenha sido processado que não tenha recebido um significado especial à informação por outro lado escaldado convertido em algo especial algo que tenha valor a partir de mim
+
+40
+00:05:49,250 --> 00:06:05,900
+entre as informações adquiridas o seduziu os seres humanos constroem conhecimento então nós temos três elementos dado informação e conhecimento neste caso o dado que estamos trabalhando é a expressão aludindo ao clicarmos executar o comando imprimir
+
+41
+00:06:05,900 --> 00:06:08,150
+exibiu dado ao mundo <UNK>
+
+42
+00:06:08,150 --> 00:06:29,300
+se ao invés de uma expressa talvez de um texto tivéssemos uma expressão matemática essa expressão matemática trabalhar em cima de dados produziriam informação que seria o resultado da expressão matemática sendo resolvida copie todo o código que foi gerado na área de <UNK> de código ele
+
+43
+00:06:29,300 --> 00:06:36,949
+é compatível com a linguagem de programação selecionada funcionará perfeitamente no ambiente de programação da línguas selecionado
+
+44
+00:06:36,949 --> 00:06:50,449
+selecionar o texto do papa e mais crítico e vamos testar no maior estúdio o ambiente de programação da linguagem mais crítico o colar e executar veja que funcionou perfeitamente
+
+45
+00:06:50,449 --> 00:06:54,949
+também posso fazer o mesmo no console do mais crítico
+
+46
+00:06:54,949 --> 00:06:55,949
+executar
+
+47
+00:06:55,949 --> 00:06:59,550
+aqui neste caso não foi exibido na startup
+
+48
+00:06:59,550 --> 00:07:10,800
+na tela por que o console ele naum não mostra saídas em encaixes né a gente precisa estar sempre que possível para que ele funcione
+
+49
+00:07:10,800 --> 00:07:12,150
+voltando para casa
+
+50
+00:07:12,150 --> 00:07:16,650
+se fosse um comando de operações aritméticas por exemplo um
+
+51
+00:07:16,650 --> 00:07:25,200
+mais dois estaremos postando aqui as comemorou a saída de uma caixa e não exibir o que na prática
+
+52
+00:07:25,200 --> 00:07:26,200
+mas vejamos
+
+53
+00:07:26,200 --> 00:07:32,500
+se selecionarmos ao de mais crítico da arte que é uma linguagem de programação
+
+54
+00:07:32,500 --> 00:07:55,000
+desenvolvido pelo grupo nós veremos o código correspondente observe que o código um pouco mais complexo mas temos a expressão homem em seguida de parênteses abre chaves um comando corintiano mundo terminando com ponto e vírgula e fechando com chave de todo o programa em dar tipo conheça a para
+
+55
+00:07:55,000 --> 00:08:00,850
+ciência ele tem mais o que a gente chama de função no meio
+
+56
+00:08:00,850 --> 00:08:23,800
+seguido de comandos dentro da declaração da função toda função erem dar-te terão que começará com chaves e térmico e terminará com chave disse tudo o que estiver entre chaves são comandos que serão executados então aqui nós temos o programa imprimiu no mundo é convertido para dar-te se quisermos ver
+
+57
+00:08:23,800 --> 00:08:25,600
+o programa em javascript
+
+58
+00:08:25,600 --> 00:08:38,650
+ele simplesmente será o comando a leste a no mundo vegetal comando galáctico não chamamos uma coisa que nós chamamos de objetos objeto window pontual da vertical do mundo
+
+59
+00:08:38,650 --> 00:08:46,300
+se quisermos ver o mesmo comando reprimiu o ato público o comando se torna presente novo mundo
+
+60
+00:08:46,300 --> 00:09:02,500
+se quisermos ver em php também será preenchê-lo no mundo mas terminado com ponto e vírgula pois nas linguagens javascript php palpita-me que alguns dos outros é o ponto e vírgula sempre necessário final do contrato
+
+61
+00:09:02,500 --> 00:09:04,300
+portugal nós já vimos
+
+62
+00:09:04,300 --> 00:09:06,550
+escreva no mundo e paixão
+
+63
+00:09:06,550 --> 00:09:09,250
+que é parente há no mundo

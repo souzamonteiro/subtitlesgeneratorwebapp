@@ -24,10 +24,15 @@ class SpeechRecognitionApp:
         self.recording_stream = None
         
         # Model configuration (assuming models are already downloaded)
+        # self.models = {
+        #     "English": "vosk-model-small-en-us-0.15",
+        #     "Spanish": "vosk-model-small-es-0.42",
+        #     "Portuguese": "vosk-model-small-pt-0.3"
+        # }
         self.models = {
-            "English": "vosk-model-small-en-us-0.15",
-            "Spanish": "vosk-model-small-es-0.42",
-            "Portuguese": "vosk-model-small-pt-0.3"
+            "English": "vosk-model-en-us-0.22",
+            "Spanish": "vosk-model-es-0.42",
+            "Portuguese": "vosk-model-pt-fb-v0.1.1-20220516_2113"
         }
         
         self.setup_ui()

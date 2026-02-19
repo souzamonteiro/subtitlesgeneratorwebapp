@@ -1,0 +1,367 @@
+1
+00:00:00,000 --> 00:00:22,050
+olá nesta aula aprenderemos sobre funções e procedimentos funções e procedimentos são sobre rotinas com fragmentos de código que podem ser executados sem necessidade de repetir a escrita do código essencialmente elas podem ser chamadas de agentes que a gente faz uma chamada a função a partir do seu
+
+2
+00:00:22,050 --> 00:00:23,050
+nome
+
+3
+00:00:23,050 --> 00:00:40,150
+vejamos como criar funções e procedimentos no ambiente de blocos acessamos a bordo a paleta de funções e nós temos duas opções a primeira opção se refere a procedimentos e a segunda opção se repete se refere a
+
+4
+00:00:40,150 --> 00:00:45,100
+funções vamos criar inicialmente uma um procedimento avistamos o bloco para
+
+5
+00:00:45,100 --> 00:00:52,300
+nesse bloco mas vamos escrever o nome da <UNK> do procedimento vamos chamar esse procedimento dire
+
+6
+00:00:52,300 --> 00:00:53,300
+calor
+
+7
+00:00:53,300 --> 00:00:57,800
+é como se utilizar nomes letras minúsculas para procedimentos preservá-lo
+
+8
+00:00:57,800 --> 00:00:59,150
+todo mundo adorou
+
+9
+00:00:59,150 --> 00:01:23,000
+mundo de fazer contra um procedimento que exibe ao mundo na tela observe que nós não utilizamos assentos em nomes de variáveis e procedimentos no ambiente de blocos até podemos fazer isso mais tarde nas linguagens de programação não podemos novamente elas não suportam isso necessita trabalhar somente com as letras do <UNK>
+
+10
+00:01:23,000 --> 00:01:28,850
+saber que país croácia minúsculos sinal de andar rolar em que esse sinal
+
+11
+00:01:28,850 --> 00:01:29,850
+da linha
+
+12
+00:01:29,850 --> 00:01:50,550
+ou números mas nunca começa com números embora se possa começar comanda rola né vamos então criar um bloco de um procedimento no mundo que esse procedimento fazer quando ele foi chamado ele vai exibir a mensagem ao mundo terra para tanto nós clicamos em texto
+
+13
+00:01:50,550 --> 00:01:51,550
+bloco imprime
+
+14
+00:01:51,550 --> 00:01:54,250
+vamos escrever agora que a um
+
+15
+00:01:54,250 --> 00:01:55,250
+muito bom
+
+16
+00:01:55,250 --> 00:01:58,400
+falou que é um procedimento no mundo
+
+17
+00:01:58,400 --> 00:02:17,300
+vamos agora utilizar esse procedimento como fazemos isso uma vez que temos criado procedimento mas podemos vir aqui na paleta de procedimentos e funções e apareceram bloco correspondente por um novo bloco que acabamos de criar no mundo é só colocar aqui
+
+18
+00:02:17,300 --> 00:02:20,000
+e ele será executado basta testar
+
+19
+00:02:20,000 --> 00:02:21,000
+a luta
+
+20
+00:02:21,000 --> 00:02:38,099
+como é que ficaria sentamos linguagens de programação e da arte para criar um procedimento em parte nós utilizaremos o sifão procedimento palavra-chave foi de nome do procedimento abrimos parênteses e fechamos se não tiver nenhum tipo de
+
+21
+00:02:38,099 --> 00:02:48,000
+é o valor que vamos passar o procedimento daqui a pouco vou modificar em seguida chaves o conteúdo do procedimento fechamos achados
+
+22
+00:02:48,000 --> 00:03:03,750
+neste caso passe o conteúdo procedimento apenas preencha no mundo para executar o procedimento na função nem chamamos ao novo mundo seguido de parênteses ponto e vírgula porque embates todos de comando no ponto frio
+
+23
+00:03:03,750 --> 00:03:06,900
+sentar-te impactou palavra-chave déficit ao novo mundo
+
+24
+00:03:06,900 --> 00:03:24,900
+que é o nome da fundadora da função abro parênteses dois pontos abre frente para em dois pontos então o conteúdo do procedimento neste caso apenas presente aluno para chamar procedimento nome do procedimento abro parênteses fez parêntese e pronto
+
+25
+00:03:24,900 --> 00:03:26,700
+vamos ver em javascript
+
+26
+00:03:26,700 --> 00:03:46,050
+o javascript palavra-chave function nome do procedimento abre-e-fecha parêntesis abre chaves conteúdo do procedimento que nesse caso é o window o investiu no mundo fechados para executar a no mundo abre parênteses fez parentese ponto e vírgula da mesma forma quem das <UNK>
+
+27
+00:03:46,050 --> 00:03:49,650
+os de comando termina com ponto vida nua
+
+28
+00:03:49,650 --> 00:03:51,000
+function palavra-chave function
+
+29
+00:03:51,000 --> 00:04:04,500
+nome do procedimento no mundo parênteses abro parênteses e fez parentas conteúdo do procedimento e término procedimento a palavra-chave para chamar o procedimento executado nome do procedimento abram seus parentes
+
+30
+00:04:04,500 --> 00:04:08,550
+mas create function também o nome do procedimento parênteses
+
+31
+00:04:08,550 --> 00:04:18,000
+abra e feche a broa chaves escrevo conteudo do procedimento finalizo com fechar projecta número procedimento parentes abscessos php também fonte
+
+32
+00:04:18,000 --> 00:04:28,350
+alô mundo abro parênteses fecho parêntesis abro chaves conteudo do procedimento finalizo fechando com achados projectar nome do procedimento parênteses abre sete pontos
+
+33
+00:04:28,350 --> 00:04:29,350
+portugal
+
+34
+00:04:29,350 --> 00:04:44,650
+mesma coisa função nome do procedimento parênteses abre sete abre-fecha chaves entre as chaves eu coloco os comandos correspondente neste caso escreva no mundo para executar nosso do procedimento parêntesis abriu sete pontos de
+
+35
+00:04:44,650 --> 00:04:49,150
+vamos ver agora como é que nós passamos uma mensagem
+
+36
+00:04:49,150 --> 00:04:56,350
+para o procedimento triplicamos na engrenagem e vamos adicionar eh o nome da variável de entrada
+
+37
+00:04:56,350 --> 00:05:03,100
+neste caso a variável que está como xp vou trocar o nome dela para nome
+
+38
+00:05:03,100 --> 00:05:05,800
+quem é que vai acontecer agora
+
+39
+00:05:05,800 --> 00:05:20,199
+o procedimento passa agora a receber um um parâmetro esperanto vanessa aparece na variável nome nós vamos mudar essa mensagem que veja no mundo nós vamos pegar o bloco criar texto comum
+
+40
+00:05:20,199 --> 00:05:22,000
+e vamos colocar aqui
+
+41
+00:05:22,000 --> 00:05:27,850
+vou dar o nome do procedimento dia no mundo para a luz você
+
+42
+00:05:27,850 --> 00:05:29,650
+aqui vamos colocar no
+
+43
+00:05:29,650 --> 00:05:32,350
+espaço e aqui embaixo variável nome
+
+44
+00:05:32,350 --> 00:05:33,350
+<UNK>
+
+45
+00:05:33,350 --> 00:05:48,650
+que prato agora nós temos criar texto com ralo junto com um nome para executar mas vamos chamar ou a função alô mundo passando para ele alguma coisa gigante a passa para outro texto
+
+46
+00:05:48,650 --> 00:05:55,850
+não há no mundo todo o nome que no mundo por aqui a gente vai ao
+
+47
+00:05:55,850 --> 00:06:00,350
+vou até colocar mais um bloco aqui pra colocar exclamação
+
+48
+00:06:00,350 --> 00:06:01,350
+pronto
+
+49
+00:06:01,350 --> 00:06:08,550
+vejamos a executar alô mundo seu mudar agora que de mundo pra outra coisa por exemplo
+
+50
+00:06:08,550 --> 00:06:09,550
+roberto nome
+
+51
+00:06:09,550 --> 00:06:10,550
+paulo roberto
+
+52
+00:06:10,550 --> 00:06:11,550
+mas ficou
+
+53
+00:06:11,550 --> 00:06:27,300
+nas línguas promoção da arte simplesmente entre os parentes vai nome da variável partidária para hostilizá-la dentro do procedimento para enviar o nome para provar a procedimento basta colocar na também na chamada do procedimento
+
+54
+00:06:27,300 --> 00:06:39,900
+a expressão que eu quero que você seja virada para ele ele vai ficar disponível parte dentro do procedimento parte essa variável foi criado em portugal semelhante também
+
+55
+00:06:39,900 --> 00:06:41,250
+vejamos em javascript
+
+56
+00:06:41,250 --> 00:06:42,250
+muito parecido
+
+57
+00:06:42,250 --> 00:06:58,900
+nome da variável que vai recebê-lo o parâmetro não falo do passado e a partir daí nós podemos utilizar na hora de passar o parâmetro basta colocá-lo entre parêntesis na chamada do procedimento lua bens não conhece
+
+58
+00:06:58,900 --> 00:06:59,900
+mas gritos
+
+59
+00:06:59,900 --> 00:07:02,150
+idêntico ao de outros crimes
+
+60
+00:07:02,150 --> 00:07:10,250
+php também é certo que como todas as variáveis as variáveis de parâmetros também começou com a bola
+
+61
+00:07:10,250 --> 00:07:11,250
+portugal
+
+62
+00:07:11,250 --> 00:07:13,950
+e parto parto mim nesse concurso
+
+63
+00:07:13,950 --> 00:07:16,650
+vejamos agora como criar uma função
+
+64
+00:07:16,650 --> 00:07:27,450
+uma função é um procedimento especial que retorna um valor vamos criar uma função basta prosperar o bloco de funções que tem escrito retorna
+
+65
+00:07:27,450 --> 00:07:31,950
+vamos puxá-lo para vamos escrever que nome dele se soma
+
+66
+00:07:31,950 --> 00:07:36,450
+esse bloco vai somar dois valores para receber duas variáveis
+
+67
+00:07:36,450 --> 00:07:39,150
+x itinerários números variáveis automaticamente hits
+
+68
+00:07:39,150 --> 00:07:56,250
+então e nós vamos pouco o que é que esse bloco vai fazer ele vai somar os dois valores do pelo bloco matemático coloco chama retorno não preciso colocar nada dentro retorna valores destes aditivos sobre as variantes
+
+69
+00:07:56,250 --> 00:08:13,800
+e agora nós criamos um quando nós criamos uma função que recebe dois valores físicos somos dois valores o retorno vamos ver agora como é que nós fazemos para exibir esse resultado lembrando que é uma função do loco
+
+70
+00:08:13,800 --> 00:08:14,800
+em mim
+
+71
+00:08:14,800 --> 00:08:18,850
+no bloco imprime agora nós vamos criar um texto
+
+72
+00:08:18,850 --> 00:08:19,850
+onde escrever
+
+73
+00:08:19,850 --> 00:08:20,850
+soma
+
+74
+00:08:20,850 --> 00:08:24,900
+dois pontos e vamos agora chamar a função soma
+
+75
+00:08:24,900 --> 00:08:30,300
+recoloquei com letra maiúscula que como disse padrão sítios a letra minúscula
+
+76
+00:08:30,300 --> 00:08:32,550
+análise de variáveis e funções
+
+77
+00:08:32,550 --> 00:08:36,150
+vamos lá agora que a função soma com
+
+78
+00:08:36,150 --> 00:08:39,300
+tios e tias tios eu vou passar
+
+79
+00:08:39,300 --> 00:08:40,650
+o valor dois
+
+80
+00:08:40,650 --> 00:08:43,350
+e não passar o valor três
+
+81
+00:08:43,350 --> 00:08:44,350
+vamos executar
+
+82
+00:08:44,350 --> 00:08:51,550
+soma cinco vejamos como ficou cada uma das linguagens de programação em dar-te daí na mente
+
+83
+00:08:51,550 --> 00:09:14,050
+é o tipo de lei de retorno da função soma xis ípsilon retorno antes mais liquido para utilizar basta chamar o nome da função e entre parênteses cada um dos argumentos separados por vírgula neste caso esses dois argumentos são somos dois ou três que vão para as variáveis respectivamente
+
+84
+00:09:14,050 --> 00:09:23,500
+antes então a gente chama de cabeçalho da função essa parte de nós definimos os parâmetros dela o tipo de retorno
+
+85
+00:09:23,500 --> 00:09:41,950
+e esses parâmetros são os parâmetros formais da função em dar tiro tenso a forma enfim faetonte muito semelhantes entre parênteses veias para eventos formais prático denominada utilizar basta colocar também as valores aparente para pratos sejam desejáveis crente o soma
+
+86
+00:09:41,950 --> 00:09:54,100
+também infantil a um âmbito alteração em relação ao procedimento é que passa a ter a um comando retorne betânia passando o valor de x mais isso
+
+87
+00:09:54,100 --> 00:10:02,200
+em arte eh a gente também tem ptn praticamente todas as linguagens de programação em lua também transliterado
+
+88
+00:10:02,200 --> 00:10:17,050
+php também temos o retorno de parâmetros todos os dois parâmetros tem que ter o dólar procedendo se trata de dólar a cifra precedendo os nomes das variáveis palavras-chave retorne retorno do valor
+
+89
+00:10:17,050 --> 00:10:19,750
+portugal função entre parentes os valores
+
+90
+00:10:19,750 --> 00:10:21,100
+pai de afetos
+
+91
+00:10:21,100 --> 00:10:22,100
+isso
+
+92
+00:10:22,100 --> 00:10:23,100
+<UNK>

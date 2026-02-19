@@ -1,0 +1,203 @@
+1
+00:00:00,000 --> 00:00:03,149
+uma nesta aula resolveremos alguns problemas propostos
+
+2
+00:00:03,149 --> 00:00:23,849
+o primeiro problema consiste em criar um programa que solicite valorizam usuário esses valores serão armazenados em duas variáveis em seguida deve ser determinado menor deles e exibidos dois valores na tela e ordem crescente para toda a exibição deste vídeo e tente resolver o prof
+
+3
+00:00:23,849 --> 00:00:26,549
+banho em seguida retorne à exibição
+
+4
+00:00:26,549 --> 00:00:45,000
+aqui está a resolução no primeiro problema nós criamos duas variáveis a e b essas duas variáveis estão disponíveis aqui na palito de variáveis e também criamos uma variável de saída para apresentação dos pratos as variáveis a e b recebem
+
+5
+00:00:45,000 --> 00:01:04,799
+os valores digitados pelo usuário que o primeiro segundo valor utilizando os blocos sete pilotos foram configurados para número porque nós vamos ter que fazer comparações numéricas depois seguida utilizado um bloco cinza onde foi adicionada a cláusula cena no bloco seria feita com
+
+6
+00:01:04,799 --> 00:01:20,549
+para saciar seu maior erro ao b então é exibida a informação da redução dos valores em ordem crescente colocando a primeira seguida o valor de b observe que para isso foi criada uma variável
+
+7
+00:01:20,549 --> 00:01:21,899
+é a saída
+
+8
+00:01:21,899 --> 00:01:26,399
+e essa variável saída vai ser configurada com os dados
+
+9
+00:01:26,399 --> 00:01:45,299
+das duas variáveis utilizando um bloco criar três tuca esse bom criar texto conforme foi utilizado porque precisamos concatenar expressam os valores de ordem crescente são o valor da variável a expressão e o valor da variável b e o ponto final
+
+10
+00:01:45,299 --> 00:01:54,299
+bem isto no caso de a semana alegou que b caso contrário a cláusula senão será executado nas talentos definhar
+
+11
+00:01:54,299 --> 00:02:12,300
+a variável de saída para o valor de b seguido do valor de até mesmo bloco criar texto onde vertemos apenas as variáveis a e b a que faltou colocar o bloco para apresentar os resultados do autor do crime
+
+12
+00:02:12,300 --> 00:02:13,650
+os colocar novamente
+
+13
+00:02:13,650 --> 00:02:14,650
+um cristo
+
+14
+00:02:14,650 --> 00:02:20,050
+há na verdade não é necessário basta apresentar o resultado agradou saída
+
+15
+00:02:20,050 --> 00:02:21,050
+vamos executar
+
+16
+00:02:21,050 --> 00:02:25,100
+entre o primeiro valor vou digitar o valor três
+
+17
+00:02:25,100 --> 00:02:30,500
+o segundo valor valor quatro os valores ou crescente são quatro três
+
+18
+00:02:30,500 --> 00:02:31,850
+tais divertir aqui
+
+19
+00:02:31,850 --> 00:02:39,950
+evite na verdade menonita que funcione em ordem crescente do contágio emocional do contrário vamos tentar de novo
+
+20
+00:02:39,950 --> 00:02:53,000
+valor três halo quatro agora s três e quatro faltou dar o espaço que damos espaço do rei e depois do leigo faz a mesma coisa que um date
+
+21
+00:02:53,000 --> 00:02:54,000
+vamos lá
+
+22
+00:02:54,000 --> 00:02:55,000
+três
+
+23
+00:02:55,000 --> 00:03:01,300
+enquanto os valores integrais entre outros iguais o inverter agora o coloca quatro três
+
+24
+00:03:01,300 --> 00:03:02,300
+quatro
+
+25
+00:03:02,300 --> 00:03:11,300
+e três veja aqui ainda sem apresenta apresentados valores em ordem crescente para salvar o resultado basta clicar no botão
+
+26
+00:03:11,300 --> 00:03:16,250
+e o arquivo será baixado preço renomear o nome que desejar
+
+27
+00:03:16,250 --> 00:03:41,900
+é isso o segundo problema consiste em criar uma função que receba um número inteiro em seguida calculou-se seu fatorial valo fatorial deve ser exibido na tela é importante lembrar que o fatorial de momento é calculado da seguinte forma o valor do número nove vezes o valor do fatorial de um número n meloso e suba
+
+28
+00:03:41,900 --> 00:04:01,250
+acontecendo decompondo cada vez mais expressão em menos um fatorial observe que como exemplo temos aqui o fatorial de cinco anos que é o fatorial de cinco ao valor de cinco vezes cinco menos um quatro vezes quatro menos um três vezes três
+
+29
+00:04:01,250 --> 00:04:06,200
+menos um dois vezes dois menos um um e para mim
+
+30
+00:04:06,200 --> 00:04:19,250
+neste caso restava científicas para agora a exibição desses na rede e em seguida tente resolver o problema quando conseguir volte a apresentação do vídeo e veja a solução
+
+31
+00:04:19,250 --> 00:04:21,949
+neste caso utilizamos o bloco função
+
+32
+00:04:21,949 --> 00:04:27,800
+na aba obtemos a bloco partidário da fonte onde temos um plano para
+
+33
+00:04:27,800 --> 00:04:45,800
+este bloco para ele tem uma opção de ser renomeada forçam os casos recomendamos ela para fatorial e foi adicionada à variável n clicando na engrenagem e arrastando o bloco nome de entrada x e renomeando nome avariado nx para
+
+34
+00:04:45,800 --> 00:04:46,800
+enfim
+
+35
+00:04:46,800 --> 00:05:04,350
+em seguida foi adicionado dentro do bloco da função um bloco cinza para fazer a comparação sem foi rosa é definido resultado comum caso contrário o resultado definido para o valor de vinte vezes o notório fatorial de n
+
+36
+00:05:04,350 --> 00:05:05,700
+é menos um
+
+37
+00:05:05,700 --> 00:05:25,950
+isso corresponde ao que vimos nos ladina que o fatorial de um número aí existem menos um mas o fatorial de eliminação é pra fazer esse cálculo mas somos a própria função fatorial esse procedimento chamado recursão quando nós chamamos a própria função várias vezes
+
+38
+00:05:25,950 --> 00:05:31,350
+a para processar parte dos dados dela também ser chamado de recursividade
+
+39
+00:05:31,350 --> 00:05:57,000
+uma vez que tenha sido completado todo o processo de cálculo fatorial que velhice vamos calcular o fatorial de cinco valores se encontrará na função passará para a dupla sena não fará cinco vezes o fato acima faça um tutorial só que dessa vez cinco menos ou seja quatro letra que com valor de quatro de novo
+
+40
+00:05:57,000 --> 00:06:01,949
+a sara prata com que vai ser calculado resultado quatro vezes
+
+41
+00:06:01,949 --> 00:06:22,199
+quanto menos um três volto pra cá vai voltar pro bloco senão vai calcular três vezes o fatorial de três menus ou dolores volta para cada ocorrência mantinha motivou o fatorial de dois prefira resultado como duas vezes o fatorial de dois mundos um pokémon
+
+42
+00:06:22,199 --> 00:06:26,699
+volto pra casa e quando chega a uma fase novamente
+
+43
+00:06:26,699 --> 00:06:31,649
+uma vez o fatorial de minas o cruzeiro volta pra cá
+
+44
+00:06:31,649 --> 00:06:40,649
+só que dessa vez zero retorna nesta versão cada vez que é feito o cálculo o processamento do bloco disse
+
+45
+00:06:40,649 --> 00:06:48,750
+é definido o valor do resultado e passo a cláusula retorna do bloco vai retomar esse resultado que
+
+46
+00:06:48,750 --> 00:06:52,800
+é que nós teremos o fatorial de cinco é
+
+47
+00:06:52,800 --> 00:07:16,650
+quem está calculando fatorial de cinco romances que tinha um toque imprime onde você ser três fatorial de cinco é que elas estamos lá lady chama função fatorial usando do bloco função precípua porque toda vez que criamos uma função é criado a correspondente que minha volta fatorial com n correspondendo a cinco
+
+48
+00:07:16,650 --> 00:07:24,300
+eu sei que nas quinas queremos calcula que o ponto final somente para completar este vão desertar
+
+49
+00:07:24,300 --> 00:07:27,000
+fatorial de cinco cento e vinte
+
+50
+00:07:27,000 --> 00:07:28,000
+é isso
+
+51
+00:07:28,000 --> 00:07:29,000
+<UNK>

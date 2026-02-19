@@ -1,0 +1,519 @@
+1
+00:00:00,000 --> 00:00:17,550
+olá nesta aula aprenderemos o que são variáveis e como utilizá-las com operadores na aula anterior aprendemos a escrever uma expressão na tela utilizando o bloco imprime que foi convertido para as diversas linguagens que estamos aprendendo neste curso
+
+2
+00:00:17,550 --> 00:00:24,300
+utilizando conversor de linguagens que se encontra na parte inferior da janela do barco inflável
+
+3
+00:00:24,300 --> 00:00:31,950
+nesta aula aprenderemos a criar variáveis utilizar operadores para fazer realizar operações matemáticas e lógicas com elas
+
+4
+00:00:31,950 --> 00:00:34,650
+vamos criar átomos pagar a vista
+
+5
+00:00:34,650 --> 00:00:40,500
+é lá que vamos criar uma variável neste caso vou criar a variável
+
+6
+00:00:40,500 --> 00:01:00,750
+quando criamos uma variável do sujeito na paleta de variáveis os blocos definir qual o nome da variável falará e alterar o nome da variável para além de um bloco que contém apenas o nome da variável vejamos como utilizar os blocos de variadas raças
+
+7
+00:01:00,750 --> 00:01:20,100
+quando do bloco definido para a área de trabalho observamos que já é exibido na parte inferior para uma embalagem mais critica a igual a zero para levar a gente para então é criado primeiro argola na única que por estar quase morto
+
+8
+00:01:20,100 --> 00:01:29,550
+se fizermos a mesma coisa para observar o código da parte veremos que é criada uma variável utilizando o comando var
+
+9
+00:01:29,550 --> 00:01:40,350
+seguido pelo nome da variável ponto virgula e dentro da seção ou função bem mas veremos as duas eros terminando sempre com potencial impacto
+
+10
+00:01:40,350 --> 00:01:57,000
+mesma coisa em javascript e nós devemos levar parar novamente comando vai ser utilizado para criar a variável e depois atribuído valor variável utilizando a igual o <UNK> operador de atribuição zero terminando com ponto e vírgula
+
+11
+00:01:57,000 --> 00:02:17,250
+em php temos a mesma coisa exceto que a variável neste caso é criada colocando no símbolo antes do nome da variável este símbolo sinal de dólar que nós temos dólar ponto e vírgula depois para atribuir um valor variável termos dólar igual a zero
+
+12
+00:02:17,250 --> 00:02:18,250
+em portugal
+
+13
+00:02:18,250 --> 00:02:25,000
+semelhante a um javascript da arte vallarta para criar a variável e depois artigo lazer
+
+14
+00:02:25,000 --> 00:02:40,300
+então agora não implica a josé bento se quisermos agora definir um valor específico para a variável quarto vamos no bloco matemática e seleciona selecionamos o bloco que contém os números um dois três
+
+15
+00:02:40,300 --> 00:02:41,650
+agora podemos atribuir
+
+16
+00:02:41,650 --> 00:02:42,650
+por exemplo
+
+17
+00:02:42,650 --> 00:02:59,300
+observe que na área de código atribuição da variável a mudou para igualar a mim isso vai acontecer em todas as linguagens de programação javascript a igual um ponto e vírgula em lua a igual a mim
+
+18
+00:02:59,300 --> 00:03:01,100
+é mais crítico agnaldo
+
+19
+00:03:01,100 --> 00:03:04,700
+em php dólar ah e guardá-lo em portugal
+
+20
+00:03:04,700 --> 00:03:05,700
+a a
+
+21
+00:03:05,700 --> 00:03:06,700
+impacto
+
+22
+00:03:06,700 --> 00:03:07,700
+a escola
+
+23
+00:03:07,700 --> 00:03:27,500
+se quisermos adora exibir o valor da variável na tela utilizamos novamente o comando imprimir logo imprimir podemos ou não como conectá-lo abaixo do bloco novo do bloco definitivo conectá-lo e agora vou colocar nesse espaço onde temos aqui a pc o bloco com
+
+24
+00:03:27,500 --> 00:03:29,300
+o nome da variável
+
+25
+00:03:29,300 --> 00:03:39,200
+se clicarmos agora no botão executar exibido o valor da variável nota observe como ficou o comando para exibir a variável impacto
+
+26
+00:03:39,200 --> 00:03:51,800
+vinte a observe fininha para um tornou a igualação imprime se tornou parente se quisermos ver o mesmo comando cantar-te observe pagou a um parente para em javascript
+
+27
+00:03:51,800 --> 00:03:55,400
+a igual a um um window alertas ah
+
+28
+00:03:55,400 --> 00:04:13,400
+é mais crítico agora um sistema de sol mestre da tailândia há em php a igualam começando com dólar sempre precedido da aula ao nome da variável parente da lara sempre procedemos o nome da variável com sinal de dólar
+
+29
+00:04:13,400 --> 00:04:14,400
+em php
+
+30
+00:04:14,400 --> 00:04:16,650
+em portugal a igualá-lo escreva-a
+
+31
+00:04:16,650 --> 00:04:18,450
+então agora não permitirá
+
+32
+00:04:18,450 --> 00:04:27,000
+mas podemos realizar algumas operações utilizando variadas para isso vamos criar mais uma variável variável cria uma variável b
+
+33
+00:04:27,000 --> 00:04:34,650
+agora temos um novo bloco e a surgiu também o bloco definir depara veja que o bloco
+
+34
+00:04:34,650 --> 00:04:56,250
+definir b também pode ser trocado para qualquer momento é possível renomear a variável a qualquer momento clicando clicando na seta ao lado do nome da variável e seleciona o seu alvo a variável que se deseja utilizar pode-se renomeá-la clicando renomear o deletar apagar avarias nos deixa
+
+35
+00:04:56,250 --> 00:05:04,800
+olá que tal artigo a um bebê vai ser definido para agora vamos utilizar uma expressão matemática clicamos na
+
+36
+00:05:04,800 --> 00:05:20,100
+paleta de operações matemáticas e arrastamos o bloco de operações matemáticas neste caso hajam de fazer com que bia seja definido para um valor odiar mas quando terminado número que vamos digitar no estado
+
+37
+00:05:20,100 --> 00:05:36,300
+mas para garantir o valor tira a variável a encaixar o bloco nesse espaço vazio dentro do bloco que operação matemática era possível trocar operação clicando na seta nós temos os operadores adição subtração multiplicação divisão
+
+38
+00:05:36,300 --> 00:05:51,600
+este aparador especial que é a potência que significa elevado a vamos utilizar neste momento a operação adição o padrão já se encontra o valor digitado após operador operadores matemáticos costumam ser ter a
+
+39
+00:05:51,600 --> 00:06:13,200
+operandos à esquerda e à direita neste caso operando que ajudaria a variável alterando a direita é número se agora ao invés de imprimir valor de alarme mudarmos para b nós veremos que o valor de b será o valor diário acrescido de um e neste caso aqui
+
+40
+00:06:13,200 --> 00:06:14,550
+o valor indefinido
+
+41
+00:06:14,550 --> 00:06:27,600
+o trauma que ao clicar executar temos o valor dois na trama porque há um intervalo mais um ou dois se muitíssimo de modificarmos operador para multiplicação e trocarmos
+
+42
+00:06:27,600 --> 00:06:36,600
+o valor do operando à direita para três executarmos teremos agora vamos mudar o valor de uma também para adultos
+
+43
+00:06:36,600 --> 00:06:46,950
+trabalhamos temos valor dois e vamos agora pessoalmente somente o valor de b a vezes três como ativá-lo dois duas vezes três seis
+
+44
+00:06:46,950 --> 00:06:47,950
+seis
+
+45
+00:06:47,950 --> 00:07:03,700
+b podemos é realizar operações aninhadas então se quisermos por exemplo multiplicar o valor diário vezes uma outra operação matemática podemos fazer também basta colocar no lugar deste espaço uma nova operação multiplicar a praça
+
+46
+00:07:03,700 --> 00:07:14,500
+matemáticas e colocar outro bloco arquitetos neste caso vamos fazer com que a seja igual à vezes o colocar o próprio valor de nada
+
+47
+00:07:14,500 --> 00:07:20,350
+ah vai ser avisada mas o número que será editada aqui vamos colocar
+
+48
+00:07:20,350 --> 00:07:21,350
+três
+
+49
+00:07:21,350 --> 00:07:22,350
+vamos executar
+
+50
+00:07:22,350 --> 00:07:25,500
+dez porque a contenham valor dois vezes
+
+51
+00:07:25,500 --> 00:07:41,700
+dois mas três contra dois mas três cinco duas vezes dois mais três três quesitos duas vezes três a cinco cinco vezes vezes duas delas porque foi executado dessa forma observe que o bloco foi colocado
+
+52
+00:07:41,700 --> 00:07:45,300
+inteiro à direita do operador de uma explicação
+
+53
+00:07:45,300 --> 00:07:50,700
+na linguagem de blocos isso faz com que seja colocado um parênteses
+
+54
+00:07:50,700 --> 00:08:08,250
+enfim é incluindo toda a operação que foi colocada no bloco no espaço à direita do operador vejamos o código emparedou esconde ficou da seguinte forma são criadas as duas variáveis a e b atribuindo valor nome pra elas
+
+55
+00:08:08,250 --> 00:08:22,200
+em seguida recebeu valor dois e recebeu valor há vezes dentro de parênteses como eu disse há mais três em seguida exibido na tela o valor de b parente bem vejamos
+
+56
+00:08:22,200 --> 00:08:23,550
+em outra opa
+
+57
+00:08:23,550 --> 00:08:34,800
+vejamos o valor a mesma operação em dar-te temos ar igual a dois agora dois iberê igualá-la à vezes a mais três vejamos em javascript
+
+58
+00:08:34,800 --> 00:09:00,900
+eu adoro e sempre terminando com ponto e vírgula em javascript necessário termina sempre com ponto e vírgula observemos que as variáveis a e b estão sendo criadas juntas utilizando o comando vara neste caso como estão sendo criadas duas variáveis os nomes das variáveis são separados por vírgula e sempre ao final ponto e vírgula toda linda
+
+59
+00:09:00,900 --> 00:09:04,500
+comando javascript e termina com ponto e vírgula
+
+60
+00:09:04,500 --> 00:09:18,000
+é atribuição aguardou dois o ponto e vírgula em seguida poderia igualar vezes há mais três dentre parentes novamente no possível para exibição na tela ou em doar parte b
+
+61
+00:09:18,000 --> 00:09:31,050
+vejamos em lua código semelhante é certo que não temos os pontos vírgulas ao passo que ao final das linhas água dois desiguala vezes mais três e presente b
+
+62
+00:09:31,050 --> 00:09:38,700
+mas crítico semelhante também adoro dois degola vezes há mais três e para exibição system chama-se ajudar
+
+63
+00:09:38,700 --> 00:09:39,700
+php
+
+64
+00:09:39,700 --> 00:09:50,950
+novamente criamos as duas variáveis do lado b e em seguida dolar e dois terminando ponto vermelho terá três linhas de comando termina com protegê-la
+
+65
+00:09:50,950 --> 00:09:57,700
+dólar derrotou lá vezes dentro de parâmetros dolar mais três terminam por vínculo print idolatre
+
+66
+00:09:57,700 --> 00:09:59,950
+portugal semelhante às outras linguagens
+
+67
+00:09:59,950 --> 00:10:02,200
+e pai mas já ficamos
+
+68
+00:10:02,200 --> 00:10:22,450
+existem muitos operadores matemáticos que estão disponíveis na paleta de matemática nós temos analisa as funções neste caso aqui está destacado raiz quadrada mas podemos utilizar qualquer uma das outras funções disponíveis que vou deletar os blocos palco selecionar o bloco mais externa e delicada
+
+69
+00:10:22,450 --> 00:10:33,250
+ela delete todos os blocos apago todos os blocos vou colocar agora o bloco de raiz quadrada e vamos operar com a variável a
+
+70
+00:10:33,250 --> 00:10:36,850
+vou colocar o número que dizem ser feliz
+
+71
+00:10:36,850 --> 00:10:44,500
+para o valor de ar e se pedimos agora que defina b para raiz quadrada de dirá
+
+72
+00:10:44,500 --> 00:10:57,100
+temos o resultado quatro pois quatro nas quadras do dia podemos fazer isso para diversas funções temos valor dissoluto retornará um valor positivo se o número for negativo
+
+73
+00:10:57,100 --> 00:11:03,850
+logaritmo neperiano logaritmo na base dez exponenciação e dez elevado ao valor diário por exemplo
+
+74
+00:11:03,850 --> 00:11:08,350
+temos outras funções temos as funções seno cosseno tangente observe
+
+75
+00:11:08,350 --> 00:11:10,600
+colocando aqui as funções seno
+
+76
+00:11:10,600 --> 00:11:12,400
+eu mudando aqui para
+
+77
+00:11:12,400 --> 00:11:17,350
+ah nós poderemos colocar o valor de até quarenta e cinco
+
+78
+00:11:17,350 --> 00:11:27,700
+e agora executando temos aqui o valor do cento e quarenta e cinco observe que aqui nós temos todos os outras funções transcendentais
+
+79
+00:11:27,700 --> 00:11:32,200
+cosseno tangente à qual sempre cotados para cosseno arco tangente
+
+80
+00:11:32,200 --> 00:11:34,900
+temos algumas constantes por exemplo p
+
+81
+00:11:34,900 --> 00:11:42,550
+então aqui nós podemos deletar coloca o bloco da constantes é que nós temos outras constantes p
+
+82
+00:11:42,550 --> 00:11:50,200
+o número é a raiz quadrada de dois com uma constante raiz quadrada de um mei infinito
+
+83
+00:11:50,200 --> 00:11:51,200
+<UNK>
+
+84
+00:11:51,200 --> 00:11:59,750
+temos uma função um bloco especial para verificar se um determinado número de paula por exemplo vamos colocar aqui
+
+85
+00:11:59,750 --> 00:12:00,750
+nota
+
+86
+00:12:00,750 --> 00:12:01,750
+deletar aqui
+
+87
+00:12:01,750 --> 00:12:04,000
+se colocarmos aqui a variável
+
+88
+00:12:04,000 --> 00:12:06,700
+e colocarmos aqui um valor par
+
+89
+00:12:06,700 --> 00:12:08,050
+por exemplo quatro
+
+90
+00:12:08,050 --> 00:12:26,500
+e pedimos para definir bem para o valor correspondente à verdadeiro falso verdadeiro search for par falso se não for brito aplicarmos as actas veremos monstro parecia que estrutura o inglês é verdadeiro o que acaba se colocamos agora que três
+
+91
+00:12:26,500 --> 00:12:30,550
+é falso porque ela não porque três não ímpar
+
+92
+00:12:30,550 --> 00:12:38,650
+existem outros blocos blocos com funções de arredondamento somar de uma lista esta divisão e assim por diante
+
+93
+00:12:38,650 --> 00:12:44,950
+então estes são os blocos de operações matemáticas e que também permitem realizar é
+
+94
+00:12:44,950 --> 00:13:03,400
+operações com funções matemáticas mas com menos disponíveis para cada uma dessas funções operacionais que nós realizamos nós teremos gerado um código correspondente numa linguagem de programação observe que verificar que a reparar na linguagem pai corresponde a fazer a ele
+
+95
+00:13:03,400 --> 00:13:14,650
+esse símbolo especial que foi exibido aqui percentagem impacto significa resto da divisão estanque que se está fazendo aqui resto da divisão diária por dores
+
+96
+00:13:14,650 --> 00:13:36,700
+e comparando esse golo igual que impacto significa comparar o valor para verificar se ele igual a zero porque qualquer número dividido por dois terá resto lazeres poupar por limpar o resto será diferente a dizer se verificarmos agora em javascript e veremos que a operação é bastante semelhantes
+
+97
+00:13:36,700 --> 00:13:45,700
+ah resto da divisão por dois igual a zero comparação da arte mesma coisa rara esta divisão por dois lázaro
+
+98
+00:13:45,700 --> 00:13:56,500
+php a esta divisão por dois juazeiro lembrando que emprega gente sempre coloca um dólar na frente da variável mas critico muito semelhantes também
+
+99
+00:13:56,500 --> 00:13:57,500
+portugal
+
+100
+00:13:57,500 --> 00:13:59,750
+o parto como já vimos
+
+101
+00:13:59,750 --> 00:14:02,900
+para as funções matemáticas teremos as mesmas
+
+102
+00:14:02,900 --> 00:14:22,250
+as mesmas são solicitando pé gerados em todas as linguagens de programação de modo geral as linguagens de programação tem as mesmas definições dos mesmos nomes de funções matemáticas então se nós tivermos trabalhando por exemplo a função seno colocarmos aqui cenas adiada
+
+103
+00:14:22,250 --> 00:14:25,850
+como fizemos anteriormente veremos que o código correspondente
+
+104
+00:14:25,850 --> 00:14:28,550
+um erro aparentemente não gerou corante
+
+105
+00:14:28,550 --> 00:14:29,550
+agora
+
+106
+00:14:29,550 --> 00:14:52,050
+é em parte nós temos aqui está sendo importada da biblioteca da arte melhor porque porque dar-te procedidas as funções especiais matemáticas é necessário portar uma biblioteca o que uma biblioteca é um arquivo que contém as definições de cada uma das funções que nós vamos usar caso esse arquivo
+
+107
+00:14:52,050 --> 00:15:00,150
+dar-te mel contém as definições de cada uma das funções seno cosseno tangente suas funções são exibidas aqui
+
+108
+00:15:00,150 --> 00:15:01,150
+em seguida
+
+109
+00:15:01,150 --> 00:15:21,850
+nós passamos a poder utilizar a função matemática utilizando como prefixo o nome que vem logo depois do operador estão aqui está sendo dizer no porte da arte mestre rs nasceu seja com meias e a partir daí podemos utilizar a função seno quem da arte
+
+110
+00:15:21,850 --> 00:15:23,200
+rs significa sina
+
+111
+00:15:23,200 --> 00:15:24,200
+sim
+
+112
+00:15:24,200 --> 00:15:32,750
+precedendo o nome da função com o ex-prefeito que foi colocado aqui na verdade objeto objeto nesse ponto cinco
+
+113
+00:15:32,750 --> 00:15:34,100
+vejamos então javascript
+
+114
+00:15:34,100 --> 00:15:36,350
+nesse ponto se não também
+
+115
+00:15:36,350 --> 00:15:37,700
+enfim no ano
+
+116
+00:15:37,700 --> 00:15:39,050
+neste ponto sim
+
+117
+00:15:39,050 --> 00:15:57,500
+só que neste caso está sendo chamado a segunda função rádio porque poucas funções matemáticas elas não são definidas para graus trazendo sua palavra que quarenta e cinco graus esses graus decimais que nos colocamos aqui precisam ser convertidos para radianos
+
+118
+00:15:57,500 --> 00:16:03,800
+por que essas funções matemáticas foram sempre definidas para trabalhar com números em radianos
+
+119
+00:16:03,800 --> 00:16:10,100
+no caso do qual diminua para converter para radianos chama simplesmente afonso mércia rate
+
+120
+00:16:10,100 --> 00:16:20,000
+no caso de arte é feito um cálculo divide-se o valor da variável por cento e oitenta multiplicado pelo valor de p
+
+121
+00:16:20,000 --> 00:16:30,350
+o valor de pip é uma constante definida também dentro dessa biblioteca mestre com por isso é que se coloca nesse ponto pt
+
+122
+00:16:30,350 --> 00:16:40,700
+se quisermos ver o mesmo código agora javascript e veremos que também afetou calcular dividiu com cento e oitenta vezes mais ponto pt
+
+123
+00:16:40,700 --> 00:16:47,450
+mas critica a mesma coisa a dividido por cento e oitenta vezes menos ponto <UNK>
+
+124
+00:16:47,450 --> 00:17:06,800
+observe que algumas linguagens ali biotécnica referenciada com letra minúscula como imagens scripts e outras como já havia escrito com letra maiúscula sua particularidades de cada uma das linguagens de programação em java e proteicas estarão começando sempre com a primeira letra maiúscula
+
+125
+00:17:06,800 --> 00:17:23,450
+jamais critique estarão começando sempre com a primeira letra minúscula em php não é necessário proceder à função de nenhum nenhum prefixo entendo os prefixos como sendo nomes de objetos especiais dentre os quais estão as bibliotecas
+
+126
+00:17:23,450 --> 00:17:25,250
+portugal também na mão
+
+127
+00:17:25,250 --> 00:17:34,250
+impacto pois já vimos bastante sim aqui da sendo importada brother câmera esse impacto também necessário portable lotérica importe merece
+
+128
+00:17:34,250 --> 00:17:54,950
+em seguida utiliza ela a função sim sempre em nome da biblioteca apontou o nome da função nome da biblioteca ponto nome da constante o que é uma constante na variável cujo valor não vai se alterar chamava de constantes variáveis cujos valores não se altera
+
+129
+00:17:54,950 --> 00:17:56,300
+e é isso
+
+130
+00:17:56,300 --> 00:17:57,300
+<UNK>

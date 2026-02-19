@@ -1,0 +1,2783 @@
+1
+00:00:00,000 --> 00:00:04,950
+olá neste vídeo aprenderemos sobre orientação a objetos em cima março
+
+2
+00:00:04,950 --> 00:00:23,850
+hoje vou falar então sobre orientação a objetos por fazer uma breve introdução do fiel à a orientação a objeto e como é que nós criamos a objetos na linguagem de programação sempre utilizando os diversos elementos que o paradigma da orientação
+
+3
+00:00:23,850 --> 00:00:26,550
+o objeto ele proporciona pra gente
+
+4
+00:00:26,550 --> 00:00:30,600
+para a construção de aplicações que sejam mais reutilizáveis
+
+5
+00:00:30,600 --> 00:00:52,200
+você quer quanto mais reutilizar e ao mesmo tempo mas mais fácil de manter também o menos possibilidade de dinheiros de projeto pedagógico quando naqueles que tem um código mais limpo e mais fácil de compreender o tão natural que você também pode menos lucros das mesmas dependências
+
+6
+00:00:52,200 --> 00:00:54,450
+vou criar um novo arquivo
+
+7
+00:00:54,450 --> 00:00:55,800
+contudo o contrato
+
+8
+00:00:55,800 --> 00:00:57,150
+o partido fascista
+
+9
+00:00:57,150 --> 00:00:59,400
+esse arquivo fonte salvar salvador
+
+10
+00:00:59,400 --> 00:01:00,400
+contudo
+
+11
+00:01:00,400 --> 00:01:02,200
+chama ele de mim
+
+12
+00:01:02,200 --> 00:01:03,200
+assista
+
+13
+00:01:03,200 --> 00:01:04,200
+simples né
+
+14
+00:01:04,200 --> 00:01:05,200
+classe classe
+
+15
+00:01:05,200 --> 00:01:06,200
+estrutura
+
+16
+00:01:06,200 --> 00:01:07,200
+muito tempo
+
+17
+00:01:07,200 --> 00:01:08,200
+dicas
+
+18
+00:01:08,200 --> 00:01:09,549
+modelo de transportes
+
+19
+00:01:09,549 --> 00:01:32,049
+não é normal a gente da onda num arquivo evite utilizar para construir objetos logo desse tipo de descanso os dois devem ser mais significativas eu vou explicar o que há pouco que os mais mas isso não é obrigatório mas de outras linguagens de programação funcional diretor diretório tudo
+
+20
+00:01:32,049 --> 00:01:33,049
+de insectos
+
+21
+00:01:33,049 --> 00:01:46,549
+bem mas o que é isso objetos e de que forma é que pensar a programação baseada em objetos como a nossa vida na programação mais fácil e mais seguro
+
+22
+00:01:46,549 --> 00:01:53,299
+no dia a dia nós estamos acostumados a pensar nos objetos como blocos estão primitivas
+
+23
+00:01:53,299 --> 00:01:58,250
+que nós não conceito antes a gente não pensar a mpb
+
+24
+00:01:58,250 --> 00:02:00,500
+o objeto é tal coisa
+
+25
+00:02:00,500 --> 00:02:15,800
+não nasci pra gente sabemos que objetos são todos assuntos pois essas entidades que estão ao nosso redor e com as quais nós interagimos que interagem eventualmente com ambientes que estão ao nosso redor
+
+26
+00:02:15,800 --> 00:02:20,750
+por que nosso próprio sonho somos objetos então conceito muito primitivo
+
+27
+00:02:20,750 --> 00:02:32,900
+para todos nós que faz parte do nosso nosso próprio inconsciente a ideia de objeto tudo o que nós temos ao nosso redor que nós manipulamos objetos
+
+28
+00:02:32,900 --> 00:02:52,700
+vejam só os objetos têm caracteres que são muito próprias deles não os objetos de um modo geral eles interagem com o ambiente ou sofreu algum tipo de intervenção ou interferência do ambiente no qual eles estão inseridos todos os objetos tem essa característica
+
+29
+00:02:52,700 --> 00:02:53,700
+mais
+
+30
+00:02:53,700 --> 00:02:58,200
+os objetos também mente uma qualidade que é muito bom
+
+31
+00:02:58,200 --> 00:03:23,400
+muito interessante que é a possibilidade de termos cópias de objetos nós gostamos objeto se possível tirar cópia de pé nem sempre no entanto não é possível tirar para nós meros mortais não é possível gerar uma cópia do telefone sambaqui gentileza mas a gente consegue tirar uma cópia com algum trabalho de uma caneca por
+
+32
+00:03:23,400 --> 00:03:40,050
+exemplo de uma caneta lápis é possível um trabalho então objetos podem ser construídos a partir de elementos que norma no mundo real nós normalmente chamamos de moldes seu tenho uma caneca muito bacana eu posso fazer
+
+33
+00:03:40,050 --> 00:03:45,450
+o mal de praça caneca é partir desse modo atrelada às cópias
+
+34
+00:03:45,450 --> 00:03:54,000
+todos os objetos podem ser copiados e criados novos a partir de moldes e descrevem de algum modo cerveja
+
+35
+00:03:54,000 --> 00:04:02,550
+é um como alarme um molde muito clássico seriam o de gestão produziu uma caneca de barro caneca brasil
+
+36
+00:04:02,550 --> 00:04:05,700
+e objetos têm características algumas dessas características
+
+37
+00:04:05,700 --> 00:04:09,300
+se modificam ao longo da vida do objeto
+
+38
+00:04:09,300 --> 00:04:28,200
+olá elas podem também ser estatizante impactam a característica embora não seja muito própria de um determinado objeto e um dado que ela não se modifica ao longo do tempo apresenta posta uma caneca que é exatamente igual ao traçado pela cor
+
+39
+00:04:28,200 --> 00:04:31,800
+então a cor é um atributo desse objeto
+
+40
+00:04:31,800 --> 00:04:32,800
+expressivo
+
+41
+00:04:32,800 --> 00:04:45,850
+que é que se difere de um outro objeto embora possa ter dois objetos com a mesma cor ela postou na caneca amarela exatamente igual a outra caneca azul
+
+42
+00:04:45,850 --> 00:04:54,850
+mas esse é seu tipo de atributo que eu posso mudar seu rosto apartamento amarela sempre às quintas pelo atraso
+
+43
+00:04:54,850 --> 00:05:02,950
+o que são atributos ou dispensem objetos suas características que posso modificar ao longo da vida no objeto
+
+44
+00:05:02,950 --> 00:05:06,550
+e que de certa forma identificam esse objeto
+
+45
+00:05:06,550 --> 00:05:11,950
+mas objetos também tem um outro tipo de característica e a funcionalidade
+
+46
+00:05:11,950 --> 00:05:18,250
+então um objeto ele pode é geralmente é ele entenda ele tem como hoje
+
+47
+00:05:18,250 --> 00:05:22,300
+uma funcionalidade utilidade uma caneca a funcionalidade contenham pedido
+
+48
+00:05:22,300 --> 00:05:38,500
+mas se não quiser colocar um liquido eu posso colocar outra coisa posso usar uma caneca com porta lápis por exemplo ela diria que o uso de fato da caneca no conteúdo liquido mas com terroristas
+
+49
+00:05:38,500 --> 00:05:44,800
+a capacidade da caneca de conter coisas é sua utilidade na sua funcionalidade b
+
+50
+00:05:44,800 --> 00:06:02,350
+quando nós transpusemos os conceitos de objetos por meio da castração criamos o paradigma da orientação a objeto nós nomeamos os atributos que são aquelas características fotos pedalando vida no objeto com propriedades e as suas funcionalidades não acham
+
+51
+00:06:02,350 --> 00:06:16,750
+candidatos toda vez agora que fala do método do objeto do falando a racionalidade e toda vez que eu falava de propriedade estou falando dos seus atributos na literatura vocês encontram indistintamente
+
+52
+00:06:16,750 --> 00:06:28,000
+a palavra as palavras atributos e propriedades como não significa por outro lado o método sempre vai ser método mesmo que a funcionalidade do objeto
+
+53
+00:06:28,000 --> 00:06:33,400
+pensem na captação como os atributos sendo variáveis existem dentro do objeto
+
+54
+00:06:33,400 --> 00:06:39,250
+e pense nas funcionalidades funções ou como procedimentos que existem dentro dos objetos
+
+55
+00:06:39,250 --> 00:06:40,250
+na prática
+
+56
+00:06:40,250 --> 00:06:56,900
+bem todas as línguas programação que eu conheço exatamente as variáveis são as representações internas dos objetos tem seus atributos e as funções de livros a esses procedimentos são seus netos para que possamos criar então objetos
+
+57
+00:06:56,900 --> 00:07:05,450
+no mundo a contração mas precisamos construir os moldes que vão permitir multiplicar criar novos objetos a partir daquelas
+
+58
+00:07:05,450 --> 00:07:12,200
+tequila daquele aquele modelo você vai poder aquele modelo que nós definimos para aquele objeto
+
+59
+00:07:12,200 --> 00:07:28,850
+é que nós fazemos isso elas esses moldes são chamados de classes eu vou criar um programa básico é ser mais baixos objeto orientador onde eu vou construir uma classe melhor fazer isso bem vamos nao include
+
+60
+00:07:28,850 --> 00:07:30,200
+o vicente include
+
+61
+00:07:30,200 --> 00:07:31,200
+aí obstruindo
+
+62
+00:07:31,200 --> 00:07:32,200
+e usem
+
+63
+00:07:32,200 --> 00:07:33,550
+nem nos pés
+
+64
+00:07:33,550 --> 00:07:34,550
+s
+
+65
+00:07:34,550 --> 00:07:35,550
+que
+
+66
+00:07:35,550 --> 00:07:36,900
+o time merengue
+
+67
+00:07:36,900 --> 00:07:37,900
+opa
+
+68
+00:07:37,900 --> 00:07:38,900
+volante
+
+69
+00:07:38,900 --> 00:07:39,900
+<UNK>
+
+70
+00:07:39,900 --> 00:07:57,900
+nutricionista lucas esqueleto aqui só pra gente não esquecer para que aposentam cria objetos dentro dos programas ou criar uma classe nake cria uma classe explico classe palavras chave que lança o nome da classe que eu quero estar construindo
+
+71
+00:07:57,900 --> 00:08:12,300
+b a classe claro tem muito a ver com o programa que ele estivera é desenvolver num determinado momento para este exemplo que é muito específico vou criar uma classe chamada retângulo
+
+72
+00:08:12,300 --> 00:08:13,300
+<UNK>
+
+73
+00:08:13,300 --> 00:08:18,250
+e nesta classe reclame eu vou definir dois atributos e mentir
+
+74
+00:08:18,250 --> 00:08:19,250
+altura máxima
+
+75
+00:08:19,250 --> 00:08:20,250
+e agora
+
+76
+00:08:20,250 --> 00:08:21,250
+e enfim
+
+77
+00:08:21,250 --> 00:08:22,250
+bar
+
+78
+00:08:22,250 --> 00:08:24,050
+vou chamar de p
+
+79
+00:08:24,050 --> 00:08:26,300
+antes mesmo da altura parar
+
+80
+00:08:26,300 --> 00:08:27,650
+medite pra para
+
+81
+00:08:27,650 --> 00:08:33,050
+uma referência à inglesa ou cadeira porto alegre bem como um bar
+
+82
+00:08:33,050 --> 00:08:51,050
+toda classe vai ter algumas características que vão podem ser acessadas por outros por objetos que sejam construídos a partir de outras classes mas vão ter algumas características alguns elementos positivos de membros exames entravam chama de membros de jaborandi
+
+83
+00:08:51,050 --> 00:09:09,500
+alguns membros que só podem ser acessados a partir de objetos criados a partir das classe ou de classes que tenham sido construídos a partir dessa classe numa coisa chamada herança este decisão classes da levadas que vou falar mais adiante
+
+84
+00:09:09,500 --> 00:09:23,450
+os métodos ou atributos que podem ser acessados de qualquer um a partir de qualquer objeto de qualquer lugar de qualquer equipe eles estão numa sessão especial da classe chamado <UNK>
+
+85
+00:09:23,450 --> 00:09:44,600
+o padre que dois pontos e cultura agora que o presidentes da associação dando espaço que lucas os trabalhos desta sessão mas é visível em toda parte vou criar o primeiro método esta placenta o que pra cima ele vai sê-lo de povoados lembre-se que todo mês
+
+86
+00:09:44,600 --> 00:09:46,850
+estudou a função ou procedimento
+
+87
+00:09:46,850 --> 00:09:47,850
+sete
+
+88
+00:09:47,850 --> 00:09:51,900
+os autores sete valores vai receber dois parâmetros indiana
+
+89
+00:09:51,900 --> 00:09:52,900
+e tigre
+
+90
+00:09:52,900 --> 00:09:54,700
+parâmetros a e b
+
+91
+00:09:54,700 --> 00:09:57,850
+e vai atribuir estes parâmetros as variáveis
+
+92
+00:09:57,850 --> 00:10:12,700
+as variáveis que existem que ali gente para ficar diferente nome do nome deturpação daquilo que estes livros que eu vou chamar aqui de altura mesmo que o chama de patos fica diferente
+
+93
+00:10:12,700 --> 00:10:30,250
+compra recebi sete capes sete valores série para atribuir valores altos parâmetros aos membros autoridades são as propriedades autoritário mas eu faço isso eles vão ser passados aqui a consulta de valores que não fazer as coisas por altura
+
+94
+00:10:30,250 --> 00:10:31,250
+igualar
+
+95
+00:10:31,250 --> 00:10:32,250
+embalagem
+
+96
+00:10:32,250 --> 00:10:34,500
+um novo prato com isso
+
+97
+00:10:34,500 --> 00:10:58,800
+eu vou ser capaz de atribuir valores a entre o que é que eu preciso ter uma função sete valores para atribuir valores arestas esses dois momentos e mais adiante que às vezes é possível acessar esses dois membros sem precisar de nenhuma função mas isso só é verdade quando esses dois membros da
+
+98
+00:10:58,800 --> 00:11:03,750
+o tipo de didi de característica chamada visibilidade do tipo publica
+
+99
+00:11:03,750 --> 00:11:04,750
+b
+
+100
+00:11:04,750 --> 00:11:22,750
+os atributos das classes esses atributos que está vendo aqui eles podem ter três tipos de invisibilidade eles podem ser coniventes parecem protestante pois podem ser pobre que dependendo de como tema definido a classe esses atributos manter essas características
+
+101
+00:11:22,750 --> 00:11:25,900
+eu vou escrever aqui então do lá
+
+102
+00:11:25,900 --> 00:11:27,700
+a gente não esquecer
+
+103
+00:11:27,700 --> 00:11:28,700
+membros
+
+104
+00:11:28,700 --> 00:11:30,950
+ordem no cerco podem ter
+
+105
+00:11:30,950 --> 00:11:31,950
+acesso
+
+106
+00:11:31,950 --> 00:11:33,300
+para os likes
+
+107
+00:11:33,300 --> 00:11:34,300
+infelizmente
+
+108
+00:11:34,300 --> 00:11:36,100
+o projeto técnico específico
+
+109
+00:11:36,100 --> 00:11:37,100
+<UNK>
+
+110
+00:11:37,100 --> 00:11:40,700
+então os noivos com ex-membros do tipo produto
+
+111
+00:11:40,700 --> 00:11:41,700
+ah
+
+112
+00:11:41,700 --> 00:11:42,700
+são acessíveis
+
+113
+00:11:42,700 --> 00:11:43,700
+de qualquer
+
+114
+00:11:43,700 --> 00:11:44,700
+nossos acessórios
+
+115
+00:11:44,700 --> 00:11:45,700
+artigos
+
+116
+00:11:45,700 --> 00:11:46,700
+art
+
+117
+00:11:46,700 --> 00:11:47,700
+dia
+
+118
+00:11:47,700 --> 00:11:48,700
+ela quer
+
+119
+00:11:48,700 --> 00:11:49,700
+objecto
+
+120
+00:11:49,700 --> 00:11:51,050
+ande por cartolas
+
+121
+00:11:51,050 --> 00:11:52,850
+antes de qualquer contato
+
+122
+00:11:52,850 --> 00:11:53,850
+um
+
+123
+00:11:53,850 --> 00:11:56,550
+já os membros com acesso privativo
+
+124
+00:11:56,550 --> 00:12:03,750
+eles são acessíveis somente a partir da classe onde nós estamos agora também outras classes derivadas
+
+125
+00:12:03,750 --> 00:12:06,450
+visite os crimes associados à parte
+
+126
+00:12:06,450 --> 00:12:07,450
+arte
+
+127
+00:12:07,450 --> 00:12:08,450
+o trajecto
+
+128
+00:12:08,450 --> 00:12:09,450
+a partir
+
+129
+00:12:09,450 --> 00:12:10,450
+ah
+
+130
+00:12:10,450 --> 00:12:14,500
+é que não posso colocar santa cruz na madeira
+
+131
+00:12:14,500 --> 00:12:16,750
+a partir da própria classe
+
+132
+00:12:16,750 --> 00:12:17,750
+<UNK>
+
+133
+00:12:17,750 --> 00:12:22,700
+um acampamento são acontecimentos eu botei acessíveis em que o sentimento
+
+134
+00:12:22,700 --> 00:12:29,000
+é verdade que é amigos quantas vezes nossos filhos não são parecidas na dar
+
+135
+00:12:29,000 --> 00:12:30,000
+daí
+
+136
+00:12:30,000 --> 00:12:41,250
+membros com seus presentes são acessíveis a partir da própria classe ou classe derivada tendas que membros protected de copiar e colar meios fáceis protestante
+
+137
+00:12:41,250 --> 00:12:42,600
+essas fibras apenas
+
+138
+00:12:42,600 --> 00:12:43,950
+os nossos conteúdos
+
+139
+00:12:43,950 --> 00:12:44,950
+ah
+
+140
+00:12:44,950 --> 00:12:45,950
+enfim
+
+141
+00:12:45,950 --> 00:12:58,100
+o s são os três tipos de acesso que nós temos para os objetos e como é que nós definimos o acesso para definirmos o acesso utilizando
+
+142
+00:12:58,100 --> 00:13:08,000
+nome do acesso dois pontes e tudo que a gente escreve a partir daqui então ele vai estar com este tipo é
+
+143
+00:13:08,000 --> 00:13:09,800
+este tipo de assuntos
+
+144
+00:13:09,800 --> 00:13:15,200
+a ideia aqui era aqui que luto contra aquele produto explica prata
+
+145
+00:13:15,200 --> 00:13:17,000
+este protector característica presente
+
+146
+00:13:17,000 --> 00:13:22,399
+é privada protegido e privado privado privado da atroz o é claro
+
+147
+00:13:22,399 --> 00:13:32,750
+protegido ele protegeu de acesso das classes e privada privada para preparar o no meio da areia dá entender o é muito positiva
+
+148
+00:13:32,750 --> 00:13:35,000
+bento é bem autoexplicativa unissexo
+
+149
+00:13:35,000 --> 00:13:36,799
+os sistemas e componentes
+
+150
+00:13:36,799 --> 00:13:41,299
+protected do na ordem que pro público pronta que teve
+
+151
+00:13:41,299 --> 00:13:44,449
+a traficante e private banking da ordem
+
+152
+00:13:44,449 --> 00:13:46,699
+do mais acessível de acesso
+
+153
+00:13:46,699 --> 00:14:04,249
+o professor de pronto se agente não definir nenhum tipo de equilibrio de acesso por exemplo não definia que narra o início da classe ou tipo de acesso simplesmente escreve as duas variáveis pressionou não define o acesso para
+
+154
+00:14:04,249 --> 00:14:06,049
+padrão mas sempre presente
+
+155
+00:14:06,049 --> 00:14:07,049
+<UNK>
+
+156
+00:14:07,049 --> 00:14:08,049
+ah
+
+157
+00:14:08,049 --> 00:14:11,199
+o tipo de ação essas padrão atreve-te
+
+158
+00:14:11,199 --> 00:14:24,699
+então a altura de base sobre fretes é por isso que eu preciso criar esta função para atribuir valores a expor o sempre verde quiser alterar a altura da base
+
+159
+00:14:24,699 --> 00:14:30,999
+de um retângulo qualquer que eu criar parte desta classe eu não vou conseguir
+
+160
+00:14:30,999 --> 00:14:34,599
+a menos que eu tenha uma função pública
+
+161
+00:14:34,599 --> 00:14:39,099
+e acesso esses valores e preparando o que são brilhantes
+
+162
+00:14:39,099 --> 00:14:44,949
+bem vou criar mais uma função aqui vou criar uma função chamada calculada
+
+163
+00:14:44,949 --> 00:14:45,949
+<UNK>
+
+164
+00:14:45,949 --> 00:14:50,449
+o chamava de eh eu queria as variáveis no time
+
+165
+00:14:50,449 --> 00:14:52,249
+então acrescente todos juntos
+
+166
+00:14:52,249 --> 00:14:53,249
+ao quinto
+
+167
+00:14:53,249 --> 00:14:54,249
+acredito
+
+168
+00:14:54,249 --> 00:15:01,449
+a maquiadora renova receberam parâmetro porque o que ele vai utilizar essas duas variáveis pregão clarineta
+
+169
+00:15:01,449 --> 00:15:03,699
+ele vai se tornar estante
+
+170
+00:15:03,699 --> 00:15:04,699
+base
+
+171
+00:15:04,699 --> 00:15:05,699
+autor
+
+172
+00:15:05,699 --> 00:15:26,849
+que é como nós aprendemos que é a área de um retângulo quanto agora se eu quiser utilizar esta classe para cria retângulos só aqui é muito simples eu vou criá-la como eu criaria qualquer variável só que ao invés de usar o tipo de variável quantitativa
+
+173
+00:15:26,849 --> 00:15:35,849
+me diz como vinte fluente eu vou o tipo que eu criei por que faça tantos troféus é também tanto
+
+174
+00:15:35,849 --> 00:15:36,849
+o tango
+
+175
+00:15:36,849 --> 00:15:55,299
+o esquema de ataque a diferencia proscrever retângulo ou supor que os animais mas ele é sensível à caixa então retângulo com letra maiúscula diferente de retângulo com letra minúscula se que a palavra tabu as votará o atleta o proteja
+
+176
+00:15:55,299 --> 00:15:56,299
+templates pronto
+
+177
+00:15:56,299 --> 00:16:05,299
+agora por que josé de letra maiúscula e ao criar um retângulo eu vou utilizar realmente o crescimento do bebé
+
+178
+00:16:05,299 --> 00:16:12,049
+se convencionou e apenas uma convenção e classes começam com letra maiúscula e um uso
+
+179
+00:16:12,049 --> 00:16:28,249
+o padrão de projeto kernel quinze para nomear então isso quer dizer que cássia o nome do clássico formado por várias palavras eu junto os papos entre as palavras e comecei a dar uma palestra mais
+
+180
+00:16:28,249 --> 00:16:48,949
+e para criar um objeto do tipo retângulo eu uso o nome com letra minúscula novo site foi formado por várias palavras da mesma forma eu junto todas colocando cada uma começam com letra maiúscula exceto oprimia e fica levemente aqui eu creio na etapa um
+
+181
+00:16:48,949 --> 00:16:49,949
+utilizando o
+
+182
+00:16:49,949 --> 00:16:50,949
+conto
+
+183
+00:16:50,949 --> 00:16:56,349
+ele já te mostra as duas funções ou os tropical que aria
+
+184
+00:16:56,349 --> 00:17:03,549
+e sete valores que eu quero <UNK> eu fico enquanto sete valores já prestes pra mim
+
+185
+00:17:03,549 --> 00:17:06,700
+eu vou escrever aqui sete valores quatro
+
+186
+00:17:06,700 --> 00:17:09,400
+isso não são os valores da
+
+187
+00:17:09,400 --> 00:17:21,550
+altura da base exceto lembrando que uma salada então passou a ser atribuído à altura e deita-se centro por ainda mais que quatrocentos <UNK> cem porcento <UNK>
+
+188
+00:17:21,550 --> 00:17:26,500
+e se eu agora quisesse diária nem que eu faço ceratite
+
+189
+00:17:26,500 --> 00:17:27,500
+um pouco
+
+190
+00:17:27,500 --> 00:17:28,500
+um
+
+191
+00:17:28,500 --> 00:17:29,500
+s
+
+192
+00:17:29,500 --> 00:17:30,500
+um retângulo
+
+193
+00:17:30,500 --> 00:17:31,500
+um
+
+194
+00:17:31,500 --> 00:17:32,500
+com quem
+
+195
+00:17:32,500 --> 00:17:33,850
+que a minha
+
+196
+00:17:33,850 --> 00:17:35,200
+nossa que sonho
+
+197
+00:17:35,200 --> 00:17:36,200
+lado bom
+
+198
+00:17:36,200 --> 00:17:37,200
+ah
+
+199
+00:17:37,200 --> 00:17:38,200
+obrigado
+
+200
+00:17:38,200 --> 00:17:57,100
+vamos testar observe que proporcionavam um método de dentro do objeto eu faço outro nome do método se eu quisesse utilizar essas variáveis alto base se elas não fossem brevemente eu faria também ponto altura conturbada mas eu não posso porque elas
+
+201
+00:17:57,100 --> 00:18:13,300
+são incríveis o requerimento do primeiro vez mostrar depois depois o o ao erro no programa ou então acessar diretamente autor em base pra vocês verem que acontece deixou controlar também única que sintas o trem
+
+202
+00:18:13,300 --> 00:18:21,850
+muitos apontam a área do retângulo argentina atravessa um convite agora se eu quisesse acrescentar os valores dessa forma
+
+203
+00:18:21,850 --> 00:18:23,650
+está diretamente poderia vejamos
+
+204
+00:18:23,650 --> 00:18:32,200
+ambos oito altura veja greene mostra por que não é público que fosse cobrindo-lhe mostraria seu tira-se da kia
+
+205
+00:18:32,200 --> 00:18:42,549
+e passar pra cá e agora fizeram já apareceu aqui altura base porque se tornou público se eu não coloco aqui onde estava
+
+206
+00:18:42,549 --> 00:18:53,349
+deixo aqui em cima e eu tento acessar ele não me mostra por que não há mas eu vou tentar altura e ponto quatro
+
+207
+00:18:53,349 --> 00:18:55,599
+é tão bonito como base
+
+208
+00:18:55,599 --> 00:18:58,299
+então aos cinco anos com pilar
+
+209
+00:18:58,299 --> 00:18:59,299
+opa
+
+210
+00:18:59,299 --> 00:19:11,450
+veja que a letra não é tanto na altura ex-presidente o livro das contas eles elias ele é privado neste contexto eu não posso cessar de fora
+
+211
+00:19:11,450 --> 00:19:13,700
+da própria classe que represente
+
+212
+00:19:13,700 --> 00:19:17,299
+só posso acessá-lo indiretamente através de uma função
+
+213
+00:19:17,299 --> 00:19:41,599
+mais adiante a gente vai ver que existe um padrão de projetos e de projeto que todos os setores onde a gente cria funções específicas para acessar esses livros de uma maneira muito particular definida pelo padrão que a gente vai ver quando a gente vai trabalhar com o modelo que vou chamar de
+
+214
+00:19:41,599 --> 00:19:56,899
+de motor de diálogo do nosso jogo e lá a gente vai ter utilizando gates certezas eu vou criar para prosseguirá com os nossos erros e vou criar um programa que está no oscar
+
+215
+00:19:56,899 --> 00:19:59,149
+é sobrescrever o salva aqui
+
+216
+00:19:59,149 --> 00:20:04,099
+como eu vou chamar esse novo programa de construtores e destrutores
+
+217
+00:20:04,099 --> 00:20:05,099
+obs
+
+218
+00:20:05,099 --> 00:20:06,099
+construtores
+
+219
+00:20:06,099 --> 00:20:07,449
+descrição do produto
+
+220
+00:20:07,449 --> 00:20:09,249
+os produtores e desestruturados
+
+221
+00:20:09,249 --> 00:20:10,249
+s
+
+222
+00:20:10,249 --> 00:20:11,249
+muito bem
+
+223
+00:20:11,249 --> 00:20:14,849
+eu vou aproveitar este mês um programa pessoal
+
+224
+00:20:14,849 --> 00:20:37,349
+é bom tirar essa parte aqui não para não ficar no entanto o código e seja persistente lá e agora vou adicionar novas ferramentas programa que a gente não mortos o construtor o que é um construto construtor é um método que vai ser chamado na hora de criar objetos
+
+225
+00:20:37,349 --> 00:20:48,599
+construtora um nome especial é o nome da classe então se eu quero criar um construtor para essa classe um retângulo crédito é tão tango
+
+226
+00:20:48,599 --> 00:21:09,749
+ele vai ser um construtor e abro parênteses aqui eu já tenho construtoras costuram vagina mas para que ele seja útil o ideal é que ao criar o retângulo de atribuir os valores da altura da base do corinthians para muito dado com péssimo de tudo aqui
+
+227
+00:21:09,749 --> 00:21:17,849
+o construtor da classe retângulo tem a mesma assinatura exceto pelo nome de sete valores mesmo sem futuro
+
+228
+00:21:17,849 --> 00:21:28,199
+e a partir daí quando eu criar um retângulo eu já posso acessar diretamente a altura e a base atribui valor dos eles
+
+229
+00:21:28,199 --> 00:21:35,849
+mas eu faço isso ao invés de utilizar aquietando sete valores eu vou simplesmente passar um parâmetro
+
+230
+00:21:35,849 --> 00:21:37,649
+na hora da criação
+
+231
+00:21:37,649 --> 00:22:00,599
+gente existe uma outra forma de fazer isso eu resolvi fazer essa forma que é simples mas existem outras formas de fazer isso na outra forma de jogo essa proposta os demais mas permite então sempre quero seguinte na hora de criar o catálogo eu passo depois do nome do autor
+
+232
+00:22:00,599 --> 00:22:07,799
+do objeto que estou criando o paciente parêntese os parâmetros que eu queria enviar pelo construtor
+
+233
+00:22:07,799 --> 00:22:20,399
+isso não funciona essa sintaxe não funciona em outras línguas para consulta funcionando sem máscaras outras divas proclama santa cruz fazia de uma forma um pouco mais complicado
+
+234
+00:22:20,399 --> 00:22:25,799
+que a gente vai ter oportunidade de vê-la quantidade envolvendo o uso
+
+235
+00:22:25,799 --> 00:22:41,999
+a data essa que o construtor e o que seria um destrutor o destrutor é um método que era chamado o objeto destruído a gente aprender uma das trilogias mais adiante vou copiar este objeto fraca
+
+236
+00:22:41,999 --> 00:23:04,049
+novo disco esta função paracatu e vou remover dela os parâmetros e caso que não vou fazer nada dentro dela só demonstra como eram destrutor e a diferença do construtor que eu coloco continuar à frente do nome dele tóquio tem um construtor e que eu tenho da estrutura
+
+237
+00:23:04,049 --> 00:23:08,549
+da estrutura chamado somente na hora da destruição do objeto
+
+238
+00:23:08,549 --> 00:23:09,899
+toque no convite
+
+239
+00:23:09,899 --> 00:23:10,899
+b
+
+240
+00:23:10,899 --> 00:23:12,249
+existe um elemento
+
+241
+00:23:12,249 --> 00:23:20,799
+que eu não conheci outras linguagens de programação mais que existe na linguagem ser mais fácil que eu busco
+
+242
+00:23:20,799 --> 00:23:33,849
+nuno nomeadas no mandamento não uma propriedade uma característica da linguagem chamada sobrecarga de operador sobrecarga de operador existe permite que objetos que normalmente não são por exemplo matemáticos
+
+243
+00:23:33,849 --> 00:23:52,299
+que não são dos que não são matemáticos normais que não são tipos numéricos que possam ser operados pelos operadores matemáticos para que eles possam ser operados por isso operadores matemáticos davam particulado presenciou cria-se um objeto para representar um vetor
+
+244
+00:23:52,299 --> 00:24:03,999
+somando os objetos desse tipo normalmente variam entre os animais mas diria que ele não sabe como somando dois metodos mas após resolver isso qual criando
+
+245
+00:24:03,999 --> 00:24:26,049
+um mundo uma sobrecarga do operador de adição os consoles provoca operado neste caso aqui do nosso exemplo nós vamos fazer é para operador de caixa e vou criar uma nova classe férias vou criar uma classe chamada vetou essa classe vetor vai ter a característica de de duzentos
+
+246
+00:24:26,049 --> 00:24:30,099
+eles sejam somados somente para aproveitá-lo o esqueleto lá
+
+247
+00:24:30,099 --> 00:24:32,349
+eu vou salvar aqui como
+
+248
+00:24:32,349 --> 00:24:35,049
+vou chamar de sobrecarga de operadores
+
+249
+00:24:35,049 --> 00:24:36,049
+<UNK>
+
+250
+00:24:36,049 --> 00:24:37,049
+<UNK>
+
+251
+00:24:37,049 --> 00:24:38,399
+sobrecarga de operadores
+
+252
+00:24:38,399 --> 00:24:42,899
+eu vou mudar o nome da classe que pra vector
+
+253
+00:24:42,899 --> 00:24:49,199
+apagar tudo que tem dentro dela no entanto não de fato nenhum pra gente
+
+254
+00:24:49,199 --> 00:24:50,199
+a ina
+
+255
+00:24:50,199 --> 00:25:00,549
+que também não a consomem novo lixá-la vaso mas funciona a sobrecarga de operado ou cria uma classe vetor este vetor em particular
+
+256
+00:25:00,549 --> 00:25:06,399
+ele vai ter dois atributos esses atributos face às coordenadas x e dele
+
+257
+00:25:06,399 --> 00:25:10,449
+o nesse evento campos atolada fisicamente ele está acostumado
+
+258
+00:25:10,449 --> 00:25:20,799
+e de aprendê-la quem fez esses viam no curso esta lembra entre estes pais inteiro então o decepcionante quando de enter e tite
+
+259
+00:25:20,799 --> 00:25:30,249
+esse vetor tem dois atributos qual neste caso eu vou criar uma sessão coletiva o contato do público só pra facilitar
+
+260
+00:25:30,249 --> 00:25:36,999
+de fazer um exemplo da tal vou deixar tudo no produto vou criar o construtor
+
+261
+00:25:36,999 --> 00:25:37,999
+vetor
+
+262
+00:25:37,999 --> 00:25:41,149
+esse construtor que não vai fazer nada
+
+263
+00:25:41,149 --> 00:25:53,749
+é o construtor a gente chama ele de construtor é defeito eu gosto do vaso e não faz nada pois quando vou colocar só por uma questão de
+
+264
+00:25:53,749 --> 00:26:11,749
+e deixa bem explícito naquele lugar sabe não parando o carro como volante eu vou copiar e colar ele para definir um outro construtor este outro construtor sim ele vai receber dois parâmetros e vão seus parâmetros a e b
+
+265
+00:26:11,749 --> 00:26:16,249
+esses dois paramos vão ser atribuídos às visite antes e
+
+266
+00:26:16,249 --> 00:26:22,099
+e nunca igualado ao agente reconstrutor que faz essa a inicialização do objeto
+
+267
+00:26:22,099 --> 00:26:30,199
+atribuído aos valores e agora vou fazer com que um inventor objeto do tipo vetor seja capaz de
+
+268
+00:26:30,199 --> 00:26:44,599
+de utilizar um operador de opção como é que eu vou fazer isso eu vou utilizar sobrecarga de operado para fazer uma sobrecarga de aparador afasta seguinte informando o nome da classe
+
+269
+00:26:44,599 --> 00:27:01,699
+vitor pense nisso como sendo o tipo do objeto que estará ao lado esquerdo do operador que eu quero fazer a sobrecarga palavra chato opera heitor e o nome do operador o que eu quero sobrecarregar neste caso
+
+270
+00:27:01,699 --> 00:27:04,399
+aqui é o operador de sal
+
+271
+00:27:04,399 --> 00:27:32,299
+em seguida eu vou criar ou passam para um parêntese onde eu vou dizer para operador de são paulo é o objecto o tipo de objeto que ele vai receber a direita dele então vetor aqui eu disse que é o tipo do objeto que vem esquerda doutorado e agora estou dizendo que eu vou dizer qual é o tipo de obras
+
+272
+00:27:32,299 --> 00:27:37,249
+e aqui vem à direita do operador então chamado de vetor
+
+273
+00:27:37,249 --> 00:27:48,949
+é um tipo de objeto vetou também posso chamar agora este objeto a direita de qualquer nome que eu queira eu vou chamar ele de pará
+
+274
+00:27:48,949 --> 00:27:49,949
+somente
+
+275
+00:27:49,949 --> 00:28:12,899
+para fazer referência de o parâmetro direita duro poderia ser operando mas cooperando vai fica muito parecido com a palavra o perito eu prefiro usar a palavra que nos visitam aparecida nada continua escrevendo aqui o quanto eu vou chamar ele para um compartimento vou criar uma variável temporária chamada <UNK>
+
+276
+00:28:12,899 --> 00:28:18,749
+também do tipo vetor e eu vou fazer a operação de adição nela
+
+277
+00:28:18,749 --> 00:28:20,549
+o que foi aquilo
+
+278
+00:28:20,549 --> 00:28:28,649
+criei essas duas variáveis como pobre para facilitar minha vida agora nessa operação vou fazer aqui e agora
+
+279
+00:28:28,649 --> 00:28:33,599
+inpi ponto isso eu posso usar saches porque ela é orgânica
+
+280
+00:28:33,599 --> 00:28:53,399
+vai ser igual a x que x dez questões na água o x da protetor do próprio objeto eletrônico tasquinha do doutorado pense que esse todas as variáveis que não estiverem aqui ou na referenciação avaliação um objeto que está à esquerda do apenado
+
+281
+00:28:53,399 --> 00:28:58,799
+antes mas agora o objeto que está à direita do operador para
+
+282
+00:28:58,799 --> 00:29:13,199
+quantos filhos então a variável tem que vai receber a soma dos dois do valor que está esquerdo o valor que está à direita dotando o fazer a mesma coisa pra isso
+
+283
+00:29:13,199 --> 00:29:14,549
+eu sei disso
+
+284
+00:29:14,549 --> 00:29:16,349
+eu tinha muito <UNK>
+
+285
+00:29:16,349 --> 00:29:22,649
+e isto é uma função então retorna o valor da operação retorne a tempos
+
+286
+00:29:22,649 --> 00:29:45,149
+no retorno o pacto recomenda o retorno válvula praça três esgotada entre parênteses normalmente não no topo vindo aqui porque uma função que são impressos bem como é que agora vou poder utilizar-se da classe para que eu tenha vetores que fazem dessa vou criar dois vetores aqui embaixo vetou
+
+287
+00:29:45,149 --> 00:29:46,149
+ah
+
+288
+00:29:46,149 --> 00:29:47,149
+vítor bento
+
+289
+00:29:47,149 --> 00:30:03,799
+gente eu posso atribuir valores toda fazendo lá pontos x igual determinado valor b pontos x um determinado valor mas eu prefiro já de os valores aquecimento na criação do próprio objeto vou colocar três e um
+
+290
+00:30:03,799 --> 00:30:07,399
+e aqui vou colocar os valores com todos
+
+291
+00:30:07,399 --> 00:30:17,299
+eles são dois jogos fáceis a gente verifica se deu certo somando força vou criar nova segunda variável segundo objeto vetou segue
+
+292
+00:30:17,299 --> 00:30:23,149
+este vetor seja não vou atribui nenhum valor vou lesão construtor do folgosinho
+
+293
+00:30:23,149 --> 00:30:35,299
+o que funcionou usassem para ter o resultado da operação de armazém rampas passageira segundo a mas b apesar de a e b seriam objetos estranhos aritmética
+
+294
+00:30:35,299 --> 00:30:46,549
+e eu vou poder fazer a operação de adição porque ou redefine operador de adição para vetores e agora posso mostrar estrada até cem anos
+
+295
+00:30:46,549 --> 00:30:47,549
+sim
+
+296
+00:30:47,549 --> 00:30:48,549
+em borracha
+
+297
+00:30:48,549 --> 00:30:49,899
+vou contar aqui
+
+298
+00:30:49,899 --> 00:30:52,149
+ser ponto x e pepino
+
+299
+00:30:52,149 --> 00:30:53,499
+é muito simples
+
+300
+00:30:53,499 --> 00:30:54,499
+vínculo
+
+301
+00:30:54,499 --> 00:30:55,849
+é muito fixo
+
+302
+00:30:55,849 --> 00:30:56,849
+porto
+
+303
+00:30:56,849 --> 00:30:57,849
+mas
+
+304
+00:30:57,849 --> 00:31:02,799
+pronto e agora vou executar vamos executar próprio conflito fazem assim
+
+305
+00:31:02,799 --> 00:31:03,799
+mais
+
+306
+00:31:03,799 --> 00:31:04,799
+muito bom
+
+307
+00:31:04,799 --> 00:31:05,799
+olá
+
+308
+00:31:05,799 --> 00:31:07,149
+vamos nos adaptar
+
+309
+00:31:07,149 --> 00:31:12,549
+os valores de ceder cedeu quatro e três se agente olhador aqui
+
+310
+00:31:12,549 --> 00:31:24,249
+três fundo dá quatro um dois dois três elas tanto vinte conto que ser sobrecarga de operadores eu posso e para qualquer objeto que esteja inserido
+
+311
+00:31:24,249 --> 00:31:48,549
+bom eu vou falar agora um pouco de sobrecarga de funções falei primeiro da sobrecarga de operado o que a sobrecarga do prado eu operador da linguagem eu posso sobrecarregá-lo atribuindo a ele novos novas funcionalidades a capacidade de operar com outros tipos de objetos além dos tipos primitivos da linguagem e o <UNK>
+
+312
+00:31:48,549 --> 00:32:09,249
+que seria então uma sobrecarga de funções ou sobrecarga de força é com deus tem uma função que ela vai receber parâmetros de tipos diferentes normalmente quando do função a função ela vai receber um parâmetro por exemplo vinte onde parar tipo shows mas não os
+
+313
+00:32:09,249 --> 00:32:31,749
+dois tipos o que é a linguagem de programação sendo promoção semanas mas exige que a gente define os tipos dos espada mas há semanas mas mais posso fazer sobrecarga posso redefine a função quantas vezes eu quiser um diferença assinaturas ou seja com diferentes tipos de parâmetros e comportamentos
+
+314
+00:32:31,749 --> 00:32:42,099
+inclusive isso vale para o tipo de retorno também e é o que eu vou fazer agora que eu vou criar uma nova
+
+315
+00:32:42,099 --> 00:32:49,299
+você na verdade eu vou salvar esse esse arquivo contudo eu vou chamar a sobrecarga de
+
+316
+00:32:49,299 --> 00:32:50,299
+atenção
+
+317
+00:32:50,299 --> 00:32:52,099
+<UNK> sobrecarga de função
+
+318
+00:32:52,099 --> 00:33:01,099
+eu vou apagar a classe que não vou precisar dela está neste programa específico eu não vou fazer nenhuma placenta
+
+319
+00:33:01,099 --> 00:33:06,049
+fazendo uma classe ao invés disso eu vou criar duas funções
+
+320
+00:33:06,049 --> 00:33:14,149
+quando eu estava estudando física a gente trabalhou normalmente franco e também em química um temperatura em diferentes
+
+321
+00:33:14,149 --> 00:33:20,899
+unidades onde berlim uma das comunidades de medir temperatura quente usava era graus celsius né
+
+322
+00:33:20,899 --> 00:33:29,899
+e a outra parte eu vou então criar a função de conversão do seu sucessor e farei rádio coração seduzir
+
+323
+00:33:29,899 --> 00:33:33,499
+nesse caso vou fazer só falei nas praças
+
+324
+00:33:33,499 --> 00:33:35,749
+acreditam que uma função floating
+
+325
+00:33:35,749 --> 00:33:43,849
+o retorno dela e eu vou escrever que farei rádio vou pescar aqui porque não se escreve <UNK>
+
+326
+00:33:43,849 --> 00:33:44,849
+lindo bem
+
+327
+00:33:44,849 --> 00:33:50,249
+brincante é disso mesmo frame farão nem admite para internet production santos
+
+328
+00:33:50,249 --> 00:33:52,499
+seus livros não se descreve
+
+329
+00:33:52,499 --> 00:33:53,499
+serviços
+
+330
+00:33:53,499 --> 00:34:02,499
+o que rádio serviços serviços função oclusão vascular sempre o valor de temperatura infalivelmente converte para governador celso de acordos
+
+331
+00:34:02,499 --> 00:34:03,849
+ambos os sexos
+
+332
+00:34:03,849 --> 00:34:07,899
+e converte francesas ela recebe então um parto fonte
+
+333
+00:34:07,899 --> 00:34:08,899
+o clube
+
+334
+00:34:08,899 --> 00:34:13,849
+e eu vou fazer a conversão da temperatura fazia diretamente retorno
+
+335
+00:34:13,849 --> 00:34:21,499
+a fórmula de conversão da temperatura de içara errático processos a temperatura a menos trinta e dois
+
+336
+00:34:21,499 --> 00:34:25,549
+às vezes é cinco dividido porto nove voce temperatura
+
+337
+00:34:25,549 --> 00:34:34,549
+nenhum dos trinta e dois pontos aprova voto de um dos contos a professora acima o valor real por estado
+
+338
+00:34:34,549 --> 00:34:36,349
+vezes cinco pontos agora
+
+339
+00:34:36,349 --> 00:34:40,849
+invicto com nove pontos b esta função retornando muito clube
+
+340
+00:34:40,849 --> 00:34:41,849
+esta função
+
+341
+00:34:41,849 --> 00:34:44,999
+recebendo parâmetros sonoros mas se eu quisesse
+
+342
+00:34:44,999 --> 00:34:49,499
+e a temperatura passa a temperatura como no nome dele
+
+343
+00:34:49,499 --> 00:34:50,499
+veja
+
+344
+00:34:50,499 --> 00:35:06,699
+eu poderia passar o poder passa para medir a temperatura o condomínio deveria ficou além para começar a fazer eu um quests a conversão automática mas uma outra forma eu queria uma nova versão nessa função
+
+345
+00:35:06,699 --> 00:35:09,399
+que receba a temperatura um enter
+
+346
+00:35:09,399 --> 00:35:21,999
+em tigre <UNK> a função reproduzido duas vezes escrito duas vezes onde numa versão marcelo pagamento com sua última para não fumante e agora se eu quiser utilizá-los
+
+347
+00:35:21,999 --> 00:35:22,999
+basta criar
+
+348
+00:35:22,999 --> 00:35:25,249
+outras duas variáveis em mente
+
+349
+00:35:25,249 --> 00:35:26,249
+tenho mundo
+
+350
+00:35:26,249 --> 00:35:28,049
+vou criar uma fonte
+
+351
+00:35:28,049 --> 00:35:29,049
+metros
+
+352
+00:35:29,049 --> 00:35:31,299
+o pedido da central temperatura
+
+353
+00:35:31,299 --> 00:35:32,299
+fonte
+
+354
+00:35:32,299 --> 00:35:33,299
+<UNK>
+
+355
+00:35:33,299 --> 00:35:34,299
+curitiba
+
+356
+00:35:34,299 --> 00:35:35,299
+capítulo um
+
+357
+00:35:35,299 --> 00:35:38,449
+então escrevi infame fraquezas que são lindas
+
+358
+00:35:38,449 --> 00:35:39,799
+em faro errante
+
+359
+00:35:39,799 --> 00:35:41,149
+um fato importante
+
+360
+00:35:41,149 --> 00:35:42,149
+contudo tudo
+
+361
+00:35:42,149 --> 00:35:43,149
+mundo inteiro
+
+362
+00:35:43,149 --> 00:35:44,149
+faço sim
+
+363
+00:35:44,149 --> 00:35:53,599
+ele é um erro é interna tanto receber esse valor comum entre ele e vou mostrar aqui o resultado será ótimo
+
+364
+00:35:53,599 --> 00:35:54,599
+<UNK>
+
+365
+00:35:54,599 --> 00:35:55,599
+em celsius
+
+366
+00:35:55,599 --> 00:35:56,599
+<UNK>
+
+367
+00:35:56,599 --> 00:35:58,399
+quem chama a função
+
+368
+00:35:58,399 --> 00:35:59,749
+a no tempo
+
+369
+00:35:59,749 --> 00:36:00,749
+<UNK>
+
+370
+00:36:00,749 --> 00:36:11,999
+vou fazer a mesma coisa vou repetir aqui a função só que agora eu vou pedir pra entrar com um número real como lucro real
+
+371
+00:36:11,999 --> 00:36:20,999
+você é uma boutique vou colocar o valor na variável tendões vou passar aqui com agora cátedras ao deus dará
+
+372
+00:36:20,999 --> 00:36:21,999
+olá
+
+373
+00:36:21,999 --> 00:36:31,449
+dois equipa esta temperatura variedade fundada entre o batatinha ao menos trinta e dois da protagonista seu lucro conteúdos é intensivamente
+
+374
+00:36:31,449 --> 00:36:39,549
+eu sete foto dois dormitorios locadora porém decidiu não eu sete quanto dos doidos mas neste caso aqui
+
+375
+00:36:39,549 --> 00:36:40,899
+um ataque muitos
+
+376
+00:36:40,899 --> 00:36:45,399
+para ficar mais claro qual foi a versão que utilizo
+
+377
+00:36:45,399 --> 00:36:46,399
+olá
+
+378
+00:36:46,399 --> 00:36:54,049
+quarenta e cinco deu sete o que como fã numero inteiro ele eh utilizo a versão inteira
+
+379
+00:36:54,049 --> 00:37:00,349
+a versão quente e agora vamos acordar decentemente num jornal sete ponto dois do
+
+380
+00:37:00,349 --> 00:37:21,949
+veja que por ter passado para muito como no mundo inteiro ele utilizou essa versão quente o bastante quando utilize como passou para matrícula número real diz a seleção era fruto de sua sobrecarga de função tem várias aplicações nós vamos utilizar o tipo de sobrecarga de função
+
+381
+00:37:21,949 --> 00:37:22,949
+especial
+
+382
+00:37:22,949 --> 00:37:38,699
+quando estiver construindo nossa nossas classes para um jogo no no mecanismo de diálogo é o tipo de corte de sobrecarga de função chat especial chamada polimorfismo vai utilizar acho que hoje ainda não é
+
+383
+00:37:38,699 --> 00:37:44,999
+acho que hoje não homossexuais há tempos de fazer isso mas vamos ver né
+
+384
+00:37:44,999 --> 00:37:46,799
+eu vou salvar agora
+
+385
+00:37:46,799 --> 00:37:48,599
+outro nome chamado herança
+
+386
+00:37:48,599 --> 00:37:55,799
+a gente faz um conceito especial que é o conceito mais que o conceito mais importante
+
+387
+00:37:55,799 --> 00:37:59,399
+a programação objeto orientado o conceito de arte
+
+388
+00:37:59,399 --> 00:38:00,749
+essas funções aqui
+
+389
+00:38:00,749 --> 00:38:05,249
+essa palestra donativos à pessoa como modelo para o nosso
+
+390
+00:38:05,249 --> 00:38:07,499
+nosso procura neste caso aqui
+
+391
+00:38:07,499 --> 00:38:11,549
+eu vou criar uma classe bem genérica chamada polígono
+
+392
+00:38:11,549 --> 00:38:32,699
+é a parte do polígono vou criar outras classes quando nós nosso nós começamos nossa saúde hoje criando uma classe cantando ela conseguia criar objetos do tipo retângulo aqui eu vou criar retângulos também só que eu também vou criar triângulos retângulos e kyrie e criamos também
+
+393
+00:38:32,699 --> 00:38:39,449
+propriedades em comum e as suas propriedades em comum são comuns a todos os públicos
+
+394
+00:38:39,449 --> 00:38:43,049
+por isso eu vou criar uma classe horrível
+
+395
+00:38:43,049 --> 00:38:44,049
+basta
+
+396
+00:38:44,049 --> 00:38:45,049
+obrigado
+
+397
+00:38:45,049 --> 00:38:55,399
+bom toda a classe política não vai ter altura e vai ter o arruda então vou criar na seção pra nossa ação protectora
+
+398
+00:38:55,399 --> 00:38:56,399
+<UNK>
+
+399
+00:38:56,399 --> 00:38:57,399
+altura
+
+400
+00:38:57,399 --> 00:38:58,399
+e instinto
+
+401
+00:38:58,399 --> 00:39:01,549
+roberto todo polígono tem largura entre outro
+
+402
+00:39:01,549 --> 00:39:23,149
+essas duas peças dois atributos estou criando como protetora de forquilha lembre-se que a visibilidade participando de protector de presente a visibilidade protetor de permite que a todos os membros sejam visíveis na própria classe também nas classes derivadas nós vamos criar aqui duas classes derivadas se fosse
+
+403
+00:39:23,149 --> 00:39:27,199
+vede o que eu vou fazer dias não funcionar
+
+404
+00:39:27,199 --> 00:39:39,799
+o produto a finalização pobre que eu vou criar uma função chamada sete votos do sétimo todos é aquela mesma função que nós viemos aqui pra você revoltante
+
+405
+00:39:39,799 --> 00:39:45,649
+ela faz uma função de vimos antes que recebe dois parâmetros não tira
+
+406
+00:39:45,649 --> 00:39:46,649
+depende
+
+407
+00:39:46,649 --> 00:39:50,699
+retorna o valor estornado ela só atribui à altura
+
+408
+00:39:50,699 --> 00:39:52,049
+boato o argumento
+
+409
+00:39:52,049 --> 00:39:53,049
+ibope
+
+410
+00:39:53,049 --> 00:39:54,049
+opa
+
+411
+00:39:54,049 --> 00:39:58,099
+autores no amargor logo ela só faz o país
+
+412
+00:39:58,099 --> 00:39:59,899
+eu vou criar agora
+
+413
+00:39:59,899 --> 00:40:00,899
+o irmão
+
+414
+00:40:00,899 --> 00:40:04,049
+não precisa de um construtor de solução
+
+415
+00:40:04,049 --> 00:40:23,849
+um não na nobreza consolo fazeis prova cansativa mortos mas se eu quiser agora criar uma classe retângulo que tenha já as características que definem o papel vivo e tem suas próprias características como que eu posso fazer isso eu posso fazer as info
+
+416
+00:40:23,849 --> 00:40:26,099
+forma clássica é tão curto
+
+417
+00:40:26,099 --> 00:40:27,099
+colabore aqui
+
+418
+00:40:27,099 --> 00:40:36,999
+dois pontos e o coloco o nome da classe que eu quero utilizar como modelo para esta gente de sua classe primitiva
+
+419
+00:40:36,999 --> 00:40:41,949
+uma classe genérica e que eu vou especializar essa classe aqui
+
+420
+00:40:41,949 --> 00:40:48,249
+esta classe que vai ser a especialização da outra daquelas primitivos ela é chamada
+
+421
+00:40:48,249 --> 00:40:53,649
+um de nós a outra ampla é de especialização especialização no paraná
+
+422
+00:40:53,649 --> 00:41:01,749
+a classe derivada chamada de place derivado do a filho e trabalho tanto suporte também com classe file
+
+423
+00:41:01,749 --> 00:41:03,549
+bom gente veja só
+
+424
+00:41:03,549 --> 00:41:07,149
+não obrigado não obrigatório utilizar a palavra aqui
+
+425
+00:41:07,149 --> 00:41:24,249
+eu posso utilizar somente os dois pontos eu não gosto muito dessa palavra o que eu coloquei aqui só para deixar claro que eu posso fazer essa flor vou criar aqui uma função todo um método próprio que
+
+426
+00:41:24,249 --> 00:41:26,049
+e vai ser decalque
+
+427
+00:41:26,049 --> 00:41:27,049
+h
+
+428
+00:41:27,049 --> 00:41:31,999
+é o que alguém não recebem nenhum parâmetro mas retorno valente
+
+429
+00:41:31,999 --> 00:41:33,799
+o que é bom
+
+430
+00:41:33,799 --> 00:41:40,999
+toque que retorna o valor em que o criador quando eu calculo a área de retângulo
+
+431
+00:41:40,999 --> 00:41:41,999
+brasil
+
+432
+00:41:41,999 --> 00:41:42,999
+quatro
+
+433
+00:41:42,999 --> 00:41:46,149
+e eu vou criadora uma classe triângulo
+
+434
+00:41:46,149 --> 00:41:47,149
+triângulos
+
+435
+00:41:47,149 --> 00:41:56,149
+ano também vai ter que alterar só que ao invés de ser base das alturas você embasadas ou sobre todos
+
+436
+00:41:56,149 --> 00:42:14,599
+então criando vai igualzinho ao retângulo todas as suas características àquela altura do ventilador até sete valores mas ele vai ter um carro que era completamente diferente pelas bases ao curso observe quando cria uma classe derivada eu errando na estátua
+
+437
+00:42:14,599 --> 00:42:28,099
+assim todos os membros da classe primitiva a classe pai então apesar de não ter definido aqui dentro de retângulo altura largura sete valores automaticamente esses membros serão criados ajuda
+
+438
+00:42:28,099 --> 00:42:31,249
+o que eu disse que ele deriva
+
+439
+00:42:31,249 --> 00:42:51,049
+da classe abstrata classe pública retrato eu posso tirar essa que eu vou tirar só pra mostrar que o processo triangular secreto sem colocar a palavra-chave e agora aqui na minha máquina a função nem eu vou criar um triângulo vou criar um tarde
+
+440
+00:42:51,049 --> 00:42:52,049
+<UNK>
+
+441
+00:42:52,049 --> 00:42:53,049
+<UNK>
+
+442
+00:42:53,049 --> 00:42:55,299
+e agora vocês estão juntos
+
+443
+00:42:55,299 --> 00:42:56,299
+um
+
+444
+00:42:56,299 --> 00:42:57,299
+do aposento
+
+445
+00:42:57,299 --> 00:42:58,649
+o que deus
+
+446
+00:42:58,649 --> 00:42:59,649
+gostam
+
+447
+00:42:59,649 --> 00:43:00,649
+<UNK>
+
+448
+00:43:00,649 --> 00:43:06,949
+deu um problema que agora lhe mostrou que sete minutos e vai ser aqui
+
+449
+00:43:06,949 --> 00:43:08,299
+nota quatro três
+
+450
+00:43:08,299 --> 00:43:12,349
+e vou fazer a mesma coisa para o triângulo
+
+451
+00:43:12,349 --> 00:43:21,349
+outro ataque mande retângulo triângulo botão mesmo ali a gente ver que as pessoas são diferentes e agora exibe falseados
+
+452
+00:43:21,349 --> 00:43:22,699
+dia tudo muda
+
+453
+00:43:22,699 --> 00:43:24,049
+estamos no mundo
+
+454
+00:43:24,049 --> 00:43:25,049
+é
+
+455
+00:43:25,049 --> 00:43:26,399
+é muito lindo
+
+456
+00:43:26,399 --> 00:43:27,749
+o local que
+
+457
+00:43:27,749 --> 00:43:28,749
+bom dia
+
+458
+00:43:28,749 --> 00:43:29,749
+ah
+
+459
+00:43:29,749 --> 00:43:30,749
+<UNK>
+
+460
+00:43:30,749 --> 00:43:32,099
+o contexto escolar
+
+461
+00:43:32,099 --> 00:43:33,899
+a área do triângulo
+
+462
+00:43:33,899 --> 00:43:35,249
+pronto vamos compilar
+
+463
+00:43:35,249 --> 00:43:36,249
+e acerta
+
+464
+00:43:36,249 --> 00:43:38,499
+é deprimente ver um produto
+
+465
+00:43:38,499 --> 00:43:39,499
+vou procurá-lo
+
+466
+00:43:39,499 --> 00:43:45,349
+novo branco ouça não controlar controvérsia que pudesse deu outro defeito não perca
+
+467
+00:43:45,349 --> 00:43:48,499
+o para é um programa que possua
+
+468
+00:43:48,499 --> 00:43:49,499
+vinte anos
+
+469
+00:43:49,499 --> 00:43:50,499
+retângulo
+
+470
+00:43:50,499 --> 00:43:51,499
+um
+
+471
+00:43:51,499 --> 00:43:57,349
+bico klaus polígono está faltando alguma coisa no futuro e permite aos retângulo
+
+472
+00:43:57,349 --> 00:43:58,349
+o come
+
+473
+00:43:58,349 --> 00:44:03,299
+é o caso dos pontos dentre outros pontos o do público
+
+474
+00:44:03,299 --> 00:44:04,299
+ao contrário
+
+475
+00:44:04,299 --> 00:44:07,899
+os que deus solo desse malandro de bach
+
+476
+00:44:07,899 --> 00:44:11,049
+agora entenda por de que ele tanto
+
+477
+00:44:11,049 --> 00:44:12,049
+outubro
+
+478
+00:44:12,049 --> 00:44:13,049
+ata
+
+479
+00:44:13,049 --> 00:44:18,449
+que não tem base branca aqui eu tenho uma largura bastante antelação
+
+480
+00:44:18,449 --> 00:44:23,399
+esse método esse esse preço propriedade é bastante criar um corredor
+
+481
+00:44:23,399 --> 00:44:25,199
+faltou uma nova aqui
+
+482
+00:44:25,199 --> 00:44:26,199
+sete valores
+
+483
+00:44:26,199 --> 00:44:27,999
+os moleques ativando juntos
+
+484
+00:44:27,999 --> 00:44:28,999
+tudo que
+
+485
+00:44:28,999 --> 00:44:33,049
+onde porém no seu trono dos sucessivos e disputas
+
+486
+00:44:33,049 --> 00:44:34,049
+a questão
+
+487
+00:44:34,049 --> 00:44:47,999
+ele não ele não aceitou ser palavra sobre o que deve ser alguma coisa da versão do compilado por que no meu controlador no linux funciona perfeitamente sem colocar o produto
+
+488
+00:44:47,999 --> 00:44:50,249
+ela nasceu aquando do conteúdo
+
+489
+00:44:50,249 --> 00:45:08,249
+ela que até a área do retângulo doze e a área do triângulo seis porque determina sua base nas alturas do triângulo bases outono sobre idosos doze produções não é essa característica e que nós temos aqui essa da orientais
+
+490
+00:45:08,249 --> 00:45:20,849
+o objeto a herança ela permite que a gente economize código e reaproveite code porque basta que eu crie uma classe primitiva com as características são mais comuns
+
+491
+00:45:20,849 --> 00:45:36,149
+e meus objetivos eu posso criar novos objetos em pequena criatura que eu já fiz as basta levar essas classes esses objetos a partir de classes primitivas que criamos isso torna muito mais rápido
+
+492
+00:45:36,149 --> 00:45:40,199
+muito mais fácil de manter código fica mais reaproveitável
+
+493
+00:45:40,199 --> 00:45:45,149
+eu vou criar um novo corpo no novo arquivo chamado polimorfismo
+
+494
+00:45:45,149 --> 00:45:46,149
+<UNK>
+
+495
+00:45:46,149 --> 00:45:47,149
+polimorfismo
+
+496
+00:45:47,149 --> 00:45:53,899
+raquel polimorfismo polimorfismo é aquilo que a gente viu aqui quando nós estamos definindo a
+
+497
+00:45:53,899 --> 00:46:10,549
+quando nós definimos aqui numa mesma norma duas classes com métodos que são têm os mesmos nomes soltos definidos é de forma diferente só que parasse polimórfico eu preciso definir assinatura desses métodos na classe no entanto
+
+498
+00:46:10,549 --> 00:46:13,249
+criamos aqui crescimento do calcanhar que
+
+499
+00:46:13,249 --> 00:46:22,249
+vou colocar aqui como sendo o valor da de série e eu dizer ao compilador que este método é virtual
+
+500
+00:46:22,249 --> 00:46:45,199
+virtual e significa isso todos e não pelo dólar o metro local que era virtual vai ser criado depois toda vindo aqui somente a assinatura de como ele deve ser mantido deve ser ele deve retornar em vinte e nove se para muito bem nem as classes derivadas elas vão ter
+
+501
+00:46:45,199 --> 00:46:56,899
+então este método quando eu faço isso eu digo que os métodos que vão ser criados nas vias próximas classes derivadas dessa edição polimórficos eles assumir
+
+502
+00:46:56,899 --> 00:47:01,399
+ele não afirmou mofos e foco naqueles assumem formas diferentes
+
+503
+00:47:01,399 --> 00:47:13,549
+dependendo da funcionalidade que eu quero atribui a eles nas classes derivadas são aqueles sem assinatura igual à cintura foi definida na classe primitiva vou salvar aqui
+
+504
+00:47:13,549 --> 00:47:14,549
+o pilar
+
+505
+00:47:14,549 --> 00:47:15,549
+exacta
+
+506
+00:47:15,549 --> 00:47:24,999
+funcionando há única diferença do que nos últimos anos foi que eu defini o método call que alega que o virtual
+
+507
+00:47:24,999 --> 00:47:37,599
+vou criar cravaram humanamente chamado nem mestres ora ela pode ser toda classe ela também homens fez mais do que homens têm se esforçou para que a palavra
+
+508
+00:47:37,599 --> 00:47:38,599
+bem simples
+
+509
+00:47:38,599 --> 00:47:39,599
+<UNK>
+
+510
+00:47:39,599 --> 00:47:40,599
+indústrias
+
+511
+00:47:40,599 --> 00:47:42,399
+expressão espaço de jogos
+
+512
+00:47:42,399 --> 00:47:45,549
+é uma forma de organizar meu código
+
+513
+00:47:45,549 --> 00:47:50,049
+para que eu tenha elementos que tem características em comum
+
+514
+00:47:50,049 --> 00:47:56,799
+agrupados organizados isso torna o código mais rápido na hora que o compilador vai procurar
+
+515
+00:47:56,799 --> 00:48:10,299
+vai fazer a junção de nomes né que a procura por um determinado nome de variável função no código ou melhor no programa compila makeup thriller nem mísseis inimigos desfez-se
+
+516
+00:48:10,299 --> 00:48:15,249
+o nome dele eu vou criar memes persegue chamado no mérito
+
+517
+00:48:15,249 --> 00:48:27,849
+menos pressionado no mérito dentro dele eu vou criar duas duas aqui aqui não vai estar como constante mas poderia ser constante lote vou chamar aqui de gouda
+
+518
+00:48:27,849 --> 00:48:44,499
+portanto o que é que vai ser esse essa variável boulder ao claro dourado que aparecem várias delas somente na arquitectura e na teologia se encontra muitos muitas medidas que são obtidas de seres vivos eles tempo
+
+519
+00:48:44,499 --> 00:48:53,499
+eles têm relação com este número que eu vou colocar aqui chamado número dourada que aproximadamente um ponto meia oitenta
+
+520
+00:48:53,499 --> 00:49:02,499
+aproximadamente oito arredondado e a gente vai criar aqui também a fronte e quando notei que aproximadamente três porcento quatorze
+
+521
+00:49:02,499 --> 00:49:03,499
+quinze
+
+522
+00:49:03,499 --> 00:49:12,949
+três outras quatorze quinze quisesse nova por aí vai devorando a por dezesseis que outros casos da semana que ta bom
+
+523
+00:49:12,949 --> 00:49:25,999
+com quatorze dezesseis beto estive pense no número que agora tem dois membros e toda equipe se eu quiser agora acessar esses dois valores como é que eu faço
+
+524
+00:49:25,999 --> 00:49:30,949
+vou não vou criar abrindo mão que você mesmo estando alto
+
+525
+00:49:30,949 --> 00:49:31,949
+opa
+
+526
+00:49:31,949 --> 00:49:33,299
+no mundo dourado
+
+527
+00:49:33,299 --> 00:49:34,299
+é
+
+528
+00:49:34,299 --> 00:49:38,799
+nome do anime experience com o mérito dos pontos doutrina
+
+529
+00:49:38,799 --> 00:49:41,049
+e vou exibiu no morumbi
+
+530
+00:49:41,049 --> 00:49:42,399
+o número e
+
+531
+00:49:42,399 --> 00:49:43,749
+o trem <UNK>
+
+532
+00:49:43,749 --> 00:49:44,749
+é isso
+
+533
+00:49:44,749 --> 00:50:04,999
+é o acesso dos membros de memes fez colocando dois pontos dois pontos a gente vai evento provavelmente pro outro dos nossos anseios e nós podemos ser praça saudável ou os elementos de uma classe dessa forma também nome da classe dois pontos dois pontos
+
+534
+00:50:04,999 --> 00:50:20,299
+nome do elemento que está indicou que toda classe homens embora os nomes desses não sejam clássicos são coisas valentino quaisquer objetos sapatilhas nos pés mas eu posso utilizar uma classe como cinema específicos
+
+535
+00:50:20,299 --> 00:50:21,299
+o pilar
+
+536
+00:50:21,299 --> 00:50:23,099
+não mesmo que loucos
+
+537
+00:50:23,099 --> 00:50:24,099
+<UNK>
+
+538
+00:50:24,099 --> 00:50:25,449
+número dourado né
+
+539
+00:50:25,449 --> 00:50:28,599
+não que não tolere o tutor que
+
+540
+00:50:28,599 --> 00:50:29,599
+ah
+
+541
+00:50:29,599 --> 00:50:30,599
+<UNK>
+
+542
+00:50:30,599 --> 00:50:31,599
+olá
+
+543
+00:50:31,599 --> 00:50:38,349
+não executa uma dourada um ponto no dia oito de outubro e três quatro risos
+
+544
+00:50:38,349 --> 00:50:40,149
+mas foram menos intensas
+
+545
+00:50:40,149 --> 00:50:48,699
+agente encerra-se a parte inicial de introdução a orientação a objeto vou falar só mais de duas duas dois
+
+546
+00:50:48,699 --> 00:51:06,249
+dois elementos importantes da programação de outras entradas que são as ações os templários o que são as ações mais ação há um momento em que ocorre um erro no nosso programa eu vou fazer o seguinte eu vou
+
+547
+00:51:06,249 --> 00:51:07,249
+salvar como
+
+548
+00:51:07,249 --> 00:51:08,249
+acessórios
+
+549
+00:51:08,249 --> 00:51:09,249
+<UNK>
+
+550
+00:51:09,249 --> 00:51:11,949
+na sessão com os em série
+
+551
+00:51:11,949 --> 00:51:12,949
+sede
+
+552
+00:51:12,949 --> 00:51:14,749
+essas vou passar aqui
+
+553
+00:51:14,749 --> 00:51:16,099
+o quis foto
+
+554
+00:51:16,099 --> 00:51:21,499
+tanto na estação no momento em que ocorre um erro no programa
+
+555
+00:51:21,499 --> 00:51:37,249
+e a gente uma de que acessam a regra a regra funcionar direito algum compondo um erro ocorra a gente diz que ocorreu uma sessão ocorreria o requião manipulações que utilizando a que vai <UNK>
+
+556
+00:51:37,249 --> 00:51:51,649
+tentar executar o código e dá tudo certo maravilha senão você eh vais ver que vai ser gerado na sessão vou colocar aqui só aí e vou colocar aqui o que eras
+
+557
+00:51:51,649 --> 00:52:02,899
+o que é que eu quero o que significa capture tente executar um código e se derem capture essa ação o capturou a essa ação
+
+558
+00:52:02,899 --> 00:52:04,699
+eu queria uma variável
+
+559
+00:52:04,699 --> 00:52:28,099
+que deve ser do tipo do erro então para cada irmã votam tipo diferente aí vai depender do que os nada biblioteca esteja utilizando o que pode causar irritação da garganta seca deve definir o seu manual é um dos tipos de obsessão que ela é capaz de gerar e de você
+
+560
+00:52:28,099 --> 00:52:32,599
+garanta interceptar aquilo interceptam atrai nossa salvação o jogo inteiro
+
+561
+00:52:32,599 --> 00:52:46,099
+e como é que eu vou fazer para gerar uma sessão eu vou neste caso ação é assim que a carta faz para provocar reação ela se uma palavra-chave show
+
+562
+00:52:46,099 --> 00:52:51,949
+e passa pra ela um parâmetro que é uma pessoa muito aparentes não
+
+563
+00:52:51,949 --> 00:53:03,649
+que é o homem que deus pode ser um objeto este prazo que vou passar numa vinte como sendo a ação o troço que vai executar
+
+564
+00:53:03,649 --> 00:53:14,449
+vai ver que ocorreu um erro chamado através do site ou extrovertido vai levantar um erro vinte vou capturar arquivo exibe na tela sete
+
+565
+00:53:14,449 --> 00:53:15,449
+ah
+
+566
+00:53:15,449 --> 00:53:16,799
+contudo o equívoco
+
+567
+00:53:16,799 --> 00:53:17,799
+o concorrente
+
+568
+00:53:17,799 --> 00:53:19,599
+o intuito dos pontos
+
+569
+00:53:19,599 --> 00:53:23,650
+o produto é deve ser que o empirismo levanta
+
+570
+00:53:23,650 --> 00:53:40,300
+poderia ser qualquer estou aqui metros sintra investimentos ouvinte que outro gerando exausto provoca no rio o destino na função projetos tarefas uma divisão por exemplo a divisão pouco ou zero e o número coser e está
+
+571
+00:53:40,300 --> 00:53:48,850
+gerando meio queria interceptar conexões e exibi-los mantê-lo para que eu faço isso pra problema não fecha um <UNK>
+
+572
+00:53:48,850 --> 00:54:10,450
+grave o programa veste seu interceptou contrai seu provável seu executor e nublado outrora intercepto contate o programa nordeste ao invés disso redirecionou corporais opção croquete e você faz o que você quiser com o erro que foi reportado aquilo que é na variável você definiu mais essa
+
+573
+00:54:10,450 --> 00:54:32,500
+variável tem que ser do tipo do doeu um banco de dados por exemplo retornou e o que é um objeto de relativa que ver aquele banco de dados e ainda depende do banco de dados e falando sem palanque ele vai retornar mas depende do banco de dados
+
+574
+00:54:32,500 --> 00:54:34,300
+executava aparece no nota
+
+575
+00:54:34,300 --> 00:54:46,000
+ocorreu um erro durante o que curtiu gerencie vinte e cinco vinte útil as suas funções sede na grã-bretanha que vestível que ocorreu no funcionamento interno
+
+576
+00:54:46,000 --> 00:54:59,950
+como é que você comunique ao programa pares ao programa principal que ocorreu ele seja um troll executa ou passo objeto que pode ser uma string pode bastante quiser e vai
+
+577
+00:54:59,950 --> 00:55:04,900
+exibe na tela seu as por exemplo geral inclusive nos sinfônico
+
+578
+00:55:04,900 --> 00:55:05,900
+o arquivo
+
+579
+00:55:05,900 --> 00:55:06,900
+show
+
+580
+00:55:06,900 --> 00:55:07,900
+obs
+
+581
+00:55:07,900 --> 00:55:08,900
+obs
+
+582
+00:55:08,900 --> 00:55:09,900
+obs
+
+583
+00:55:09,900 --> 00:55:13,050
+vivemos um mundo ocupa espaços na escuta
+
+584
+00:55:13,050 --> 00:55:28,800
+geralmente uma outros aquilo a que eu faço pra então pra praia do sertão e que não é no mérito de que criar um outro bloco juntamente com outro bloco quete que receba mais trendy
+
+585
+00:55:28,800 --> 00:55:30,600
+é o meu irmão
+
+586
+00:55:30,600 --> 00:55:40,500
+opa aqui de ambos os candidatos não desanime este livro letra minúscula de tanto problema em várias linguagens de programação elas acabam
+
+587
+00:55:40,500 --> 00:55:43,650
+o fundidos nos esquemas mais historinha coletivamente
+
+588
+00:55:43,650 --> 00:55:47,700
+opa de vigoroso que distante do curso aconteceu gente
+
+589
+00:55:47,700 --> 00:55:52,200
+eu já era uma estrela que uma estreia dessa forma
+
+590
+00:55:52,200 --> 00:55:54,000
+a extrema não é
+
+591
+00:55:54,000 --> 00:56:01,200
+mais trendy desse tipo é desse tipo aqui na verdade não virtude caracteriza-se pelo texas extingue
+
+592
+00:56:01,200 --> 00:56:02,200
+beijos
+
+593
+00:56:02,200 --> 00:56:03,200
+aprendi
+
+594
+00:56:03,200 --> 00:56:05,900
+dentro de parênteses maltrato que ouviu
+
+595
+00:56:05,900 --> 00:56:10,850
+o pau que viu todos não cria uma nova estende pontes
+
+596
+00:56:10,850 --> 00:56:11,850
+<UNK>
+
+597
+00:56:11,850 --> 00:56:15,900
+é de novo foi que lhe rendeu ao volante
+
+598
+00:56:15,900 --> 00:56:17,250
+penso que sim
+
+599
+00:56:17,250 --> 00:56:19,050
+o que estamos vivendo
+
+600
+00:56:19,050 --> 00:56:20,850
+use o construtor certo
+
+601
+00:56:20,850 --> 00:56:21,850
+<UNK>
+
+602
+00:56:21,850 --> 00:56:25,450
+ops agora foi causado milani ocorreu em pontos
+
+603
+00:56:25,450 --> 00:56:26,450
+dez
+
+604
+00:56:26,450 --> 00:56:27,800
+bom pra finalizar
+
+605
+00:56:27,800 --> 00:56:34,100
+eu vou criar um templante a gente vai utilizando na nossa antiga construindo nosso
+
+606
+00:56:34,100 --> 00:56:35,450
+nosso módulo i
+
+607
+00:56:35,450 --> 00:56:47,150
+processamento de dia e de linguagem da globo em processamento de linguagem mas de diálogo de discos de conversação eu vou salvar aqui um programa comum
+
+608
+00:56:47,150 --> 00:56:48,150
+template
+
+609
+00:56:48,150 --> 00:56:49,150
+integrantes
+
+610
+00:56:49,150 --> 00:56:50,150
+só como
+
+611
+00:56:50,150 --> 00:56:51,150
+vamos lá
+
+612
+00:56:51,150 --> 00:57:02,850
+o salt lake uma que vou fazer o homem se eu quisesse criar uma função é máximo eu teria que fazer no ano seguinte forma inte
+
+613
+00:57:02,850 --> 00:57:03,850
+março
+
+614
+00:57:03,850 --> 00:57:06,550
+mas receberia dois valores durante a
+
+615
+00:57:06,550 --> 00:57:07,550
+vinte
+
+616
+00:57:07,550 --> 00:57:10,250
+receberia os valores a e b
+
+617
+00:57:10,250 --> 00:57:27,800
+ceará ou sem make b é retornar a rio maior valor seria se bem fosse maior do que a tornaria maior valor considere funcionários setor maior entre dois outros a falha existem diversas formas de fazer fazer sem retorno
+
+618
+00:57:27,800 --> 00:57:28,800
+ah
+
+619
+00:57:28,800 --> 00:57:31,950
+se ela for maior do que b
+
+620
+00:57:31,950 --> 00:57:39,150
+retorne a senão é dormir depois do ternário fica mais fácil de implementar vou colocar aqui
+
+621
+00:57:39,150 --> 00:57:53,099
+é fulcral comprar nosso agradecimento capa fazer o teste não é que eu to fazendo da forma mais normal como nós pesadelos normalmente fazem o grau mais variáveis contigo a bebe
+
+622
+00:57:53,099 --> 00:57:54,099
+esse
+
+623
+00:57:54,099 --> 00:57:55,449
+voltei a fronte
+
+624
+00:57:55,449 --> 00:57:56,799
+você deve comprar
+
+625
+00:57:56,799 --> 00:57:57,799
+é isso
+
+626
+00:57:57,799 --> 00:58:00,049
+equivale a pessoa te é
+
+627
+00:58:00,049 --> 00:58:09,049
+e o rodrigo me valorizar essas variáveis loops atribuir valores a atribuir valor dois a b eu vou atribuir valor
+
+628
+00:58:09,049 --> 00:58:16,249
+o tubo rivaldo dois do contribuinte um berloque do valor dois ser gostado atribuindo-lhe o valor
+
+629
+00:58:16,249 --> 00:58:17,249
+três
+
+630
+00:58:17,249 --> 00:58:21,749
+não vou criar somente abre o crer somente aqui sempre
+
+631
+00:58:21,749 --> 00:58:26,249
+sim e não somente a sua juventude é suficiente sim
+
+632
+00:58:26,249 --> 00:58:27,249
+entre
+
+633
+00:58:27,249 --> 00:58:31,749
+o quarto prato nessas variáveis aqui e vamos lá altos
+
+634
+00:58:31,749 --> 00:58:32,749
+opa
+
+635
+00:58:32,749 --> 00:58:35,449
+manuel vai ao encontro com crime
+
+636
+00:58:35,449 --> 00:58:36,449
+ah
+
+637
+00:58:36,449 --> 00:58:37,449
+limpo
+
+638
+00:58:37,449 --> 00:58:38,449
+b
+
+639
+00:58:38,449 --> 00:58:39,449
+é
+
+640
+00:58:39,449 --> 00:58:40,449
+os românticos
+
+641
+00:58:40,449 --> 00:58:41,449
+há bordo
+
+642
+00:58:41,449 --> 00:58:42,449
+ah
+
+643
+00:58:42,449 --> 00:58:43,449
+muito <UNK>
+
+644
+00:58:43,449 --> 00:58:47,049
+bom veja o que a são valores inteiros
+
+645
+00:58:47,049 --> 00:58:56,949
+vou fazer que infelizmente tive que parar aqui e sei que funcione bem no ataque três é que o botão três pontos
+
+646
+00:58:56,949 --> 00:58:58,749
+a gente sabe que
+
+647
+00:58:58,749 --> 00:58:59,749
+é
+
+648
+00:58:59,749 --> 00:59:02,899
+você sabia que três minutos três pontos
+
+649
+00:59:02,899 --> 00:59:13,249
+é o maior valor quando a gente chama mais tivesse retornado dois e de atual chama-se devem ser tornados com cinco na perícia
+
+650
+00:59:13,249 --> 00:59:14,249
+assista aqui
+
+651
+00:59:14,249 --> 00:59:15,249
+sim
+
+652
+00:59:15,249 --> 00:59:16,249
+idem
+
+653
+00:59:16,249 --> 00:59:17,249
+entre
+
+654
+00:59:17,249 --> 00:59:18,249
+sala
+
+655
+00:59:18,249 --> 00:59:19,249
+e
+
+656
+00:59:19,249 --> 00:59:20,249
+viva
+
+657
+00:59:20,249 --> 00:59:21,249
+e
+
+658
+00:59:21,249 --> 00:59:23,949
+nesse aqui funcionou num profundo sono
+
+659
+00:59:23,949 --> 00:59:32,049
+era preta fazendo a conversão e não sei por que ele não fez a coleção por inteiro aqui
+
+660
+00:59:32,049 --> 00:59:35,199
+quando a gente quando frisa a interceptação
+
+661
+00:59:35,199 --> 00:59:48,249
+completava ele está retornando a que valor igual ao que for quente retorno interessante que retornava ao três sinatra expansiva e aquele estava curiosamente ele estará retornando três pontos
+
+662
+00:59:48,249 --> 00:59:49,599
+os demais instrumentos
+
+663
+00:59:49,599 --> 00:59:50,949
+erramos ajuda debate
+
+664
+00:59:50,949 --> 00:59:54,099
+usando mais estranho isso não deveria funcionar
+
+665
+00:59:54,099 --> 01:00:00,399
+deveria estar tomando valor três porque o arredondamento de três ponto cinco por inteiro
+
+666
+01:00:00,399 --> 01:00:02,199
+equitação definindo como inteiro
+
+667
+01:00:02,199 --> 01:00:26,500
+mas ele não está fazendo e não está fazendo isso bom eu não sei porque o que está acontecendo mas a maneira certa de fazer de criar esta função para que ela se comporte como se comportou a quina não deveria está se comportando assim provavelmente existe essa função definida que dentro da outra
+
+668
+01:00:26,500 --> 01:00:27,500
+supervisor mim
+
+669
+01:00:27,500 --> 01:00:37,400
+lá é que não ficaria massa e veículos e controle ambiente e sim mas o embarca no rio enorme e apêndice b
+
+670
+01:00:37,400 --> 01:00:57,650
+e não é nada disso é que na verdade eu acho que nem precisava estar aqui na que animais pastando gotham seagate e passou valor direto aqui colocar quem deve fazer entre pato colocar dois qual o prazo para que colocam em dores e dores
+
+671
+01:00:57,650 --> 01:00:59,450
+aqui é o windows
+
+672
+01:00:59,450 --> 01:01:04,850
+o couro é ele está pronto pra rodar ataque três ponto dois
+
+673
+01:01:04,850 --> 01:01:06,200
+entre os funcionários
+
+674
+01:01:06,200 --> 01:01:11,150
+vinte e três pontos sete nota-se que também também muito dois
+
+675
+01:01:11,150 --> 01:01:23,750
+duas com conceito na verdade o que eu acho essa função mais definida para a sua última atuação sobrecarga sobrecarregada que porque ele não era pra funcionar entendeu
+
+676
+01:01:23,750 --> 01:01:26,000
+ela traz arredondar porque quinteiro
+
+677
+01:01:26,000 --> 01:01:28,250
+a flor não precisa usar
+
+678
+01:01:28,250 --> 01:01:45,800
+ela deve ter deve ter essa função definida como aqui a gente faz pra poder ex-funcionário forma genérica a gente trinta e dois quando eu vou usá-la no volante vento aumentando o nosso programa escreva palavra chave tem implante
+
+679
+01:01:45,800 --> 01:02:04,250
+a consciente escrevo claras e coloco uma variável qualquer que eu queria que quero utilizar chamada de ter mesmo pra porto prosseguiu com o moderno modelo do template e no lugar de colocar os tipos definidos eu coloco aqui tb tem
+
+680
+01:02:04,250 --> 01:02:05,250
+e pronto
+
+681
+01:02:05,250 --> 01:02:09,750
+fazendo isso automaticamente a minha classe passa a se comportar
+
+682
+01:02:09,750 --> 01:02:11,550
+é de forma genérica
+
+683
+01:02:11,550 --> 01:02:25,500
+ao invés de ela ser definido somente frente elaborava podem funcionar para qualquer tipo de valor que eu queira utilizar basta que na hora de chamar a a colaço e utilize
+
+684
+01:02:25,500 --> 01:02:29,099
+ah já sei o que foi isso mesmo
+
+685
+01:02:29,099 --> 01:02:49,799
+isso mesmo eu utilizo outro nome pra evolução malaquite demais para poder ser nossa classe é somente dessa classe definida lá vou chamá-la de temática poderão confundir com marcos o mais doce mais marcação sobrecarregada que colou definirá atraente a verdade pediu o mascote do <UNK>
+
+686
+01:02:49,799 --> 01:02:56,999
+mas mais redefini-la com muitos que recebeu flotilha percorrem usou a versão dela versão dele lá
+
+687
+01:02:56,999 --> 01:03:03,749
+é isso mesmo é que eu faço hora adicional temática de luanda cuja versão juntos
+
+688
+01:03:03,749 --> 01:03:07,349
+colocar muitos consciente agora que os avanços flores
+
+689
+01:03:07,349 --> 01:03:10,049
+o campo que pede o seguinte
+
+690
+01:03:10,049 --> 01:03:15,449
+também pochete não seminário maior não sei se outra nomenclatura na mão
+
+691
+01:03:15,449 --> 01:03:24,449
+adoro quando as acta se comportou igual só que agora em vez de usar a função é marcante dos humanos
+
+692
+01:03:24,449 --> 01:03:42,449
+eu gosto de livros ou função marsílio utilizou temático tive que acabou de criar que como um templete existe uma biblioteca inteira de templantes lucro mas mais consistente projeto de cerveja tudo quanto é coisa imagina já tem pronto dentro
+
+693
+01:03:42,449 --> 01:04:04,949
+no nosso programa aqui gente a venda do jogo eu vou usar templates pra resolver um problema específico que vai aparecer num determinado momento e vocês vão ver não é o conteúdo da taça parte patriotas objeto parte dividir conteúdo teste a galante a fazer logo vamos fazer algumas <UNK>
+
+694
+01:04:04,949 --> 01:04:29,249
+exercícios e evandro resolveu os problemas dos alguns aces e vamos começar a modelar objeto orientado construindo o esqueleto do nosso jogo devo definir as características do jogo e vou construir uma peça muito importante do jogo que é o motor de diálogo que vai permitir que os personagens conversem uns com os outros
+
+695
+01:04:29,249 --> 01:04:50,399
+de uma forma automática sem que você precise capotando e física i e coisas parecidas dentro do seu próprio não se vai sentir e dizer opa objeto converse com objeto tal direito tal coisa e outro objeto a responder o que é pertinente para aquelas perguntas frequentes
+
+696
+01:04:50,399 --> 01:04:51,749
+aqueles todos elas

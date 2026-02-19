@@ -1,0 +1,63 @@
+1
+00:00:00,000 --> 00:00:05,850
+olá eu sou roberto monteiro e este é o curso fundamentos de programação
+
+2
+00:00:05,850 --> 00:00:07,650
+o que estudar programação
+
+3
+00:00:07,650 --> 00:00:22,050
+os computadores estão em toda parte nos nossos desktops tablets e smartphones por smartphones e até assistentes pessoais como por exemplo a proposta de pessoal da amazon o assistente pessoal barreto assim
+
+4
+00:00:22,050 --> 00:00:45,000
+além disso os programas de computador eles controlam estes equipamentos os computadores então uma pessoa que conhece programação ela tem um diferencial com relação aos outros profissionais que atuam no mercado o que ela será capaz de controlar esses equipamentos que para praticamente estão em todos os momentos de nossas <UNK>
+
+5
+00:00:45,000 --> 00:00:46,000
+lindas
+
+6
+00:00:46,000 --> 00:01:07,599
+e o que aprendemos neste juntos nós conheceremos os fundamentos da lógica de programação na primeira parte do impulso onde nós aprenderemos a programar utilizando blocos de programação e a partir desses blocos e a construção de algoritmos nós conheceremos as estruturas básicas de sete linguagens de programação
+
+7
+00:01:07,599 --> 00:01:35,500
+a linguagem da arte foi criado pelo bulbo o javascript criada pelo negros que pede que a linguagem de programação mais utilizada no mundo atualmente a linguagem lua criada no brasil mas criticou a linguagem de programação que eu criei para o desenvolvimento de aplicações científicas e que é utilizada por alguns dos nossos alunos do mestrado e doutorado a linguagem p
+
+8
+00:01:35,500 --> 00:01:59,799
+hp uma linguagem para a construção de aplicações o extremamente utilizada animais portugal que nove uma versão de uma linguagem de programação em língua portuguesa usada apenas para aprendizagem de lógica de programação é a linguagem impacto no também é uma das linguagens mais utilizadas no mundo pois aprenderemos os fundamentos dessas linguagens não
+
+9
+00:01:59,799 --> 00:02:20,500
+campus completo em cada uma das linguagens de programação mais nos permitirá seguir adiante caso deseje continuar seus estudos de programação a segunda parte do nosso curso nós aprenderemos os fundamentos de programação em si mesmas e na última parte a programação objeto orientado acima citados
+
+10
+00:02:20,500 --> 00:02:41,650
+e quais são os nossos objetivos os nossos objetivos são conhecer os princípios da lógica computacional compreendeu que são variáveis de operadores e entender as estruturas de decisão e repetição mais comuns em programação de computadores utilizar funções e procedimentos e implementar algoritmos a partir de aqui
+
+11
+00:02:41,650 --> 00:02:54,700
+blocos de programação simples tanto conhecer os fundamentos da linguagem de programação semanais mais compreender o paradigma de programação projeto orientado e construir programas de computadores e mais macia
+
+12
+00:02:54,700 --> 00:03:16,750
+e como nós faremos isso na primeira parte nós utilizaremos o ambiente de programação em é uma ferramenta que eu desenvolvi com meus amigos especificamente para ensinar programação de computadores já utilizamos há vários anos tanto no cenário como em outras instituições de ensino pública como alegre por exemplo
+
+13
+00:03:16,750 --> 00:03:31,150
+e também na segunda parte na terceira parte os utilizaremos um dos ambientes de programação mais utilizadas para a aprendizagem de programação em seis semanas mas a ideia deve ser mais baratos
+
+14
+00:03:31,150 --> 00:03:33,850
+e como será a nossa avaliação
+
+15
+00:03:33,850 --> 00:03:46,900
+nós entregaremos autoavaliação a partir da solução dos acessos propostos porém ao final do curso haverá uma avaliação especial esta avaliação será utilizada para lhe dar nota na disciplina
+
+16
+00:03:46,900 --> 00:03:47,900
+<UNK>

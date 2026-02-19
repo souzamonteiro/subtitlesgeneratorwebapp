@@ -1,0 +1,531 @@
+1
+00:00:00,000 --> 00:00:14,849
+aula nesta aula falaremos sobre estruturas de decisão estruturas de decisão são recursos que permitem ao programador criar porções de código que serão executadas somente se uma determinada condição for avaliado como verdadeiro
+
+2
+00:00:14,849 --> 00:00:17,550
+para criarmos estruturas de decisão utilizamos
+
+3
+00:00:17,550 --> 00:00:18,900
+o bloco cinco
+
+4
+00:00:18,900 --> 00:00:21,600
+mas antes vamos criar algumas variantes
+
+5
+00:00:21,600 --> 00:00:24,300
+vou criar uma variável de malta
+
+6
+00:00:24,300 --> 00:00:25,300
+tanto tanto
+
+7
+00:00:25,300 --> 00:00:33,850
+e vamos utilizá-lo para tanto paulo excretamos estrear um novo bloco bloco que ainda não utilizados que eu perdi
+
+8
+00:00:33,850 --> 00:00:34,850
+com
+
+9
+00:00:34,850 --> 00:00:47,000
+publicou sete ele permite criar uma caixa de diálogo seja exibida e usuário digite homem por uma resposta uma mensagem pro apresenta neste caso a mensagem será
+
+10
+00:00:47,000 --> 00:00:48,000
+informe
+
+11
+00:00:48,000 --> 00:00:49,000
+<UNK>
+
+12
+00:00:49,000 --> 00:00:51,700
+a nossa equipa procurou a <UNK>
+
+13
+00:00:51,700 --> 00:00:52,700
+um
+
+14
+00:00:52,700 --> 00:00:59,450
+nossa pele permite que se configure a resposta motéis tornando este momento vamos utilizar seis
+
+15
+00:00:59,450 --> 00:01:03,050
+se executarmos um programa somente com festa festival
+
+16
+00:01:03,050 --> 00:01:07,550
+pretendemos a caixa de texto onde de certo no planalto
+
+17
+00:01:07,550 --> 00:01:08,550
+dez
+
+18
+00:01:08,550 --> 00:01:11,250
+mas se nós exibimos acordo valor
+
+19
+00:01:11,250 --> 00:01:12,250
+voca
+
+20
+00:01:12,250 --> 00:01:13,250
+enfim
+
+21
+00:01:13,250 --> 00:01:17,750
+retire o saco do vocábulo nota prévia na capela setecentista
+
+22
+00:01:17,750 --> 00:01:18,750
+seis
+
+23
+00:01:18,750 --> 00:01:20,100
+exige-se resultado dez
+
+24
+00:01:20,100 --> 00:01:23,700
+veja se pedirmos que seja fornecido um texto
+
+25
+00:01:23,700 --> 00:01:29,100
+quando o usuário digitar a nota mesmo que seja digitado momento internamente
+
+26
+00:01:29,100 --> 00:01:46,200
+a linguagem de programação vai interpretar que denomina o texto não como um valor numérico que possa ser trabalhado se queremos fazer algum tipo de processamento com este valor precisamos então pedir um boneco forçar o próprio crime
+
+27
+00:01:46,200 --> 00:01:48,900
+como utilizar o daqui a pouco
+
+28
+00:01:48,900 --> 00:01:57,450
+vou agora criaram um bloco se coloque o bloco se que nós queremos agora exibir duas mensagens na tela
+
+29
+00:01:57,450 --> 00:02:04,650
+como cada uma dessas mensagens serão exibidas somente se uma determinada condição foi avaliada como verdade
+
+30
+00:02:04,650 --> 00:02:09,600
+a condição padrão que nós vamos colocar quatro com o site
+
+31
+00:02:09,600 --> 00:02:11,850
+pegar num bloco de lógica
+
+32
+00:02:11,850 --> 00:02:12,850
+o bloco
+
+33
+00:02:12,850 --> 00:02:15,550
+ii operações matemáticas grupo matemáticas lógicas
+
+34
+00:02:15,550 --> 00:02:18,250
+são na verdade operações relacionais né
+
+35
+00:02:18,250 --> 00:02:28,150
+igual diferente modo habitual maior ou menor qual nós vamos comparar o bloco notou que não comparar compara-se nota igual a outro
+
+36
+00:02:28,150 --> 00:02:30,400
+como dá pra maior igual
+
+37
+00:02:30,400 --> 00:02:32,200
+vou utilizar o médico
+
+38
+00:02:32,200 --> 00:02:33,200
+seis
+
+39
+00:02:33,200 --> 00:02:41,750
+tanto que nós todos estamos dizendo é que se nota for maior ou igual que seres entrarem no mar
+
+40
+00:02:41,750 --> 00:02:42,750
+você aprova
+
+41
+00:02:42,750 --> 00:02:47,700
+que nós estamos dizendo que se a nota digitada pelo usuário
+
+42
+00:02:47,700 --> 00:03:01,200
+foi o maior encontro de seres a pessoa será aprovada será exibida na tela a mensagem você foi mas e se a nota não formar qualquer sexo todas as etapas
+
+43
+00:03:01,200 --> 00:03:11,550
+não digitar o valor sete que mais igual você programa agora vou digitar um valor menor do que a série cinco nada acontece
+
+44
+00:03:11,550 --> 00:03:34,050
+porque o que é a condição avalia se a nota mais acontecesse só exibiu a mensagem se formaram quatro seres para que nós possamos exibirá uma mensagem caso anotou seja menor que seis vamos utilizar o bloco senão você não estará dentro do próprio bolso opção senão ficamos na grelha
+
+45
+00:03:34,050 --> 00:03:35,050
+imagem
+
+46
+00:03:35,050 --> 00:03:36,850
+e vamos a castrar
+
+47
+00:03:36,850 --> 00:03:42,700
+bloco senão vou para baixo no bloco sim dentro do editor do blog
+
+48
+00:03:42,700 --> 00:03:43,700
+agora
+
+49
+00:03:43,700 --> 00:04:04,850
+é necessário clicar uma grande margem para que a caixa de edição de profissão mas agora nós temos uma opção senão ele se nota romário aquecesse faça assim você você prova senão ele vai fazer outra coisa que vou copiar o google prime control c control v
+
+50
+00:04:04,850 --> 00:04:08,450
+e agora eu vou mudar funcef foi reprovado
+
+51
+00:04:08,450 --> 00:04:09,450
+professora
+
+52
+00:04:09,450 --> 00:04:12,150
+então se executarmos o digital sete
+
+53
+00:04:12,150 --> 00:04:18,000
+maior qualquer você procurava agora vou digita um número menor que três sim
+
+54
+00:04:18,000 --> 00:04:26,550
+você foi reprovado com esta estrutura se ela contém outras opções além desta opção é dessas opções e cena
+
+55
+00:04:26,550 --> 00:04:38,699
+primeiro antes de passar por essas opções vamos dar uma olhada no código geral em portugal mas temos aqui a criação da variável mota varga no local
+
+56
+00:04:38,699 --> 00:04:44,550
+em seguida a nota é atribuído a que está sendo chamado alguma pele
+
+57
+00:04:44,550 --> 00:05:07,949
+o recurso chamado função que converte o que o usuário tiver digitado para mobile nasceu de um usuário digitar dez três cinco quatro qualquer número ele será convertido para uma representação interna de um número qualquer compra adotam uma representação interna para números que não é a mesma representação de um texto
+
+58
+00:05:07,949 --> 00:05:11,550
+me chama e aqui a chamada função leiria
+
+59
+00:05:11,550 --> 00:05:29,550
+o pulmão se preferir que vai exibir na tela a mensagem formato do amor pessoal e vai ser sócia e voto vai ser solicitado para os lados quando for digitar essa nova acima desse valor a ser atribuído à variável
+
+60
+00:05:29,550 --> 00:05:36,750
+o que temos então a estrutura assim simão mota formar qualquer seis escreva você poderá provar
+
+61
+00:05:36,750 --> 00:05:43,050
+senão escreva você foi reprovado observe que a estrutura sistema abre e fecha chaves
+
+62
+00:05:43,050 --> 00:06:05,550
+assim num abrir e fechar chaves patrocinam essencial isso é chamado de estrutura de bloco a estrutura se trabalha com duas estruturas de bloco uma para capacitação si e outra para a do chama de cláusula uma para cláusulas i e outro para a cláusula sempre em boa com física
+
+63
+00:06:05,550 --> 00:06:13,650
+seja para exibir uma mensagem de rua a caixa de diálogo é necessário criar uma função para isso
+
+64
+00:06:13,650 --> 00:06:17,250
+este carro está sendo utilizada a palavra-chave function
+
+65
+00:06:17,250 --> 00:06:20,850
+tá sendo atribuído um nome para a função
+
+66
+00:06:20,850 --> 00:06:22,200
+este acervo é
+
+67
+00:06:22,200 --> 00:06:35,250
+passado por essa função uma variável como as variáveis que mais utilizamos o programa que quer dizer isso que na hora que esta função foi executado o teste prontinho
+
+68
+00:06:35,250 --> 00:06:39,750
+ele vai receber um texto dentro do mês trabalhado feminicídio
+
+69
+00:06:39,750 --> 00:06:52,800
+então foi chamar o saque objecto todas as vezes nós vivemos uma palavra significa um seguido de outra palavra a primeira palavra-chave geração acima da palavra método daquilo mesmo
+
+70
+00:06:52,800 --> 00:07:02,250
+você pode considerar um do com uma função como recurso que lhes é executado um comando neste caso eles requerem escreve
+
+71
+00:07:02,250 --> 00:07:04,050
+a mensagem foi exibido
+
+72
+00:07:04,050 --> 00:07:10,800
+e esse fluxo é uma característica do louvor da lua da linguagem do boi necessários
+
+73
+00:07:10,800 --> 00:07:14,850
+executam filas para limpar uma memória especial chamada bolsa
+
+74
+00:07:14,850 --> 00:07:17,550
+em seguida é chamado como duvide
+
+75
+00:07:17,550 --> 00:07:20,700
+ou seja o método do globo giratório
+
+76
+00:07:20,700 --> 00:07:44,100
+essa forma de lucro disse mesmo que a gente chama de prontos no local onde está o ponto onde usuário pode digitar o comando e seguida é convertido para lembrá-lo com função útil lembrar aquilo que for digitado pelo usuário veja como é que é feita a chamada dessa função triste prontinho
+
+77
+00:07:44,100 --> 00:07:49,500
+teste prontinho e dentro de parênteses a mensagem que se quer exibir
+
+78
+00:07:49,500 --> 00:07:50,500
+em seguida
+
+79
+00:07:50,500 --> 00:08:10,300
+é assim eu esqueci de comentar esse dez aqui é porque curtir uma linda conversa deferentes bases numéricas bases numéricas são formas especiais de representam a nossa base decimal existe a base sexagesimal base outro basalto que faz parte do escopo do nosso curso
+
+80
+00:08:10,300 --> 00:08:19,750
+então vamos trabalhar com base decimal também estrutura-se e despistou-se e nota maior igual que seis decidem que equivale ao coração
+
+81
+00:08:19,750 --> 00:08:21,550
+a estrutura do local
+
+82
+00:08:21,550 --> 00:08:32,350
+bem frente você vai provar eu realce que valeu senão mesmo frente voce foi reprovado tropa puxa como fica nos outras implantes em javascript
+
+83
+00:08:32,350 --> 00:08:39,100
+novamente criando variável muito parecido com o que a gente viu que em portugal marmota
+
+84
+00:08:39,100 --> 00:08:47,200
+em seguida anote igual livre novamente funcionando só que para exibir a caixa de diálogo essa caixa aqui
+
+85
+00:08:47,200 --> 00:08:48,200
+até lá
+
+86
+00:08:48,200 --> 00:09:04,850
+é chamado o método bronquite por objeto muito lembra quando a gente tem o nome seguido de um pontos seguido de outro nome primeiro nome tal objeto segundo nome é um método novo vegetal função pouco muito
+
+87
+00:09:04,850 --> 00:09:08,450
+este caso produtivas envia mensagem informe nota <UNK>
+
+88
+00:09:08,450 --> 00:09:22,400
+basta digitar o nome ou a nota digitando essa nota vai ser então encaminhada para estruturas e filhota maria novecentos fundou a norte a leste corresponde ao comando <UNK> no javascript
+
+89
+00:09:22,400 --> 00:09:30,500
+minou ao norte você pra provar é o sempre que a cláusula penal no valor que você pouco
+
+90
+00:09:30,500 --> 00:09:31,500
+vejamos
+
+91
+00:09:31,500 --> 00:09:51,300
+temos mais crítico mais triste um pouco mais simples que não é necessário declarar variáveis como nota igual ótimo lembrar mas creditem objetos pré-selecionado core e dentro dele temos muitos métodos muitas funções muitos comandos com dezessete lembra converte qualquer texto digitado que esteja
+
+92
+00:09:51,300 --> 00:10:00,300
+apresentando um erro é uma representação interna vinagre você corre para essa representação determinará a forma como o computador entende
+
+93
+00:10:00,300 --> 00:10:07,500
+e para exibir a caixa de diálogo de entrada chamamos o método incontida revogue objeto assista
+
+94
+00:10:07,500 --> 00:10:10,200
+informe no ato seguido executada claudino
+
+95
+00:10:10,200 --> 00:10:12,000
+para a declaração si
+
+96
+00:10:12,000 --> 00:10:21,900
+e se nota mais normal que seja essencial à sua marca maior vocação assistencial nacional você foi prova senão assistentes opcionais ajudar-vos
+
+97
+00:10:21,900 --> 00:10:23,250
+você foi reprovado
+
+98
+00:10:23,250 --> 00:10:45,750
+php novamente aqui estás entre as variáveis lembra que a diferença básica é contra os rivais para doação que não pega pra gente começou nome da variável com bola todas elas dão uma nota para que seja convertido para um número que se utiliza a função se motivaram e segui-los
+
+99
+00:10:45,750 --> 00:10:50,250
+de lá para ler o dado que o usuário digital
+
+100
+00:10:50,250 --> 00:11:05,100
+de em formato não estudados ser convertido para se noticiou lá com número em ponto flutuante um número decimal e atribuído valor alto e nota mandava seis prende você for aprovado é você
+
+101
+00:11:05,100 --> 00:11:08,250
+ou seja o cidadão o setor tropa
+
+102
+00:11:08,250 --> 00:11:10,500
+portugal já vimos vejamos impacto
+
+103
+00:11:10,500 --> 00:11:18,600
+que tomassem como lua requer a definição de uma função parte nós temos nota igual criado variável vazia
+
+104
+00:11:18,600 --> 00:11:26,700
+em seguida criada função teste prático próprias e se a receber o valor vai ser exibido na tela
+
+105
+00:11:26,700 --> 00:11:28,500
+dentro da variável message
+
+106
+00:11:28,500 --> 00:11:50,550
+esse trabalho que esse uma declaração expressa especial do facto que funciona para interceptar qualquer erro por exemplo se o usuário se acontece algum erro durante a leitura do mundo que o dado digitado pelo usuário ele vai interceptar o rio não vai ao programa caso contrário fecharia program
+
+107
+00:11:50,550 --> 00:12:00,450
+então toda vez que a dica é tomar cuidado para que o programa não frescas ocorrerá um erro gente utiliza essa declaração
+
+108
+00:12:00,450 --> 00:12:11,700
+em seguida retornei ao encontro qual a função que recebe algum dado digitado pelo usuário digita quando apertar enter vai ser atribuído à variável mensagem
+
+109
+00:12:11,700 --> 00:12:31,500
+sessenta e sete faz parte da declaração que vai então se ocorreu morria com o nome do irmão se colocar nossa variável é polêmico e vai ser então executado o comando com o monte é minha seja no lugar do ausente qualquer casal empuxo
+
+110
+00:12:31,500 --> 00:12:35,100
+para ele vai tentar utilizar a função ti
+
+111
+00:12:35,100 --> 00:12:42,750
+aqui nós temos novamente sendo atribuída a variável nota o texto digitado estou chamando faço sopas prontinho
+
+112
+00:12:42,750 --> 00:12:45,000
+e a covardia a fonte
+
+113
+00:12:45,000 --> 00:12:50,850
+claudia de ponto flutuante seja uma decisão o para fonte colocá-la para vê-lo
+
+114
+00:12:50,850 --> 00:13:03,899
+empatou a declaração e enfim não tem lábios gelados além de pai e filho nota mais essa é um dos pontos que funcionam como faça logo depois da balada
+
+115
+00:13:03,899 --> 00:13:26,850
+expressão lógica que nesse caso é tirado nota maior que seis nos colocou dois pontos e logo depois disso coloque o comando e quer que seja executado caso essa declaração seja como verdadeiro no realce temos algo parecido com dois pontos logo seguida ela se prende você quer a alguma particularidade
+
+116
+00:13:26,850 --> 00:13:50,250
+adi com relação ao parto impactou bom como nós não temos o abre-fecha chaves para delimitar o início e o fim os dois garotos javascript vejo toda declaração tem rabo em chaves e fechaduras abre chaves são fechados que dizer o que deve ser executado caso aquela declaração seja avaliado com verdadeiro
+
+117
+00:13:50,250 --> 00:14:00,149
+já equipamentos que dizia isso tal argumentação espaçamento quando estás para saber que vai ser considerado como fazendo parte da dessa declaração
+
+118
+00:14:00,149 --> 00:14:21,750
+no caso do trabalho como é uma declaração dentro todo contra declaração necessário mais uma imitação para que preto o compilador partam sambaquieiros este retransmite pertenceste trai e não ao plantel principal a mesma coisa durante sete dias até coloco novamente o novo recuo em relação penetração recuo
+
+119
+00:14:21,750 --> 00:14:29,399
+para que ele saiba que retorne incontinência diferente sexo você esta secção sexo e não há déficit
+
+120
+00:14:29,399 --> 00:14:33,000
+defina a forma de definir qualquer função impacto
+
+121
+00:14:33,000 --> 00:14:34,350
+é o equivalente
+
+122
+00:14:34,350 --> 00:14:35,350
+ao fútil
+
+123
+00:14:35,350 --> 00:14:37,149
+dou não um exclusivo
+
+124
+00:14:37,149 --> 00:14:39,399
+equivalente ao fluxo do lua
+
+125
+00:14:39,399 --> 00:14:56,049
+ao preocupações no funny face function definindo a função no final coloco rende pra finalizar o consumo o com requintada afonso aproximação a construção uma declaração contendo a palavra-chave retorne significa que eu quero retornar da função
+
+126
+00:14:56,049 --> 00:15:00,549
+o resultado deste texto desta deste código que não avance
+
+127
+00:15:00,549 --> 00:15:07,750
+é mais crítico não é necessária a definição dessas funções porque já tem de natureza embutidos
+
+128
+00:15:07,750 --> 00:15:14,500
+assim como já havia escrito aqui também não é necessário pedir pelo fato dos embutidos
+
+129
+00:15:14,500 --> 00:15:18,100
+php também não precisam de qualquer pensamento embutido
+
+130
+00:15:18,100 --> 00:15:21,700
+o ponto alto bem não precisamos da paixão
+
+131
+00:15:21,700 --> 00:15:22,700
+precisamos algo
+
+132
+00:15:22,700 --> 00:15:23,700
+isso
+
+133
+00:15:23,700 --> 00:15:24,700
+<UNK>

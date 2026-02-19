@@ -1,0 +1,651 @@
+1
+00:00:00,000 --> 00:00:06,750
+uma nesta aula aprenderemos sobre controle de fluxo na linguagem de programação ser mais mais
+
+2
+00:00:06,750 --> 00:00:24,750
+mesmo nessa na aula passada nós falamos todos operadores ortogonais nos fala sobre o controle de fluxo para controlar fluxo nós precisávamos dos operadores <UNK> operadores o grupo quer controlar fluxo num programa pois nós trabalhamos com implante latrinas e
+
+3
+00:00:24,750 --> 00:00:46,799
+acho que nós podemos criar sessões de código quero dizer que trará somente quando determinada condição avaliada com verdadeiro ou falso e haviam outras ações de código de que nós podemos fazer com que ela se quentes na execução até que uma condição se tornasse um verdadeiro ou falso
+
+4
+00:00:46,799 --> 00:00:54,449
+há que registre o mesmo recurso vamos salvar este programa mundo eu vou chamar aquilo de capital
+
+5
+00:00:54,449 --> 00:00:55,799
+altera por completo
+
+6
+00:00:55,799 --> 00:00:56,799
+tudo isso
+
+7
+00:00:56,799 --> 00:00:57,799
+é isto
+
+8
+00:00:57,799 --> 00:00:58,799
+curiosos
+
+9
+00:00:58,799 --> 00:01:01,500
+um estilo de produtos estruturas condicionantes
+
+10
+00:01:01,500 --> 00:01:05,549
+vou apagar adoro esse cubo foragido sentido portanto somente
+
+11
+00:01:05,549 --> 00:01:06,549
+opa opa
+
+12
+00:01:06,549 --> 00:01:07,549
+ambos gratuitos
+
+13
+00:01:07,549 --> 00:01:12,950
+vamos fazer um exemplo parecido com aquele que nós fizemos no dolorido
+
+14
+00:01:12,950 --> 00:01:15,200
+eu cravaria vinte e intactos
+
+15
+00:01:15,200 --> 00:01:20,600
+eu agora vou criar aqui volto solicita ao usuário que digite idade
+
+16
+00:01:20,600 --> 00:01:21,600
+<UNK>
+
+17
+00:01:21,600 --> 00:01:22,600
+um
+
+18
+00:01:22,600 --> 00:01:23,600
+desenvolvimento
+
+19
+00:01:23,600 --> 00:01:24,600
+enquanto hidrata
+
+20
+00:01:24,600 --> 00:01:25,950
+quero colocar aqui
+
+21
+00:01:25,950 --> 00:01:26,950
+ah
+
+22
+00:01:26,950 --> 00:01:27,950
+consulta
+
+23
+00:01:27,950 --> 00:01:28,950
+sim
+
+24
+00:01:28,950 --> 00:01:33,000
+ah ah ah ah ah ah ah ah ah
+
+25
+00:01:33,000 --> 00:01:51,450
+dependendo da idade da pessoa vou escrever na internacionais maior pendor já tem dezoito anos e como nós fizemos dois de prata e enfim é estruturado e sim uma determinada comissão sobre venda do verdadeiro ele executa uma cessão de crédito
+
+26
+00:01:51,450 --> 00:01:53,250
+isso significa se intensifica
+
+27
+00:01:53,250 --> 00:01:54,250
+idade
+
+28
+00:01:54,250 --> 00:01:55,250
+o maior
+
+29
+00:01:55,250 --> 00:01:56,250
+e dezoito
+
+30
+00:01:56,250 --> 00:02:03,900
+coloque entre parênteses como agente infiltrado do código gerado pelo aplicativo javascript e outros do bate papo
+
+31
+00:02:03,900 --> 00:02:04,900
+cidade foto
+
+32
+00:02:04,900 --> 00:02:06,250
+placa dezoito seal
+
+33
+00:02:06,250 --> 00:02:10,750
+ah ah ah ah ah ah ah sim é maior
+
+34
+00:02:10,750 --> 00:02:11,750
+dezoito
+
+35
+00:02:11,750 --> 00:02:16,250
+ah ah ah ah ah ah ah ah pediculose intacto
+
+36
+00:02:16,250 --> 00:02:20,300
+bom dia cidade somava dezoito anos você de sortudos
+
+37
+00:02:20,300 --> 00:02:29,750
+da mesma forma que nós temos um pronto estruturas estruturas senão sinto a distância que o é o significado é seguinte
+
+38
+00:02:29,750 --> 00:02:45,500
+enfim se sigilo avaliou a condição novamente ele verifica se a condição em si não foi satisfeito ele comparador o parâmetro que a gente informada verifique esta verdadeiro falso projeta um outro bloco is disse
+
+39
+00:02:45,500 --> 00:02:53,150
+dentro de uma estrutura emocional consistia basicamente um encontro que não é um incidente fugiu em oficinas
+
+40
+00:02:53,150 --> 00:02:58,099
+fica bonitinho e parece que há uma estrutura no nosso coração
+
+41
+00:02:58,099 --> 00:02:59,099
+especificidade
+
+42
+00:02:59,099 --> 00:03:00,449
+menor que dezoito
+
+43
+00:03:00,449 --> 00:03:02,699
+por ser menor que dezoito
+
+44
+00:03:02,699 --> 00:03:03,699
+catorze
+
+45
+00:03:03,699 --> 00:03:09,099
+agora se nenhuma dessas duas funções tomá-la como verdadeira é o cinco
+
+46
+00:03:09,099 --> 00:03:10,900
+você tem tudo isso
+
+47
+00:03:10,900 --> 00:03:11,900
+ah
+
+48
+00:03:11,900 --> 00:03:13,250
+você está pronto
+
+49
+00:03:13,250 --> 00:03:15,050
+o sol quarta justa
+
+50
+00:03:15,050 --> 00:03:19,100
+no entanto o ministro sem descanso até que aconteceu
+
+51
+00:03:19,100 --> 00:03:30,800
+ele reclama que não tem acento àquilo que eu tanto no seu carro sobre o acontecido novo só não porque as vezes daí o nome popular
+
+52
+00:03:30,800 --> 00:03:34,850
+vou deixar assim mesmo conta-se nos aspectos do comportamento
+
+53
+00:03:34,850 --> 00:03:36,650
+um de seus integrantes
+
+54
+00:03:36,650 --> 00:03:37,650
+a catarata
+
+55
+00:03:37,650 --> 00:03:40,350
+da mesma tanto nos outras vidas
+
+56
+00:03:40,350 --> 00:03:42,600
+opa aqui que outra aqui
+
+57
+00:03:42,600 --> 00:03:43,600
+olá
+
+58
+00:03:43,600 --> 00:03:45,850
+há tanto coloquial a diversão
+
+59
+00:03:45,850 --> 00:03:53,050
+ah ah ah ah ah ah ah ah ah ah ah ah sua idade entre outros
+
+60
+00:03:53,050 --> 00:03:57,550
+você não tem dezoito anos a entrada de melhor três
+
+61
+00:03:57,550 --> 00:04:00,250
+o seja menor que oito anos
+
+62
+00:04:00,250 --> 00:04:01,250
+dos utentes
+
+63
+00:04:01,250 --> 00:04:03,050
+ela é é essa
+
+64
+00:04:03,050 --> 00:04:04,050
+e assim
+
+65
+00:04:04,050 --> 00:04:05,850
+esse tipo de crime
+
+66
+00:04:05,850 --> 00:04:21,600
+estrutura condicional ela é muito interessante porque quando a gente quer fazer uma comparação utilizando operação lógica às vezes a gente não quer fazer isso a gente só quer é comparar se sim ou não
+
+67
+00:04:21,600 --> 00:04:27,000
+um valor fixo podem fazer isso ao criar uma nova derrota rotativa
+
+68
+00:04:27,000 --> 00:04:28,000
+sexo
+
+69
+00:04:28,000 --> 00:04:32,949
+utiliza uma nova estrutura adora essas estruturas uma suíte quente somente
+
+70
+00:04:32,949 --> 00:04:33,949
+ah
+
+71
+00:04:33,949 --> 00:04:35,300
+do seu genero
+
+72
+00:04:35,300 --> 00:04:36,300
+que
+
+73
+00:04:36,300 --> 00:04:39,000
+entre os candidatos do sexo oposto
+
+74
+00:04:39,000 --> 00:04:40,000
+ah
+
+75
+00:04:40,000 --> 00:04:43,149
+<UNK> se apressou a acreditar em mim
+
+76
+00:04:43,149 --> 00:04:48,099
+o time masculino ele vai dar uma resposta da fcm invernal
+
+77
+00:04:48,099 --> 00:04:49,899
+vou colocar aqui ok
+
+78
+00:04:49,899 --> 00:04:50,899
+entre parênteses
+
+79
+00:04:50,899 --> 00:04:51,899
+é masculino
+
+80
+00:04:51,899 --> 00:04:56,849
+e deixa bem claro que quero conosco vermelha que a suíte
+
+81
+00:04:56,849 --> 00:04:58,199
+ah ah ah
+
+82
+00:04:58,199 --> 00:05:00,899
+no último domingo vinte e um
+
+83
+00:05:00,899 --> 00:05:01,899
+errado
+
+84
+00:05:01,899 --> 00:05:02,899
+muito
+
+85
+00:05:02,899 --> 00:05:03,899
+entanto
+
+86
+00:05:03,899 --> 00:05:05,250
+então vamos começar
+
+87
+00:05:05,250 --> 00:05:06,250
+hits
+
+88
+00:05:06,250 --> 00:05:07,250
+dinheiro
+
+89
+00:05:07,250 --> 00:05:12,649
+a prática do mesmo jeito que o infesta seus parentes tanto gênero
+
+90
+00:05:12,649 --> 00:05:25,250
+ah e agora que eu vou fazer o seguinte aqui dentro vou criar uma estrutura onde eu vou comparar o dia inteiro com diversas opções para que quiser
+
+91
+00:05:25,250 --> 00:05:27,050
+se a pessoa digitar
+
+92
+00:05:27,050 --> 00:05:28,050
+masculino
+
+93
+00:05:28,050 --> 00:05:29,400
+os nossos motores
+
+94
+00:05:29,400 --> 00:05:34,350
+e pessoas destaque feminino ah ah ah ah ah ah ah
+
+95
+00:05:34,350 --> 00:05:37,500
+se a pessoa agitada no nosso conjunto
+
+96
+00:05:37,500 --> 00:05:46,050
+ele vai executar uma operação defunto ao padrão o que fazer da mensagem no entanto não vou colocar aqui
+
+97
+00:05:46,050 --> 00:05:51,900
+você é um tutor ah ah ah ah ah ah ah ah proporciona
+
+98
+00:05:51,900 --> 00:06:00,900
+eu posso ajudar muito mais política que uma pessoa dita fl feminino você modesto ah ah ah ah ah ah
+
+99
+00:06:00,900 --> 00:06:02,700
+se eu pessoal digital
+
+100
+00:06:02,700 --> 00:06:04,950
+qualquer outra coisa genero indefinido
+
+101
+00:06:04,950 --> 00:06:06,750
+da fim vamos executar
+
+102
+00:06:06,750 --> 00:06:18,900
+quando sua idade que doentes informe seu genero vou colocar ele no seu homem você modelagem predefinido olha que coisa que respondeu as três damas quando solto
+
+103
+00:06:18,900 --> 00:06:22,050
+era o primeiro colocado alguns dos arquitetos
+
+104
+00:06:22,050 --> 00:06:23,050
+produto nome
+
+105
+00:06:23,050 --> 00:06:43,750
+o que será isso o que sinto quando ele encontrou uma alternativa ele automaticamente sai correndo todas as outras e não compara mas ele já sai executando os blocos auxiliar sublime de masculinos não cobrará mais honesta ele executa esta e depois puta todas as seguintes
+
+106
+00:06:43,750 --> 00:06:51,850
+como as epidemias atuais três se eu tivesse colocado a fl três atravessou a partida aconteça possa fazer
+
+107
+00:06:51,850 --> 00:06:55,900
+portanto qualquer doença gênero masculino como botar estudante ferido
+
+108
+00:06:55,900 --> 00:07:01,300
+a força da mulher e do filho de difícil colocar letra minúscula
+
+109
+00:07:01,300 --> 00:07:02,300
+dois
+
+110
+00:07:02,300 --> 00:07:25,250
+votar e meninos do genero indefinido porque o que ele compara essa ele faz uma comparação exata que comparam caracterizado e se eu quiser comparar as letras minúsculas também faz com que todo o público quinze e usou esse mesmo artifício permite visto que quando lhe acham ele sai seguinte art
+
+111
+00:07:25,250 --> 00:07:30,199
+antes sem comparar mas o que colecione minúsculo ele vai executá-lo
+
+112
+00:07:30,199 --> 00:07:37,399
+agora a expressão dormi mas se eu fizer a mesma coisa com s botando mais minúsculo
+
+113
+00:07:37,399 --> 00:07:46,399
+ele vai executar as duas mas ainda assim ao colocar esse minúsculo deva executar você muda depois de muita chuva
+
+114
+00:07:46,399 --> 00:07:47,399
+encontro
+
+115
+00:07:47,399 --> 00:07:51,449
+trinta e dois vou colocar aí procurei pela codevasf
+
+116
+00:07:51,449 --> 00:07:56,849
+emídio perito em meninos que mostram os três monstros agora com f
+
+117
+00:07:56,849 --> 00:08:11,249
+dois colocar o s minúsculo mulher de trinta cinco e comeca um peça disso acontecer deve ser executando todas escrevi a assim podendo encontrar essa primeira não mais adiante ele para aqui
+
+118
+00:08:11,249 --> 00:08:19,799
+e faço as coisas que bem ah ah ah ah ah ah ah ah ah ah ah ah ah
+
+119
+00:08:19,799 --> 00:08:20,799
+mim
+
+120
+00:08:20,799 --> 00:08:22,149
+você ampla a
+
+121
+00:08:22,149 --> 00:08:23,149
+contato
+
+122
+00:08:23,149 --> 00:08:39,799
+tipo de dois géneros n o cento e noventa contos outros grupos o que lembrei que faz com que de facto bem essa suas estruturas condicionais da linguagem segundo salvador na conduta estruturas de repetição do futuro
+
+123
+00:08:39,799 --> 00:08:42,049
+a cada dia e creditícia
+
+124
+00:08:42,049 --> 00:08:48,799
+vou fazer o seguinte vou apagar este bloco tudo e vou criar vou com louvor
+
+125
+00:08:48,799 --> 00:08:57,799
+o criar uma variável chamada aí instituto este exemplo do entanto para mostrar o mesmo código sendo executado diversas tortas
+
+126
+00:08:57,799 --> 00:09:07,250
+b a estrutura mais básica é o agente alheio é a estrutura que executa enquanto uma condição for verdadeira escreveu aí
+
+127
+00:09:07,250 --> 00:09:11,299
+uma dada condição neste caso vou dizê-lo declinou pedreiros
+
+128
+00:09:11,299 --> 00:09:17,599
+vou atribuível a lavava a variável risco valor inicial e contemplando a certo ponto
+
+129
+00:09:17,599 --> 00:09:29,749
+e vai começar com zero enquanto informa nota dez ele vai executar um laço de repetição seria simplesmente colocar a torá que proposta valor disse a fonte
+
+130
+00:09:29,749 --> 00:09:30,749
+e
+
+131
+00:09:30,749 --> 00:09:36,149
+é arte e ajudam a executar a privacidade para sempre fazendo isso
+
+132
+00:09:36,149 --> 00:09:43,799
+o que é que eu posso fazer pra isso não acontece a primeira coisa importante na índia
+
+133
+00:09:43,799 --> 00:10:04,499
+ah ah ah incrementar o valor direto a gente aprende operador mais mais e mais marcas então eu vou entrar no se mostrou valor de incrementar e passa a ser dois poucos faça seu momento mas com zero porcento de produtos trezentas chegar ao valor final
+
+134
+00:10:04,499 --> 00:10:06,749
+o processo psicoterapêutico tratamento capilar
+
+135
+00:10:06,749 --> 00:10:07,749
+portanto
+
+136
+00:10:07,749 --> 00:10:08,749
+vamos lá
+
+137
+00:10:08,749 --> 00:10:24,049
+existe também a estruturando mudou a estrutura do pré-escolar é uma diferente se a condição já for falsa ele não executa nenhuma vez com o arquivo botar aqui igual a dez mil e um
+
+138
+00:10:24,049 --> 00:10:35,299
+é maior é marca nova enalteceu a beleza tanto quanto isso fulminou quedas cuja dez aquele não vás atrás lastimáveis não aparece nada na tela
+
+139
+00:10:35,299 --> 00:10:40,249
+ando na márcia mudar acredito que com a entrada do usuário
+
+140
+00:10:40,249 --> 00:10:59,149
+porque o mundo que eu faço coloco duque e colocou-as depois no final tudo não faz comparação nenhuma ele vai executar uma vez mesmo dez valores já sendo dez e só depois a comparar e vai parar em tv mostrava no dj
+
+141
+00:10:59,149 --> 00:11:02,749
+todas essas estruturas as duas estruturas arrastei utilidades
+
+142
+00:11:02,749 --> 00:11:19,849
+parecidas com contudo quando eu quero garantir que um fragmento de código execute mesmo que a condição de ou seja falso no início eu uso do se não me importa não usuais eu prefiro usar o email neves
+
+143
+00:11:19,849 --> 00:11:34,699
+uma outra estrutura que conforto o forro não necessita que o faça a atribuição do valor inicial do vale a visita nem que eu faça o incremento da só vamos utilizar o fato
+
+144
+00:11:34,699 --> 00:11:35,699
+o aparato
+
+145
+00:11:35,699 --> 00:11:43,349
+e igual a zero colocou aqui portanto produto do que vivemos é uma condição transporto para mim
+
+146
+00:11:43,349 --> 00:11:46,049
+ah ah ah ah ah ah
+
+147
+00:11:46,049 --> 00:11:47,399
+as por aqui
+
+148
+00:11:47,399 --> 00:11:48,750
+você está aqui
+
+149
+00:11:48,750 --> 00:12:06,750
+eu e meus pais também ah ah ah ah ah ah eu agora tenho que a estrutura for a estrutura foto combina a inicialização da variável uma comparação do valor da produção o valor da comparação do valor da população
+
+150
+00:12:06,750 --> 00:12:11,700
+dia de execução e o incremento numa única linha de comando
+
+151
+00:12:11,700 --> 00:12:15,750
+um dos ataques a quem tudo na mesma foto
+
+152
+00:12:15,750 --> 00:12:30,600
+uma característica interessante da linguagem se nós podemos usar a emitir armazenava rolos inteiros que volta ser ela até sessenta e quatro e sessenta e cinco quatro mil quinhentos e trinta e sete
+
+153
+00:12:30,600 --> 00:12:45,000
+o agente pode utilizar votos favoráveis sharp apesar grace para valores caracterizados como utilizá-la para números desde que o número não passa dos esportes com valor trezentos e e assim vai funcionar
+
+154
+00:12:45,000 --> 00:12:53,549
+e uma característica interessante que existe quando a gente trabalha com shape que a gente pode fazer isso aqui
+
+155
+00:12:53,549 --> 00:13:08,849
+ah está inicializando a variável e um caractere estou comparando a variável n outro caractere ao fazer isso ele está dizendo e vai variar diátese incrementos valor dinheiro vai mostrar as letras na tela
+
+156
+00:13:08,849 --> 00:13:09,849
+por
+
+157
+00:13:09,849 --> 00:13:11,649
+portanto a perceber isso
+
+158
+00:13:11,649 --> 00:13:16,599
+todas as vezes que eu quiser tratar uma letra como número
+
+159
+00:13:16,599 --> 00:13:39,999
+ou amanhã eu quiser ter uma variável quando vazio realiza operações matemáticas com ela mas que o conteúdo dela na verdade um caractere utilizo chato de fácil operação matemática tanto fazendo aqui incrementando a nude como se fosse um homem ele vai saber fazer processamento de odisseu semelhanças deve fazer para abraça-me
+
+160
+00:13:39,999 --> 00:13:46,299
+cada adequado já vem se apresenta com letra vai mostrar pra mim na terra
+
+161
+00:13:46,299 --> 00:13:51,249
+na verdade os caracteres e se por exemplo contou criptografando dados
+
+162
+00:13:51,249 --> 00:13:53,949
+eu crio ao cuidado do conjunto
+
+163
+00:13:53,949 --> 00:14:02,949
+é um mistério e realiza operação matemática dado e os animais mas vai tratar ele com carácter sofreu alteração automática

@@ -1,0 +1,983 @@
+1
+00:00:00,000 --> 00:00:04,049
+uma nesta aula aprenderemos sobre tipos de dados operadores
+
+2
+00:00:04,049 --> 00:00:05,049
+a p
+
+3
+00:00:05,049 --> 00:00:14,050
+na aula anterior eu mostrei os elementos básicos de uma estrutura de programas semanais mas que construímos nosso primeiro programá-lo
+
+4
+00:00:14,050 --> 00:00:17,199
+vou só outro entretanto para dar continuidade
+
+5
+00:00:17,199 --> 00:00:18,199
+quarto ponto
+
+6
+00:00:18,199 --> 00:00:19,550
+o quinto ah
+
+7
+00:00:19,550 --> 00:00:20,550
+tipos
+
+8
+00:00:20,550 --> 00:00:21,900
+por quanto tempo
+
+9
+00:00:21,900 --> 00:00:22,900
+o corpo
+
+10
+00:00:22,900 --> 00:00:24,250
+tipos de pratos
+
+11
+00:00:24,250 --> 00:00:26,950
+olha só pessoal para supostamente <UNK>
+
+12
+00:00:26,950 --> 00:00:27,950
+pergunta-se
+
+13
+00:00:27,950 --> 00:00:32,000
+da mesma forma que nós aprendemos com quatro porcento
+
+14
+00:00:32,000 --> 00:00:49,549
+ao utilizar variáveis e armazenar dados nas variáveis troque somente depois as vamos utilizar variáveis nem sei mais mas usamos o calendário de programação diferente do leblon porque lá a linguagem as linguagens de programação para as e reconstrói
+
+15
+00:00:49,549 --> 00:00:59,899
+o programa de produtos associados não tipadas aqui toda variável acredite existem alguns tipos básicos de outros ataques possam ser extintos em ti
+
+16
+00:00:59,899 --> 00:01:02,600
+uma programa invariavelmente que nada disso
+
+17
+00:01:02,600 --> 00:01:04,849
+eu tenho o tipo tipo
+
+18
+00:01:04,849 --> 00:01:06,199
+e disso tudo
+
+19
+00:01:06,199 --> 00:01:08,899
+tudo que eu tenho tipo tambor
+
+20
+00:01:08,899 --> 00:01:09,899
+quinze
+
+21
+00:01:09,899 --> 00:01:12,599
+eu tenho de puxar a tomada
+
+22
+00:01:12,599 --> 00:01:17,099
+e eu penso que é um tipo especial de variável
+
+23
+00:01:17,099 --> 00:01:18,449
+é muito tempo
+
+24
+00:01:18,449 --> 00:01:27,449
+que a gente vai ter oportunidade de que explorada pode explorar melhor quando a gente vai trabalhando com o tempo
+
+25
+00:01:27,449 --> 00:01:28,449
+do
+
+26
+00:01:28,449 --> 00:01:30,699
+ponteiros que são entre outros
+
+27
+00:01:30,699 --> 00:01:37,449
+tudo o que eu quero armazenar apenas um carácter numa variável o tipo char explícitas
+
+28
+00:01:37,449 --> 00:01:44,649
+quando eu quero armazenar mais de um caráter não variar vou utilizar uma cadeia de caracteres
+
+29
+00:01:44,649 --> 00:01:45,649
+para isto
+
+30
+00:01:45,649 --> 00:01:52,849
+eu queria uma variável onde o desafio quando se caracteriza pela conduta faça o seguinte chato
+
+31
+00:01:52,849 --> 00:02:00,949
+b abra o quociente coloca a quantidade de caracteres que não para conter o colocar aqui os aspectos
+
+32
+00:02:00,949 --> 00:02:05,899
+esta variável b tem até duzentos e cinquenta e cinco caracteres
+
+33
+00:02:05,899 --> 00:02:14,000
+vamos trabalhar com cada uma delas para que eu possa trabalhar com variáveis eu preciso colocar valores né
+
+34
+00:02:14,000 --> 00:02:20,750
+uma maneira muito simples de colocar o voluntariado fazem isto é igual a um parasita
+
+35
+00:02:20,750 --> 00:02:21,750
+e sim
+
+36
+00:02:21,750 --> 00:02:22,750
+a dois
+
+37
+00:02:22,750 --> 00:02:23,750
+exibir
+
+38
+00:02:23,750 --> 00:02:30,500
+enquanto quatro treinos eu posso simplesmente atribuiu valor variado utilizando operador de atribuição de quota
+
+39
+00:02:30,500 --> 00:02:36,800
+nome da variável operador de atribuição de valor que eu quero colocar na planilha
+
+40
+00:02:36,800 --> 00:02:39,950
+certo que cada uma das duas pontes
+
+41
+00:02:39,950 --> 00:02:47,150
+e a variável a quietude puxar como é que eu posso colocar o valor dentro dele
+
+42
+00:02:47,150 --> 00:02:58,400
+variar preparou com carácter então vamos colocar aterramento não a igual abro aspas simples e coloco o caractere dentro da casa que coloca no prato
+
+43
+00:02:58,400 --> 00:03:15,050
+quando eu quero colocar apenas um caractere numa variável eu coloco aspas simples ou dupla claro colocar mais um caractere coloco aspas duplas vamos colocar uma sequência de caracteres dentro da variável b que inclua aspas duplas
+
+44
+00:03:15,050 --> 00:03:16,050
+tempo
+
+45
+00:03:16,050 --> 00:03:19,200
+vamos agora apresentar essas informações no entanto
+
+46
+00:03:19,200 --> 00:03:21,900
+certamente como vimos no programa longo
+
+47
+00:03:21,900 --> 00:03:30,900
+sétimo x ele vai mostrar o valor de x na tela ou no papel enquanto o de que várias vezes
+
+48
+00:03:30,900 --> 00:03:34,500
+eu posso alterar o nome da variável x
+
+49
+00:03:34,500 --> 00:03:35,849
+e isso mundo
+
+50
+00:03:35,849 --> 00:03:36,849
+z
+
+51
+00:03:36,849 --> 00:03:38,199
+a um b
+
+52
+00:03:38,199 --> 00:03:39,199
+não com
+
+53
+00:03:39,199 --> 00:03:40,549
+opa outra reclamou
+
+54
+00:03:40,549 --> 00:03:42,799
+importante notar que o citado
+
+55
+00:03:42,799 --> 00:03:58,999
+aqui é o seguinte eu poderia fazer isso quintetos instituto portanto toda estivesse declarando aqui em cima da maneira como eu fiz foi colocar aqui embaixo e não vai deixar barato pra isso funcionar faria assim
+
+56
+00:03:58,999 --> 00:04:00,799
+tiro aqui vão junto
+
+57
+00:04:00,799 --> 00:04:01,799
+portanto
+
+58
+00:04:01,799 --> 00:04:07,649
+paulo do alto aqui a íntegra do vaso não define um tamanho padrão
+
+59
+00:04:07,649 --> 00:04:13,049
+não define em seguida atribuía ele vai se encarregar de fazer spam
+
+60
+00:04:13,049 --> 00:04:14,049
+é bonito
+
+61
+00:04:14,049 --> 00:04:21,699
+a capital só que coisa interessante para o seu túmulo tracinhos apareceu com um dois três anos
+
+62
+00:04:21,699 --> 00:04:23,500
+a capital e região
+
+63
+00:04:23,500 --> 00:04:26,199
+o que eu não quero linha
+
+64
+00:04:26,199 --> 00:04:36,099
+o celtic inoculando nele simplesmente mostra os dados da tela e passa adiante todos apurou implanta rica em vários nutrientes utilizam mar
+
+65
+00:04:36,099 --> 00:04:39,249
+bastante procurando outros temas mais do brilhante
+
+66
+00:04:39,249 --> 00:04:41,949
+o indiano ele pula mais alto
+
+67
+00:04:41,949 --> 00:04:50,949
+entre lá ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah que gesticulando
+
+68
+00:04:50,949 --> 00:05:04,899
+muito bem porque nós vemos três tipos de gatos e vinte dou-te o disco não te dando buceta inchada especial que me chama que permite colocar uma frase dentro da estante
+
+69
+00:05:04,899 --> 00:05:10,299
+se eu quiser ao invés de preencher aqui o aluno o branco
+
+70
+00:05:10,299 --> 00:05:19,749
+a variável b dessa forma nós da criação dela como fez aqui eu teria variado de atribuir um valor para ela
+
+71
+00:05:19,749 --> 00:05:23,799
+no caso da variados pratos variados chamada crítico chato
+
+72
+00:05:23,799 --> 00:05:33,249
+eu posso atribuída depois lendo o que o usuário digita mas eu vou fazer um programa você se permite salvar como
+
+73
+00:05:33,249 --> 00:05:36,399
+não vou colocar a entrada de dados
+
+74
+00:05:36,399 --> 00:05:37,399
+tudo
+
+75
+00:05:37,399 --> 00:05:38,399
+tampo
+
+76
+00:05:38,399 --> 00:05:41,549
+não entraram no brasil para que tudo
+
+77
+00:05:41,549 --> 00:05:43,349
+começa tudo de novo
+
+78
+00:05:43,349 --> 00:05:46,949
+quanto mais ar entrando dados numéricos no monte
+
+79
+00:05:46,949 --> 00:05:47,949
+x
+
+80
+00:05:47,949 --> 00:05:56,049
+para que o leiria e dado que o usuário digitou eu vou utilizar pontos objetos especiais do produto
+
+81
+00:05:56,049 --> 00:06:00,099
+me especiais sempre prescreve na telenovela associates trousseau típica
+
+82
+00:06:00,099 --> 00:06:01,099
+informe
+
+83
+00:06:01,099 --> 00:06:02,099
+novidades
+
+84
+00:06:02,099 --> 00:06:03,449
+informe sua idade
+
+85
+00:06:03,449 --> 00:06:04,799
+o a quente
+
+86
+00:06:04,799 --> 00:06:21,449
+informações da arte agora se eu quiser que a pessoa me diga idade mas eu faço isso coloco pegar recebeu valor pessoal digitou e colocar na variada que gente já trabalhava aqui do título quando avaliamos utilizei
+
+87
+00:06:21,449 --> 00:06:22,449
+sim
+
+88
+00:06:22,449 --> 00:06:27,849
+sete ao contrário agora de volta virada a entrada para as variáveis
+
+89
+00:06:27,849 --> 00:06:32,349
+sem impurezas e agora posso mostrar dada pessoa tão tinha
+
+90
+00:06:32,349 --> 00:06:33,349
+você
+
+91
+00:06:33,349 --> 00:06:36,499
+um botão sempre que ama e pele
+
+92
+00:06:36,499 --> 00:06:44,599
+para eu juntar agora esse texto qualidade o coloco certinho também importante x era agora escrevemos depois sete
+
+93
+00:06:44,599 --> 00:06:45,599
+ambos
+
+94
+00:06:45,599 --> 00:06:46,599
+conte conosco
+
+95
+00:06:46,599 --> 00:06:50,199
+você tem x anos de idade utilizando de
+
+96
+00:06:50,199 --> 00:06:56,049
+ah ah ah ah ah ah ah ah ah ah os acordos e
+
+97
+00:06:56,049 --> 00:06:58,749
+informe sua idade cinquenta e dois
+
+98
+00:06:58,749 --> 00:07:01,449
+você tem cinquenta e dois anos
+
+99
+00:07:01,449 --> 00:07:20,349
+vamos agora fazer a mesma coisa utilizando a variável somente diante da diferença coloca duas variáveis na noite e estudando os oscilante gozando no entanto a diferença entre um e dois pedro uma e outra é o tamanho dos dados a precisão
+
+100
+00:07:20,349 --> 00:07:27,099
+os dados da verdade consulte o conteúdo do tacho com uma precisão menor dados fracionários
+
+101
+00:07:27,099 --> 00:07:34,299
+uma precisão menor tutelado excessiva quantidade de discos e de dividir divididos não bastasse machado neto
+
+102
+00:07:34,299 --> 00:07:37,899
+porque agora que ela vai entrar no ritmo
+
+103
+00:07:37,899 --> 00:07:38,899
+e
+
+104
+00:07:38,899 --> 00:07:39,899
+informe portanto
+
+105
+00:07:39,899 --> 00:07:40,899
+analytics
+
+106
+00:07:40,899 --> 00:07:42,699
+a casa do forno
+
+107
+00:07:42,699 --> 00:07:44,499
+o discurso de ruptura
+
+108
+00:07:44,499 --> 00:07:45,499
+roberto
+
+109
+00:07:45,499 --> 00:07:46,499
+todo mundo
+
+110
+00:07:46,499 --> 00:07:47,499
+idade
+
+111
+00:07:47,499 --> 00:07:49,299
+foram super educados soltura
+
+112
+00:07:49,299 --> 00:07:50,299
+no futuro
+
+113
+00:07:50,299 --> 00:07:53,449
+enquanto beto puxando sua altura em metros
+
+114
+00:07:53,449 --> 00:07:54,449
+olá
+
+115
+00:07:54,449 --> 00:07:56,249
+eu pedi sempre sim
+
+116
+00:07:56,249 --> 00:07:57,249
+opa
+
+117
+00:07:57,249 --> 00:07:58,249
+piscina
+
+118
+00:07:58,249 --> 00:08:02,749
+não posso entrar eu vou copiar pelo custo do produto
+
+119
+00:08:02,749 --> 00:08:04,549
+você tem um destino
+
+120
+00:08:04,549 --> 00:08:05,549
+metros altura
+
+121
+00:08:05,549 --> 00:08:10,049
+ah ah ah ah ah ah também fomos soltura imediata
+
+122
+00:08:10,049 --> 00:08:15,449
+ah ah ah ah ah ah ah ah ah ah vão dizer
+
+123
+00:08:15,449 --> 00:08:20,849
+a sua idade eu te contamos muito doloridos e passou todo coladinho
+
+124
+00:08:20,849 --> 00:08:24,899
+toquei no colorido e decidi colocar aqui a artrite
+
+125
+00:08:24,899 --> 00:08:26,699
+ah ah ah ah
+
+126
+00:08:26,699 --> 00:08:27,699
+é
+
+127
+00:08:27,699 --> 00:08:32,649
+continuamos vencedores informe sua altura em metros com que oitenta e
+
+128
+00:08:32,649 --> 00:08:39,850
+você tem um par um metro de altura que acontece porque ele não pecou ao turismo
+
+129
+00:08:39,850 --> 00:08:40,850
+ah
+
+130
+00:08:40,850 --> 00:08:44,000
+o tenente quente colocasse no santos s
+
+131
+00:08:44,000 --> 00:08:45,000
+fracionado
+
+132
+00:08:45,000 --> 00:08:46,000
+ah
+
+133
+00:08:46,000 --> 00:08:50,049
+sua idade sobretudo dois ou médios muito ponto aqui
+
+134
+00:08:50,049 --> 00:08:55,000
+você tem um ponto em que um projeto de alto custo
+
+135
+00:08:55,000 --> 00:08:58,149
+mas agora pede o nome do usuário
+
+136
+00:08:58,149 --> 00:08:59,149
+ah
+
+137
+00:08:59,149 --> 00:09:00,949
+o que mudou muito
+
+138
+00:09:00,949 --> 00:09:03,649
+e vou colocar até duzentos pontos
+
+139
+00:09:03,649 --> 00:09:11,299
+o que estou dizendo aqui é variável nome pode ter até duzentos e cinquenta e cinco caracteres
+
+140
+00:09:11,299 --> 00:09:13,549
+o que protege o produto
+
+141
+00:09:13,549 --> 00:09:15,349
+informe seu nome continuando
+
+142
+00:09:15,349 --> 00:09:16,349
+no entanto
+
+143
+00:09:16,349 --> 00:09:17,349
+olá
+
+144
+00:09:17,349 --> 00:09:18,349
+as isso
+
+145
+00:09:18,349 --> 00:09:20,149
+o nosso piloto particular
+
+146
+00:09:20,149 --> 00:09:22,849
+é que eu coloco no nome
+
+147
+00:09:22,849 --> 00:09:24,649
+eu colocaria sua diplomação
+
+148
+00:09:24,649 --> 00:09:25,999
+depois do portugal
+
+149
+00:09:25,999 --> 00:09:26,999
+olá olá
+
+150
+00:09:26,999 --> 00:09:40,049
+ah ah ah ah ah ah ah ah ah quando sua idade cinquenta e dois os supor um ponto por oitenta min ah ah ah ah ah ah ah
+
+151
+00:09:40,049 --> 00:09:41,399
+não vou perder
+
+152
+00:09:41,399 --> 00:09:44,549
+olá roberto tudo sou tocou no ambiente
+
+153
+00:09:44,549 --> 00:09:45,549
+índia
+
+154
+00:09:45,549 --> 00:09:46,549
+ele saiu
+
+155
+00:09:46,549 --> 00:09:51,049
+ah ah ah ah ah ah ah grudado no mim
+
+156
+00:09:51,049 --> 00:09:52,849
+segundo o do porto
+
+157
+00:09:52,849 --> 00:09:55,549
+absoluto de médicos do pronto atendimento
+
+158
+00:09:55,549 --> 00:10:01,849
+ah ah ah ah ah ah ah ah muito bem como salvadoras programa moderadores
+
+159
+00:10:01,849 --> 00:10:03,199
+a com operadoras
+
+160
+00:10:03,199 --> 00:10:04,199
+ah
+
+161
+00:10:04,199 --> 00:10:05,199
+a pergunta
+
+162
+00:10:05,199 --> 00:10:06,999
+bem eu vou apagar
+
+163
+00:10:06,999 --> 00:10:07,999
+aqui
+
+164
+00:10:07,999 --> 00:10:08,999
+o aqui
+
+165
+00:10:08,999 --> 00:10:10,799
+entre algumas variáveis vinte
+
+166
+00:10:10,799 --> 00:10:11,799
+ah
+
+167
+00:10:11,799 --> 00:10:12,799
+parabéns
+
+168
+00:10:12,799 --> 00:10:35,299
+da mesma forma que nós vimos como os clássicos mas temos operadores não podia ser mais fortes que supera todos os meios da linguagem sempre são muito parecidos com o de outros de dois porcento porque o que a maioria das linguagens de programação modernas se baseou na linguagem c
+
+169
+00:10:35,299 --> 00:10:46,549
+então todas elas compartilham operadores cimento vamos fazer vamos atribuir os valores as várias partes quando eu crio variados de após o tribunal colorado eua
+
+170
+00:10:46,549 --> 00:10:52,849
+variável aleatória beto coloca dois e vão fazer aquilo que os objetos no teto
+
+171
+00:10:52,849 --> 00:10:53,849
+altitude
+
+172
+00:10:53,849 --> 00:10:54,849
+todos sim
+
+173
+00:10:54,849 --> 00:10:56,199
+enquanto a mais
+
+174
+00:10:56,199 --> 00:10:59,349
+porque tudo ao mesmo tempo é arte
+
+175
+00:10:59,349 --> 00:11:03,399
+há cento e vinte reais o valor do valores
+
+176
+00:11:03,399 --> 00:11:05,199
+todos os teus sentidos
+
+177
+00:11:05,199 --> 00:11:06,199
+a contas
+
+178
+00:11:06,199 --> 00:11:07,999
+e claro ser cintilante
+
+179
+00:11:07,999 --> 00:11:11,599
+não escrevi o pelo do parecer na tropa
+
+180
+00:11:11,599 --> 00:11:12,599
+então
+
+181
+00:11:12,599 --> 00:11:20,249
+a base de plantas e nós temos todos os mesmos operadores lógicos antípoda coca-cola do várias vezes
+
+182
+00:11:20,249 --> 00:11:31,949
+aqui a gente torce ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah mas b a metros b
+
+183
+00:11:31,949 --> 00:11:32,949
+dois b
+
+184
+00:11:32,949 --> 00:11:33,949
+avisos b
+
+185
+00:11:33,949 --> 00:11:37,999
+ah ah ah ah ah ah dividido por público
+
+186
+00:11:37,999 --> 00:11:42,049
+ah ah ah ah ah montou muito perto dele
+
+187
+00:11:42,049 --> 00:11:47,899
+moto no bem na verdade o resto da divisão antes o caractere percentagem
+
+188
+00:11:47,899 --> 00:11:53,299
+nós temos aqui as tais operações lógicas a menor do que b
+
+189
+00:11:53,299 --> 00:11:55,549
+a maior do que b
+
+190
+00:11:55,549 --> 00:12:03,199
+ah e alto igual nocivas mais doce redução dos iguais igual igual e seu de comparação igual
+
+191
+00:12:03,199 --> 00:12:04,199
+a b
+
+192
+00:12:04,199 --> 00:12:10,949
+nós temos o diferente comando diferente o coloco uma explanação mantido por tempo muito diferente
+
+193
+00:12:10,949 --> 00:12:12,299
+no meu peito
+
+194
+00:12:12,299 --> 00:12:13,299
+vinte
+
+195
+00:12:13,299 --> 00:12:18,249
+vou fazer o seguinte por outros operadores acusou os operadores relacionais
+
+196
+00:12:18,249 --> 00:12:19,599
+isso tudo não
+
+197
+00:12:19,599 --> 00:12:20,599
+minoru banto
+
+198
+00:12:20,599 --> 00:12:23,299
+portanto permita que dentro de campo
+
+199
+00:12:23,299 --> 00:12:24,299
+no mundo
+
+200
+00:12:24,299 --> 00:12:26,999
+o importante aqui é mais bom
+
+201
+00:12:26,999 --> 00:12:29,699
+aquele pronto-socorro tomando conta alíquota bem
+
+202
+00:12:29,699 --> 00:12:31,049
+quatro de novembro
+
+203
+00:12:31,049 --> 00:12:32,849
+nós temos a igualdade
+
+204
+00:12:32,849 --> 00:12:38,249
+a diferença e nós temos também os operadores lógicos e nós vimos
+
+205
+00:12:38,249 --> 00:12:44,549
+trabalhando com os biólogos passam eu vou colocar aqui os operadores é que outro
+
+206
+00:12:44,549 --> 00:12:46,799
+desde que o ato e
+
+207
+00:12:46,799 --> 00:12:52,649
+e como apoio a operação e nos ossos longos são dois as comerciais
+
+208
+00:12:52,649 --> 00:13:12,899
+a existe um não é comercial simples mas apresentou na operação lógica de retorno da operação combinada é o significado é algo como intransponível ponto data barata para suas vidas mas no momento da alteração modificação dois as comerciais e operação gospel com duas patas
+
+209
+00:13:12,899 --> 00:13:14,249
+quando nos vê
+
+210
+00:13:14,249 --> 00:13:15,249
+essas operações
+
+211
+00:13:15,249 --> 00:13:16,249
+bancos recato
+
+212
+00:13:16,249 --> 00:13:19,399
+o que faltou o alinhamento do porto
+
+213
+00:13:19,399 --> 00:13:22,099
+o pula pula para aquele dia
+
+214
+00:13:22,099 --> 00:13:23,099
+contato
+
+215
+00:13:23,099 --> 00:13:24,099
+portanto
+
+216
+00:13:24,099 --> 00:13:27,249
+ah ah ah ah ah ah ah
+
+217
+00:13:27,249 --> 00:13:36,249
+ah ah ah ah ah ah ah ah ah ah ah ah ah ah muito bem os atualmente de novo
+
+218
+00:13:36,249 --> 00:13:37,599
+e o vilão
+
+219
+00:13:37,599 --> 00:13:38,599
+e-mail
+
+220
+00:13:38,599 --> 00:13:39,599
+olha só
+
+221
+00:13:39,599 --> 00:13:42,299
+há mais de três a um
+
+222
+00:13:42,299 --> 00:13:45,899
+b dois três a menos bem menos humana
+
+223
+00:13:45,899 --> 00:14:05,699
+menos dois pelo junto à vezes b dois nobres dos do que admite poluídas zero atua com desvio produzidas assim que que visam entender analisar muito simples a divisão inquérito se olhar o resto da divisão aquelas que fizemos aqui era dividido por b
+
+224
+00:14:05,699 --> 00:14:09,299
+o percentual de todo esta divisão do mundo
+
+225
+00:14:09,299 --> 00:14:14,249
+a menor do que b sim verdadeiro porque é um dito
+
+226
+00:14:14,249 --> 00:14:17,399
+empenhados o verdadeiro mais mas eram falsas
+
+227
+00:14:17,399 --> 00:14:18,399
+o javascript
+
+228
+00:14:18,399 --> 00:14:28,749
+a memorando ao cyber levanta o dedo a make b não é falso então deus é maior do que b também é falso
+
+229
+00:14:28,749 --> 00:14:40,449
+portanto é a que é igual a b não suporta falso deus é também a diferentes desse inteiro são diferentes a rebelião e a um brilho
+
+230
+00:14:40,449 --> 00:14:55,749
+então vamos lá em cima das mães qualquer número diferente de zero para todo mundo por isso é que o rei deu verdadeiro mesmo que bem não sendo um sendo dois se alterar aqui
+
+231
+00:14:55,749 --> 00:15:05,649
+os valores ou alterar brasileiro antes de fazê-lo as operações lógicas vejamos como vai ficar o contrato para poder trazer a salvação
+
+232
+00:15:05,649 --> 00:15:16,899
+o pilar por muito muito ah eu não posso declarar de inovaria sofás atribui valor declarei aqui em cima e depois um falso atribui valor
+
+233
+00:15:16,899 --> 00:15:25,899
+ah ah ah ah ah ah pois ah que agora um aqui embaixo tem o valor de tempo para zero
+
+234
+00:15:25,899 --> 00:15:39,849
+como ele deu falso o que escutei só dava verdadeiro esses dois valores foram verdadeiros da mesma forma como sou da fao sutis dos valores forem falsas isto dentre outros delitos
+
+235
+00:15:39,849 --> 00:16:00,099
+esses são os principais operadores da linguagem tanto sim existe o operador dos operadores que são muito usados que são operadores são chamados operadores binários existem dois operadores humanos que são muito usados pois aqui só mais um exemplo deixar chato eu vou pegar aqui
+
+236
+00:16:00,099 --> 00:16:01,099
+vou dobrar
+
+237
+00:16:01,099 --> 00:16:02,449
+a variável lá
+
+238
+00:16:02,449 --> 00:16:03,449
+ontem
+
+239
+00:16:03,449 --> 00:16:07,049
+vale um foi atribuindo assim se eu fizer
+
+240
+00:16:07,049 --> 00:16:16,049
+nome da variável mas mais eu vou incrementar o valor de uma pessoa acrescentam valor mantido por processos é aquilo
+
+241
+00:16:16,049 --> 00:16:23,249
+quando eu voltei o valor tramitado de comunidade aqui eu fiz o valor de peixe caseiro
+
+242
+00:16:23,249 --> 00:16:33,149
+os cozer eu a mesma coisa para beber agora só que em vez de fazer mais mas eu adoro fizemos menos meninos
+
+243
+00:16:33,149 --> 00:16:34,149
+b
+
+244
+00:16:34,149 --> 00:16:37,299
+meninos meninos tanto do ponto do tempo
+
+245
+00:16:37,299 --> 00:16:48,549
+se b continha o valor zero a fazer menos primos ele vai conter valor menos de que a mais mas deu dois bem menos dominante
+
+246
+00:16:48,549 --> 00:17:03,399
+então esses são os operadores da mas você tem muitos mais ta pessoal linguagem seiscentas páginas e quebrados mas estamos operando os mais usados e que a gente vai utilizar na nossa disciplina
